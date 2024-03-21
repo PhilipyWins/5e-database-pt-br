@@ -1,338 +1,1045 @@
 [
-    {
-        "index": "acolyte",
-        "name": "Acolyte",
-        "starting_proficiencies": [
-            {
-                "index": "skill-insight",
-                "name": "Habilidade: Conhecimento",
-                "url": "/api/proficiencies/skill-insight"
-            },
-            {
-                "index": "skill-religion",
-                "name": "Habilidade: Religião",
-                "url": "/api/proficiencies/skill-religion"
-            }
-        ],
-        "language_options": {
-            "choose": 2,
-            "type": "Idiomas",
-            "from": {
-                "option_set_type": "lista_recurso",
-                "resource_list_url": "/api/linguagens"
-            }
+  {
+    index: 'acolyte',
+    name: 'Acólito',
+    starting_proficiencies: [
+      {
+        index: 'skill-insight',
+        name: 'Habilidade: Intuição',
+        url: '/api/proficiencies/skill-insight'
+      },
+      {
+        index: 'skill-religion',
+        name: 'Habilidade: Religião',
+        url: '/api/proficiencies/skill-religion'
+      }
+    ],
+    language_options: {
+      choose: 2,
+      type: 'Idiomas',
+      from: {
+        option_set_type: 'lista_recurso',
+        resource_list_url: '/api/linguagens'
+      }
+    },
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comum',
+          url: '/api/equipment/clothes-common'
         },
-        "starting_equipment": [
-            {
-                "equipment": {
-                    "index": "clothes-common",
-                    "name": "Roupas, comum",
-                    "url": "/api/equipment/clothes-common"
-                },
-                "quantity": 1
-            },
-            {
-                "equipment": {
-                    "index": "pouch",
-                    "name": "Pouch",
-                    "url": "/api/equipment/pouch"
-                },
-                "quantity": 1
-            }
-        ],
-        "starting_equipment_options": [
-            {
-                "choose": 1,
-                "type": "equipamento",
-                "from": {
-                    "option_set_type": "categoria_equipamento",
-                    "equipment_category": {
-                        "index": "holy-symbols",
-                        "name": "Símbolos Sagrados",
-                        "url": "/api/equipment-categories/holy-symbols"
-                    }
-                }
-            }
-        ],
-        "feature": {
-            "name": "Abrigo do Faithful",
-            "desc": [
-                "Como um acolyte, você domina o respeito daqueles que partilham sua fé e você pode realizar as cerimônias religiosas de sua divindade. Você e seus companheiros de aventura podem esperar receber cura gratuita e cuidado no templo, sangue, ou outra presença estabelecida de sua fé, embora deva fornecer quaisquer componentes materiais necessários para os feitiços. Aqueles que partilham a sua religião irão apoiá-lo (mas apenas vós) num estilo de vida modesto.",
-                "Você também pode ter laços com um templo específico dedicado à divindade ou panteão escolhido, e aí tem residência. Este poderia ser o templo onde você costumava servir, se você permanecer em boas condições com ele, ou um templo onde encontrou um novo lar. Enquanto estiver perto de seu templo, você pode chamar os sacerdotes para obter assistência, a assistência que você pede não é perigosa e você permanece em bom pé com o seu templo."
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [
+      {
+        choose: 1,
+        type: 'equipamento',
+        from: {
+          option_set_type: 'categoria_equipamento',
+          equipment_category: {
+            index: 'holy-symbols',
+            name: 'Símbolos Sagrados',
+            url: '/api/equipment-categories/holy-symbols'
+          }
+        }
+      }
+    ],
+    feature: {
+      name: 'Abrigo do Faithful',
+      desc: [
+        'Como um acolyte, você domina o respeito daqueles que partilham sua fé e você pode realizar as cerimônias religiosas de sua divindade. Você e seus companheiros de aventura podem esperar receber cura gratuita e cuidado no templo, sangue, ou outra presença estabelecida de sua fé, embora deva fornecer quaisquer componentes materiais necessários para os feitiços. Aqueles que partilham a sua religião irão apoiá-lo (mas apenas vós) num estilo de vida modesto.',
+        'Você também pode ter laços com um templo específico dedicado à divindade ou panteão escolhido, e aí tem residência. Este poderia ser o templo onde você costumava servir, se você permanecer em boas condições com ele, ou um templo onde encontrou um novo lar. Enquanto estiver perto de seu templo, você pode chamar os sacerdotes para obter assistência, a assistência que você pede não é perigosa e você permanece em bom pé com o seu templo.'
+      ]
+    },
+    personality_traits: {
+      choose: 2,
+      type: 'característica_personalidade',
+      from: {
+        option_set_type: 'matriz',
+        options: [
+          {
+            option_type: 'sequência',
+            string:
+              'Eu idolino um herói específico da minha fé e menciono constantemente os actos e o exemplo dessa pessoa.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Posso encontrar um terreno comum entre inimigos ferozes, empunhando com eles e sempre trabalhando em prol da paz.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Vejo presságios em todos os eventos e acções. Os deuses tentam falar connosco, só precisamos de ouvir.'
+          },
+          {
+            option_type: 'sequência',
+            string: 'Nada pode abalar minha atitude otimista.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Cito (ou erro) textos sagrados e provérbios em quase todas as situações.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Sou tolerante (ou intolerante) de outras confissões e respeito (ou condeno) o culto de outros deuses.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Eu gostei de boa comida, bebida, e alta sociedade entre a elite do meu templo. Grãos vivos ásperos em mim.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Passei tanto tempo no templo que tenho pouca experiência prática lidando com pessoas no mundo exterior.'
+          }
+        ]
+      }
+    },
+    ideals: {
+      choose: 1,
+      type: 'ideais',
+      from: {
+        option_set_type: 'matriz',
+        options: [
+          {
+            option_type: 'ideal',
+            desc: 'Tradição. As antigas tradições de culto e sacrifício devem ser preservadas e preservadas.',
+            alignments: [
+              {
+                index: 'lawful-good',
+                name: 'Direito bom',
+                url: '/api/alignments/lawful-good'
+              },
+              {
+                index: 'lawful-neutral',
+                name: 'Neutro legal',
+                url: '/api/alignments/lawful-neutral'
+              },
+              {
+                index: 'lawful-evil',
+                name: 'Mal legal',
+                url: '/api/alignments/lawful-evil'
+              }
             ]
+          },
+          {
+            option_type: 'ideal',
+            desc: 'Caridade. Eu sempre tento ajudar aqueles que precisam, independentemente do custo pessoal.',
+            alignments: [
+              {
+                index: 'lawful-good',
+                name: 'Direito bom',
+                url: '/api/alignments/lawful-good'
+              },
+              {
+                index: 'neutral-good',
+                name: 'Neutro bom',
+                url: '/api/alignments/neutral-good'
+              },
+              {
+                index: 'chaotic-good',
+                name: 'Muito Bom Caótico',
+                url: '/api/alignments/chaotic-good'
+              }
+            ]
+          },
+          {
+            option_type: 'ideal',
+            desc: 'Mudança. Devemos ajudar a realizar as mudanças que os deuses estão constantemente trabalhando no mundo.',
+            alignments: [
+              {
+                index: 'chaotic-good',
+                name: 'Muito Bom Caótico',
+                url: '/api/alignments/chaotic-good'
+              },
+              {
+                index: 'chaotic-neutral',
+                name: 'Neutro Caótico',
+                url: '/api/alignments/chaotic-neutral'
+              },
+              {
+                index: 'chaotic-evil',
+                name: 'Chaotic Evil',
+                url: '/api/alignments/chaotic-evil'
+              }
+            ]
+          },
+          {
+            option_type: 'ideal',
+            desc: 'Poder. Espero um dia chegar ao topo da hierarquia religiosa de minha fé.',
+            alignments: [
+              {
+                index: 'lawful-good',
+                name: 'Direito bom',
+                url: '/api/alignments/lawful-good'
+              },
+              {
+                index: 'lawful-neutral',
+                name: 'Neutro legal',
+                url: '/api/alignments/lawful-neutral'
+              },
+              {
+                index: 'lawful-evil',
+                name: 'Mal legal',
+                url: '/api/alignments/lawful-evil'
+              }
+            ]
+          },
+          {
+            option_type: 'ideal',
+            desc: 'Faida. Eu acredito que minha divindade vai guiar minhas ações. Tenho fé que se eu trabalhar duro, as coisas vão bem.',
+            alignments: [
+              {
+                index: 'lawful-good',
+                name: 'Direito bom',
+                url: '/api/alignments/lawful-good'
+              },
+              {
+                index: 'lawful-neutral',
+                name: 'Neutro legal',
+                url: '/api/alignments/lawful-neutral'
+              },
+              {
+                index: 'lawful-evil',
+                name: 'Mal legal',
+                url: '/api/alignments/lawful-evil'
+              }
+            ]
+          },
+          {
+            option_type: 'ideal',
+            desc: 'Aspiração. Eu busco provar que sou digno do favor de meu deus combinando minhas ações com suas aulas.',
+            alignments: [
+              {
+                index: 'lawful-good',
+                name: 'Direito bom',
+                url: '/api/alignments/lawful-good'
+              },
+              {
+                index: 'neutral-good',
+                name: 'Neutro bom',
+                url: '/api/alignments/neutral-good'
+              },
+              {
+                index: 'chaotic-good',
+                name: 'Muito Bom Caótico',
+                url: '/api/alignments/chaotic-good'
+              },
+              {
+                index: 'lawful-neutral',
+                name: 'Neutro legal',
+                url: '/api/alignments/lawful-neutral'
+              },
+              {
+                index: 'neutral',
+                name: 'Neutro',
+                url: '/api/alignments/neutral'
+              },
+              {
+                index: 'chaotic-neutral',
+                name: 'Neutro Caótico',
+                url: '/api/alignments/chaotic-neutral'
+              },
+              {
+                index: 'lawful-evil',
+                name: 'Mal legal',
+                url: '/api/alignments/lawful-evil'
+              },
+              {
+                index: 'neutral-evil',
+                name: 'Mal Neutro',
+                url: '/api/alignments/neutral-evil'
+              },
+              {
+                index: 'chaotic-evil',
+                name: 'Chaotic Evil',
+                url: '/api/alignments/chaotic-evil'
+              }
+            ]
+          }
+        ]
+      }
+    },
+    bonds: {
+      choose: 1,
+      type: 'obrigações',
+      from: {
+        option_set_type: 'matriz',
+        options: [
+          {
+            option_type: 'sequência',
+            string:
+              'Eu morreria para recuperar uma antiga relíquia de minha fé que foi perdida há muito tempo.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Um dia eu me vingarei da hierarquia do templo corrupto que me classificou de herege.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Eu devo a minha vida ao padre que me levou quando meus pais morreram.'
+          },
+          {
+            option_type: 'sequência',
+            string: 'Tudo o que eu faço é pelo povo comum.'
+          },
+          {
+            option_type: 'sequência',
+            string: 'Farei qualquer coisa para proteger o templo onde serve.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Procuro preservar um texto sagrado que os meus inimigos consideram herético e procuram destruir.'
+          }
+        ]
+      }
+    },
+    flaws: {
+      choose: 1,
+      type: 'falhas',
+      from: {
+        option_set_type: 'matriz',
+        options: [
+          {
+            option_type: 'sequência',
+            string:
+              'Eu julgo os outros com dureza, e eu mesmo com ainda mais severidade.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Deposito demasiada confiança naqueles que detêm o poder dentro da hierarquia do meu templo.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'A minha piedade às vezes leva-me a confiar cegamente naqueles que professam fé no meu deus.'
+          },
+          {
+            option_type: 'sequência',
+            string: 'Sou inflexível no meu pensamento.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Eu desconfio de estranhos e espero que eles sejam os piores.'
+          },
+          {
+            option_type: 'sequência',
+            string:
+              'Uma vez que eu escolho um objetivo, fiquei obcecado com ele em detrimento de tudo o mais em minha vida.'
+          }
+        ]
+      }
+    },
+    url: '/api/backgrounds/acolyte'
+  },
+  {
+    index: 'charlatan',
+    name: 'Charlatão',
+    url: '/api/backgrounds/charlatan',
+    starting_proficiencies: [
+      {
+        index: 'deception',
+        name: 'Habilidade: Enganação',
+        url: '/api/proficiencies/skill-deception'
+      },
+      {
+        index: 'sleight-of-hand',
+        name: 'Habilidade: Prestidigitação',
+        url: '/api/proficiencies/skill-sleight-of-hand'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'clothes-fine',
+          name: 'Roupas Finas',
+          url: '/api/equipment/clothes-fine'
         },
-        "personality_traits": {
-            "choose": 2,
-            "type": "característica_personalidade",
-            "from": {
-                "option_set_type": "matriz",
-                "options": [
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu idolino um herói específico da minha fé e menciono constantemente os actos e o exemplo dessa pessoa."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Posso encontrar um terreno comum entre inimigos ferozes, empunhando com eles e sempre trabalhando em prol da paz."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Vejo presságios em todos os eventos e acções. Os deuses tentam falar connosco, só precisamos de ouvir."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Nada pode abalar minha atitude otimista."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Cito (ou erro) textos sagrados e provérbios em quase todas as situações."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Sou tolerante (ou intolerante) de outras confissões e respeito (ou condeno) o culto de outros deuses."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu gostei de boa comida, bebida, e alta sociedade entre a elite do meu templo. Grãos vivos ásperos em mim."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Passei tanto tempo no templo que tenho pouca experiência prática lidando com pessoas no mundo exterior."
-                    }
-                ]
-            }
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'disguise-kit',
+          name: 'Kit de Disfarce',
+          url: '/api/equipment/disguise-kit'
         },
-        "ideals": {
-            "choose": 1,
-            "type": "ideais",
-            "from": {
-                "option_set_type": "matriz",
-                "options": [
-                    {
-                        "option_type": "ideal",
-                        "desc": "Tradição. As antigas tradições de culto e sacrifício devem ser preservadas e preservadas.",
-                        "alignments": [
-                            {
-                                "index": "lawful-good",
-                                "name": "Direito bom",
-                                "url": "/api/alignments/lawful-good"
-                            },
-                            {
-                                "index": "lawful-neutral",
-                                "name": "Neutro legal",
-                                "url": "/api/alignments/lawful-neutral"
-                            },
-                            {
-                                "index": "lawful-evil",
-                                "name": "Mal legal",
-                                "url": "/api/alignments/lawful-evil"
-                            }
-                        ]
-                    },
-                    {
-                        "option_type": "ideal",
-                        "desc": "Caridade. Eu sempre tento ajudar aqueles que precisam, independentemente do custo pessoal.",
-                        "alignments": [
-                            {
-                                "index": "lawful-good",
-                                "name": "Direito bom",
-                                "url": "/api/alignments/lawful-good"
-                            },
-                            {
-                                "index": "neutral-good",
-                                "name": "Neutro bom",
-                                "url": "/api/alignments/neutral-good"
-                            },
-                            {
-                                "index": "chaotic-good",
-                                "name": "Muito Bom Caótico",
-                                "url": "/api/alignments/chaotic-good"
-                            }
-                        ]
-                    },
-                    {
-                        "option_type": "ideal",
-                        "desc": "Mudança. Devemos ajudar a realizar as mudanças que os deuses estão constantemente trabalhando no mundo.",
-                        "alignments": [
-                            {
-                                "index": "chaotic-good",
-                                "name": "Muito Bom Caótico",
-                                "url": "/api/alignments/chaotic-good"
-                            },
-                            {
-                                "index": "chaotic-neutral",
-                                "name": "Neutro Caótico",
-                                "url": "/api/alignments/chaotic-neutral"
-                            },
-                            {
-                                "index": "chaotic-evil",
-                                "name": "Chaotic Evil",
-                                "url": "/api/alignments/chaotic-evil"
-                            }
-                        ]
-                    },
-                    {
-                        "option_type": "ideal",
-                        "desc": "Poder. Espero um dia chegar ao topo da hierarquia religiosa de minha fé.",
-                        "alignments": [
-                            {
-                                "index": "lawful-good",
-                                "name": "Direito bom",
-                                "url": "/api/alignments/lawful-good"
-                            },
-                            {
-                                "index": "lawful-neutral",
-                                "name": "Neutro legal",
-                                "url": "/api/alignments/lawful-neutral"
-                            },
-                            {
-                                "index": "lawful-evil",
-                                "name": "Mal legal",
-                                "url": "/api/alignments/lawful-evil"
-                            }
-                        ]
-                    },
-                    {
-                        "option_type": "ideal",
-                        "desc": "Faida. Eu acredito que minha divindade vai guiar minhas ações. Tenho fé que se eu trabalhar duro, as coisas vão bem.",
-                        "alignments": [
-                            {
-                                "index": "lawful-good",
-                                "name": "Direito bom",
-                                "url": "/api/alignments/lawful-good"
-                            },
-                            {
-                                "index": "lawful-neutral",
-                                "name": "Neutro legal",
-                                "url": "/api/alignments/lawful-neutral"
-                            },
-                            {
-                                "index": "lawful-evil",
-                                "name": "Mal legal",
-                                "url": "/api/alignments/lawful-evil"
-                            }
-                        ]
-                    },
-                    {
-                        "option_type": "ideal",
-                        "desc": "Aspiração. Eu busco provar que sou digno do favor de meu deus combinando minhas ações com suas aulas.",
-                        "alignments": [
-                            {
-                                "index": "lawful-good",
-                                "name": "Direito bom",
-                                "url": "/api/alignments/lawful-good"
-                            },
-                            {
-                                "index": "neutral-good",
-                                "name": "Neutro bom",
-                                "url": "/api/alignments/neutral-good"
-                            },
-                            {
-                                "index": "chaotic-good",
-                                "name": "Muito Bom Caótico",
-                                "url": "/api/alignments/chaotic-good"
-                            },
-                            {
-                                "index": "lawful-neutral",
-                                "name": "Neutro legal",
-                                "url": "/api/alignments/lawful-neutral"
-                            },
-                            {
-                                "index": "neutral",
-                                "name": "Neutro",
-                                "url": "/api/alignments/neutral"
-                            },
-                            {
-                                "index": "chaotic-neutral",
-                                "name": "Neutro Caótico",
-                                "url": "/api/alignments/chaotic-neutral"
-                            },
-                            {
-                                "index": "lawful-evil",
-                                "name": "Mal legal",
-                                "url": "/api/alignments/lawful-evil"
-                            },
-                            {
-                                "index": "neutral-evil",
-                                "name": "Mal Neutro",
-                                "url": "/api/alignments/neutral-evil"
-                            },
-                            {
-                                "index": "chaotic-evil",
-                                "name": "Chaotic Evil",
-                                "url": "/api/alignments/chaotic-evil"
-                            }
-                        ]
-                    }
-                ]
-            }
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'thieves-tools',
+          name: 'Ferramentas de Ladrão',
+          url: '/api/equipment/thieves-tools'
         },
-        "bonds": {
-            "choose": 1,
-            "type": "obrigações",
-            "from": {
-                "option_set_type": "matriz",
-                "options": [
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu morreria para recuperar uma antiga relíquia de minha fé que foi perdida há muito tempo."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Um dia eu me vingarei da hierarquia do templo corrupto que me classificou de herege."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu devo a minha vida ao padre que me levou quando meus pais morreram."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Tudo o que eu faço é pelo povo comum."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Farei qualquer coisa para proteger o templo onde serve."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Procuro preservar um texto sagrado que os meus inimigos consideram herético e procuram destruir."
-                    }
-                ]
-            }
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
         },
-        "flaws": {
-            "choose": 1,
-            "type": "falhas",
-            "from": {
-                "option_set_type": "matriz",
-                "options": [
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu julgo os outros com dureza, e eu mesmo com ainda mais severidade."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Deposito demasiada confiança naqueles que detêm o poder dentro da hierarquia do meu templo."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "A minha piedade às vezes leva-me a confiar cegamente naqueles que professam fé no meu deus."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Sou inflexível no meu pensamento."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Eu desconfio de estranhos e espero que eles sejam os piores."
-                    },
-                    {
-                        "option_type": "sequência",
-                        "string": "Uma vez que eu escolho um objetivo, fiquei obcecado com ele em detrimento de tudo o mais em minha vida."
-                    }
-                ]
-            }
-        },
-        "url": "/api/backgrounds/acolyte"
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Identidade Falsa',
+      desc: [
+        'Você criou uma segunda identidade que inclui documentos, conhecidos estabelecidos e disfarces que possibilitam que você assuma essa persona. Além disso, você pode forjar documentos, incluindo papeis oficiais e cartas pessoais, contanto que você tenha visto um exemplo desse tipo de documento ou a caligrafia de quem você está tentando copiar.'
+      ]
     }
-]
+  },
+  {
+    index: 'guild-craftsman',
+    name: 'Artesão de Guilda',
+    url: '/api/backgrounds/guild-craftsman',
+    starting_proficiencies: [
+      {
+        index: 'insight',
+        name: 'Habilidade: Intuição',
+        url: '/api/proficiencies/skill-insight'
+      },
+      {
+        index: 'persuasion',
+        name: 'Habilidade: Persuasão',
+        url: '/api/proficiencies/skill-persuasion'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'artisans-tools',
+          name: 'Ferramentas do Artesão',
+          url: '/api/equipment-categories/artisans-tools'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-travelers',
+          name: 'Roupas de Viajantes',
+          url: '/api/equipment/clothes-travelers'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      }
+    ],
+    feature: {
+      name: 'Associados da Guilda',
+      desc: [
+        'Como um membro cativo e respeitado da guilda, você pode contar com certos benefícios que a sociedade garante. Seus camaradas, membros da guilda, irão provêlo com hospedagem e comida, se necessário, e pagarão pelo seu funeral se preciso for. Em algumas cidades e vilas, um salão da guilda oferece um local central para conhecer outros membros de profissão, podendo ser um bom lugar para se conhecer patrões, aliados e empregados em potencial. Guildas, muitas vezes, detêm tremendos poderes políticos. Se você for acusado de um crime, sua guilda irá ampará-lo se uma boa defesa puder ser apresentada para provar sua inocência ou se o crime for justificável. Você pode, também, ter acesso a figuras políticas poderosas através da guilda, se você for um membro bem posicionado.'
+      ]
+    }
+  },
+  {
+    index: 'artist',
+    name: 'Artista',
+    url: '/api/backgrounds/artist',
+    starting_proficiencies: [
+      {
+        index: 'acrobatics',
+        name: 'Habilidade: Acrobacia',
+        url: '/api/proficiencies/skill-acrobatics'
+      },
+      {
+        index: 'performance',
+        name: 'Habilidade: Atuação',
+        url: '/api/proficiencies/skill-performance'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        choose: 1,
+        type: 'equipment',
+        from: {
+          option_set_type: 'equipment_category',
+          equipment_category: {
+            index: 'musical-instruments',
+            name: 'Instrumentos Musicais',
+            url: '/api/equipment-categories/musical-instruments'
+          }
+        }
+      },
+      {
+        equipment: {
+          index: 'disguise-kit',
+          name: 'Kit de Disfarce',
+          url: '/api/equipment/disguise-kit'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-costume',
+          name: 'Traje',
+          url: '/api/equipment/clothes-costume'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Pela Demanda Popular',
+      desc: [
+        'Você sempre encontra um lugar para atuar, geralmente em tavernas ou estalagens mas, possivelmente em circos, teatros ou até em cortes nobres. Em tais lugares, você recebe alojamento e comida modesta ou de patrões confortáveis, de graça (dependendo da qualidade do estabelecimento), contanto que você atue a cada noite. Além disso, sua atuação torna você um tipo de figura local. Quando estranhos reconhecerem você em uma cidade em que você já tenha atuado, eles geralmente gostaram de você.'
+      ]
+    }
+  },
+  {
+    index: 'criminal',
+    name: 'Criminoso',
+    url: '/api/backgrounds/criminal',
+    starting_proficiencies: [
+      {
+        index: 'deception',
+        name: 'Habilidade: Enganação',
+        url: '/api/proficiencies/skill-deception'
+      },
+      {
+        index: 'stealth',
+        name: 'Habilidade: Furtividade',
+        url: '/api/proficiencies/skill-stealth'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'thieves-tools',
+          name: 'Ferramentas de Ladrão',
+          url: '/api/equipment/thieves-tools'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'crowbar',
+          name: 'Pé de Cabra',
+          url: '/api/equipment/crowbar'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Contato Criminal',
+      desc: [
+        'Você possui contatos de confiança que agem como seus informantes em uma rede criminosa. Você sabe como se comunicar com eles mesmo em grandes distâncias. Você conhece em especial os mensageiros locais, mestres de caravana corruptos, e marinheiros escusos que podem transmitir seus recados.'
+      ]
+    }
+  },
+  {
+    index: 'hermit',
+    name: 'Eremita',
+    url: '/api/backgrounds/hermit',
+    starting_proficiencies: [
+      {
+        index: 'medicine',
+        name: 'Habilidade: Medicina',
+        url: '/api/proficiencies/skill-medicine'
+      },
+      {
+        index: 'religion',
+        name: 'Habilidade: Religião',
+        url: '/api/proficiencies/skill-religion'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'herbalism-kit',
+          name: 'Kit Herbalismo',
+          url: '/api/equipment/herbalism-kit'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'blanket',
+          name: 'Cobertor',
+          url: '/api/equipment/blanket'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Descoberta',
+      desc: [
+        'A calma reclusão da seu eremitério prolongado lhe deu acesso a descobertas únicas e poderosas. A natureza exata dessas revelações depende da natureza da sua reclusão. Poderia ser uma grande verdade sobre o cosmos, os deuses, os poderosos seres de outros planos ou as forças da natureza. Poderia ser um local nunca visto por mais ninguém. Você pode ter descoberto um fato que a muito foi esquecido, ou desenterrado uma relíquia do passado que poderia reescrever a história. Poderia ser uma informação que seria prejudicial para as pessoas responsáveis pelo seu exilio, consequentemente, a razão que fez você voltar para a sociedade.'
+      ]
+    }
+  },
+  {
+    index: 'stranger',
+    name: 'Forasteiro',
+    url: '/api/backgrounds/stranger',
+    starting_proficiencies: [
+      {
+        index: 'athletics',
+        name: 'Habilidade: Atletismo',
+        url: '/api/proficiencies/skill-athletics'
+      },
+      {
+        index: 'survival',
+        name: 'Habilidade: Sobrevivência',
+        url: '/api/proficiencies/skill-survival'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        choose: 1,
+        type: 'equipment',
+        from: {
+          option_set_type: 'equipment_category',
+          equipment_category: {
+            index: 'musical-instruments',
+            name: 'Instrumentos Musicais',
+            url: '/api/equipment-categories/musical-instruments'
+          }
+        }
+      },
+      {
+        equipment: {
+          index: 'quarterstaff',
+          name: 'Bordão',
+          url: '/api/equipment/quarterstaff'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'hunting-trap',
+          name: 'Armadilha de Caça',
+          url: '/api/equipment/hunting-trap'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-travelers',
+          name: 'Roupas de Viajantes',
+          url: '/api/equipment/clothes-travelers'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Andarilho',
+      desc: [
+        'Você tem uma memória excelente para mapas e geografia, e você sempre pode recobrar o plano geral de terrenos, assentamentosou outras características ao seu redor. Além disso, você pode encontrar comida e água fresca para você a até cinco outras pessoas a cada dia, considerando que a terra ofereça bagas, pequenas frutas, água e similares.'
+      ]
+    }
+  },
+  {
+    index: 'peoples-hero',
+    name: 'Herói do Povo',
+    url: '/api/backgrounds/peoples-hero',
+    starting_proficiencies: [
+      {
+        index: 'animal-handling',
+        name: 'Habilidade: Adestrar Animais',
+        url: '/api/proficiencies/skill-animal-handling'
+      },
+      {
+        index: 'survival',
+        name: 'Habilidade: Sobrevivência',
+        url: '/api/proficiencies/skill-survival'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'artisans-tools',
+          name: 'Ferramentas do Artesão',
+          url: '/api/equipment-categories/artisans-tools'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'shovel',
+          name: 'Pá',
+          url: '/api/equipment/shovel'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pot-iron',
+          name: 'Pote de Ferro',
+          url: '/api/equipment/pot-iron'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Hospitalidade Rústica',
+      desc: [
+        'Já que você ascendeu da categoria de pessoas comuns até onde você está agora, é fácil se misturar a eles. Você pode encontrar lugar entre os camponeses para se esconder, descansar ou se recuperar, a menos que isso ofereça um risco direto a eles. Eles o esconderão da lei e de qualquer um que venha perguntando por você, desde que não tenham que arriscar suas vidas.'
+      ]
+    }
+  },
+  {
+    index: 'sailor',
+    name: 'Marinheiro',
+    url: '/api/backgrounds/sailor',
+    starting_proficiencies: [
+      {
+        index: 'athletics',
+        name: 'Habilidade: Atletismo',
+        url: '/api/proficiencies/skill-athletics'
+      },
+      {
+        index: 'perception',
+        name: 'Habilidade: Percepção',
+        url: '/api/proficiencies/skill-perception'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'club',
+          name: 'Clava',
+          url: '/api/equipment/club'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'rope-silk-50-feet',
+          name: 'Corda de Seda (50 pés)',
+          url: '/api/equipment/rope-silk-50-feet'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Passagem de Navio',
+      desc: [
+        'Quando você precisar, você pode conseguir passagem de graça em um navio para você e seus companheiros de aventura. Você precisa viajar no navio em que você trabalhou ou em outro navio com o qual você teve boas relações (talvez um comandado por um ex-companheiro de tripulação). Por ser um favor, você não pode solicitar uma programação ou rota que atenda à todas as suas necessidades. Seu Mestre determina quanto tempo levará pra chegar aonde você quer ir. Em troca da passagem grátis, espera-se que você e seus companheiros ajudem a tripulação durante a viagem.'
+      ]
+    }
+  },
+  {
+    index: 'noble',
+    name: 'Nobre',
+    url: '/api/backgrounds/noble',
+    starting_proficiencies: [
+      {
+        index: 'history',
+        name: 'Habilidade: História',
+        url: '/api/proficiencies/skill-history'
+      },
+      {
+        index: 'persuasion',
+        name: 'Habilidade: Persuasão',
+        url: '/api/proficiencies/skill-persuasion'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'gaming-sets',
+          name: 'Kit de Jogos',
+          url: '/api/equipment-categories/gaming-sets'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'signet-ring',
+          name: 'Anel com Brasão da Nobreza',
+          url: '/api/equipment/signet-ring'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-fine',
+          name: 'Roupas Finas',
+          url: '/api/equipment/clothes-fine'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Posição Privilegiada',
+      desc: [
+        'Graças a sua origem nobre, as pessoas tendem a pensar o melhor de você. Você é bem-vindo na alta sociedade e as pessoas assumem que você tem o direito de estar onde está. As pessoas comuns fazem todos os esforços para acomodá-lo e evitar seu desprazer, e outros nobres o tratam como um membro da mesma classe social. Você pode conseguir uma audiência com um nobre local se precisar.'
+      ]
+    }
+  },
+  {
+    index: 'orphan',
+    name: 'Órfão',
+    url: '/api/backgrounds/orphan',
+    starting_proficiencies: [
+      {
+        index: 'stealth',
+        name: 'Habilidade: Furtividade',
+        url: '/api/proficiencies/skill-stealth'
+      },
+      {
+        index: 'sleight-of-hand',
+        name: 'Habilidade: Prestidigitação',
+        url: '/api/proficiencies/skill-sleight-of-hand'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'small-knife',
+          name: 'Faca Pequena',
+          url: '/api/equipment-categories/small-knife'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Segredos da Cidade',
+      desc: [
+        'Você conhece os padrões secretos e o fluxo das cidades e pode encontrar passagens através da expansão urbana que os outros deixariam passar. Quando você não estiver em combate, você (e os companheiros que você guiar) podem viajar entre dois locais quaisquer na cidade com o dobro da velocidade normalmente permitida.'
+      ]
+    }
+  },
+  {
+    index: 'sage',
+    name: 'Sábio',
+    url: '/api/backgrounds/sage',
+    starting_proficiencies: [
+      {
+        index: 'arcana',
+        name: 'Habilidade: Arcanismo',
+        url: '/api/proficiencies/skill-arcana'
+      },
+      {
+        index: 'history',
+        name: 'Habilidade: História',
+        url: '/api/proficiencies/skill-history'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'small-knife',
+          name: 'Faca Pequena',
+          url: '/api/equipment-categories/small-knife'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Pesquisador',
+      desc: [
+        'Quando tentar obter ou recuperar um fragmento de conhecimento que você não saiba, você descobre aonde e com quem pode obter essa informação. Normalmente ela será adquirida em bibliotecas, arquivos de escribas, universidade ou outros sábios e pessoas aptas.'
+      ]
+    }
+  },
+  {
+    index: 'soldier',
+    name: 'Soldado',
+    url: '/api/backgrounds/soldier',
+    starting_proficiencies: [
+      {
+        index: 'athletics',
+        name: 'Habilidade: Atletismo',
+        url: '/api/proficiencies/skill-athletics'
+      },
+      {
+        index: 'intimidation',
+        name: 'Habilidade: Intimidação',
+        url: '/api/proficiencies/skill-intimidation'
+      }
+    ],
+
+    starting_equipment: [
+      {
+        equipment: {
+          index: 'dice-set',
+          name: 'Conjunto de dados',
+          url: '/api/equipment-categories/dice-set'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'pouch',
+          name: 'Algibeira',
+          url: '/api/equipment/pouch'
+        },
+        quantity: 1
+      },
+      {
+        equipment: {
+          index: 'clothes-common',
+          name: 'Roupas Comuns',
+          url: '/api/equipment/clothes-common'
+        },
+        quantity: 1
+      }
+    ],
+    starting_equipment_options: [],
+    feature: {
+      name: 'Patente Militar',
+      desc: [
+        'Você possui uma patente militar da sua época como soldado. Soldados leais à sua antiga organização reconhecem sua autoridade e influência, e o prestam deferência se forem de uma patente mais baixa. Você pode invocar sua patente para exercer influência sobre soldados, e requisitar equipamentos simples ou cavalos para uso temporário. Você também pode ganhar acesso a acampamentos militares aliados, e fortalezas onde usa patente é reconhecida.'
+      ]
+    }
+  }
+];
