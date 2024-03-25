@@ -124,7 +124,7 @@
             {
                 "equipment": {
                     "index": "javelin",
-                    "name": "Azagaias",
+                    "name": "Azagaia",
                     "url": "/api/equipment/javelin"
                 },
                 "quantity": 4
@@ -178,7 +178,7 @@
                             "count": 2,
                             "of": {
                                 "index": "handaxe",
-                                "name": "Machados de Mão",
+                                "name": "Machado de Mão",
                                 "url": "/api/equipment/handaxe"
                             }
                         },
@@ -192,7 +192,7 @@
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "simple-weapons",
-                                        "name": "Armas Simples",
+                                        "name": "Arma Simples",
                                         "url": "/api/equipment-categories/simple-weapons"
                                     }
                                 }
@@ -411,7 +411,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "bagpipes",
-                                "name": "Gaita de Foles",
+                                "name": "Gaita de Fole",
                                 "url": "/api/proficiencies/bagpipes"
                             }
                         },
@@ -2110,7 +2110,7 @@
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de Acrobática, Atletil, História, Insight, Religião e Furtividade",
+                "desc": "Escolha dois entre Acrobacia, Atletismo, História, Intuição, Religião e Furtividade",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -2120,7 +2120,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -2128,7 +2128,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -2136,7 +2136,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -2144,7 +2144,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -2168,7 +2168,7 @@
                 }
             },
             {
-                "desc": "Escolha um tipo de ferramentas do artesão ou um instrumento musical",
+                "desc": "Escolha um tipo de ferramentas de artesão ou um instrumento musical",
                 "type": "proficiencies",
                 "choose": 1,
                 "from": {
@@ -2177,7 +2177,7 @@
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "Ferramentas do artesão",
+                                "desc": "Ferramentas de artesão",
                                 "type": "proficiencies",
                                 "choose": 1,
                                 "from": {
@@ -2195,7 +2195,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "brewers-supplies",
-                                                "name": "Suprimentos de Cerveiro",
+                                                "name": "Suprimentos de Cervejeiro",
                                                 "url": "/api/proficiencies/brewers-supplies"
                                             }
                                         },
@@ -2203,7 +2203,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "calligraphers-supplies",
-                                                "name": "Suprimentos de Calígrafo",
+                                                "name": "Suprimentos de Caligrafia",
                                                 "url": "/api/proficiencies/calligraphers-supplies"
                                             }
                                         },
@@ -2211,7 +2211,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "carpenters-tools",
-                                                "name": "Ferramentas do Carpinteiro",
+                                                "name": "Ferramentas de Carpinteiro",
                                                 "url": "/api/proficiencies/carpenters-tools"
                                             }
                                         },
@@ -2219,7 +2219,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "cartographers-tools",
-                                                "name": "Ferramentas do Cartógrafo",
+                                                "name": "Ferramentas de Cartógrafo",
                                                 "url": "/api/proficiencies/cartographers-tools"
                                             }
                                         },
@@ -2227,7 +2227,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "cobblers-tools",
-                                                "name": "Ferramentas do Cobrador",
+                                                "name": "Ferramentas de Sapateiro",
                                                 "url": "/api/proficiencies/cobblers-tools"
                                             }
                                         },
@@ -2235,7 +2235,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "cooks-utensils",
-                                                "name": "utensílios de coque",
+                                                "name": "Utensílios de Cozinheiro",
                                                 "url": "/api/proficiencies/cooks-utensils"
                                             }
                                         },
@@ -2243,7 +2243,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "glassblowers-tools",
-                                                "name": "Ferramentas do soprador",
+                                                "name": "Ferramentas de Vidreiro",
                                                 "url": "/api/proficiencies/glassblowers-tools"
                                             }
                                         },
@@ -2259,7 +2259,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "leatherworkers-tools",
-                                                "name": "Ferramentas do Coureiro",
+                                                "name": "Ferramentas de Coureiro",
                                                 "url": "/api/proficiencies/leatherworkers-tools"
                                             }
                                         },
@@ -2267,7 +2267,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "masons-tools",
-                                                "name": "Ferramentas de Mason",
+                                                "name": "Ferramentas de Pedreiro",
                                                 "url": "/api/proficiencies/masons-tools"
                                             }
                                         },
@@ -2275,7 +2275,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "painters-supplies",
-                                                "name": "Suprimentos do Pintor",
+                                                "name": "Suprimentos de Pintor",
                                                 "url": "/api/proficiencies/painters-supplies"
                                             }
                                         },
@@ -2291,7 +2291,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "smiths-tools",
-                                                "name": "Ferramentas de Smith",
+                                                "name": "Ferramentas de Ferreiro",
                                                 "url": "/api/proficiencies/smiths-tools"
                                             }
                                         },
@@ -2299,7 +2299,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "tinkers-tools",
-                                                "name": "Ferramentas do Tinker",
+                                                "name": "Ferramentas do Funileiro",
                                                 "url": "/api/proficiencies/tinkers-tools"
                                             }
                                         },
@@ -2307,7 +2307,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "weavers-tools",
-                                                "name": "Ferramentas de Wever",
+                                                "name": "Ferramentas de Costureiro",
                                                 "url": "/api/proficiencies/weavers-tools"
                                             }
                                         },
@@ -2315,7 +2315,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "woodcarvers-tools",
-                                                "name": "Ferramentas do Caranguejo",
+                                                "name": "Ferramentas de Entalhador",
                                                 "url": "/api/proficiencies/woodcarvers-tools"
                                             }
                                         },
@@ -2331,7 +2331,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "forgery-kit",
-                                                "name": "Kit de Forja",
+                                                "name": "Kit de Falsificação",
                                                 "url": "/api/proficiencies/forgery-kit"
                                             }
                                         }
@@ -2352,7 +2352,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "bagpipes",
-                                                "name": "Bagas",
+                                                "name": "Gaita de Foles",
                                                 "url": "/api/proficiencies/bagpipes"
                                             }
                                         },
@@ -2368,7 +2368,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "dulcimer",
-                                                "name": "Dulcimer",
+                                                "name": "Xilofone",
                                                 "url": "/api/proficiencies/dulcimer"
                                             }
                                         },
@@ -2384,7 +2384,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "lute",
-                                                "name": "Lutar",
+                                                "name": "Alaúde",
                                                 "url": "/api/proficiencies/lute"
                                             }
                                         },
@@ -2392,7 +2392,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "lyre",
-                                                "name": "Lança",
+                                                "name": "Lira",
                                                 "url": "/api/proficiencies/lyre"
                                             }
                                         },
@@ -2400,7 +2400,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "horn",
-                                                "name": "Chifre",
+                                                "name": "Trombeta",
                                                 "url": "/api/proficiencies/horn"
                                             }
                                         },
@@ -2408,7 +2408,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "pan-flute",
-                                                "name": "Flauta de Panela",
+                                                "name": "Flauta de Pã",
                                                 "url": "/api/proficiencies/pan-flute"
                                             }
                                         },
@@ -2416,7 +2416,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "shawm",
-                                                "name": "Shawm",
+                                                "name": "Oboé",
                                                 "url": "/api/proficiencies/shawm"
                                             }
                                         },
@@ -2424,7 +2424,7 @@
                                             "option_type": "reference",
                                             "item": {
                                                 "index": "viol",
-                                                "name": "Viol",
+                                                "name": "Violino",
                                                 "url": "/api/proficiencies/viol"
                                             }
                                         }
@@ -2444,29 +2444,29 @@
             },
             {
                 "index": "shortswords",
-                "name": "Palavras curtas",
+                "name": "Espadas curtas",
                 "url": "/api/proficiencies/shortswords"
             },
             {
                 "index": "saving-throw-dex",
-                "name": "Salvando Throw: DEX",
+                "name": "Teste de Resistência: DES",
                 "url": "/api/proficiencies/saving-throw-dex"
             },
             {
                 "index": "saving-throw-str",
-                "name": "Salvando Throw: STR",
+                "name": "Teste de Resistência: FOR",
                 "url": "/api/proficiencies/saving-throw-str"
             }
         ],
         "saving_throws": [
             {
                 "index": "str",
-                "name": "STR",
+                "name": "FOR",
                 "url": "/api/ability-scores/str"
             },
             {
                 "index": "dex",
-                "name": "DEXO",
+                "name": "DES",
                 "url": "/api/ability-scores/dex"
             }
         ],
@@ -2493,7 +2493,7 @@
                             "count": 1,
                             "of": {
                                 "index": "shortsword",
-                                "name": "Palavra curta",
+                                "name": "Espada curta",
                                 "url": "/api/equipment/shortsword"
                             }
                         },
@@ -2528,7 +2528,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         },
@@ -2551,7 +2551,7 @@
                 {
                     "ability_score": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "minimum_score": 13
@@ -2559,7 +2559,7 @@
                 {
                     "ability_score": {
                         "index": "wis",
-                        "name": "WIS",
+                        "name": "SAB",
                         "url": "/api/ability-scores/wis"
                     },
                     "minimum_score": 13
@@ -2573,7 +2573,7 @@
                 },
                 {
                     "index": "shortswords",
-                    "name": "Palavras curtas",
+                    "name": "Espadas curtas",
                     "url": "/api/proficiencies/shortswords"
                 }
             ]
@@ -2581,7 +2581,7 @@
         "subclasses": [
             {
                 "index": "open-hand",
-                "name": "Mão Aberta",
+                "name": "Caminho da Mão Aberta",
                 "url": "/api/subclasses/open-hand"
             }
         ],
