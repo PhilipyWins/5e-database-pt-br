@@ -1378,7 +1378,7 @@
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de Arcanismo, Adestrar Animais, Intuição, Medicina, Natureza, Percepção, Religião e Sobrevivência",
+                "desc": "Escolha dois entre Arcanismo, Adestrar Animais, Intuição, Medicina, Natureza, Percepção, Religião e Sobrevivência",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -1740,7 +1740,7 @@
         "hit_die": 10,
         "proficiency_choices": [
             {
-                "desc": "Escolha duas habilidades da Acrobacia, Adestrar Animais, Atletismo, História, Intuição, Intimidação, Percepção e Sobrevivência",
+                "desc": "Escolha duas habilidades entre Acrobacia, Adestrar Animais, Atletismo, História, Intuição, Intimidação, Percepção e Sobrevivência",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -2593,7 +2593,7 @@
         "hit_die": 10,
         "proficiency_choices": [
             {
-                "desc": "Escolha duas da atletil, insight, Intimidação, Medicina, Persuasão e Religião",
+                "desc": "Escolha duas entre Atletismo, Intuição, Intimidação, Medicina, Persuasão e Religião",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -2603,7 +2603,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -2611,7 +2611,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -2674,24 +2674,24 @@
             },
             {
                 "index": "saving-throw-wis",
-                "name": "Salvando Throw: WIS",
+                "name": "Teste de Resistência: SAB",
                 "url": "/api/proficiencies/saving-throw-wis"
             },
             {
                 "index": "saving-throw-cha",
-                "name": "Salvando Throw: CHA",
+                "name": "Teste de Resistência: CAR",
                 "url": "/api/proficiencies/saving-throw-cha"
             }
         ],
         "saving_throws": [
             {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             }
         ],
@@ -2699,7 +2699,7 @@
             {
                 "equipment": {
                     "index": "chain-mail",
-                    "name": "Chain Mail",
+                    "name": "Malha de Aço",
                     "url": "/api/equipment/chain-mail"
                 },
                 "quantity": 1
@@ -2763,7 +2763,7 @@
                 }
             },
             {
-                "desc": "(a) cinco javelins ou (b) qualquer arma branca simples",
+                "desc": "(a) cinco azagaias ou (b) qualquer arma corpo a corpo",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -2774,7 +2774,7 @@
                             "count": 5,
                             "of": {
                                 "index": "javelin",
-                                "name": "Javelin",
+                                "name": "Azagaia",
                                 "url": "/api/equipment/javelin"
                             }
                         },
@@ -2798,7 +2798,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um padre ou (b) pacote de um explorador",
+                "desc": "(a) pacote de sacerdote ou (b) pacote de aventureiro",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -2818,7 +2818,7 @@
                             "count": 1,
                             "of": {
                                 "index": "explorers-pack",
-                                "name": "Pacote de Explorador",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/explorers-pack"
                             }
                         }
@@ -2845,7 +2845,7 @@
                 {
                     "ability_score": {
                         "index": "str",
-                        "name": "STR",
+                        "name": "FOR",
                         "url": "/api/ability-scores/str"
                     },
                     "minimum_score": 13
@@ -2853,7 +2853,7 @@
                 {
                     "ability_score": {
                         "index": "cha",
-                        "name": "CHA",
+                        "name": "CAR",
                         "url": "/api/ability-scores/cha"
                     },
                     "minimum_score": 13
@@ -2890,7 +2890,7 @@
         "subclasses": [
             {
                 "index": "devotion",
-                "name": "Devoção",
+                "name": "Juramento de Devoção",
                 "url": "/api/subclasses/devotion"
             }
         ],
@@ -2898,31 +2898,31 @@
             "level": 2,
             "spellcasting_ability": {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             },
             "info": [
                 {
-                    "name": "Preparando e transmitindo Feitiços",
+                    "name": "Preparando e conjurando magias",
                     "desc": [
-                        "A tabela Paladino mostra quantos slots de feitiço você precisa para lançar seus feitiços. Para lançar um dos seus feitiços de paladina de primeiro nível ou superior, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Você prepara a lista de feitiços paladinos que estão disponíveis para você transmitir, escolhendo na lista de feitiços paladinos. Quando você fizer isso, escolha um número de feitiços de paladina iguais ao seu modificador de Charisma + metade do seu nível de paladino, arredondado para baixo (mínimo de um feitiço). Os feitiços devem ser de um nível para o qual você tem slots de magia.",
-                        "Por exemplo, se você é um paladino de 5 níveis, você tem quatro núcleos 1 e dois slots de feitiço de 2 níveis. Com um Charisma de 14, sua lista de feitiços preparados pode incluir quatro feitiços de primeiro ou segundo nível, em qualquer combinação. Se você preparar a cura do feitiço de primeiro nível, você pode lançá-la usando um nível 1 ou um espaço de 2 níveis. Transmitir o feitiço não o remove da sua lista de feitiços preparados.",
-                        "Você pode alterar sua lista de feitiços preparados quando terminar um longo descanso. Preparando uma nova lista de feitiços de paladina requer tempo gasto em oração e meditação: pelo menos 1 minuto por nível de feitiço para cada feitiço da sua lista."
+                        "A tabela O Paladino mostra quantos espaços de magia você têm para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa gastar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.",
+                        "Você prepara a lista de magias disponíveis selecionando-as da lista de magias de paladino. Você seleciona um número de magias igual ao seu modificador de Carisma + metade do seu nível de paladino, arredondado para baixo (mínimo de uma magia). Essas magias devem ser de níveis que você possua espaços de magia.",
+                        "Por exemplo, se você é um paladino de 5º nível, você possui quatro espaços de magia de 1º nível e dois de 2º nível. Com Carisma de 14, sua lista de magias preparadas pode incluir quatro magias, combinando as de 1º e 2º nível em qualquer ordem. Se você preparar a magia de 1º nível curar ferimentos, você pode conjurá-la com um espaço de magia de 1º ou de 2º nível. Ao conjurar a magia, você não a retira de sua lista de magias preparadas, podendo conjurá-la de novo se tiver espaços de magia disponíveis.",
+                        "Você pode modificar a sua lista de magias preparadas quando termina um descanso longo. Preparar uma nova lista de magias de paladino requer tempo gasto em preces e meditação: no mínimo 1 minuto por nível de magia para cada magia preparada."
                     ]
                 },
                 {
                     "name": "Habilidade de Magia",
                     "desc": [
-                        "Charisma é sua habilidade de ortografia para seus feitiços paladinos, uma vez que o poder deles deriva da força de suas convicções. Você usa o seu Charisma sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador Charisma ao definir o jogo de save DC para um feitiço paladino que você lançou e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + o seu modificador Charisma.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de Charisma."
+                        "Carisma é a sua habilidade para você conjurar suas magias de paladino, já que seu poder deriva da força das suas convicções. Você usa seu Carisma sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Carisma para definir a CD dos testes de resistência para as magias de paladino que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + o seu modificador Carisma.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Carisma."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar um símbolo sagrado como foco de feitiço para os seus feitiços paladinos."
+                        "Você pode usar um símbolo sagrado como foco de conjuração das suas magias de paladino."
                     ]
                 }
             ]
@@ -2932,11 +2932,11 @@
     },
     {
         "index": "ranger",
-        "name": "Ranger",
+        "name": "Patrulheiro",
         "hit_die": 10,
         "proficiency_choices": [
             {
-                "desc": "Escolha três de Manipulação Animal, Atletismo, Insight, Investigação, Natureza, Percepção, Stealth, e Sobrevivência",
+                "desc": "Escolha três entre Adestrar Animais, Atletismo, Intuição, Investigação, Natureza, Percepção, Furtividade, e Sobrevivência",
                 "choose": 3,
                 "type": "proficiencies",
                 "from": {
@@ -2946,7 +2946,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -2954,7 +2954,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -2962,7 +2962,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -3038,24 +3038,24 @@
             },
             {
                 "index": "saving-throw-dex",
-                "name": "Salvando Throw: DEX",
+                "name": "Teste de Resistência: DES",
                 "url": "/api/proficiencies/saving-throw-dex"
             },
             {
                 "index": "saving-throw-str",
-                "name": "Salvando Throw: STR",
+                "name": "Teste de Resistência: FOR",
                 "url": "/api/proficiencies/saving-throw-str"
             }
         ],
         "saving_throws": [
             {
                 "index": "str",
-                "name": "STR",
+                "name": "FOR",
                 "url": "/api/ability-scores/str"
             },
             {
                 "index": "dex",
-                "name": "DEXO",
+                "name": "DES",
                 "url": "/api/ability-scores/dex"
             }
         ],
@@ -3063,7 +3063,7 @@
             {
                 "equipment": {
                     "index": "longbow",
-                    "name": "Longbow",
+                    "name": "Arco Longo",
                     "url": "/api/equipment/longbow"
                 },
                 "quantity": 1
@@ -3079,7 +3079,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) email de escala ou (b) armadura de couro",
+                "desc": "(a) brunea ou (b) armadura de couro",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3090,7 +3090,7 @@
                             "count": 1,
                             "of": {
                                 "index": "scale-mail",
-                                "name": "Escala de Correio",
+                                "name": "Brunea",
                                 "url": "/api/equipment/scale-mail"
                             }
                         },
@@ -3107,7 +3107,7 @@
                 }
             },
             {
-                "desc": "(a) duas palavras curtas ou (b) duas armas simples corpo-a-corpo",
+                "desc": "(a) duas espadas curtas ou (b) duas armas simples corpo a corpo",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3118,21 +3118,21 @@
                             "count": 2,
                             "of": {
                                 "index": "shortsword",
-                                "name": "Palavra curta",
+                                "name": "Espada curta",
                                 "url": "/api/equipment/shortsword"
                             }
                         },
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "duas armas corpo-a-corpo simples",
+                                "desc": "duas armas corpo a corpo simples",
                                 "choose": 2,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "simple-melee-weapons",
-                                        "name": "Armas Simples de Combate",
+                                        "name": "Armas Simples corpo a corpo",
                                         "url": "/api/equipment-categories/simple-melee-weapons"
                                     }
                                 }
@@ -3142,7 +3142,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um calabouço ou (b) pacote de um explorador",
+                "desc": "(a) pacote de explorador ou (b) pacote de aventureiro",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3153,7 +3153,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         },
@@ -3176,7 +3176,7 @@
                 {
                     "ability_score": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "minimum_score": 13
@@ -3184,7 +3184,7 @@
                 {
                     "ability_score": {
                         "index": "wis",
-                        "name": "WIS",
+                        "name": "SAB",
                         "url": "/api/ability-scores/wis"
                     },
                     "minimum_score": 13
@@ -3228,7 +3228,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-animal-handling",
-                                    "name": "Habilidade: Manipulação de Animais",
+                                    "name": "Habilidade: Adestrar Animais",
                                     "url": "/api/proficiencies/skill-animal-handling"
                                 }
                             },
@@ -3236,7 +3236,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-athletics",
-                                    "name": "Habilidade: Atleta",
+                                    "name": "Habilidade: Atlestismo",
                                     "url": "/api/proficiencies/skill-athletics"
                                 }
                             },
@@ -3244,7 +3244,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-insight",
-                                    "name": "Habilidade: Conhecimento",
+                                    "name": "Habilidade: Intuição",
                                     "url": "/api/proficiencies/skill-insight"
                                 }
                             },
@@ -3296,7 +3296,7 @@
         "subclasses": [
             {
                 "index": "hunter",
-                "name": "Caçador",
+                "name": "Conclave do Caçador",
                 "url": "/api/subclasses/hunter"
             }
         ],
@@ -3304,31 +3304,31 @@
             "level": 2,
             "spellcasting_ability": {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             "info": [
                 {
-                    "name": "Spell Slots",
+                    "name": "Espaçoes de Magia",
                     "desc": [
-                        "A tabela do Ranger mostra quantos slots de feitiço você precisa lançar os feitiços de nível 1 e superior. Para lançar um desses feitiços, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Por exemplo, se você conhece a ortografia de primeiro nível do animal e tem um nível 1 e um espaço ortográfico de segundo nível disponível, você pode lançar amizade com animais usando qualquer slot."
+                        "A tabela O Patrulheiro mostra quantos espaços de magia você tem para conjurar suas magias de 1° nível e superiores. Para conjurar uma dessas magias, você deve gastar uma espaço de magia do nível da magia ou superior. Você recobra todos os espaços de magia gastos quando você completa um descanso longo.",
+                        "Por exemplo, se você quiser conjurar a magia de 1° nível amizade animal e você tiver um espaço de magia de 1° nível e um de 2° nível disponíveis, você poderá conjurar amizade animal usando qualquer dos dois espaços."
                     ]
                 },
                 {
-                    "name": "Feitiços conhecidos de primeiro nível e superiores",
+                    "name": "Magias conhecidas de nível 1 e superior",
                     "desc": [
-                        "Você sabe dois feitiços de 1 nível da sua escolha na lista de feitiços do intervalo.",
-                        "A coluna Feitiços conhecida da tabela do Ranger mostra quando você aprende mais feitiços de alcance da sua escolha. Cada um desses feitiços deve ser de um nível para o qual você tem um slot de magia. Por exemplo, ao atingir o quinto nível nesta aula, você pode aprender um novo feitiço de 1° ou 21.",
-                        "Além disso, quando você ganha um nível nesta aula, você pode escolher um dos feitiços de intervalo que você conhece e substituí-lo por outro feitiço da lista de feitiços de gamer, que também deve ser de um nível para o qual você tem slots de ortografia."
+                        "Você conhece duas magias de 1° nível, à sua escolha, da lista de magias de patrulheiro.",
+                        "A coluna Magias Conhecidas na tabela O Patrulheiro mostra quando você aprende mais magias de patrulheiro, à sua escolha. Cada uma dessas magias deve ser de um nível a que você tenha acesso, como mostrado na tabela. Por exemplo, quando você alcança o 5° nível da classe, você pode aprender uma nova magia de 1° ou 2° nível.",
+                        "Além disso, quando você adquire um nível nessa classe, você pode escolher uma magia de patrulheiro que você conheça e substituí-la por outra magia da lista de magias de patrulheiro, que também deve ser de um nível ao qual você tenha espaços de magia."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "A sabedoria é sua habilidade de ortografia para os feitiços do seu alcance, já que a sua magia se baseia em sua sintonia com a natureza. Você usa sua sabedoria sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador de sabedoria ao definir a DC para um feitiço de longo alcance e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + seu modificador de sabedoria.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de sabedoria."
+                        "Sabedoria é a sua habilidade para conjurar suas magias de patrulheiro, já que sua magia vem da sua sintonia com a natureza. Você usa sua Sabedoria sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Sabedoria para definir a CD dos testes de resistência para as magias de patrulheiro que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + seu modificador de sabedoria.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de sabedoria."
                     ]
                 }
             ]
@@ -3338,11 +3338,11 @@
     },
     {
         "index": "rogue",
-        "name": "Rogue",
+        "name": "Ladino",
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha quatro de Acrobática, Athletismo, Decepção, Intimidação, Investigação, Percepção, Performance, Persuasião, Sleight of Hand, e Stealth",
+                "desc": "Escolha quatro entre Acrobacia, Atletismo, Enganação, Intuição, Intimidação, Investigação, Percepção, Atuação, Persuasão, Prestidigitação, e Furtividade",
                 "choose": 4,
                 "type": "proficiencies",
                 "from": {
@@ -3352,7 +3352,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -3360,7 +3360,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -3368,7 +3368,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -3376,7 +3376,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -3408,7 +3408,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-performance",
-                                "name": "Habilidade: Desempenho",
+                                "name": "Habilidade: Atuação",
                                 "url": "/api/proficiencies/skill-performance"
                             }
                         },
@@ -3424,7 +3424,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-sleight-of-hand",
-                                "name": "Habilidade: Trenó da Mão",
+                                "name": "Habilidade: Prestidigitação",
                                 "url": "/api/proficiencies/skill-sleight-of-hand"
                             }
                         },
@@ -3463,7 +3463,7 @@
             },
             {
                 "index": "shortswords",
-                "name": "Palavras curtas",
+                "name": "Espadas curtas",
                 "url": "/api/proficiencies/shortswords"
             },
             {
@@ -3478,19 +3478,19 @@
             },
             {
                 "index": "saving-throw-dex",
-                "name": "Salvando Throw: DEX",
+                "name": "Teste de Resistência: DES",
                 "url": "/api/proficiencies/saving-throw-dex"
             },
             {
                 "index": "saving-throw-int",
-                "name": "Salvando Throw: INT",
+                "name": "Teste de Resistência: INT",
                 "url": "/api/proficiencies/saving-throw-int"
             }
         ],
         "saving_throws": [
             {
                 "index": "dex",
-                "name": "DEXO",
+                "name": "DES",
                 "url": "/api/ability-scores/dex"
             },
             {
@@ -3511,7 +3511,7 @@
             {
                 "equipment": {
                     "index": "dagger",
-                    "name": "Dagger",
+                    "name": "Adaga",
                     "url": "/api/equipment/dagger"
                 },
                 "quantity": 2
@@ -3519,7 +3519,7 @@
             {
                 "equipment": {
                     "index": "thieves-tools",
-                    "name": "Ferramentas de Ladrões",
+                    "name": "Ferramentas de Ladrão",
                     "url": "/api/equipment/thieves-tools"
                 },
                 "quantity": 1
@@ -3527,7 +3527,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) um estuprador ou (b) uma Espada curta",
+                "desc": "(a) uma Rapieira ou (b) uma Espada curta",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3547,7 +3547,7 @@
                             "count": 1,
                             "of": {
                                 "index": "shortsword",
-                                "name": "Palavra curta",
+                                "name": "Espada curta",
                                 "url": "/api/equipment/shortsword"
                             }
                         }
@@ -3555,7 +3555,7 @@
                 }
             },
             {
-                "desc": "(a) um arco curto e alvoroço de 20 flechas ou (b) uma espada curta",
+                "desc": "(a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3589,7 +3589,7 @@
                             "count": 1,
                             "of": {
                                 "index": "shortsword",
-                                "name": "Palavra curta",
+                                "name": "Espada curta",
                                 "url": "/api/equipment/shortsword"
                             }
                         }
@@ -3597,7 +3597,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um assaltante, (b) pacote de um calabouço, ou (c) pacote de um explorador",
+                "desc": "(a) pacote de um assaltante, (b) pacote de aventureiro, ou (c) pacote de um explorador",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3608,7 +3608,7 @@
                             "count": 1,
                             "of": {
                                 "index": "burglars-pack",
-                                "name": "Pacote de Brasa",
+                                "name": "Pacote de Assaltante",
                                 "url": "/api/equipment/burglars-pack"
                             }
                         },
@@ -3617,7 +3617,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         },
@@ -3640,7 +3640,7 @@
                 {
                     "ability_score": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "minimum_score": 13
@@ -3654,7 +3654,7 @@
                 },
                 {
                     "index": "thieves-tools",
-                    "name": "Ferramentas de Ladrões",
+                    "name": "Ferramentas de Ladrão",
                     "url": "/api/proficiencies/thieves-tools"
                 }
             ],
@@ -3669,7 +3669,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-acrobatics",
-                                    "name": "Habilidade: Acrobática",
+                                    "name": "Habilidade: Acrobacia",
                                     "url": "/api/proficiencies/skill-acrobatics"
                                 }
                             },
@@ -3677,7 +3677,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-athletics",
-                                    "name": "Habilidade: Atleta",
+                                    "name": "Habilidade: Atletismo",
                                     "url": "/api/proficiencies/skill-athletics"
                                 }
                             },
@@ -3685,7 +3685,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-deception",
-                                    "name": "Habilidade: Engodo",
+                                    "name": "Habilidade: Enganação",
                                     "url": "/api/proficiencies/skill-deception"
                                 }
                             },
@@ -3693,7 +3693,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-insight",
-                                    "name": "Habilidade: Conhecimento",
+                                    "name": "Habilidade: Intuição",
                                     "url": "/api/proficiencies/skill-insight"
                                 }
                             },
@@ -3725,7 +3725,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-performance",
-                                    "name": "Habilidade: Desempenho",
+                                    "name": "Habilidade: Atuação",
                                     "url": "/api/proficiencies/skill-performance"
                                 }
                             },
@@ -3741,7 +3741,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-sleight-of-hand",
-                                    "name": "Habilidade: Trenó da Mão",
+                                    "name": "Habilidade: Prestidigitação",
                                     "url": "/api/proficiencies/skill-sleight-of-hand"
                                 }
                             },
@@ -3769,11 +3769,11 @@
     },
     {
         "index": "sorcerer",
-        "name": "Sorcerer",
+        "name": "Mago",
         "hit_die": 6,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de Arcana, Decepção, Insight, Intimidação, Persuasão e Religião",
+                "desc": "Escolha dois entre Arcanismo, Enganação, Intuição, Intimidação, Persuasão e Religião",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -3783,7 +3783,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -3791,7 +3791,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -3799,7 +3799,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -3834,7 +3834,7 @@
         "proficiencies": [
             {
                 "index": "daggers",
-                "name": "Daggers",
+                "name": "Adagas",
                 "url": "/api/proficiencies/daggers"
             },
             {
@@ -3844,27 +3844,27 @@
             },
             {
                 "index": "slings",
-                "name": "Costuradas",
+                "name": "Fundas",
                 "url": "/api/proficiencies/slings"
             },
             {
                 "index": "quarterstaffs",
-                "name": "Quartéis",
+                "name": "Bordões",
                 "url": "/api/proficiencies/quarterstaffs"
             },
             {
                 "index": "crossbows-light",
-                "name": "Besteiros, claro",
+                "name": "Bestas Leves",
                 "url": "/api/proficiencies/crossbows-light"
             },
             {
                 "index": "saving-throw-con",
-                "name": "Salvando Throw: CON",
+                "name": "Teste de Resistência: CON",
                 "url": "/api/proficiencies/saving-throw-con"
             },
             {
                 "index": "saving-throw-cha",
-                "name": "Salvando Throw: CHA",
+                "name": "Teste de Resistência: CAR",
                 "url": "/api/proficiencies/saving-throw-cha"
             }
         ],
@@ -3876,7 +3876,7 @@
             },
             {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             }
         ],
@@ -3884,7 +3884,7 @@
             {
                 "equipment": {
                     "index": "dagger",
-                    "name": "Dagger",
+                    "name": "Adaga",
                     "url": "/api/equipment/dagger"
                 },
                 "quantity": 2
@@ -3892,7 +3892,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) uma besta leve e 20 parafusos ou (b) qualquer arma simples",
+                "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3906,7 +3906,7 @@
                                     "count": 1,
                                     "of": {
                                         "index": "crossbow-light",
-                                        "name": "Besteira, luz",
+                                        "name": "Besta Leve",
                                         "url": "/api/equipment/crossbow-light"
                                     }
                                 },
@@ -3915,7 +3915,7 @@
                                     "count": 20,
                                     "of": {
                                         "index": "crossbow-bolt",
-                                        "name": "Dardo de Balestra",
+                                        "name": "Virotes",
                                         "url": "/api/equipment/crossbow-bolt"
                                     }
                                 }
@@ -3952,21 +3952,21 @@
                             "count": 1,
                             "of": {
                                 "index": "component-pouch",
-                                "name": "Component pouch",
+                                "name": "Bolsa de Componentes",
                                 "url": "/api/equipment/component-pouch"
                             }
                         },
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "foco arcano",
+                                "desc": "Foco Arcano",
                                 "choose": 1,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "arcane-foci",
-                                        "name": "Arcane Foci",
+                                        "name": "Foco Arcano",
                                         "url": "/api/equipment-categories/arcane-foci"
                                     }
                                 }
@@ -3976,7 +3976,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um calabouço ou (b) pacote de um explorador",
+                "desc": "(a) pacote de aventureiro ou (b) pacote de explorador",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -3987,7 +3987,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         },
@@ -4010,7 +4010,7 @@
                 {
                     "ability_score": {
                         "index": "cha",
-                        "name": "CHA",
+                        "name": "CAR",
                         "url": "/api/ability-scores/cha"
                     },
                     "minimum_score": 13
@@ -4021,7 +4021,7 @@
         "subclasses": [
             {
                 "index": "draconic",
-                "name": "Draconic",
+                "name": "Linhagem Draconica",
                 "url": "/api/subclasses/draconic"
             }
         ],
@@ -4029,43 +4029,43 @@
             "level": 1,
             "spellcasting_ability": {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "No primeiro nível, você conhece quatro músicas de sua escolha a partir da lista de feitiços do feitiço. Você aprende outros canhões de feiticeiro de sua escolha em níveis mais altos, conforme mostrado na coluna de Canalhas conhecida da tabela do Feiticeiro."
+                        "Você conhece quatro truques, à sua escolha, da lista de magias de feiticeiro. Você aprende truques de feiticeiro adicionais, à sua escolha, em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela O Feiticeiro."
                     ]
                 },
                 {
-                    "name": "Spell Slots",
+                    "name": "Espaços de Magia",
                     "desc": [
-                        "A tabela do Feiticeiro mostra quantos slots de feitiço você precisa para lançar os feitiços de 1 nível e superior. Para lançar um desses feitiços de feiticeiro, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Por exemplo, se você conhece o nível 1 de queima de mãos e tem um nível 1 e um espaço de feitiço de segundo nível disponível, você pode lançar mãos em chamas usando qualquer slot."
+                        "A tabela O Feiticeiro mostra quantos espaços de magia de 1° nível e superiores você possui disponíveis para conjuração. Para conjurar uma dessas magias, você deve gastar uma espaço de magia do nível da magia ou superior. Você recobra todos os espaços de magia gastos quando você completa um descanso longo.",
+                        "Por exemplo, se você quiser conjurar a magia de 1° nível mãos flamejantes e você tiver um espaço de magia de 1° nível e um de 2° nível disponíveis, você poderá conjurar mãos flamejantes usando qualquer dos dois espaços."
                     ]
                 },
                 {
-                    "name": "Feitiços conhecidos de primeiro nível e superiores",
+                    "name": "Magias conhecidas de 1° nível e superiores",
                     "desc": [
-                        "Você sabe dois feitiços de nível 1 da sua escolha a partir da lista de feitiços de feitiçaria.",
-                        "A coluna Feitiços conhecida da tabela do Feiticeiro mostra quando você aprende mais feitiços de sua escolha. Cada um desses feitiços deve ser de um nível para o qual você tem um slot de magia. Por exemplo, quando você atinge o terceiro nível nesta aula, você pode aprender um novo feitiço de 1° ou 21. ",
-                        "Além disso, quando você ganha um nível nesta aula, você pode escolher um dos feitiços de feitiços que você conhece e substituí-lo por outro feitiço da lista de feitiços do feitiço, que também deve ser de um nível para o qual você tem slots de ortografia."
+                        "Você conhece duas magias de 1° nível, à sua escolha, da lista de magias de feiticeiro.",
+                        "A coluna Magias Conhecidas na tabela O Feiticeiro mostra quando você aprende mais magias de feiticeiro, à sua escolha. Cada uma dessas magias deve ser de um nível a que você tenha acesso, como mostrado na tabela. Por exemplo, quando você alcança o 3° nível da classe, você pode aprender uma nova magia de 1° ou 2° nível.",
+                        "Além disso, quando você adquire um nível nessa classe, você pode escolher uma magia de feiticeiro que você conheça e substituí-la por outra magia da lista de magias de feiticeiro, que também deve ser de um nível ao qual você tenha espaços de magia."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "Charisma é sua habilidade de magia para seus feitiços de feiticeiro, já que o poder de sua magia depende da sua capacidade de projetar sua vontade no mundo. Você usa o seu Charisma sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador Charisma ao definir o jogo de acerto DC para um feitiço de feiticeiro que você lançar e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + o seu modificador Charisma.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de Charisma."
+                        "Carisma é a sua habilidade de conjuração para suas magias de feiticeiro, já que o poder da sua magia depende da sua capacidade de projetar sua vontade no mundo. Use seu Carisma sempre que alguma magia se referir à sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Carisma para definir a CD dos testes de resistência para as magias de feiticeiro que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + o seu modificador Charisma.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Charisma."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar o foco arcano como foco de feitiço para seus feitiços."
+                        "Você pode usar um foco arcano como foco de conjuração das suas magias de feiticeiro."
                     ]
                 }
             ]
@@ -4075,11 +4075,11 @@
     },
     {
         "index": "warlock",
-        "name": "Warlock",
+        "name": "Bruxo",
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha duas habilidades de Arcana, Decepção, Histórico, Intimidação, Investigação, Natureza e Religião",
+                "desc": "Escolha duas habilidades entre Arcanismo, Enganação, História, Intimidação, Investigação, Natureza e Religião",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -4089,7 +4089,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -4097,7 +4097,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -4105,7 +4105,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -4158,24 +4158,24 @@
             },
             {
                 "index": "saving-throw-wis",
-                "name": "Salvando Throw: WIS",
+                "name": "Teste de Resistência: SAB",
                 "url": "/api/proficiencies/saving-throw-wis"
             },
             {
                 "index": "saving-throw-cha",
-                "name": "Salvando Throw: CHA",
+                "name": "Teste de Resistência: CAR",
                 "url": "/api/proficiencies/saving-throw-cha"
             }
         ],
         "saving_throws": [
             {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             }
         ],
@@ -4183,7 +4183,7 @@
             {
                 "equipment": {
                     "index": "dagger",
-                    "name": "Dagger",
+                    "name": "Adaga",
                     "url": "/api/equipment/dagger"
                 },
                 "quantity": 2
@@ -4199,7 +4199,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) uma besta leve e 20 parafusos ou (b) qualquer arma simples",
+                "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -4213,7 +4213,7 @@
                                     "count": 1,
                                     "of": {
                                         "index": "crossbow-light",
-                                        "name": "Besteira, luz",
+                                        "name": "Besta Leve",
                                         "url": "/api/equipment/crossbow-light"
                                     }
                                 },
@@ -4222,7 +4222,7 @@
                                     "count": 20,
                                     "of": {
                                         "index": "crossbow-bolt",
-                                        "name": "Dardo de Balestra",
+                                        "name": "Virote",
                                         "url": "/api/equipment/crossbow-bolt"
                                     }
                                 }
@@ -4259,21 +4259,21 @@
                             "count": 1,
                             "of": {
                                 "index": "component-pouch",
-                                "name": "Component pouch",
+                                "name": "Bolsa de Componentes",
                                 "url": "/api/equipment/component-pouch"
                             }
                         },
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "foco arcano",
+                                "desc": "Foco Arcano",
                                 "choose": 1,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "arcane-foci",
-                                        "name": "Arcane Foci",
+                                        "name": "Foco Arcano",
                                         "url": "/api/equipment-categories/arcane-foci"
                                     }
                                 }
@@ -4283,7 +4283,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um estudioso ou (b) pacote de um calabouço",
+                "desc": "(a) pacote de um estudioso ou (b) pacote de explorador",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -4294,7 +4294,7 @@
                             "count": 1,
                             "of": {
                                 "index": "scholars-pack",
-                                "name": "Pacote do Estudante",
+                                "name": "Pacote de Estudioso",
                                 "url": "/api/equipment/scholars-pack"
                             }
                         },
@@ -4303,7 +4303,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote de Explorador",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         }
@@ -4330,7 +4330,7 @@
                 {
                     "ability_score": {
                         "index": "cha",
-                        "name": "CHA",
+                        "name": "CAR",
                         "url": "/api/ability-scores/cha"
                     },
                     "minimum_score": 13
@@ -4352,7 +4352,7 @@
         "subclasses": [
             {
                 "index": "fiend",
-                "name": "Fiend",
+                "name": "O Corruptor",
                 "url": "/api/subclasses/fiend"
             }
         ],
@@ -4360,44 +4360,44 @@
             "level": 1,
             "spellcasting_ability": {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "Você conhece duas dificuldades da sua escolha na lista de feitiços do bloqueio de guerra. Você aprende outras viagens de bloqueio de guerra de sua escolha em níveis mais altos, conforme mostrado na coluna de Lavagens conhecidas da tabela de Bruxos."
+                        "Você conhece dois truques, à sua escolha, da lista de magias de bruxo."
                     ]
                 },
                 {
-                    "name": "Spell Slots",
+                    "name": "Espaços de Magia",
                     "desc": [
-                        "A tabela de Bruxo mostra quantos slots de feitiço você tem. A tabela mostra também qual é o nível dessas faixas horárias; todos os seus slots de feitiços são do mesmo nível. Para lançar um dos seus feitiços de bloqueio de guerra de nível 1 ou superior, você deve gastar um slot de feitiço. Você recupera todos os slots ortográficos gastos ao terminar um descanso curto ou longo.",
-                        "Por exemplo, quando você é do quinto nível, há dois slots de feitiço de nível 3. Para lançar o trovão de 1 nível, você deve gastar um desses slots, e usá-lo como um feitiço de 3 níveis."
+                        "A tabela O Bruxo mostra quantos espaços de magia você possui. A tabela também mostra qual o nível desses espaços; todos os seus espaços de magia são do mesmo nível. Para conjurar uma magia de bruxo de 1° nível ou superior, você deve gastar uma espaço de magia. Você recobra todos os espaços de magia gastos quando você completa um descanso curto ou longo.",
+                        "Por exemplo, quando você atingir o 5° nível, você terá dois espaços de magia de 3° nível. Para conjurar a magia de 1° nível raio de bruxa, você deve gastar um desses espaços e você a conjura como uma magia de 3° nível."
                     ]
                 },
                 {
-                    "name": "Feitiços conhecidos de primeiro nível e superiores",
+                    "name": "Magias conhecidas de 1° nível e superiores",
                     "desc": [
-                        "No primeiro nível, você conhece dois feitiços de nível 1 de sua escolha na lista de feitiços de bloqueio de guerra.",
-                        "A coluna dos Feitiços conhecidos da tabela do Warlock mostra quando você aprende mais feitiços de bloqueio de guerra da sua escolha do primeiro nível e superior. ",
-                        "Um feitiço escolhido deve ser de nível não superior ao que é mostrado na coluna de Nível do Espaço da tabela para o seu nível. Quando você atinge o 6° nível, por exemplo, você aprende um novo feitiço de bloco, que pode ser de nível 1, 2 ou 3.",
-                        "Além disso, quando você ganha um nível nesta aula, você pode escolher um dos feitiços de bloqueio de guerra que você conhece e substituí-lo por outro feitiço da lista de feitiços de bloqueio de guerra, que também deve ser de um nível para o qual você tem slots de ortografia."
+                        "No 1° nível, você conhece duas magias de 1° nível, à sua escolha da lista de magias de bruxo.",
+                        "A coluna Magias Conhecidas na tabela O Bruxo mostra quando você aprende mais magias de bruxo, à sua escolha, de 1° nível ou superior. ",
+                        "Cada uma dessas magias deve ser de um nível a que você tenha acesso, como mostrado na tabela na coluna de Nível de Magia para o seu nível. Quando você alcança o 6° nível, por exemplo, você aprende uma nova magia de bruxo, que pode ser de 1°, 2° ou 3° nível.",
+                        "Além disso, quando você adquire um nível nessa classe, você pode escolher uma magia de bruxo que você conheça e substituí-la por outra magia da lista de magias de bruxo, que também deve ser de um nível ao qual você tenha espaços de magia."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "Charisma é sua habilidade de ortografia para o seu feitiço de guerra, então você usa seu Charisma sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador Charisma ao definir o disparo DC para um feitiço de guerra que você lançou e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + o seu modificador Charisma.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de Charisma."
+                        "Sua habilidade de conjuração é Carisma para suas magias de bruxo, portanto, você usa seu Carisma sempre que alguma magia se referir à sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Carisma para definir a CD dos testes de resistência para as magias de bruxo que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + o seu modificador Charisma.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Charisma."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar o foco arcano como foco de feitiço para seus feitiços de bloqueio de guerra."
+                        "Você pode usar um foco arcano como foco de conjuração das suas magias de bruxo."
                     ]
                 }
             ]
@@ -4407,11 +4407,11 @@
     },
     {
         "index": "wizard",
-        "name": "Assistente",
+        "name": "Mago",
         "hit_die": 6,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de Arcana, História, Insight, Investigação, Medicina e Religião",
+                "desc": "Escolha dois entre Arcanismo, História, Intuição, Investigação, Medicina e Religião",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -4421,7 +4421,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -4429,7 +4429,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -4437,7 +4437,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -4472,7 +4472,7 @@
         "proficiencies": [
             {
                 "index": "daggers",
-                "name": "Daggers",
+                "name": "Adagas",
                 "url": "/api/proficiencies/daggers"
             },
             {
@@ -4482,27 +4482,27 @@
             },
             {
                 "index": "slings",
-                "name": "Costuradas",
+                "name": "Fundas",
                 "url": "/api/proficiencies/slings"
             },
             {
                 "index": "quarterstaffs",
-                "name": "Quartéis",
+                "name": "Bordões",
                 "url": "/api/proficiencies/quarterstaffs"
             },
             {
                 "index": "crossbows-light",
-                "name": "Besteiros, claro",
+                "name": "Bestas Leves",
                 "url": "/api/proficiencies/crossbows-light"
             },
             {
                 "index": "saving-throw-int",
-                "name": "Salvando Throw: INT",
+                "name": "Teste de Resistência: INT",
                 "url": "/api/proficiencies/saving-throw-int"
             },
             {
                 "index": "saving-throw-wis",
-                "name": "Salvando Throw: WIS",
+                "name": "Teste de Resistência: SAB",
                 "url": "/api/proficiencies/saving-throw-wis"
             }
         ],
@@ -4514,7 +4514,7 @@
             },
             {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             }
         ],
@@ -4522,7 +4522,7 @@
             {
                 "equipment": {
                     "index": "spellbook",
-                    "name": "Spellbook",
+                    "name": "Grimório",
                     "url": "/api/equipment/spellbook"
                 },
                 "quantity": 1
@@ -4530,7 +4530,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) um quarto-equipe ou (b) um punhal",
+                "desc": "(a) um bordão ou (b) uma adaga",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -4541,7 +4541,7 @@
                             "count": 1,
                             "of": {
                                 "index": "quarterstaff",
-                                "name": "Bastão",
+                                "name": "Bordão",
                                 "url": "/api/equipment/quarterstaff"
                             }
                         },
@@ -4550,7 +4550,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dagger",
-                                "name": "Dagger",
+                                "name": "Adaga",
                                 "url": "/api/equipment/dagger"
                             }
                         }
@@ -4569,21 +4569,21 @@
                             "count": 1,
                             "of": {
                                 "index": "component-pouch",
-                                "name": "Component pouch",
+                                "name": "Bolsa de Componentes",
                                 "url": "/api/equipment/component-pouch"
                             }
                         },
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "foco arcano",
+                                "desc": "Foco Arcano",
                                 "choose": 1,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "arcane-foci",
-                                        "name": "Arcane Foci",
+                                        "name": "Foco Arcano",
                                         "url": "/api/equipment-categories/arcane-foci"
                                     }
                                 }
@@ -4593,7 +4593,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um estudioso ou (b) pacote de um explorador",
+                "desc": "(a) pacote de estudioso ou (b) pacote de explorador",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -4604,7 +4604,7 @@
                             "count": 1,
                             "of": {
                                 "index": "scholars-pack",
-                                "name": "Pacote do Estudante",
+                                "name": "Pacote de Estudioso",
                                 "url": "/api/equipment/scholars-pack"
                             }
                         },
@@ -4651,44 +4651,44 @@
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "No primeiro nível, você sabe três músicas de sua escolha a partir da lista de feitiços do assistente. Você aprende outras viagens de assistente da sua escolha em níveis mais altos, conforme mostrado na coluna do Mago Conhecida da tabela do Assistente."
+                        "A partir do 1º nível, você conhece três truques à sua escolha da lista de magias de mago. Você aprende truques adicionais conforme avança de nível."
                     ]
                 },
                 {
-                    "name": "Spellbook",
+                    "name": "Grimório",
                     "desc": [
-                        "No primeiro nível, você tem um livro de feitiços contendo seis feitiços de assistente de nível 1 à sua escolha. Seu livro de feitiços é o repositório do assistente que você conhece, exceto suas viagens, que são consertadas na sua mente."
+                        "No 1º nível, você possui um grimório contendo seis magias de mago de 1º nível, à sua escolha. Um grimório não contém truques."
                     ]
                 },
                 {
-                    "name": "Preparando e transmitindo Feitiços",
+                    "name": "Preparando e conjurando magias",
                     "desc": [
-                        "A tabela do Assistente mostra quantos slots de feitiço você precisa para lançar os feitiços de primeiro nível e superior. Para lançar um desses feitiços, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Você prepara a lista de feitiços de assistente que estão disponíveis para você transmitir. Para fazer isso, escolha uma série de feitiços de assistente em seu livro de feitiços igual ao seu modificador de Inteligência + seu nível de assistente (mínimo de um feitiço). Os feitiços devem ser de um nível para o qual você tem slots de magia.",
-                        "Por exemplo, se você for um assistente de terceiro nível, você tem quatro níveis e dois slots de feitiço de dois níveis. Com uma Inteligência de 16, sua lista de feitiços preparados pode incluir seis feitiços de primeiro ou segundo nível, em qualquer combinação escolhida pelo livro de feitiços. Se você preparar o Míssil mágico de primeiro nível, você pode lançá-lo usando um nível 1 ou um slot de segundo nível. Transmitir o feitiço não o remove da sua lista de feitiços preparados.",
-                        "Você pode alterar sua lista de feitiços preparados quando terminar um longo descanso. Preparando uma nova lista de feitiços do assistente requer tempo gasto estudando seu livro de feitiços e memorizando os encantamentos e gestos que você deve fazer para lançar o feitiço: pelo menos 1 minuto por nível de feitiço para cada feitiço em sua lista."
+                        "A tabela O Mago mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa usar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.",
+                        "Você prepara a lista de magias de mago que estarão disponíveis para serem conjuradas. Para tanto, você escolhe um número de magias de mago de seu grimório igual ao seu modificador de Inteligência + seu nível de mago (mínimo de uma magia). As magias precisam ser de um nível que você tenha espaços de magia.",
+                        "Por exemplo, se você é um mago de 3º nível, você possui 4 espaços de magia de 1º nível e 2 espaços de magia de 2º nível. Com Inteligência 16, sua lista de magias preparadas pode incluir seis magias de 1º e 2º nível de seu grimório, em qualquer combinação. Se você preparar a magia de 1º nível mísseis mágicos, você poderá conjurá-la utilizando um espaço de 1º ou 2º nível de magia. Conjurar a magia não a remove de sua lista de magias preparadas.",
+                        "Você pode mudar sua lista de magias preparadas quando terminar um descanso longo. Preparar uma nova lista de magias de mago requer que você gaste um tempo estudando seu grimório e memorizando as palavras e gestos, para efetivamente conjurar a magia: ao menos 1 minuto por nível de magia para cada magia da sua lista."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "Inteligência é sua habilidade de magia para seus feitiços de assistente, uma vez que você aprende seus feitiços através de um estudo e uma memorização dedicados. Você usa a sua Inteligência sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador de Inteligência ao definir o jogo de save DC para um feitiço de mago que você lança, e ao fazer um ataque rolar com um.",
-                        "Feitiço economiza DC = 8 + seu bônus de proficiência + seu modificador de Inteligência.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de inteligência."
+                        "Inteligência é a sua habilidade para você conjurar suas magias de mago, pois os magos aprendem novas magias através de estudo e memorização. Você usa sua Inteligência sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Inteligência para definir a CD dos testes de resistência para as magias de mago que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + seu modificador de Inteligência.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de inteligência."
                     ]
                 },
                 {
-                    "name": "Fundição Ritual",
+                    "name": "Conjuração de Ritual",
                     "desc": [
-                        "Você pode lançar um feitiço de assistente como ritual se o feitiço tiver a etiqueta de ritual e você terá a magia na sua magia. Você não precisa estar com a magia preparada."
+                        "Você pode conjurar qualquer magia de mago como um ritual se ela possuir o descritor ritual, desde que a possua em seu grimório. Você não precisa ter essa magia preparada."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode utilizar um foco arcano como foco de feitiço para seus feitiços de assistente."
+                        "Você pode usar um foco arcano como foco de conjuração das suas magias de mago."
                     ]
                 }
             ]
