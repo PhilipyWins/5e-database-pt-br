@@ -3,80 +3,80 @@
         "index": "ammunition",
         "name": "Munição",
         "desc": [
-            "Você pode usar uma arma que possui a propriedade de munição para fazer um ataque de longo alcance somente se você tiver munições para disparar da arma. Cada vez que você atacar com a arma, você gasta um pedaço de munição. Desenho das munições de uma aljava, caso ou outro contêiner faz parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão).",
-            "No final da batalha, você pode recuperar metade das suas munições gastas demorando um minuto para procurar no campo de batalha. Se você usar uma arma que possui a propriedade de munição para fazer um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja \"Armas Improvisadas\" mais tarde na seção). Uma estilingue deve ser carregada para causar qualquer dano quando utilizada desta forma."
+            "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância, apenas se possuir munição para disparar a arma. Cada vez que você atacar com a arma, você gasta uma peça de munição. Sacar a munição de uma aljava, bolsa, ou outro recipiente faz parte do ataque.",
+            "No fim da batalha, você pode recuperar metade de sua munição gasta, se tiver um minuto para procurar pelo campo de batalha. Recarregar uma arma de uma mão requer uma mão livre."
         ],
         "url": "/api/weapon-properties/ammunition"
     },
     {
         "index": "finesse",
-        "name": "Fino",
+        "name": "Acuidade",
         "desc": [
-            "Ao fazer um ataque com uma arma do fino, você usa sua escolha do modificador de Força ou Agilidade para o ataque e acerto de dano. Você deve usar o mesmo modificador para as duas rolagens."
+            " Quando realizar um ataque com uma arma com a propriedade acuidade, você pode escolher usar seu modificador de Força ou de Destreza para realizar a jogada de ataque e de dano. Você precisa usar o mesmo modificador para ambas as jogadas, ataque e dano."
         ],
         "url": "/api/weapon-properties/finesse"
     },
     {
         "index": "heavy",
-        "name": "Pesado",
+        "name": "Pesada",
         "desc": [
-            "Criaturas pequenas têm desvantagem em rolagens de ataque com armas pesadas. O tamanho de uma arma pesada e a massa tornam-na demasiado grande para uma criatura pequena poder ser utilizada de forma eficaz."
+            "Criaturas pequenas têm desvantagem nas jogadas de ataque com estas armas. O tamanho e o peso de uma arma pesada tornam-na muito grande para ser empunhada eficientemente por criaturas Pequenas."
         ],
         "url": "/api/weapon-properties/heavy"
     },
     {
         "index": "light",
-        "name": "Fino",
+        "name": "Leve",
         "desc": [
-            "Uma arma leve é pequena e fácil de manusear, tornando-se ideal para uso na luta com duas armas."
+            "Uma arma leve é pequena e de fácil manuseio, tornando-a ideal para usar quando você está combatendo com duas armas."
         ],
         "url": "/api/weapon-properties/light"
     },
     {
         "index": "loading",
-        "name": "Carregando...",
+        "name": "Recarga",
         "desc": [
-            "Por causa do tempo necessário para carregar esta arma, você pode disparar apenas um pedaço de munição quando usar uma ação, ação bônus ou reação ao dispará-la, independente do número de ataques que você normalmente faça."
+            "Devido o tempo necessário para recarregar essa arma, você pode disparar apenas uma peça de munição da arma quando usa uma ação, ação bônus, ou reação para disparar, não importando quantos ataques você possua."
         ],
         "url": "/api/weapon-properties/loading"
     },
     {
-        "index": "monk",
-        "name": "Monge",
+        "index": "fling",
+        "name": "Arremesso",
         "desc": [
-            "Monges ganham vários benefícios enquanto desarmados ou empunhando apenas armas de monges enquanto não usam armaduras ou escudos."
+            " Se uma arma possuir a propriedade arremesso, você pode arremessar a arma para realizar um ataque à distância. Se essa arma for uma arma de ataque corpo-a-corpo, você usa o mesmo modificador de habilidade para as jogadas de ataque e dano que usaria para realizar um ataque corpo-a-corpo com a arma. Por exemplo, se você arremessar uma machadinha, ele usa seu modificador de Força, mas se arremessar uma adaga, você pode usar tanto seu modificador de Força quanto o de Destreza, pois a adaga possui a propriedade acuidade."
         ],
-        "url": "/api/weapon-properties/monk"
+        "url": "/api/weapon-properties/fling"
     },
     {
         "index": "reach",
-        "name": "Atingir",
+        "name": "Alcance",
         "desc": [
-            "Esta arma adiciona 5 pés ao seu alcance quando você ataca com ela, bem como ao determinar seu alcance para ataques de oportunidade com ela."
+            "Essa arma adiciona 1,5 metro ao seu alcance quando você a usa para atacar. Essa propriedade também determina seu alcance ao realizar ataques de oportunidade com uma arma de alcance."
         ],
         "url": "/api/weapon-properties/reach"
     },
     {
         "index": "special",
-        "name": "Promoções",
+        "name": "Especial",
         "desc": [
-            "Uma arma com a propriedade especial tem regras incomuns que regem o seu uso, explicada na descrição da arma (veja \"Armas Especiais\" mais tarde nesta seção)."
+            " Uma arma com a propriedade especial possui regras diferenciadas que detalham seu uso, explicado na descrição da arma"
         ],
         "url": "/api/weapon-properties/special"
     },
     {
         "index": "thrown",
-        "name": "Jogado",
+        "name": "Distância",
         "desc": [
-            "Se uma arma tiver a propriedade do lançamento, você pode lançar a arma para fazer um ataque à distância. Se a arma é uma arma branca você usa o mesmo modificador de habilidades para o rolamento de ataque e de dano que você usaria para um ataque corpo a corpo com a arma. Por exemplo, se você jogar uma handaxe, você usará sua força, mas se você jogar um punhal, você pode usar ou Força ou Agilidade, já que o punhal tem a propriedade fina."
+            "Uma arma que pode ser usada para realizar ataques à distância possui a distância mostrada entre parênteses após a propriedade munição ou arremesso. A distância lista dois números. O primeiro é a distância normal da arma, o segundo indica a distância máxima da arma, ambos em metros. Quando atacar um alvo que está além da distância normal da arma, você possui desvantagem na jogada de ataque. Você não pode atacar um alvo que esteja além da distância máxima da arma."
         ],
         "url": "/api/weapon-properties/thrown"
     },
     {
         "index": "two-handed",
-        "name": "Dois-Mãos",
+        "name": "Duas Mãos",
         "desc": [
-            "Esta arma requer duas mãos quando você ataca com ela."
+            "Essa arma requer as duas mãos para ser usada. Essa propriedade só é relevante quando você ataca com a arma, não enquanto apenas a segura."
         ],
         "url": "/api/weapon-properties/two-handed"
     },
@@ -84,7 +84,7 @@
         "index": "versatile",
         "name": "Versátil",
         "desc": [
-            "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano entre parênteses aparece com a propriedade- o dano quando a arma é usada com duas mãos para fazer um ataque corpo a corpo."
+            "Essa arma pode ser usada com uma ou duas mãos. Um valor de dano aparece entre parênteses com a propriedade – é o dano da arma quando usada com as duas mãos para efetuar ataques corpo-a-corpo."
         ],
         "url": "/api/weapon-properties/versatile"
     }
