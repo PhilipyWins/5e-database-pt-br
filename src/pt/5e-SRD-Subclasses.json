@@ -6,8 +6,8 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Berserker",
-        "subclass_flavor": "Caminho do Furioso",
+        "name": "Caminho do Furioso",
+        "subclass_flavor": "Caminhos Primitivos",
         "desc": [
             "Para alguns bárbaros, a fúria é um meio para um fim, esse fim é a violência. O Caminho do Furioso é um caminho de fúria livre, entumecido em sangue. A medida que você entra na fúria de um furioso, você vibra no caos da batalha, despreocupado com a sua própria saúde ou bem-estar."
         ],
@@ -22,7 +22,7 @@
             "url": "/api/classes/fighter"
         },
         "name": "Campeão",
-        "subclass_flavor": "Arquétipo Marcial",
+        "subclass_flavor": "Arquétipos Marciais",
         "desc": [
             "O arquétipo Campeão foca no desenvolvimento da pura força física acompanhada por uma perfeição mortal. Aqueles que trilham o caminho desse arquétipo combinam rigorosos treinamentos com excelência física para desferir golpes devastadores."
         ],
@@ -37,7 +37,7 @@
             "url": "/api/classes/paladin"
         },
         "name": "Juramento de Devoção",
-        "subclass_flavor": "Juramento Sagrado",
+        "subclass_flavor": "Juramentos Sagrados",
         "desc": [
             "O Juramento de Devoção vincula um paladino aos mais sublimes ideias de justiça, virtude e ordem. Algumas vezes chamados de campeões, cavaleiros brancos ou guerreiros sagrados, esses paladinos atendem o ideal do cavaleiro na armadura brilhante, agindo com honra em busca de justiça e do bem maior. Eles se agarram aos mais altos padrões de conduta, e alguns, para o melhor ou para o pior, consideram que o resto do mundo deve ter os mesmos padrões. Muitos dos que fazem esse juramento são devotados aos deuses da lei e do bem e usam os dogmas de seus deuses como medida de sua devoção. Eles consideram os anjos – os perfeitos servos do bem – como seus ideais e incorporam imagens de asas angelicais em seus elmos ou brasões."
         ],
@@ -204,7 +204,7 @@
             "url": "/api/classes/sorcerer"
         },
         "name": "Linhagem Dracônica",
-        "subclass_flavor": "Origem de Feitiçaria",
+        "subclass_flavor": "Origens de Feitiçaria",
         "desc": [
             "Sua magia inata vem de magia dracônica que foi misturada ao seu sangue ou ao sangue dos seus ancestrais. Geralmente, os feiticeiros com essa origem traçam sua descendência de poderosos feiticeiros da antiguidade que fizeram uma barganha com um dragão ou que tenham um dragão como parente. Algumas dessas linhagens estão bem definidas no mundo, mas a maioria é obscura. Qualquer feiticeiro pode ser o primeiro de uma nova linhagem, como resultado de um pacto ou de outra circunstância excepcional."
         ],
@@ -416,7 +416,7 @@
             "url": "/api/classes/druid"
         },
         "name": "Círculo da Terra",
-        "subclass_flavor": "Círculo Druídico",
+        "subclass_flavor": "Círculos Druídicos",
         "desc": [
             "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
@@ -1609,7 +1609,7 @@
             "url": "/api/classes/cleric"
         },
         "name": "Domínio da Vida",
-        "subclass_flavor": "Domínio Divino",
+        "subclass_flavor": "Domínios Divinos",
         "desc": [
             "O domínio da vida foca na vívida energia positiva – uma das forças fundamentais do universo – que sustenta toda a vida. Os deuses da vida promovem a vitalidade e a saúde, curando os doentes e feridos, cuidando dos necessitados, além de afastar as forças da morte e hordas de mortos-vivos. Quase toda divindade não maligna pode alegar influência sobre esse domínio."
         ],
@@ -1761,7 +1761,7 @@
             "url": "/api/classes/bard"
         },
         "name": "Colégio do Conhecimento",
-        "subclass_flavor": "Inspiração de Bardo",
+        "subclass_flavor": "Inspirações de Bardo",
         "desc": [
             "Bardos do Colégio do Conhecimento conhecem algo sobre a maioria das coisas, coletando pedaços de conhecimento de fontes tão diversas quanto tomos eruditos ou contos de camponeses. Quer seja cantando baladas populares em taverna, quer seja elaborando composições para cortes reais, esses bardos usam seus dons para manter a audiência enfeitiçada. Quando os aplausos acabam, os membros da audiência vão estar se questionando se tudo que eles creem é verdade, desde sua crença no sacerdócio do templo local até sua lealdade ao rei. A fidelidade desses bardos reside na busca pela beleza e verdade, não na lealdade a um monarca ou em seguir os dogmas de uma divindade. Um nobre que mantem um bardo desses como seu arauto ou conselheiro, sabe que o bardo prefere ser honesto que político. Os membros do colégio se reúnem em bibliotecas e, as vezes, em faculdades de verdade, completas com salas de aula e dormitórios, para partilhar seu conhecimento uns com os outros. Eles também se encontram em festivais ou em assuntos de estado, onde eles podem expor corrupção, desvendar mentiras e zombar da superestima de figuras de autoridade."
         ],
