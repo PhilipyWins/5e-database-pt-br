@@ -7,9 +7,9 @@
             "url": "/api/classes/barbarian"
         },
         "name": "Berserker",
-        "subclass_flavor": "Caminho Primário",
+        "subclass_flavor": "Caminho do Furioso",
         "desc": [
-            "Para alguns bárbaros, a raiva é um meio para um fim - que acaba por ser violência. O caminho do Berserker é um caminho de fúria desenfreada, lambida de sangue. À medida que você entra na fúria do berserker, você empolga no caos da batalha, indiferente à sua saúde ou bem-estar."
+            "Para alguns bárbaros, a fúria é um meio para um fim, esse fim é a violência. O Caminho do Furioso é um caminho de fúria livre, entumecido em sangue. A medida que você entra na fúria de um furioso, você vibra no caos da batalha, despreocupado com a sua própria saúde ou bem-estar."
         ],
         "subclass_levels": "/api/subclasses/berserker/níveis",
         "url": "/api/subclasses/berserker"
@@ -24,7 +24,7 @@
         "name": "Campeão",
         "subclass_flavor": "Arquétipo Marcial",
         "desc": [
-            "O arquétipo Campeão foca no desenvolvimento do poder físico bruto afinado à perfeição mortal. Aqueles que se moderam nesse arquétipo combinam treinamento rigoroso com excelência física para enfrentar golpes devastadores."
+            "O arquétipo Campeão foca no desenvolvimento da pura força física acompanhada por uma perfeição mortal. Aqueles que trilham o caminho desse arquétipo combinam rigorosos treinamentos com excelência física para desferir golpes devastadores."
         ],
         "subclass_levels": "/api/subclasses/champion/level",
         "url": "/api/subclasses/champion"
@@ -36,10 +36,10 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Devoção",
-        "subclass_flavor": "Sacred Oath",
+        "name": "Juramento de Devoção",
+        "subclass_flavor": "Juramento Sagrado",
         "desc": [
-            "O Juramento da Morte da Devoção vincula um paladino aos ideais mais solteiros de justiça, virtude e ordem. Às vezes chamados cavaliers, cavaleiros brancos ou guerreiros sagrados, esses paladinos encontram o ideal do cavaleiro em armadura brilhante, agindo com honra na busca da justiça e do bem maior. Respeitam os mais elevados padrões de conduta e alguns, para melhor ou para pior, mantêm o resto do mundo com os mesmos padrões. Muitos dos que juram este juramento são dedicados aos deuses da lei e do bem e usam os princípios dos seus deuses como medida da sua dedicação. Eles detêm anjos - os servos perfeitos de bem - como os seus ideais, e incorporam imagens de asas angélicas nos seus capacetes ou cascos de armas."
+            "O Juramento de Devoção vincula um paladino aos mais sublimes ideias de justiça, virtude e ordem. Algumas vezes chamados de campeões, cavaleiros brancos ou guerreiros sagrados, esses paladinos atendem o ideal do cavaleiro na armadura brilhante, agindo com honra em busca de justiça e do bem maior. Eles se agarram aos mais altos padrões de conduta, e alguns, para o melhor ou para o pior, consideram que o resto do mundo deve ter os mesmos padrões. Muitos dos que fazem esse juramento são devotados aos deuses da lei e do bem e usam os dogmas de seus deuses como medida de sua devoção. Eles consideram os anjos – os perfeitos servos do bem – como seus ideais e incorporam imagens de asas angelicais em seus elmos ou brasões."
         ],
         "spells": [
             {
@@ -53,7 +53,7 @@
                 ],
                 "spell": {
                     "index": "protection-from-evil-and-good",
-                    "name": "Proteção contra o Mal e o Bem",
+                    "name": "Proteção contra o bem e mal",
                     "url": "/api/spells/protection-from-evil-and-good"
                 }
             },
@@ -83,7 +83,7 @@
                 ],
                 "spell": {
                     "index": "lesser-restoration",
-                    "name": "Restauração Jovem",
+                    "name": "Restauração menor",
                     "url": "/api/spells/lesser-restoration"
                 }
             },
@@ -113,7 +113,7 @@
                 ],
                 "spell": {
                     "index": "beacon-of-hope",
-                    "name": "Farol da Esperança",
+                    "name": "Sinal de esperança",
                     "url": "/api/spells/beacon-of-hope"
                 }
             },
@@ -128,7 +128,7 @@
                 ],
                 "spell": {
                     "index": "dispel-magic",
-                    "name": "Dissipar a Magia",
+                    "name": "Dissipar Magia",
                     "url": "/api/spells/dispel-magic"
                 }
             },
@@ -143,7 +143,7 @@
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -173,7 +173,7 @@
                 ],
                 "spell": {
                     "index": "commune",
-                    "name": "Comuna",
+                    "name": "Comunhão",
                     "url": "/api/spells/commune"
                 }
             },
@@ -188,7 +188,7 @@
                 ],
                 "spell": {
                     "index": "flame-strike",
-                    "name": "Ataque Flamejante",
+                    "name": "Coluna de chamas",
                     "url": "/api/spells/flame-strike"
                 }
             }
@@ -200,13 +200,13 @@
         "index": "draconic",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Draconic",
-        "subclass_flavor": "Origem Feiticeira",
+        "name": "Linhagem Dracônica",
+        "subclass_flavor": "Origem de Feitiçaria",
         "desc": [
-            "Sua magia inata vem da magia dracônica que foi fundida com seu sangue ou com o de seus antepassados. Mais frequentemente, feiticeiros com esta origem travam a sua descida até um poderoso feiticeiro dos tempos antigos que fizeram um negócio com um dragão ou que poderiam até ter reivindicado um progenitor de dragão. Algumas destas linhas sanguíneas estão bem estabelecidas no mundo, mas a maior parte delas são obscuras. Qualquer sorriso pode ser o primeiro de uma nova linha de sangue, em consequência de um pacto ou de qualquer outra circunstância excepcional."
+            "Sua magia inata vem de magia dracônica que foi misturada ao seu sangue ou ao sangue dos seus ancestrais. Geralmente, os feiticeiros com essa origem traçam sua descendência de poderosos feiticeiros da antiguidade que fizeram uma barganha com um dragão ou que tenham um dragão como parente. Algumas dessas linhagens estão bem definidas no mundo, mas a maioria é obscura. Qualquer feiticeiro pode ser o primeiro de uma nova linhagem, como resultado de um pacto ou de outra circunstância excepcional."
         ],
         "subclass_levels": "/api/subclasses/draconic/level",
         "url": "/api/subclasses/draconic"
@@ -215,13 +215,13 @@
         "index": "evocation",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
-        "name": "Evocação",
-        "subclass_flavor": "Tradição Arcana",
+        "name": "Escola de Evocação",
+        "subclass_flavor": "Tradições Arcanas",
         "desc": [
-            "Você foca seu estudo em magia que cria poderosos efeitos elementais como frio amargo, chamas ardentes, rolamento trovejante, iluminação estonteante e ácido queimado. Alguns evocadores encontram emprego em forças militares, servindo como artilharia para explodir exércitos inimigos de longe. Outros usam o seu poder espetacular para proteger os fracos, enquanto outros procuram o seu próprio ganho como bandidos, aventureiros ou aspirantes a tiranos."
+            "Você foca seu estudo para criar poderosos efeitos elementais, como um frio cortante, uma chama intensa, um trovão estrondoso, um relâmpago devastador e ácido ardente. Alguns evocadores encontram emprego nas forças militares, servindo como artilharia para explodir fileiras inimigas de longe. Outros usam seu poder espetacular para proteger os fracos, enquanto alguns buscam o ganho próprio como bandidos, aventureiros ou aspirantes de tiranos."
         ],
         "subclass_levels": "/api/subclasses/evocação/níveis",
         "url": "/api/subclasses/evocation"
@@ -230,13 +230,13 @@
         "index": "fiend",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Fiend",
-        "subclass_flavor": "Patrono de Outromundo",
+        "name": "O Corruptor",
+        "subclass_flavor": "Patronos Transcendentais",
         "desc": [
-            "Você fez um pacto com um fogo de aviões de existência, um ser cujos objectivos são maus, mesmo que se lute contra esses objectivos. Esses seres desejam a corrupção ou a destruição de todas as coisas, em última análise, incluindo você. As lareiras poderosas o suficiente para forjar um pacto incluem senhores do demônio como Demogorgon, Orcus, Fraz'Urb-luu e Baphomet; arqueiros como Asmodeus, Dispater, Mephistopheles, e Crlia; poço lança e balões que são especialmente poderosos; e ultólogos e outros senhores dos yugolotes."
+            "Você realizou um pacto com um corruptor dos planos de existência inferiores, um ser cujos objetivos são o mal, mesmo se você se opor a esses objetivos. Tais seres desejam corromper ou destruir todas as coisas, em última análise, até mesmo você. Corruptores poderosos o bastante para forjar pactos incluem lordes demônios como Demogorgon, Orcus, Fraz’Urb-luu e Bafomé; arquidiabos como Asmodeus, Dispater, Mefistófeles e Belial; senhores das profundezas e balors que sejam excepcionalmente poderosos; e ultraloths e outros senhores dos yugoloths."
         ],
         "spells": [
             {
@@ -244,13 +244,13 @@
                     {
                         "index": "warlock-1",
                         "type": "level",
-                        "name": "Warlock 1",
+                        "name": "Bruxo 1",
                         "url": "/api/classes/warlock/levels/1"
                     }
                 ],
                 "spell": {
                     "index": "burning-hands",
-                    "name": "Mãos Flamejantes",
+                    "name": "Mãos flamejantes",
                     "url": "/api/spells/burning-hands"
                 }
             },
@@ -259,7 +259,7 @@
                     {
                         "index": "warlock-1",
                         "type": "level",
-                        "name": "Warlock 1",
+                        "name": "Bruxo 1",
                         "url": "/api/classes/warlock/levels/1"
                     }
                 ],
@@ -274,13 +274,13 @@
                     {
                         "index": "warlock-3",
                         "type": "level",
-                        "name": "Warlock 3",
+                        "name": "Bruxo 3",
                         "url": "/api/classes/warlock/levels/3"
                     }
                 ],
                 "spell": {
                     "index": "blindness-deafness",
-                    "name": "Cebola/surdez",
+                    "name": "Cegueira/surdez",
                     "url": "/api/spells/blindness-deafness"
                 }
             },
@@ -289,13 +289,13 @@
                     {
                         "index": "warlock-3",
                         "type": "level",
-                        "name": "Warlock 3",
+                        "name": "Bruxo 3",
                         "url": "/api/classes/warlock/levels/3"
                     }
                 ],
                 "spell": {
                     "index": "scorching-ray",
-                    "name": "Arraia escaldante",
+                    "name": "Raio ardente",
                     "url": "/api/spells/scorching-ray"
                 }
             },
@@ -304,7 +304,7 @@
                     {
                         "index": "warlock-5",
                         "type": "level",
-                        "name": "Warlock 5",
+                        "name": "Bruxo 5",
                         "url": "/api/classes/warlock/levels/5"
                     }
                 ],
@@ -319,13 +319,13 @@
                     {
                         "index": "warlock-5",
                         "type": "level",
-                        "name": "Warlock 5",
+                        "name": "Bruxo 5",
                         "url": "/api/classes/warlock/levels/5"
                     }
                 ],
                 "spell": {
                     "index": "stinking-cloud",
-                    "name": "Nuvem Stinking",
+                    "name": "Névoa fétida",
                     "url": "/api/spells/stinking-cloud"
                 }
             },
@@ -334,13 +334,13 @@
                     {
                         "index": "warlock-7",
                         "type": "level",
-                        "name": "Warlock 7",
+                        "name": "Bruxo 7",
                         "url": "/api/classes/warlock/levels/7"
                     }
                 ],
                 "spell": {
                     "index": "fire-shield",
-                    "name": "Escudo de Fogo",
+                    "name": "Escudo de fogo",
                     "url": "/api/spells/fire-shield"
                 }
             },
@@ -349,13 +349,13 @@
                     {
                         "index": "warlock-7",
                         "type": "level",
-                        "name": "Warlock 7",
+                        "name": "Bruxo 7",
                         "url": "/api/classes/warlock/levels/7"
                     }
                 ],
                 "spell": {
                     "index": "wall-of-fire",
-                    "name": "Parede de Fogo",
+                    "name": "Muralha de fogo",
                     "url": "/api/spells/wall-of-fire"
                 }
             },
@@ -364,13 +364,13 @@
                     {
                         "index": "warlock-9",
                         "type": "level",
-                        "name": "Warlock 9",
+                        "name": "Bruxo 9",
                         "url": "/api/classes/warlock/levels/9"
                     }
                 ],
                 "spell": {
                     "index": "flame-strike",
-                    "name": "Ataque Flamejante",
+                    "name": "Coluna de chamas",
                     "url": "/api/spells/flame-strike"
                 }
             },
@@ -379,13 +379,13 @@
                     {
                         "index": "warlock-9",
                         "type": "level",
-                        "name": "Warlock 9",
+                        "name": "Bruxo 9",
                         "url": "/api/classes/warlock/levels/9"
                     }
                 ],
                 "spell": {
                     "index": "hallow",
-                    "name": "Ocultar",
+                    "name": "Consagrar",
                     "url": "/api/spells/hallow"
                 }
             }
@@ -397,13 +397,13 @@
         "index": "hunter",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Caçador",
-        "subclass_flavor": "Ranger Archetype",
+        "name": "Conclave do Caçador",
+        "subclass_flavor": "Conclaves de Patrulheiro",
         "desc": [
-            "Emular o arquétipo do Caçador significa aceitar o seu lugar como um baluarte entre a civilização e os terrores do deserto. Enquanto você caminha pelo caminho do Caçador, você aprende técnicas especializadas para combater as ameaças que você enfrenta. de esfregar óculos e hordas de orcs para gigantes imponentes e dragões aterradores."
+            "Alguns patrulheiros buscam dominar armas para proteger melhor a civilização dos terrores do ambiente selvagem. Membros do Conclave do Caçador aprendem técnicas especializadas de luta usadas contra as mais terríveis ameaças, desde ogros enfurecidos e hordas de orcs até enormes gigantes e dragões aterradores"
         ],
         "subclass_levels": "/api/subclasses/caçador/níveis",
         "url": "/api/subclasses/hunter"
@@ -415,10 +415,10 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Terreno",
-        "subclass_flavor": "Círculo Druida",
+        "name": "Círculo da Terra",
+        "subclass_flavor": "Círculo Druídico",
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "spells": [
             {
@@ -438,7 +438,7 @@
                 ],
                 "spell": {
                     "index": "hold-person",
-                    "name": "Manter pessoa",
+                    "name": "Imobilizar pessoa",
                     "url": "/api/spells/hold-person"
                 }
             },
@@ -459,7 +459,7 @@
                 ],
                 "spell": {
                     "index": "spike-growth",
-                    "name": "Crescimento do Espinho",
+                    "name": "Crescer espinho",
                     "url": "/api/spells/spike-growth"
                 }
             },
@@ -480,7 +480,7 @@
                 ],
                 "spell": {
                     "index": "sleet-storm",
-                    "name": "Tempestade de Geada",
+                    "name": "Tempestade de gelo",
                     "url": "/api/spells/sleet-storm"
                 }
             },
@@ -501,7 +501,7 @@
                 ],
                 "spell": {
                     "index": "slow",
-                    "name": "Devagar",
+                    "name": "Lentidão",
                     "url": "/api/spells/slow"
                 }
             },
@@ -522,7 +522,7 @@
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -564,7 +564,7 @@
                 ],
                 "spell": {
                     "index": "commune-with-nature",
-                    "name": "Comunidade com natureza",
+                    "name": "Comunhão com a natureza",
                     "url": "/api/spells/commune-with-nature"
                 }
             },
@@ -585,7 +585,7 @@
                 ],
                 "spell": {
                     "index": "cone-of-cold",
-                    "name": "Cone do Frio",
+                    "name": "Cone de frio",
                     "url": "/api/spells/cone-of-cold"
                 }
             },
@@ -606,7 +606,7 @@
                 ],
                 "spell": {
                     "index": "mirror-image",
-                    "name": "Imagem do espelhamento",
+                    "name": "Reflexos",
                     "url": "/api/spells/mirror-image"
                 }
             },
@@ -627,7 +627,7 @@
                 ],
                 "spell": {
                     "index": "misty-step",
-                    "name": "Etapa da Neblina",
+                    "name": "Passo nebuloso",
                     "url": "/api/spells/misty-step"
                 }
             },
@@ -648,7 +648,7 @@
                 ],
                 "spell": {
                     "index": "water-breathing",
-                    "name": "Respiração Aquática",
+                    "name": "Respirar na água",
                     "url": "/api/spells/water-breathing"
                 }
             },
@@ -669,7 +669,7 @@
                 ],
                 "spell": {
                     "index": "water-walk",
-                    "name": "Caminhada de Água",
+                    "name": "Andar na água",
                     "url": "/api/spells/water-walk"
                 }
             },
@@ -690,7 +690,7 @@
                 ],
                 "spell": {
                     "index": "control-water",
-                    "name": "Água de Controle",
+                    "name": "Controlar água",
                     "url": "/api/spells/control-water"
                 }
             },
@@ -711,7 +711,7 @@
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -732,7 +732,7 @@
                 ],
                 "spell": {
                     "index": "conjure-elemental",
-                    "name": "Elemento de Conjura",
+                    "name": "Conjurar elemental",
                     "url": "/api/spells/conjure-elemental"
                 }
             },
@@ -753,7 +753,7 @@
                 ],
                 "spell": {
                     "index": "scrying",
-                    "name": "Misturando",
+                    "name": "Vidência",
                     "url": "/api/spells/scrying"
                 }
             },
@@ -774,7 +774,7 @@
                 ],
                 "spell": {
                     "index": "blur",
-                    "name": "Blur",
+                    "name": "Nublar",
                     "url": "/api/spells/blur"
                 }
             },
@@ -816,7 +816,7 @@
                 ],
                 "spell": {
                     "index": "create-food-and-water",
-                    "name": "Criar Comida e Água",
+                    "name": "Criar alimentos",
                     "url": "/api/spells/create-food-and-water"
                 }
             },
@@ -837,7 +837,7 @@
                 ],
                 "spell": {
                     "index": "protection-from-energy",
-                    "name": "Proteção de Energia",
+                    "name": "Proteção contra energia",
                     "url": "/api/spells/protection-from-energy"
                 }
             },
@@ -879,7 +879,7 @@
                 ],
                 "spell": {
                     "index": "hallucinatory-terrain",
-                    "name": "Terreno alucinante",
+                    "name": "Terreno alucinógeno",
                     "url": "/api/spells/hallucinatory-terrain"
                 }
             },
@@ -900,7 +900,7 @@
                 ],
                 "spell": {
                     "index": "insect-plague",
-                    "name": "Praga de Inseto",
+                    "name": "Praga de insetos",
                     "url": "/api/spells/insect-plague"
                 }
             },
@@ -921,7 +921,7 @@
                 ],
                 "spell": {
                     "index": "wall-of-stone",
-                    "name": "Parede de Pedra",
+                    "name": "Muralha de pedra",
                     "url": "/api/spells/wall-of-stone"
                 }
             },
@@ -942,7 +942,7 @@
                 ],
                 "spell": {
                     "index": "barkskin",
-                    "name": "Pele",
+                    "name": "Pele de árvore",
                     "url": "/api/spells/barkskin"
                 }
             },
@@ -963,7 +963,7 @@
                 ],
                 "spell": {
                     "index": "spider-climb",
-                    "name": "Escalada de Aranha",
+                    "name": "Patas de aranha",
                     "url": "/api/spells/spider-climb"
                 }
             },
@@ -984,7 +984,7 @@
                 ],
                 "spell": {
                     "index": "call-lightning",
-                    "name": "Ligar Relâmpago",
+                    "name": "Convocar relâmpagos",
                     "url": "/api/spells/call-lightning"
                 }
             },
@@ -1005,7 +1005,7 @@
                 ],
                 "spell": {
                     "index": "plant-growth",
-                    "name": "Crescimento da Planta",
+                    "name": "Crescer plantas",
                     "url": "/api/spells/plant-growth"
                 }
             },
@@ -1026,7 +1026,7 @@
                 ],
                 "spell": {
                     "index": "divination",
-                    "name": "Divinação",
+                    "name": "Advinhação",
                     "url": "/api/spells/divination"
                 }
             },
@@ -1047,7 +1047,7 @@
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -1068,7 +1068,7 @@
                 ],
                 "spell": {
                     "index": "commune-with-nature",
-                    "name": "Comunidade com natureza",
+                    "name": "Comunhão com a natureza",
                     "url": "/api/spells/commune-with-nature"
                 }
             },
@@ -1089,7 +1089,7 @@
                 ],
                 "spell": {
                     "index": "tree-stride",
-                    "name": "Marcha de Árvore",
+                    "name": "Passo de árvore",
                     "url": "/api/spells/tree-stride"
                 }
             },
@@ -1104,7 +1104,7 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
@@ -1125,13 +1125,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "pass-without-trace",
-                    "name": "Passar Sem Rastreamento",
+                    "name": "Passos sem pegadas",
                     "url": "/api/spells/pass-without-trace"
                 }
             },
@@ -1146,13 +1146,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "daylight",
-                    "name": "Daylight",
+                    "name": "Luz do dia",
                     "url": "/api/spells/daylight"
                 }
             },
@@ -1167,13 +1167,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "haste",
-                    "name": "Aceleração",
+                    "name": "Velocidade",
                     "url": "/api/spells/haste"
                 }
             },
@@ -1188,13 +1188,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "divination",
-                    "name": "Divinação",
+                    "name": "Advinhação",
                     "url": "/api/spells/divination"
                 }
             },
@@ -1209,13 +1209,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação Livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -1230,7 +1230,7 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
@@ -1251,13 +1251,13 @@
                     {
                         "index": "circle-of-the-land-grassland",
                         "type": "feature",
-                        "name": "Círculo da Terra: Vovó",
+                        "name": "Círculo da Terra: Planície",
                         "url": "/api/features/circle-of-the-land-grassland"
                     }
                 ],
                 "spell": {
                     "index": "insect-plague",
-                    "name": "Praga de Inseto",
+                    "name": "Praga de insetos",
                     "url": "/api/spells/insect-plague"
                 }
             },
@@ -1278,7 +1278,7 @@
                 ],
                 "spell": {
                     "index": "spider-climb",
-                    "name": "Escalada de Aranha",
+                    "name": "Patas de aranha",
                     "url": "/api/spells/spider-climb"
                 }
             },
@@ -1299,7 +1299,7 @@
                 ],
                 "spell": {
                     "index": "spike-growth",
-                    "name": "Crescimento do Espinho",
+                    "name": "Crescer espinho",
                     "url": "/api/spells/spike-growth"
                 }
             },
@@ -1320,7 +1320,7 @@
                 ],
                 "spell": {
                     "index": "lightning-bolt",
-                    "name": "Raio Relâmpago",
+                    "name": "Relâmpago",
                     "url": "/api/spells/lightning-bolt"
                 }
             },
@@ -1341,7 +1341,7 @@
                 ],
                 "spell": {
                     "index": "meld-into-stone",
-                    "name": "Campo em Pedra",
+                    "name": "Mesclar-se as rochas",
                     "url": "/api/spells/meld-into-stone"
                 }
             },
@@ -1362,7 +1362,7 @@
                 ],
                 "spell": {
                     "index": "stone-shape",
-                    "name": "Forma de Pedra",
+                    "name": "Moldar rochas",
                     "url": "/api/spells/stone-shape"
                 }
             },
@@ -1383,7 +1383,7 @@
                 ],
                 "spell": {
                     "index": "stoneskin",
-                    "name": "Pistola",
+                    "name": "Pele de pedra",
                     "url": "/api/spells/stoneskin"
                 }
             },
@@ -1404,7 +1404,7 @@
                 ],
                 "spell": {
                     "index": "passwall",
-                    "name": "Senha",
+                    "name": "Criar passagem",
                     "url": "/api/spells/passwall"
                 }
             },
@@ -1425,7 +1425,7 @@
                 ],
                 "spell": {
                     "index": "wall-of-stone",
-                    "name": "Parede de Pedra",
+                    "name": "Muralha de pedra",
                     "url": "/api/spells/wall-of-stone"
                 }
             },
@@ -1488,7 +1488,7 @@
                 ],
                 "spell": {
                     "index": "water-walk",
-                    "name": "Caminhada de Água",
+                    "name": "Andar na água",
                     "url": "/api/spells/water-walk"
                 }
             },
@@ -1509,7 +1509,7 @@
                 ],
                 "spell": {
                     "index": "stinking-cloud",
-                    "name": "Nuvem Stinking",
+                    "name": "Névoa fétida",
                     "url": "/api/spells/stinking-cloud"
                 }
             },
@@ -1530,7 +1530,7 @@
                 ],
                 "spell": {
                     "index": "freedom-of-movement",
-                    "name": "Liberdade de movimento",
+                    "name": "Movimentação livre",
                     "url": "/api/spells/freedom-of-movement"
                 }
             },
@@ -1551,7 +1551,7 @@
                 ],
                 "spell": {
                     "index": "locate-creature",
-                    "name": "Localizar Criatura",
+                    "name": "Localizar criatura",
                     "url": "/api/spells/locate-creature"
                 }
             },
@@ -1572,7 +1572,7 @@
                 ],
                 "spell": {
                     "index": "insect-plague",
-                    "name": "Praga de Inseto",
+                    "name": "Praga de insetos",
                     "url": "/api/spells/insect-plague"
                 }
             },
@@ -1593,7 +1593,7 @@
                 ],
                 "spell": {
                     "index": "scrying",
-                    "name": "Misturando",
+                    "name": "Vidência",
                     "url": "/api/spells/scrying"
                 }
             }
@@ -1605,13 +1605,13 @@
         "index": "life",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Vida",
+        "name": "Domínio da Vida",
         "subclass_flavor": "Domínio Divino",
         "desc": [
-            "O domínio da vida foca a energia positiva vibrante - uma das forças fundamentais do universo - que sustenta toda a vida. Os deuses da vida promovem a vitalidade e a saúde através da cura dos doentes e feridos, cuidar dos que precisam e afastar as forças da morte e da morte. Quase qualquer divindade não malvada pode reivindicar influência sobre este domínio, em especial sobre as divindades agrícolas, Deuses do sol, deuses de cura ou resistência e deuses de casa e comunidade."
+            "O domínio da vida foca na vívida energia positiva – uma das forças fundamentais do universo – que sustenta toda a vida. Os deuses da vida promovem a vitalidade e a saúde, curando os doentes e feridos, cuidando dos necessitados, além de afastar as forças da morte e hordas de mortos-vivos. Quase toda divindade não maligna pode alegar influência sobre esse domínio."
         ],
         "spells": [
             {
@@ -1619,13 +1619,13 @@
                     {
                         "index": "cleric-1",
                         "type": "level",
-                        "name": "Clérico 1",
+                        "name": "Clérigo 1",
                         "url": "/api/classes/cleric/levels/1"
                     }
                 ],
                 "spell": {
                     "index": "bless",
-                    "name": "Abençoar",
+                    "name": "Benção",
                     "url": "/api/spells/bless"
                 }
             },
@@ -1634,13 +1634,13 @@
                     {
                         "index": "cleric-1",
                         "type": "level",
-                        "name": "Clérico 1",
+                        "name": "Clérigo 1",
                         "url": "/api/classes/cleric/levels/1"
                     }
                 ],
                 "spell": {
                     "index": "cure-wounds",
-                    "name": "Ferimentos na Cura",
+                    "name": "Curar feriemntos",
                     "url": "/api/spells/cure-wounds"
                 }
             },
@@ -1649,13 +1649,13 @@
                     {
                         "index": "cleric-3",
                         "type": "level",
-                        "name": "Clénico 3",
+                        "name": "Clérigo 3",
                         "url": "/api/classes/cleric/levels/3"
                     }
                 ],
                 "spell": {
                     "index": "lesser-restoration",
-                    "name": "Restauração Jovem",
+                    "name": "Restauração menor",
                     "url": "/api/spells/lesser-restoration"
                 }
             },
@@ -1664,13 +1664,13 @@
                     {
                         "index": "cleric-3",
                         "type": "level",
-                        "name": "Clénico 3",
+                        "name": "Clérigo 3",
                         "url": "/api/classes/cleric/levels/3"
                     }
                 ],
                 "spell": {
                     "index": "spiritual-weapon",
-                    "name": "Arma Espiritual",
+                    "name": "Arma espiritual",
                     "url": "/api/spells/spiritual-weapon"
                 }
             },
@@ -1679,13 +1679,13 @@
                     {
                         "index": "cleric-5",
                         "type": "level",
-                        "name": "Clénico 5",
+                        "name": "Clérigo 5",
                         "url": "/api/classes/cleric/levels/5"
                     }
                 ],
                 "spell": {
                     "index": "beacon-of-hope",
-                    "name": "Farol da Esperança",
+                    "name": "Sinal de esperança",
                     "url": "/api/spells/beacon-of-hope"
                 }
             },
@@ -1694,13 +1694,13 @@
                     {
                         "index": "cleric-5",
                         "type": "level",
-                        "name": "Clénico 5",
+                        "name": "Clérigo 5",
                         "url": "/api/classes/cleric/levels/5"
                     }
                 ],
                 "spell": {
                     "index": "revivify",
-                    "name": "Revibrar",
+                    "name": "Revivificar",
                     "url": "/api/spells/revivify"
                 }
             },
@@ -1709,13 +1709,13 @@
                     {
                         "index": "cleric-7",
                         "type": "level",
-                        "name": "Clénico 7",
+                        "name": "Clérigo 7",
                         "url": "/api/classes/cleric/levels/7"
                     }
                 ],
                 "spell": {
                     "index": "death-ward",
-                    "name": "Sentinela da Morte",
+                    "name": "Proteção contra a morte",
                     "url": "/api/spells/death-ward"
                 }
             },
@@ -1724,13 +1724,13 @@
                     {
                         "index": "cleric-9",
                         "type": "level",
-                        "name": "Clénico 9",
+                        "name": "Clérigo 9",
                         "url": "/api/classes/cleric/levels/9"
                     }
                 ],
                 "spell": {
                     "index": "mass-cure-wounds",
-                    "name": "Cura em massa Feridas",
+                    "name": "Curar ferimentos em massa",
                     "url": "/api/spells/mass-cure-wounds"
                 }
             },
@@ -1739,13 +1739,13 @@
                     {
                         "index": "cleric-9",
                         "type": "level",
-                        "name": "Clénico 9",
+                        "name": "Clérigo 9",
                         "url": "/api/classes/cleric/levels/9"
                     }
                 ],
                 "spell": {
                     "index": "raise-dead",
-                    "name": "Elevar Morto",
+                    "name": "Reviver os mortos",
                     "url": "/api/spells/raise-dead"
                 }
             }
@@ -1760,10 +1760,10 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "História",
-        "subclass_flavor": "Faculdade de Bardo",
+        "name": "Colégio do Conhecimento",
+        "subclass_flavor": "Inspiração de Bardo",
         "desc": [
-            "As barras da Faculdade de Lore sabem algo sobre a maioria das coisas, coletando fragmentos de conhecimento de fontes tão diversas quanto os tomos acadêmicos e os contos de camponeses. Seja cantando bolas populares em tabernas ou elaborando composições em couros reais, essas barras usam seus presentes para manter o público sob feitiços. Quando os aplausos diminuem, os membros do público podem se questionar sobre tudo o que consideravam verdadeiro, desde a sua fé no priesthood do templo local até à sua lealdade ao rei. A lealdade destas barreiras reside na procura da beleza e da verdade. não em fealdade a um monarca ou seguindo os princípios de uma divindade. Um nobre que mantém o barco como aroma ou conselheiro sabe que o barco prefere ser honesto do que político. Os membros da faculdade se reúnem em bibliotecas e, às vezes, em faculdades reais, completos com salas de aula e dormitórios, para compartilhar sua história entre si. Também se encontram em festivais ou assuntos de Estado, onde podem expor a corrupção, desprezar mentiras e divertir-se com figuras de autoridade auto-importantes."
+            "Bardos do Colégio do Conhecimento conhecem algo sobre a maioria das coisas, coletando pedaços de conhecimento de fontes tão diversas quanto tomos eruditos ou contos de camponeses. Quer seja cantando baladas populares em taverna, quer seja elaborando composições para cortes reais, esses bardos usam seus dons para manter a audiência enfeitiçada. Quando os aplausos acabam, os membros da audiência vão estar se questionando se tudo que eles creem é verdade, desde sua crença no sacerdócio do templo local até sua lealdade ao rei. A fidelidade desses bardos reside na busca pela beleza e verdade, não na lealdade a um monarca ou em seguir os dogmas de uma divindade. Um nobre que mantem um bardo desses como seu arauto ou conselheiro, sabe que o bardo prefere ser honesto que político. Os membros do colégio se reúnem em bibliotecas e, as vezes, em faculdades de verdade, completas com salas de aula e dormitórios, para partilhar seu conhecimento uns com os outros. Eles também se encontram em festivais ou em assuntos de estado, onde eles podem expor corrupção, desvendar mentiras e zombar da superestima de figuras de autoridade."
         ],
         "subclass_levels": "/api/subclasses/lore/níveis",
         "url": "/api/subclasses/lore"
@@ -1775,10 +1775,10 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Mão Aberta",
-        "subclass_flavor": "Tradição Monástica",
+        "name": "Caminho da Mão Aberta",
+        "subclass_flavor": "Tradições Monásticas",
         "desc": [
-            "Monges do Caminho da Mão Aberta são os derradeiros mestres das artes marciais combatem, armados ou desarmados. Aprendem técnicas para empurrar e expulsar seus adversários, manipular ki para curar danos ao corpo, e pratique meditações avançadas que podem protegê-las de danos."
+            "Monges do Caminho da Mão Aberta são os mestres supremos das artes de combate marcial, tanto armado quanto desarmado. Eles aprendem técnicas para empurrar e derrubar seus oponentes, manipulando o chi para curar os ferimentos dos seus corpos e praticando uma meditação avançada que os protege de mazelas."
         ],
         "subclass_levels": "/api/subclasses/abertura/níveis",
         "url": "/api/subclasses/open-hand"
@@ -1787,13 +1787,13 @@
         "index": "thief",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Ladrão",
-        "subclass_flavor": "Arquétipo Jovem",
+        "subclass_flavor": "Arquétipos de Ladino",
         "desc": [
-            "Você aperfeiçoa suas habilidades nas artes larvas. Brunos, bandidos, cortes e outros criminosos normalmente seguem este arquétipo, mas o mesmo acontece com os jovens que preferem se considerar como procuradores profissionais de tesouros, exploradores, deladores e investigadores. Além de melhorar sua agilidade e roubo, você aprende habilidades úteis para mergulhar em ruínas antigas, lendo linguagens desconhecidas e usando itens mágicos que você normalmente não poderia empregar."
+            "Você aprimorou suas habilidades na arte do furto de pequenos itens. Gatunos, bandidos, batedores de carteira e outros criminosos geralmente seguem esse arquétipo, mas também aqueles ladinos que preferem se ver como caçadores de tesouro profissionais, exploradores de masmorras e investigadores. Além de aprimorar sua agilidade e furtividade, você aprende perícias úteis para desbravar ruínas antigas, ler idiomas incomuns e usar itens mágicos que normalmente não poderia."
         ],
         "subclass_levels": "/api/subclasses/ladrão/níveis",
         "url": "/api/subclasses/thief"
