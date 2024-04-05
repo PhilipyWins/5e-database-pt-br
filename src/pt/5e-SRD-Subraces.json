@@ -1,13 +1,13 @@
 [
     {
         "index": "high-elf",
-        "name": "Elfo Alto",
+        "name": "Alto Elfo",
         "race": {
             "index": "elf",
             "name": "Elfo",
             "url": "/api/races/elf"
         },
-        "desc": "Como um elfo alto, você tem uma mente interessada e um domínio de pelo menos os fundamentos da mágica. Em muitos mundos de fantasia de jogos há dois tipos de elfos altos. Um tipo é ensinado e recluso, acreditando-se acima dos não-elfos e até mesmo dos outros. O outro tipo é mais comum e mais amigável, encontrando-se frequentemente entre os seres humanos e outras raças.",
+        "desc": "Como alto elfo, você possui uma mente afiada e um domínio da magia básico.",
         "ability_bonuses": [
             {
                 "ability_score": {
@@ -21,22 +21,22 @@
         "starting_proficiencies": [
             {
                 "index": "longswords",
-                "name": "Espadas longas",
+                "name": "Espadas Longas",
                 "url": "/api/proficiencies/longswords"
             },
             {
                 "index": "shortswords",
-                "name": "Palavras curtas",
+                "name": "Espadas Curtas",
                 "url": "/api/proficiencies/shortswords"
             },
             {
                 "index": "shortbows",
-                "name": "Arcos curtos",
+                "name": "Arcos Curtos",
                 "url": "/api/proficiencies/shortbows"
             },
             {
                 "index": "longbows",
-                "name": "Longbows",
+                "name": "Arcos Longos",
                 "url": "/api/proficiencies/longbows"
             }
         ],
@@ -50,7 +50,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "dwarvish",
-                            "name": "Antecedente",
+                            "name": "Anão",
                             "url": "/api/languages/dwarvish"
                         }
                     },
@@ -66,7 +66,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "gnomish",
-                            "name": "Gnomish",
+                            "name": "Gnômico",
                             "url": "/api/languages/gnomish"
                         }
                     },
@@ -82,7 +82,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "halfling",
-                            "name": "Híbrido",
+                            "name": "Halflings",
                             "url": "/api/languages/halfling"
                         }
                     },
@@ -90,7 +90,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "orc",
-                            "name": "Orc,",
+                            "name": "Orc",
                             "url": "/api/languages/orc"
                         }
                     },
@@ -98,7 +98,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "abyssal",
-                            "name": "Abyssal",
+                            "name": "Abissal",
                             "url": "/api/languages/abyssal"
                         }
                     },
@@ -114,7 +114,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "draconic",
-                            "name": "Draconic",
+                            "name": "Dracônico",
                             "url": "/api/languages/draconic"
                         }
                     },
@@ -122,7 +122,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "deep-speech",
-                            "name": "Discurso Profundo",
+                            "name": "Dialeto Subterrâneo",
                             "url": "/api/languages/deep-speech"
                         }
                     },
@@ -165,17 +165,17 @@
         "racial_traits": [
             {
                 "index": "elf-weapon-training",
-                "name": "Treinamento de Armas Elfas",
+                "name": "Treinamento Élfico com Armas",
                 "url": "/api/traits/elf-weapon-training"
             },
             {
                 "index": "high-elf-cantrip",
-                "name": "Lápis de Alto Elfo",
+                "name": "Truque de Mago",
                 "url": "/api/traits/high-elf-cantrip"
             },
             {
                 "index": "extra-language",
-                "name": "Idioma extra",
+                "name": "Idioma Adicional",
                 "url": "/api/traits/extra-language"
             }
         ],
@@ -183,18 +183,18 @@
     },
     {
         "index": "hill-dwarf",
-        "name": "Dwarf do monte",
+        "name": "Anão da Colina",
         "race": {
             "index": "dwarf",
-            "name": "Awarf",
+            "name": "Anão",
             "url": "/api/races/dwarf"
         },
-        "desc": "Como um anão de montanha, você tem sentidos interessantes, intuição profunda e uma notável resiliência.",
+        "desc": "Como um anão da colina, você tem sentidos aguçados, maior intuição e notável resiliência.",
         "ability_bonuses": [
             {
                 "ability_score": {
                     "index": "wis",
-                    "name": "WIS",
+                    "name": "SAB",
                     "url": "/api/ability-scores/wis"
                 },
                 "bonus": 1
@@ -205,7 +205,7 @@
         "racial_traits": [
             {
                 "index": "dwarven-toughness",
-                "name": "Tenacidade Aduvidada",
+                "name": "Tenacidade Anã",
                 "url": "/api/traits/dwarven-toughness"
             }
         ],
@@ -213,18 +213,18 @@
     },
     {
         "index": "lightfoot-halfling",
-        "name": "Híbrido Pé Leve",
+        "name": "Halfling Pés Leves",
         "race": {
             "index": "halfling",
-            "name": "Híbrido",
+            "name": "Halflings",
             "url": "/api/races/halfling"
         },
-        "desc": "Como um halfoot halfling, você pode facilmente esconder-se do aviso, mesmo usando outras pessoas como cobertura. Você tende a ser afável e se dar bem com os outros. Os raposas são mais propensos a vaguear do que outros halflings, e muitas vezes ficam ao lado de outras raças ou tomam uma vida nómada.",
+        "desc": "Como um halfling pés leves, você pode esconder-sefacilmente, mesmo usando apenas outras pessoas como cobertura. Você geralmente é afável e se dá muito bem com os outros.",
         "ability_bonuses": [
             {
                 "ability_score": {
                     "index": "cha",
-                    "name": "CHA",
+                    "name": "CAR",
                     "url": "/api/ability-scores/cha"
                 },
                 "bonus": 1
@@ -235,7 +235,7 @@
         "racial_traits": [
             {
                 "index": "naturally-stealthy",
-                "name": "Ladrão naturalmente",
+                "name": "Furtividade Natural",
                 "url": "/api/traits/naturally-stealthy"
             }
         ],
@@ -243,13 +243,13 @@
     },
     {
         "index": "rock-gnome",
-        "name": "format@@0 Rock Gnome",
+        "name": "Gnomo das Rochas",
         "race": {
             "index": "gnome",
-            "name": "Gnome",
+            "name": "Gnomo",
             "url": "/api/races/gnome"
         },
-        "desc": "Como um gnomo de rocha, você tem uma inventividade natural e dificuldade além dos outros gnomos.",
+        "desc": "Como um gnomo das rochas, você possui uma inventividade e resistência naturais acima dos outros gnomos.",
         "ability_bonuses": [
             {
                 "ability_score": {
@@ -263,7 +263,7 @@
         "starting_proficiencies": [
             {
                 "index": "tinkers-tools",
-                "name": "Ferramentas do Tinker",
+                "name": "Ferramentas de Artesão",
                 "url": "/api/proficiencies/tinkers-tools"
             }
         ],
@@ -271,12 +271,12 @@
         "racial_traits": [
             {
                 "index": "artificers-lore",
-                "name": "Lore do artifício",
+                "name": "Conhecimento de Artífice",
                 "url": "/api/traits/artificers-lore"
             },
             {
                 "index": "tinker",
-                "name": "Tinker",
+                "name": "Engenhoqueiro",
                 "url": "/api/traits/tinker"
             }
         ],
