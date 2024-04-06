@@ -483,12 +483,12 @@
         "features": [
             {
                 "index": "spellcasting-bard",
-                "name": "Ortografia: Bardo",
+                "name": "Conjuração: Bardo",
                 "url": "/api/features/spellcasting-bard"
             },
             {
                 "index": "bardic-inspiration-d6",
-                "name": "Inspiração Bárbara (d6)",
+                "name": "Inspiração de bardo (d6)",
                 "url": "/api/features/bardic-inspiration-d6"
             }
         ],
@@ -527,12 +527,12 @@
         "features": [
             {
                 "index": "bard-expertise-2",
-                "name": "Experiência",
+                "name": "Aptidão",
                 "url": "/api/features/bard-expertise-2"
             },
             {
                 "index": "bardic-inspiration-d10",
-                "name": "Inspiração Bárbara (d10)",
+                "name": "Inspiração de bardo",
                 "url": "/api/features/bardic-inspiration-d10"
             },
             {
@@ -609,7 +609,7 @@
         "features": [
             {
                 "index": "bard-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/bard-ability-score-improvement-3"
             }
         ],
@@ -648,7 +648,7 @@
         "features": [
             {
                 "index": "song-of-rest-d10",
-                "name": "Canção de Descanso (d10)",
+                "name": "Canção de descanso",
                 "url": "/api/features/song-of-rest-d10"
             }
         ],
@@ -726,7 +726,7 @@
         "features": [
             {
                 "index": "bardic-inspiration-d12",
-                "name": "Inspiração Bárbara (d12)",
+                "name": "Inspiração de bardo",
                 "url": "/api/features/bardic-inspiration-d12"
             }
         ],
@@ -765,7 +765,7 @@
         "features": [
             {
                 "index": "bard-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/bard-ability-score-improvement-4"
             }
         ],
@@ -804,7 +804,7 @@
         "features": [
             {
                 "index": "song-of-rest-d12",
-                "name": "Canção de Descanso (d12)",
+                "name": "Canção de descanso",
                 "url": "/api/features/song-of-rest-d12"
             }
         ],
@@ -882,7 +882,7 @@
         "features": [
             {
                 "index": "bard-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/bard-ability-score-improvement-5"
             }
         ],
@@ -921,7 +921,7 @@
         "features": [
             {
                 "index": "jack-of-all-trades",
-                "name": "Jack de Todas as Trocas",
+                "name": "Versatilidade",
                 "url": "/api/features/jack-of-all-trades"
             },
             {
@@ -965,7 +965,7 @@
         "features": [
             {
                 "index": "superior-inspiration",
-                "name": "Inspiração Superior",
+                "name": "Inspiração superior",
                 "url": "/api/features/superior-inspiration"
             }
         ],
@@ -1004,12 +1004,12 @@
         "features": [
             {
                 "index": "bard-expertise-1",
-                "name": "Experiência",
+                "name": "Aptidão",
                 "url": "/api/features/bard-expertise-1"
             },
             {
                 "index": "bard-college",
-                "name": "Faculdade de Bardo",
+                "name": "Colégio de bardo",
                 "url": "/api/features/bard-college"
             }
         ],
@@ -1048,7 +1048,7 @@
         "features": [
             {
                 "index": "bard-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/bard-ability-score-improvement-1"
             }
         ],
@@ -1087,7 +1087,7 @@
         "features": [
             {
                 "index": "bardic-inspiration-d8",
-                "name": "Inspiração Bárbara (d8)",
+                "name": "Inspiração de bardo",
                 "url": "/api/features/bardic-inspiration-d8"
             },
             {
@@ -1131,7 +1131,7 @@
         "features": [
             {
                 "index": "countercharm",
-                "name": "Contra-charme",
+                "name": "Canção de proteção",
                 "url": "/api/features/countercharm"
             }
         ],
@@ -1203,7 +1203,7 @@
         "features": [
             {
                 "index": "bard-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/bard-ability-score-improvement-2"
             }
         ],
@@ -1242,7 +1242,7 @@
         "features": [
             {
                 "index": "song-of-rest-d8",
-                "name": "Canção de Descanso (d8)",
+                "name": "Canção de descanso",
                 "url": "/api/features/song-of-rest-d8"
             }
         ],
@@ -1279,7 +1279,7 @@
         "features": [
             {
                 "index": "intimidating-presence",
-                "name": "Presença de Intimização",
+                "name": "Presença intimidante",
                 "url": "/api/features/intimidating-presence"
             }
         ],
@@ -1290,7 +1290,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "url": "/api/subclasses/berserker/levels/10",
@@ -1312,7 +1312,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "url": "/api/subclasses/berserker/levels/14",
@@ -1334,7 +1334,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "url": "/api/subclasses/berserker/levels/3",
@@ -1345,7 +1345,7 @@
         "features": [
             {
                 "index": "mindless-rage",
-                "name": "Fúria Infinita",
+                "name": "Fúria inconsciente",
                 "url": "/api/features/mindless-rage"
             }
         ],
@@ -1357,7 +1357,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "url": "/api/subclasses/berserker/levels/6"
@@ -1367,7 +1367,7 @@
         "features": [
             {
                 "index": "additional-fighting-style",
-                "name": "Estilo adicional de combate",
+                "name": "Estilo de luta adicional",
                 "url": "/api/features/additional-fighting-style"
             }
         ],
@@ -1389,7 +1389,7 @@
         "features": [
             {
                 "index": "superior-critical",
-                "name": "Superior crítico",
+                "name": "Crítico superior",
                 "url": "/api/features/superior-critical"
             }
         ],
@@ -1433,7 +1433,7 @@
         "features": [
             {
                 "index": "improved-critical",
-                "name": "Crítico Melhorado",
+                "name": "Crítico aprimorado",
                 "url": "/api/features/improved-critical"
             }
         ],
@@ -1455,7 +1455,7 @@
         "features": [
             {
                 "index": "remarkable-athlete",
-                "name": "Atleta Notável",
+                "name": "Atletismo extraordinário",
                 "url": "/api/features/remarkable-athlete"
             }
         ],
@@ -1479,7 +1479,7 @@
         "features": [
             {
                 "index": "spellcasting-cleric",
-                "name": "Ortografia: Esclerico",
+                "name": "Conjuração: Clérigo",
                 "url": "/api/features/spellcasting-cleric"
             },
             {
@@ -1489,7 +1489,7 @@
             },
             {
                 "index": "domain-spells-1",
-                "name": "Feitiços de domínio",
+                "name": "Magias de domínio",
                 "url": "/api/features/domain-spells-1"
             }
         ],
@@ -1512,7 +1512,7 @@
         "index": "cleric-1",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/1"
@@ -1524,7 +1524,7 @@
         "features": [
             {
                 "index": "divine-intervention",
-                "name": "Intervenção Divina",
+                "name": "Intervenção divina",
                 "url": "/api/features/divine-intervention"
             }
         ],
@@ -1547,7 +1547,7 @@
         "index": "cleric-10",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/10"
@@ -1559,7 +1559,7 @@
         "features": [
             {
                 "index": "destroy-undead-cr-2-or-below",
-                "name": "Destrua mortos-vivos (CR 2 ou abaixo)",
+                "name": "Destruir mortos-vivos",
                 "url": "/api/features/destroy-undead-cr-2-or-below"
             }
         ],
@@ -1582,7 +1582,7 @@
         "index": "cleric-11",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/11"
@@ -1594,7 +1594,7 @@
         "features": [
             {
                 "index": "cleric-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/cleric-ability-score-improvement-3"
             }
         ],
@@ -1617,7 +1617,7 @@
         "index": "cleric-12",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/12"
@@ -1646,7 +1646,7 @@
         "index": "cleric-13",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/13"
@@ -1658,7 +1658,7 @@
         "features": [
             {
                 "index": "destroy-undead-cr-3-or-below",
-                "name": "Destrua mortos-vivos (CR 3 ou abaixo)",
+                "name": "Destruir mortos-vivos",
                 "url": "/api/features/destroy-undead-cr-3-or-below"
             }
         ],
@@ -1681,7 +1681,7 @@
         "index": "cleric-14",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/14"
@@ -1710,7 +1710,7 @@
         "index": "cleric-15",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/15"
@@ -1722,7 +1722,7 @@
         "features": [
             {
                 "index": "cleric-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/cleric-ability-score-improvement-4"
             }
         ],
@@ -1745,7 +1745,7 @@
         "index": "cleric-16",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/16"
@@ -1757,7 +1757,7 @@
         "features": [
             {
                 "index": "destroy-undead-cr-4-or-below",
-                "name": "Destrua os Mortos-vivos (CR 4 ou abaixo)",
+                "name": "Destruir os mortos-vivos",
                 "url": "/api/features/destroy-undead-cr-4-or-below"
             }
         ],
@@ -1780,7 +1780,7 @@
         "index": "cleric-17",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/17"
@@ -1792,7 +1792,7 @@
         "features": [
             {
                 "index": "channel-divinity-3-rest",
-                "name": "Divindade do canal (3/rest)",
+                "name": "Canalizar divindade",
                 "url": "/api/features/channel-divinity-3-rest"
             }
         ],
@@ -1815,7 +1815,7 @@
         "index": "cleric-18",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/18"
@@ -1827,7 +1827,7 @@
         "features": [
             {
                 "index": "cleric-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/cleric-ability-score-improvement-5"
             }
         ],
@@ -1850,7 +1850,7 @@
         "index": "cleric-19",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/19"
@@ -1862,12 +1862,12 @@
         "features": [
             {
                 "index": "channel-divinity-1-rest",
-                "name": "Divindade do canal (1/rest)",
+                "name": "Canalizar divindade",
                 "url": "/api/features/channel-divinity-1-rest"
             },
             {
                 "index": "channel-divinity-turn-undead",
-                "name": "Divindade do Canal: Virar Morto-vivo",
+                "name": "Canalizar divindade: Expulsar mortos-vivos",
                 "url": "/api/features/channel-divinity-turn-undead"
             }
         ],
@@ -1890,7 +1890,7 @@
         "index": "cleric-2",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/2"
@@ -1902,7 +1902,7 @@
         "features": [
             {
                 "index": "divine-intervention-improvement",
-                "name": "Melhoria de Intervenção Divina",
+                "name": "Aprimoramento de intervenção divina",
                 "url": "/api/features/divine-intervention-improvement"
             }
         ],
@@ -1925,7 +1925,7 @@
         "index": "cleric-20",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/20"
@@ -1937,7 +1937,7 @@
         "features": [
             {
                 "index": "domain-spells-2",
-                "name": "Feitiços de domínio",
+                "name": "Magias de domínio",
                 "url": "/api/features/domain-spells-2"
             }
         ],
@@ -1960,7 +1960,7 @@
         "index": "cleric-3",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/3"
@@ -1972,7 +1972,7 @@
         "features": [
             {
                 "index": "cleric-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/cleric-ability-score-improvement-1"
             }
         ],
@@ -1995,7 +1995,7 @@
         "index": "cleric-4",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/4"
@@ -2007,12 +2007,12 @@
         "features": [
             {
                 "index": "domain-spells-3",
-                "name": "Feitiços de domínio",
+                "name": "Magias de domínio",
                 "url": "/api/features/domain-spells-3"
             },
             {
                 "index": "destroy-undead-cr-1-2-or-below",
-                "name": "Destrua mortos-vivos (CR 1/2 ou abaixo)",
+                "name": "Destruir mortos-vivos",
                 "url": "/api/features/destroy-undead-cr-1-2-or-below"
             }
         ],
@@ -2035,7 +2035,7 @@
         "index": "cleric-5",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/5"
@@ -2047,7 +2047,7 @@
         "features": [
             {
                 "index": "channel-divinity-2-rest",
-                "name": "Divindade do canal (2/rest)",
+                "name": "Canalizar divindade",
                 "url": "/api/features/channel-divinity-2-rest"
             }
         ],
@@ -2070,7 +2070,7 @@
         "index": "cleric-6",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/6"
@@ -2082,7 +2082,7 @@
         "features": [
             {
                 "index": "domain-spells-4",
-                "name": "Feitiços de domínio",
+                "name": "Magias de domínio",
                 "url": "/api/features/domain-spells-4"
             }
         ],
@@ -2105,7 +2105,7 @@
         "index": "cleric-7",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/7"
@@ -2117,12 +2117,12 @@
         "features": [
             {
                 "index": "cleric-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/cleric-ability-score-improvement-2"
             },
             {
                 "index": "destroy-undead-cr-1-or-below",
-                "name": "Destrua os Mortos-vivos (CR 1 ou abaixo)",
+                "name": "Destruir os mortos-vivos",
                 "url": "/api/features/destroy-undead-cr-1-or-below"
             }
         ],
@@ -2145,7 +2145,7 @@
         "index": "cleric-8",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/8"
@@ -2157,7 +2157,7 @@
         "features": [
             {
                 "index": "domain-spells-5",
-                "name": "Feitiços de domínio",
+                "name": "Magias de domínio",
                 "url": "/api/features/domain-spells-5"
             }
         ],
@@ -2180,7 +2180,7 @@
         "index": "cleric-9",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "url": "/api/classes/cleric/levels/9"
