@@ -6,12 +6,12 @@
         "features": [
             {
                 "index": "rage",
-                "name": "Rage",
+                "name": "Fúria",
                 "url": "/api/features/rage"
             },
             {
                 "index": "barbarian-unarmored-defense",
-                "name": "Defesa Perversa",
+                "name": "Defesa sem armadura",
                 "url": "/api/features/barbarian-unarmored-defense"
             }
         ],
@@ -53,7 +53,7 @@
         "features": [
             {
                 "index": "relentless-rage",
-                "name": "Fúria Implacável",
+                "name": "Fúria implacável",
                 "url": "/api/features/relentless-rage"
             }
         ],
@@ -77,7 +77,7 @@
         "features": [
             {
                 "index": "barbarian-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/barbarian-ability-score-improvement-3"
             }
         ],
@@ -101,7 +101,7 @@
         "features": [
             {
                 "index": "brutal-critical-2-dice",
-                "name": "Crítico Brutal (2 dados)",
+                "name": "Crítico Brutal",
                 "url": "/api/features/brutal-critical-2-dice"
             }
         ],
@@ -143,7 +143,7 @@
         "features": [
             {
                 "index": "persistent-rage",
-                "name": "Persistent Rage",
+                "name": "Fúria persistente",
                 "url": "/api/features/persistent-rage"
             }
         ],
@@ -167,7 +167,7 @@
         "features": [
             {
                 "index": "barbarian-ability-score-improvement-4",
-                "name": "Melhoria na Pontuação Habilidade",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/barbarian-ability-score-improvement-4"
             }
         ],
@@ -191,7 +191,7 @@
         "features": [
             {
                 "index": "brutal-critical-3-dice",
-                "name": "Crítico Brutal (3 dados)",
+                "name": "Crítico Brutal",
                 "url": "/api/features/brutal-critical-3-dice"
             }
         ],
@@ -215,7 +215,7 @@
         "features": [
             {
                 "index": "indomitable-might",
-                "name": "Poder indomável",
+                "name": "Força indomável",
                 "url": "/api/features/indomitable-might"
             }
         ],
@@ -239,7 +239,7 @@
         "features": [
             {
                 "index": "barbarian-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/barbarian-ability-score-improvement-5"
             }
         ],
@@ -263,12 +263,12 @@
         "features": [
             {
                 "index": "reckless-attack",
-                "name": "Ataque Imprudente",
+                "name": "Ataque descuidado",
                 "url": "/api/features/reckless-attack"
             },
             {
                 "index": "danger-sense",
-                "name": "Senso do Perigo",
+                "name": "Sentido de perigo",
                 "url": "/api/features/danger-sense"
             }
         ],
@@ -292,7 +292,7 @@
         "features": [
             {
                 "index": "primal-champion",
-                "name": "Campeão Primário",
+                "name": "Campeão primitivo",
                 "url": "/api/features/primal-champion"
             }
         ],
@@ -316,7 +316,7 @@
         "features": [
             {
                 "index": "primal-path",
-                "name": "Caminho Primário",
+                "name": "Caminho primitivo",
                 "url": "/api/features/primal-path"
             }
         ],
@@ -340,7 +340,7 @@
         "features": [
             {
                 "index": "barbarian-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/barbarian-ability-score-improvement-1"
             }
         ],
@@ -364,12 +364,12 @@
         "features": [
             {
                 "index": "barbarian-extra-attack",
-                "name": "Ataque Extra",
+                "name": "Ataque extra",
                 "url": "/api/features/barbarian-extra-attack"
             },
             {
                 "index": "fast-movement",
-                "name": "Movimento Rápido",
+                "name": "Movimento rápido",
                 "url": "/api/features/fast-movement"
             }
         ],
@@ -411,7 +411,7 @@
         "features": [
             {
                 "index": "feral-instinct",
-                "name": "Instinto Selvagem",
+                "name": "Instinto selvagem",
                 "url": "/api/features/feral-instinct"
             }
         ],
@@ -435,7 +435,7 @@
         "features": [
             {
                 "index": "barbarian-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/barbarian-ability-score-improvement-2"
             }
         ],
@@ -459,7 +459,7 @@
         "features": [
             {
                 "index": "brutal-critical-1-die",
-                "name": "Crítico Brutal (1 morto)",
+                "name": "Crítico Brutal",
                 "url": "/api/features/brutal-critical-1-die"
             }
         ],
