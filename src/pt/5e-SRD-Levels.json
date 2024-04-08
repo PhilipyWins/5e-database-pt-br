@@ -2190,7 +2190,7 @@
         "features": [
             {
                 "index": "purity-of-spirit",
-                "name": "Pureza do Espírito",
+                "name": "Pureza de espírito",
                 "url": "/api/features/purity-of-spirit"
             }
         ],
@@ -2204,7 +2204,7 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "url": "/api/subclasses/devotion/levels/15",
@@ -2223,7 +2223,7 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "url": "/api/subclasses/devotion/levels/18",
@@ -2234,7 +2234,7 @@
         "features": [
             {
                 "index": "holy-nimbus",
-                "name": "Santo Nimbus",
+                "name": "Halo sagrado",
                 "url": "/api/features/holy-nimbus"
             }
         ],
@@ -2248,7 +2248,7 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "url": "/api/subclasses/devotion/levels/20",
@@ -2259,12 +2259,12 @@
         "features": [
             {
                 "index": "channel-divinity-sacred-weapon",
-                "name": "Divindade do Canal: Arma Sagrada",
+                "name": "Canalizar divindade : Arma sagrada",
                 "url": "/api/features/channel-divinity-sacred-weapon"
             },
             {
                 "index": "channel-divinity-turn-the-unholy",
-                "name": "Divindade do Canal: Vire o Profano",
+                "name": "Canalizar divindade: Expulsar o profano",
                 "url": "/api/features/channel-divinity-turn-the-unholy"
             }
         ],
@@ -2275,7 +2275,7 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "url": "/api/subclasses/devotion/levels/3",
@@ -2286,7 +2286,7 @@
         "features": [
             {
                 "index": "aura-of-devotion",
-                "name": "Aura de Devoção",
+                "name": "Aura de devoção",
                 "url": "/api/features/aura-of-devotion"
             }
         ],
@@ -2300,7 +2300,7 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "url": "/api/subclasses/devotion/levels/7",
@@ -2311,23 +2311,23 @@
         "features": [
             {
                 "index": "dragon-ancestor",
-                "name": "Ancestrato do Dragão",
+                "name": "Ancestral dracônico",
                 "url": "/api/features/dragon-ancestor"
             },
             {
                 "index": "draconic-resilience",
-                "name": "Draconic Resilience",
+                "name": "Resiliência dracônica",
                 "url": "/api/features/draconic-resilience"
             }
         ],
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "subclass": {
             "index": "draconic",
-            "name": "Draconic",
+            "name": "Linhagem Dracônica",
             "url": "/api/subclasses/draconic"
         },
         "url": "/api/subclasses/draconic/levels/1",
@@ -2338,18 +2338,18 @@
         "features": [
             {
                 "index": "dragon-wings",
-                "name": "Asas de Dragão",
+                "name": "Asas de dragão",
                 "url": "/api/features/dragon-wings"
             }
         ],
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "subclass": {
             "index": "draconic",
-            "name": "Draconic",
+            "name": "Linhagem Dracônica",
             "url": "/api/subclasses/draconic"
         },
         "url": "/api/subclasses/draconic/levels/14",
@@ -2360,18 +2360,18 @@
         "features": [
             {
                 "index": "draconic-presence",
-                "name": "Presença Dracônica",
+                "name": "Presença dracônica",
                 "url": "/api/features/draconic-presence"
             }
         ],
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "subclass": {
             "index": "draconic",
-            "name": "Draconic",
+            "name": "Linhagem Dracônica",
             "url": "/api/subclasses/draconic"
         },
         "url": "/api/subclasses/draconic/levels/18",
@@ -2382,18 +2382,18 @@
         "features": [
             {
                 "index": "elemental-affinity",
-                "name": "Afinidade Elemental",
+                "name": "Afinidade elemental",
                 "url": "/api/features/elemental-affinity"
             }
         ],
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "subclass": {
             "index": "draconic",
-            "name": "Draconic",
+            "name": "Linhagem Dracônica",
             "url": "/api/subclasses/draconic"
         },
         "url": "/api/subclasses/draconic/levels/6",
@@ -2406,12 +2406,12 @@
         "features": [
             {
                 "index": "spellcasting-druid",
-                "name": "Feitiço: Druida",
+                "name": "Conjuração: Druida",
                 "url": "/api/features/spellcasting-druid"
             },
             {
                 "index": "druidic",
-                "name": "Druidic",
+                "name": "Druídico",
                 "url": "/api/features/druidic"
             }
         ],
@@ -2507,7 +2507,7 @@
         "features": [
             {
                 "index": "druid-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/druid-ability-score-improvement-3"
             }
         ],
@@ -2633,7 +2633,7 @@
         "features": [
             {
                 "index": "druid-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/druid-ability-score-improvement-4"
             }
         ],
@@ -2699,12 +2699,12 @@
         "features": [
             {
                 "index": "druid-timeless-body",
-                "name": "Corpo sem Tempo",
+                "name": "Corpo atemporal",
                 "url": "/api/features/druid-timeless-body"
             },
             {
                 "index": "beast-spells",
-                "name": "Beast Spells",
+                "name": "Magias da besta",
                 "url": "/api/features/beast-spells"
             }
         ],
@@ -2740,7 +2740,7 @@
         "features": [
             {
                 "index": "druid-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/druid-ability-score-improvement-5"
             }
         ],
@@ -2776,12 +2776,12 @@
         "features": [
             {
                 "index": "wild-shape-cr-1-4-or-below-no-flying-or-swim-speed",
-                "name": "Forma Selvagem (CR 1/4 ou abaixo, sem velocidade de voo ou nada)",
+                "name": "Forma Selvagem (CR 1/4 ou abaixo, sem velocidade de voo ou natação)",
                 "url": "/api/features/wild-shape-cr-1-4-or-below-no-flying-or-swim-speed"
             },
             {
                 "index": "druid-circle",
-                "name": "Círculo Druida",
+                "name": "Círculo Druídico",
                 "url": "/api/features/druid-circle"
             }
         ],
@@ -2817,7 +2817,7 @@
         "features": [
             {
                 "index": "archdruid",
-                "name": "Archdruid",
+                "name": "Arquidruida",
                 "url": "/api/features/archdruid"
             }
         ],
@@ -2883,12 +2883,12 @@
         "features": [
             {
                 "index": "wild-shape-cr-1-2-or-below-no-flying-speed",
-                "name": "Forma Wild (CR 1/2 ou abaixo, sem velocidade de voo)",
+                "name": "Forma Wild (CR 1/2 ou abaixo, sem deslocamento de voo)",
                 "url": "/api/features/wild-shape-cr-1-2-or-below-no-flying-speed"
             },
             {
                 "index": "druid-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/druid-ability-score-improvement-1"
             }
         ],
@@ -3014,12 +3014,12 @@
         "features": [
             {
                 "index": "wild-shape-cr-1-or-below",
-                "name": "Forma Wild (CR 1 ou abaixo)",
+                "name": "Forma Selvagem (CR 1 ou abaixo)",
                 "url": "/api/features/wild-shape-cr-1-or-below"
             },
             {
                 "index": "druid-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/druid-ability-score-improvement-2"
             }
         ],
@@ -3083,13 +3083,13 @@
         "features": [
             {
                 "index": "empowered-evocation",
-                "name": "Evocação Fortalecida",
+                "name": "Evocação potencializada",
                 "url": "/api/features/empowered-evocation"
             }
         ],
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
@@ -3105,13 +3105,13 @@
         "features": [
             {
                 "index": "overchannel",
-                "name": "Canal",
+                "name": "Sabrecarga",
                 "url": "/api/features/overchannel"
             }
         ],
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
@@ -3127,18 +3127,18 @@
         "features": [
             {
                 "index": "evocation-savant",
-                "name": "Sábio de Evocação",
+                "name": "Evocação instruída",
                 "url": "/api/features/evocation-savant"
             },
             {
                 "index": "sculpt-spells",
-                "name": "Sculpt Spells",
+                "name": "Esculpir magias",
                 "url": "/api/features/sculpt-spells"
             }
         ],
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
@@ -3154,13 +3154,13 @@
         "features": [
             {
                 "index": "potent-cantrip",
-                "name": "Lápis Potente",
+                "name": "Truque potente",
                 "url": "/api/features/potent-cantrip"
             }
         ],
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
@@ -3176,18 +3176,18 @@
         "features": [
             {
                 "index": "dark-ones-blessing",
-                "name": "Bênção da Mão Sombria",
+                "name": "Bênção do obscuro",
                 "url": "/api/features/dark-ones-blessing"
             }
         ],
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "url": "/api/subclasses/fiend/levels/1",
@@ -3198,18 +3198,18 @@
         "features": [
             {
                 "index": "fiendish-resilience",
-                "name": "Resiliência Diabólica",
+                "name": "Resistência demoníaca",
                 "url": "/api/features/fiendish-resilience"
             }
         ],
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "url": "/api/subclasses/fiend/levels/10",
@@ -3220,18 +3220,18 @@
         "features": [
             {
                 "index": "hurl-through-hell",
-                "name": "Hurl Através do Inferno",
+                "name": "Lançar no inferno",
                 "url": "/api/features/hurl-through-hell"
             }
         ],
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "url": "/api/subclasses/fiend/levels/14",
@@ -3242,18 +3242,18 @@
         "features": [
             {
                 "index": "dark-ones-own-luck",
-                "name": "Própria Sorte do Dark One",
+                "name": "Sorte do próprio obscuro",
                 "url": "/api/features/dark-ones-own-luck"
             }
         ],
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "url": "/api/subclasses/fiend/levels/6",
@@ -3266,12 +3266,12 @@
         "features": [
             {
                 "index": "fighter-fighting-style",
-                "name": "Estilo do Combate",
+                "name": "Estilo de Luta",
                 "url": "/api/features/fighter-fighting-style"
             },
             {
                 "index": "second-wind",
-                "name": "Segundo Vento",
+                "name": "Retomar o fôlego",
                 "url": "/api/features/second-wind"
             }
         ],
@@ -3313,7 +3313,7 @@
         "features": [
             {
                 "index": "extra-attack-2",
-                "name": "Ataque Extra (2)",
+                "name": "Ataque Extra",
                 "url": "/api/features/extra-attack-2"
             }
         ],
@@ -3337,7 +3337,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-4"
             }
         ],
@@ -3385,7 +3385,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-5"
             }
         ],
@@ -3427,7 +3427,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-6",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-6"
             }
         ],
@@ -3451,7 +3451,7 @@
         "features": [
             {
                 "index": "action-surge-2-uses",
-                "name": "Surto de Ação (2 usos)",
+                "name": "Surto de ação (2 usos)",
                 "url": "/api/features/action-surge-2-uses"
             },
             {
@@ -3498,7 +3498,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-7",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-7"
             }
         ],
@@ -3522,7 +3522,7 @@
         "features": [
             {
                 "index": "action-surge-1-use",
-                "name": "Ação Surto (1 uso)",
+                "name": "Surto de ação (1 uso)",
                 "url": "/api/features/action-surge-1-use"
             }
         ],
@@ -3546,7 +3546,7 @@
         "features": [
             {
                 "index": "extra-attack-3",
-                "name": "Ataque Extra (3)",
+                "name": "Ataque Extra (3 usos)",
                 "url": "/api/features/extra-attack-3"
             }
         ],
@@ -3594,7 +3594,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-1"
             }
         ],
@@ -3642,7 +3642,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-2"
             }
         ],
@@ -3684,7 +3684,7 @@
         "features": [
             {
                 "index": "fighter-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/fighter-ability-score-improvement-3"
             }
         ],
@@ -3741,7 +3741,7 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "url": "/api/subclasses/hunter/levels/11",
@@ -3752,18 +3752,18 @@
         "features": [
             {
                 "index": "superior-hunters-defense",
-                "name": "Defesa do Caçador Superior",
+                "name": "Defesa de caçador superior",
                 "url": "/api/features/superior-hunters-defense"
             }
         ],
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "url": "/api/subclasses/hunter/levels/15",
@@ -3780,12 +3780,12 @@
         ],
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "url": "/api/subclasses/hunter/levels/3",
@@ -3796,18 +3796,18 @@
         "features": [
             {
                 "index": "defensive-tactics",
-                "name": "Defesa Militar",
+                "name": "Táticas defensivas",
                 "url": "/api/features/defensive-tactics"
             }
         ],
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "url": "/api/subclasses/hunter/levels/7",
@@ -3818,7 +3818,7 @@
         "features": [
             {
                 "index": "natures-ward",
-                "name": "Sentinela da Natureza",
+                "name": "Proteção natural",
                 "url": "/api/features/natures-ward"
             }
         ],
@@ -3829,7 +3829,7 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "url": "/api/subclasses/land/levels/10",
@@ -3840,7 +3840,7 @@
         "features": [
             {
                 "index": "natures-sanctuary",
-                "name": "Santuário da Natureza",
+                "name": "Santuário natural",
                 "url": "/api/features/natures-sanctuary"
             }
         ],
@@ -3851,7 +3851,7 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "url": "/api/subclasses/land/levels/14",
@@ -3862,12 +3862,12 @@
         "features": [
             {
                 "index": "bonus-cantrip",
-                "name": "Bônus de Corrida",
+                "name": "Truque adicional",
                 "url": "/api/features/bonus-cantrip"
             },
             {
                 "index": "natural-recovery",
-                "name": "Recuperação Natural",
+                "name": "Recuperação natural",
                 "url": "/api/features/natural-recovery"
             }
         ],
@@ -3878,7 +3878,7 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "url": "/api/subclasses/land/levels/2",
@@ -3889,7 +3889,7 @@
         "features": [
             {
                 "index": "druid-lands-stride",
-                "name": "Marcha da Terra",
+                "name": "Caminho da floresta",
                 "url": "/api/features/druid-lands-stride"
             }
         ],
@@ -3900,7 +3900,7 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "url": "/api/subclasses/land/levels/6",
@@ -3911,23 +3911,23 @@
         "features": [
             {
                 "index": "bonus-proficiency",
-                "name": "Bônus de Proficiência",
+                "name": "Proficiência adicional",
                 "url": "/api/features/bonus-proficiency"
             },
             {
                 "index": "disciple-of-life",
-                "name": "Discípulo da Vida",
+                "name": "Discípulo da vida",
                 "url": "/api/features/disciple-of-life"
             }
         ],
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da vida",
             "url": "/api/subclasses/life"
         },
         "url": "/api/subclasses/life/levels/1",
@@ -3938,18 +3938,18 @@
         "features": [
             {
                 "index": "supreme-healing",
-                "name": "Cura Suprema",
+                "name": "Cura suprema",
                 "url": "/api/features/supreme-healing"
             }
         ],
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da vida",
             "url": "/api/subclasses/life"
         },
         "url": "/api/subclasses/life/levels/17",
@@ -3960,18 +3960,18 @@
         "features": [
             {
                 "index": "channel-divinity-preserve-life",
-                "name": "Divindade do Canal: Preserve Vida",
+                "name": "Canalizar divindade: Preservar a vida",
                 "url": "/api/features/channel-divinity-preserve-life"
             }
         ],
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da vida",
             "url": "/api/subclasses/life"
         },
         "url": "/api/subclasses/life/levels/2",
@@ -3982,18 +3982,18 @@
         "features": [
             {
                 "index": "blessed-healer",
-                "name": "Curandeiro Abençoado",
+                "name": "Curandeiro abençoado",
                 "url": "/api/features/blessed-healer"
             }
         ],
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da vida",
             "url": "/api/subclasses/life"
         },
         "url": "/api/subclasses/life/levels/6",
@@ -4004,18 +4004,18 @@
         "features": [
             {
                 "index": "divine-strike",
-                "name": "Golpe Divino",
+                "name": "Golpe divino",
                 "url": "/api/features/divine-strike"
             }
         ],
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da vida",
             "url": "/api/subclasses/life"
         },
         "url": "/api/subclasses/life/levels/8",
@@ -4026,7 +4026,7 @@
         "features": [
             {
                 "index": "peerless-skill",
-                "name": "Habilidade Incomparável",
+                "name": "Perícia inigualável",
                 "url": "/api/features/peerless-skill"
             }
         ],
@@ -4040,7 +4040,7 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
         "url": "/api/subclasses/lore/levels/14",
@@ -4051,12 +4051,12 @@
         "features": [
             {
                 "index": "bonus-proficiencies",
-                "name": "Proficiências de Bônus",
+                "name": "Proficiência adicional",
                 "url": "/api/features/bonus-proficiencies"
             },
             {
                 "index": "cutting-words",
-                "name": "Cortando as palavras",
+                "name": "Palavras de interrupção",
                 "url": "/api/features/cutting-words"
             }
         ],
@@ -4070,7 +4070,7 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
         "url": "/api/subclasses/lore/levels/3",
@@ -4081,7 +4081,7 @@
         "features": [
             {
                 "index": "additional-magical-secrets",
-                "name": "Segredos Mágicos Adicionais",
+                "name": "Segredos mágicos adicionais",
                 "url": "/api/features/additional-magical-secrets"
             }
         ],
@@ -4095,7 +4095,7 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
         "url": "/api/subclasses/lore/levels/6",
@@ -4108,12 +4108,12 @@
         "features": [
             {
                 "index": "monk-unarmored-defense",
-                "name": "Defesa Perversa",
+                "name": "Defesa sem armadura",
                 "url": "/api/features/monk-unarmored-defense"
             },
             {
                 "index": "martial-arts",
-                "name": "Artes Marciais",
+                "name": "Artes marciais",
                 "url": "/api/features/martial-arts"
             }
         ],
@@ -4140,7 +4140,7 @@
         "features": [
             {
                 "index": "purity-of-body",
-                "name": "Pureza do Corpo",
+                "name": "Pureza corporal",
                 "url": "/api/features/purity-of-body"
             }
         ],
@@ -4188,7 +4188,7 @@
         "features": [
             {
                 "index": "monk-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/monk-ability-score-improvement-3"
             }
         ],
@@ -4215,7 +4215,7 @@
         "features": [
             {
                 "index": "tongue-of-the-sun-and-moon",
-                "name": "Língua do Sol e da Lua",
+                "name": "Idiomas do Sol e da Lua",
                 "url": "/api/features/tongue-of-the-sun-and-moon"
             }
         ],
@@ -4269,7 +4269,7 @@
         "features": [
             {
                 "index": "monk-timeless-body",
-                "name": "Corpo sem Tempo",
+                "name": "Corpo atemporal",
                 "url": "/api/features/monk-timeless-body"
             }
         ],
@@ -4296,7 +4296,7 @@
         "features": [
             {
                 "index": "monk-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/monk-ability-score-improvement-4"
             }
         ],
@@ -4371,7 +4371,7 @@
         "features": [
             {
                 "index": "monk-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/monk-ability-score-improvement-5"
             }
         ],
@@ -4398,27 +4398,27 @@
         "features": [
             {
                 "index": "ki",
-                "name": "Qui",
+                "name": "Chi",
                 "url": "/api/features/ki"
             },
             {
                 "index": "flurry-of-blows",
-                "name": "Rajada de Golpes",
+                "name": "Rajada de golpes",
                 "url": "/api/features/flurry-of-blows"
             },
             {
                 "index": "patient-defense",
-                "name": "Defesa do paciente",
+                "name": "Defesa paciente",
                 "url": "/api/features/patient-defense"
             },
             {
                 "index": "step-of-the-wind",
-                "name": "Etapa do Vento",
+                "name": "Passo do vento",
                 "url": "/api/features/step-of-the-wind"
             },
             {
                 "index": "unarmored-movement-1",
-                "name": "Movimento Desarmado",
+                "name": "Movimento sem armadura",
                 "url": "/api/features/unarmored-movement-1"
             }
         ],
@@ -4445,7 +4445,7 @@
         "features": [
             {
                 "index": "perfect-self",
-                "name": "Auto Perfeito",
+                "name": "Auto aperfeiçoamento",
                 "url": "/api/features/perfect-self"
             }
         ],
@@ -4472,12 +4472,12 @@
         "features": [
             {
                 "index": "monastic-tradition",
-                "name": "Tradição Monástica",
+                "name": "Tradição monástica",
                 "url": "/api/features/monastic-tradition"
             },
             {
                 "index": "deflect-missiles",
-                "name": "Desviar Mísseis",
+                "name": "Defletir projéteis",
                 "url": "/api/features/deflect-missiles"
             }
         ],
@@ -4504,12 +4504,12 @@
         "features": [
             {
                 "index": "monk-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/monk-ability-score-improvement-1"
             },
             {
                 "index": "slow-fall",
-                "name": "Queda Lenta",
+                "name": "Queda lenta",
                 "url": "/api/features/slow-fall"
             }
         ],
@@ -4541,7 +4541,7 @@
             },
             {
                 "index": "stunning-strike",
-                "name": "Ataque Impressionante",
+                "name": "Ataque atordoante",
                 "url": "/api/features/stunning-strike"
             }
         ],
@@ -4568,7 +4568,7 @@
         "features": [
             {
                 "index": "ki-empowered-strikes",
-                "name": "Ki Ataques Fortalecidos",
+                "name": "Golpes de Chi",
                 "url": "/api/features/ki-empowered-strikes"
             }
         ],
@@ -4600,7 +4600,7 @@
             },
             {
                 "index": "stillness-of-mind",
-                "name": "Lentidão da mente",
+                "name": "Mente tranquila",
                 "url": "/api/features/stillness-of-mind"
             }
         ],
@@ -4627,7 +4627,7 @@
         "features": [
             {
                 "index": "monk-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/monk-ability-score-improvement-2"
             }
         ],
@@ -4654,7 +4654,7 @@
         "features": [
             {
                 "index": "unarmored-movement-2",
-                "name": "Movimento Desarmado",
+                "name": "Aprimoramento de movimento sem armadura",
                 "url": "/api/features/unarmored-movement-2"
             }
         ],
@@ -4690,7 +4690,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "url": "/api/subclasses/open-hand/levels/11",
@@ -4701,7 +4701,7 @@
         "features": [
             {
                 "index": "quivering-palm",
-                "name": "Palma Silenciosa",
+                "name": "Palma vibrante",
                 "url": "/api/features/quivering-palm"
             }
         ],
@@ -4712,7 +4712,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "url": "/api/subclasses/open-hand/levels/17",
@@ -4723,7 +4723,7 @@
         "features": [
             {
                 "index": "open-hand-technique",
-                "name": "Técnica Mão Aberta",
+                "name": "Técnica da mão aberta",
                 "url": "/api/features/open-hand-technique"
             }
         ],
@@ -4734,7 +4734,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "url": "/api/subclasses/open-hand/levels/3",
@@ -4745,7 +4745,7 @@
         "features": [
             {
                 "index": "wholeness-of-body",
-                "name": "Enganação do Corpo",
+                "name": "Integridade corporal",
                 "url": "/api/features/wholeness-of-body"
             }
         ],
@@ -4756,7 +4756,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "url": "/api/subclasses/open-hand/levels/6",
@@ -4769,12 +4769,12 @@
         "features": [
             {
                 "index": "divine-sense",
-                "name": "Sentido Divino",
+                "name": "Sentido divino",
                 "url": "/api/features/divine-sense"
             },
             {
                 "index": "lay-on-hands",
-                "name": "Colocar nas Mãos",
+                "name": "Cura pelas",
                 "url": "/api/features/lay-on-hands"
             }
         ],
@@ -4832,7 +4832,7 @@
         "features": [
             {
                 "index": "improved-divine-smite",
-                "name": "Julgamento Divino Melhorado",
+                "name": "Destruição divina aprimorada",
                 "url": "/api/features/improved-divine-smite"
             }
         ],
@@ -4861,7 +4861,7 @@
         "features": [
             {
                 "index": "paladin-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/paladin-ability-score-improvement-3"
             }
         ],
@@ -4913,7 +4913,7 @@
         "features": [
             {
                 "index": "cleansing-touch",
-                "name": "Toque de limpeza",
+                "name": "Toque purificador",
                 "url": "/api/features/cleansing-touch"
             }
         ],
@@ -4965,7 +4965,7 @@
         "features": [
             {
                 "index": "paladin-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/paladin-ability-score-improvement-4"
             }
         ],
@@ -5017,7 +5017,7 @@
         "features": [
             {
                 "index": "aura-improvements",
-                "name": "Melhorias de Aura",
+                "name": "Aprimoramentos de aura",
                 "url": "/api/features/aura-improvements"
             }
         ],
@@ -5046,7 +5046,7 @@
         "features": [
             {
                 "index": "paladin-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/paladin-ability-score-improvement-5"
             }
         ],
@@ -5075,17 +5075,17 @@
         "features": [
             {
                 "index": "paladin-fighting-style",
-                "name": "Estilo do Combate",
+                "name": "Estilo de luta",
                 "url": "/api/features/paladin-fighting-style"
             },
             {
                 "index": "spellcasting-paladin",
-                "name": "Spellcasting: Paladin",
+                "name": "Conjuração: Paladino",
                 "url": "/api/features/spellcasting-paladin"
             },
             {
                 "index": "divine-smite",
-                "name": "Julgamento Divino",
+                "name": "Destruição divina",
                 "url": "/api/features/divine-smite"
             }
         ],
@@ -5137,22 +5137,22 @@
         "features": [
             {
                 "index": "divine-health",
-                "name": "Vida Divina",
+                "name": "Saúde divina",
                 "url": "/api/features/divine-health"
             },
             {
                 "index": "sacred-oath",
-                "name": "Sacred Oath",
+                "name": "Juramento sagrado",
                 "url": "/api/features/sacred-oath"
             },
             {
                 "index": "oath-spells",
-                "name": "Oath Spells",
+                "name": "Magias de juramento",
                 "url": "/api/features/oath-spells"
             },
             {
                 "index": "channel-divinity",
-                "name": "Divindade do canal",
+                "name": "Canalizar divindade",
                 "url": "/api/features/channel-divinity"
             }
         ],
@@ -5181,7 +5181,7 @@
         "features": [
             {
                 "index": "paladin-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/paladin-ability-score-improvement-1"
             }
         ],
@@ -5291,7 +5291,7 @@
         "features": [
             {
                 "index": "paladin-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/paladin-ability-score-improvement-2"
             }
         ],
@@ -5343,12 +5343,12 @@
         "features": [
             {
                 "index": "favored-enemy-1-type",
-                "name": "Inimigo favorito (1 tipo)",
+                "name": "Inimigo favorito",
                 "url": "/api/features/favored-enemy-1-type"
             },
             {
                 "index": "natural-explorer-1-terrain-type",
-                "name": "Explorador Natural (1 tipo de terreno)",
+                "name": "Explorador natural",
                 "url": "/api/features/natural-explorer-1-terrain-type"
             }
         ],
@@ -5367,7 +5367,7 @@
         "index": "ranger-1",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/1"
@@ -5379,12 +5379,12 @@
         "features": [
             {
                 "index": "natural-explorer-3-terrain-types",
-                "name": "Explorador Natural (3 tipos de terreno)",
+                "name": "Explorador Natural",
                 "url": "/api/features/natural-explorer-3-terrain-types"
             },
             {
                 "index": "hide-in-plain-sight",
-                "name": "Esconder na Visão Simples",
+                "name": "Mimetismo",
                 "url": "/api/features/hide-in-plain-sight"
             }
         ],
@@ -5403,7 +5403,7 @@
         "index": "ranger-10",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/10"
@@ -5428,7 +5428,7 @@
         "index": "ranger-11",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/11"
@@ -5440,7 +5440,7 @@
         "features": [
             {
                 "index": "ranger-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/ranger-ability-score-improvement-3"
             }
         ],
@@ -5459,7 +5459,7 @@
         "index": "ranger-12",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/12"
@@ -5484,7 +5484,7 @@
         "index": "ranger-13",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/13"
@@ -5496,12 +5496,12 @@
         "features": [
             {
                 "index": "favored-enemy-3-enemies",
-                "name": "Inimigo Favorecido (3 inimigos)",
+                "name": "Inimigo Favorito",
                 "url": "/api/features/favored-enemy-3-enemies"
             },
             {
                 "index": "vanish",
-                "name": "Desaparece",
+                "name": "Desaparecer",
                 "url": "/api/features/vanish"
             }
         ],
@@ -5520,7 +5520,7 @@
         "index": "ranger-14",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/14"
@@ -5545,7 +5545,7 @@
         "index": "ranger-15",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/15"
@@ -5557,7 +5557,7 @@
         "features": [
             {
                 "index": "ranger-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/ranger-ability-score-improvement-4"
             }
         ],
@@ -5576,7 +5576,7 @@
         "index": "ranger-16",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/16"
@@ -5601,7 +5601,7 @@
         "index": "ranger-17",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/17"
@@ -5613,7 +5613,7 @@
         "features": [
             {
                 "index": "feral-senses",
-                "name": "Sentidos Selvagens",
+                "name": "Sentidos selvagens",
                 "url": "/api/features/feral-senses"
             }
         ],
@@ -5632,7 +5632,7 @@
         "index": "ranger-18",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/18"
@@ -5644,7 +5644,7 @@
         "features": [
             {
                 "index": "ranger-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/ranger-ability-score-improvement-5"
             }
         ],
@@ -5663,7 +5663,7 @@
         "index": "ranger-19",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/19"
@@ -5675,12 +5675,12 @@
         "features": [
             {
                 "index": "ranger-fighting-style",
-                "name": "Estilo do Combate",
+                "name": "Estilo de luta",
                 "url": "/api/features/ranger-fighting-style"
             },
             {
                 "index": "spellcasting-ranger",
-                "name": "Ortografia: Ranger",
+                "name": "Conjuração: Patrulheiro",
                 "url": "/api/features/spellcasting-ranger"
             }
         ],
@@ -5699,7 +5699,7 @@
         "index": "ranger-2",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheito",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/2"
@@ -5711,7 +5711,7 @@
         "features": [
             {
                 "index": "foe-slayer",
-                "name": "Assassino de Inimigos",
+                "name": "Matador de inimigos",
                 "url": "/api/features/foe-slayer"
             }
         ],
@@ -5730,7 +5730,7 @@
         "index": "ranger-20",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/20"
@@ -5742,12 +5742,12 @@
         "features": [
             {
                 "index": "ranger-archetype",
-                "name": "Ranger Archetype",
+                "name": "Conclave de patrulheiro",
                 "url": "/api/features/ranger-archetype"
             },
             {
                 "index": "primeval-awareness",
-                "name": "Primeval Prevenção",
+                "name": "Consciência primitiva",
                 "url": "/api/features/primeval-awareness"
             }
         ],
@@ -5766,7 +5766,7 @@
         "index": "ranger-3",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/3"
@@ -5778,7 +5778,7 @@
         "features": [
             {
                 "index": "ranger-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/ranger-ability-score-improvement-1"
             }
         ],
@@ -5797,7 +5797,7 @@
         "index": "ranger-4",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/4"
@@ -5828,7 +5828,7 @@
         "index": "ranger-5",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/5"
@@ -5840,12 +5840,12 @@
         "features": [
             {
                 "index": "favored-enemy-2-types",
-                "name": "Inimigo favorito (2 tipos)",
+                "name": "Inimigo favorito",
                 "url": "/api/features/favored-enemy-2-types"
             },
             {
                 "index": "natural-explorer-2-terrain-types",
-                "name": "Explorador Natural (2 tipos de terreno)",
+                "name": "Explorador natural",
                 "url": "/api/features/natural-explorer-2-terrain-types"
             }
         ],
@@ -5864,7 +5864,7 @@
         "index": "ranger-6",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patruheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/6"
@@ -5889,7 +5889,7 @@
         "index": "ranger-7",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/7"
@@ -5901,12 +5901,12 @@
         "features": [
             {
                 "index": "ranger-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/ranger-ability-score-improvement-2"
             },
             {
                 "index": "ranger-lands-stride",
-                "name": "Marcha da Terra",
+                "name": "Pés rápidos",
                 "url": "/api/features/ranger-lands-stride"
             }
         ],
@@ -5925,7 +5925,7 @@
         "index": "ranger-8",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/8"
@@ -5950,7 +5950,7 @@
         "index": "ranger-9",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "url": "/api/classes/ranger/levels/9"
@@ -5962,17 +5962,17 @@
         "features": [
             {
                 "index": "rogue-expertise-1",
-                "name": "Experiência",
+                "name": "Especialização",
                 "url": "/api/features/rogue-expertise-1"
             },
             {
                 "index": "sneak-attack",
-                "name": "Ataque Furtivo",
+                "name": "Ataque furtivo",
                 "url": "/api/features/sneak-attack"
             },
             {
                 "index": "thieves-cant",
-                "name": "Cante dos Ladrões",
+                "name": "Gíria de ladrão",
                 "url": "/api/features/thieves-cant"
             }
         ],
@@ -5985,7 +5985,7 @@
         "index": "rogue-1",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/1"
@@ -5997,7 +5997,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-3"
             }
         ],
@@ -6010,7 +6010,7 @@
         "index": "rogue-10",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/10"
@@ -6022,7 +6022,7 @@
         "features": [
             {
                 "index": "reliable-talent",
-                "name": "Talento Confiável",
+                "name": "Talento confiável",
                 "url": "/api/features/reliable-talent"
             }
         ],
@@ -6035,7 +6035,7 @@
         "index": "rogue-11",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/11"
@@ -6047,7 +6047,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-4"
             }
         ],
@@ -6060,7 +6060,7 @@
         "index": "rogue-12",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/12"
@@ -6079,7 +6079,7 @@
         "index": "rogue-13",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/13"
@@ -6091,7 +6091,7 @@
         "features": [
             {
                 "index": "blindsense",
-                "name": "Cegueira",
+                "name": "Sentido cego",
                 "url": "/api/features/blindsense"
             }
         ],
@@ -6104,7 +6104,7 @@
         "index": "rogue-14",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/14"
@@ -6129,7 +6129,7 @@
         "index": "rogue-15",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/15"
@@ -6141,7 +6141,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-5"
             }
         ],
@@ -6154,7 +6154,7 @@
         "index": "rogue-16",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/16"
@@ -6173,7 +6173,7 @@
         "index": "rogue-17",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/17"
@@ -6198,7 +6198,7 @@
         "index": "rogue-18",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/18"
@@ -6210,7 +6210,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-6",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-6"
             }
         ],
@@ -6223,7 +6223,7 @@
         "index": "rogue-19",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/19"
@@ -6235,7 +6235,7 @@
         "features": [
             {
                 "index": "cunning-action",
-                "name": "Ação cunhada",
+                "name": "Ação ardilosa",
                 "url": "/api/features/cunning-action"
             }
         ],
@@ -6248,7 +6248,7 @@
         "index": "rogue-2",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/2"
@@ -6260,7 +6260,7 @@
         "features": [
             {
                 "index": "stroke-of-luck",
-                "name": "Golpe de Sorte",
+                "name": "Golpe de sorte",
                 "url": "/api/features/stroke-of-luck"
             }
         ],
@@ -6273,7 +6273,7 @@
         "index": "rogue-20",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/20"
@@ -6285,7 +6285,7 @@
         "features": [
             {
                 "index": "roguish-archetype",
-                "name": "Arquétipo Jovem",
+                "name": "Arquétipo de ladino",
                 "url": "/api/features/roguish-archetype"
             }
         ],
@@ -6298,7 +6298,7 @@
         "index": "rogue-3",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/3"
@@ -6310,7 +6310,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-1"
             }
         ],
@@ -6323,7 +6323,7 @@
         "index": "rogue-4",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/4"
@@ -6335,7 +6335,7 @@
         "features": [
             {
                 "index": "uncanny-dodge",
-                "name": "Esquiva Incêntrica",
+                "name": "Esquiva sobrenatural",
                 "url": "/api/features/uncanny-dodge"
             }
         ],
@@ -6348,7 +6348,7 @@
         "index": "rogue-5",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/5"
@@ -6360,7 +6360,7 @@
         "features": [
             {
                 "index": "rogue-expertise-2",
-                "name": "Experiência",
+                "name": "Especialização",
                 "url": "/api/features/rogue-expertise-2"
             }
         ],
@@ -6373,7 +6373,7 @@
         "index": "rogue-6",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/6"
@@ -6398,7 +6398,7 @@
         "index": "rogue-7",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/7"
@@ -6410,7 +6410,7 @@
         "features": [
             {
                 "index": "rogue-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/rogue-ability-score-improvement-2"
             }
         ],
@@ -6423,7 +6423,7 @@
         "index": "rogue-8",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/8"
@@ -6442,7 +6442,7 @@
         "index": "rogue-9",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "url": "/api/classes/rogue/levels/9"
@@ -6454,12 +6454,12 @@
         "features": [
             {
                 "index": "spellcasting-sorcerer",
-                "name": "Spellcasting: Sorcerer",
+                "name": "Conjuração: Feiticeiro",
                 "url": "/api/features/spellcasting-sorcerer"
             },
             {
                 "index": "sorcerous-origin",
-                "name": "Origem Feiticeira",
+                "name": "Origem de Feiticeira",
                 "url": "/api/features/sorcerous-origin"
             }
         ],
@@ -6484,7 +6484,7 @@
         "index": "sorcerer-1",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/1"
@@ -6496,7 +6496,7 @@
         "features": [
             {
                 "index": "metamagic-2",
-                "name": "Metamágico",
+                "name": "Metamágica",
                 "url": "/api/features/metamagic-2"
             }
         ],
@@ -6542,7 +6542,7 @@
         "index": "sorcerer-10",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/10"
@@ -6594,7 +6594,7 @@
         "index": "sorcerer-11",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/11"
@@ -6606,7 +6606,7 @@
         "features": [
             {
                 "index": "sorcerer-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/sorcerer-ability-score-improvement-3"
             }
         ],
@@ -6652,7 +6652,7 @@
         "index": "sorcerer-12",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/12"
@@ -6704,7 +6704,7 @@
         "index": "sorcerer-13",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/13"
@@ -6756,7 +6756,7 @@
         "index": "sorcerer-14",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/14"
@@ -6808,7 +6808,7 @@
         "index": "sorcerer-15",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/15"
@@ -6820,7 +6820,7 @@
         "features": [
             {
                 "index": "sorcerer-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/sorcerer-ability-score-improvement-4"
             }
         ],
@@ -6866,7 +6866,7 @@
         "index": "sorcerer-16",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/16"
@@ -6878,7 +6878,7 @@
         "features": [
             {
                 "index": "metamagic-3",
-                "name": "Metamágico",
+                "name": "Metamágica",
                 "url": "/api/features/metamagic-3"
             }
         ],
@@ -6924,7 +6924,7 @@
         "index": "sorcerer-17",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/17"
@@ -6976,7 +6976,7 @@
         "index": "sorcerer-18",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/18"
@@ -6988,7 +6988,7 @@
         "features": [
             {
                 "index": "sorcerer-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/sorcerer-ability-score-improvement-5"
             }
         ],
@@ -7034,7 +7034,7 @@
         "index": "sorcerer-19",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/19"
@@ -7046,17 +7046,17 @@
         "features": [
             {
                 "index": "font-of-magic",
-                "name": "Fonte Mágica",
+                "name": "Fonte de Magia",
                 "url": "/api/features/font-of-magic"
             },
             {
                 "index": "flexible-casting-creating-spell-slots",
-                "name": "Transmissão Flexível: Criando Slots de Feitiços",
+                "name": "Conjuração Flexível: Criando espaços de magia",
                 "url": "/api/features/flexible-casting-creating-spell-slots"
             },
             {
                 "index": "flexible-casting-converting-spell-slot",
-                "name": "Transmissão Flexível: Conversão de Slot de Feitiços",
+                "name": "Conjuração Flexível: Convertendo um espaço de magia em pontos de feitiçaria",
                 "url": "/api/features/flexible-casting-converting-spell-slot"
             }
         ],
@@ -7102,7 +7102,7 @@
         "index": "sorcerer-2",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/2"
@@ -7114,7 +7114,7 @@
         "features": [
             {
                 "index": "sorcerous-restoration",
-                "name": "Restauração Feiticeira",
+                "name": "Restauração mística",
                 "url": "/api/features/sorcerous-restoration"
             }
         ],
@@ -7160,7 +7160,7 @@
         "index": "sorcerer-20",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/20"
@@ -7172,7 +7172,7 @@
         "features": [
             {
                 "index": "metamagic-1",
-                "name": "Metamágico",
+                "name": "Metamágica",
                 "url": "/api/features/metamagic-1"
             }
         ],
@@ -7218,7 +7218,7 @@
         "index": "sorcerer-3",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/3"
@@ -7230,7 +7230,7 @@
         "features": [
             {
                 "index": "sorcerer-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/sorcerer-ability-score-improvement-1"
             }
         ],
@@ -7276,7 +7276,7 @@
         "index": "sorcerer-4",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/4"
@@ -7328,7 +7328,7 @@
         "index": "sorcerer-5",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/5"
@@ -7380,7 +7380,7 @@
         "index": "sorcerer-6",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/6"
@@ -7432,7 +7432,7 @@
         "index": "sorcerer-7",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/7"
@@ -7444,7 +7444,7 @@
         "features": [
             {
                 "index": "sorcerer-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/sorcerer-ability-score-improvement-2"
             }
         ],
@@ -7490,7 +7490,7 @@
         "index": "sorcerer-8",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/8"
@@ -7542,7 +7542,7 @@
         "index": "sorcerer-9",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "url": "/api/classes/sorcerer/levels/9"
@@ -7552,13 +7552,13 @@
         "features": [
             {
                 "index": "use-magic-device",
-                "name": "Use o dispositivo mágico",
+                "name": "Usar instrumento mágico",
                 "url": "/api/features/use-magic-device"
             }
         ],
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -7574,13 +7574,13 @@
         "features": [
             {
                 "index": "thiefs-reflexes",
-                "name": "Reflexos do Ladrão",
+                "name": "Reflexos de Ladrão",
                 "url": "/api/features/thiefs-reflexes"
             }
         ],
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -7596,18 +7596,18 @@
         "features": [
             {
                 "index": "fast-hands",
-                "name": "Mãos Rápidas",
+                "name": "Mãos rápidas",
                 "url": "/api/features/fast-hands"
             },
             {
                 "index": "second-story-work",
-                "name": "Segunda-História Trabalho",
+                "name": "Andarilho de telhados",
                 "url": "/api/features/second-story-work"
             }
         ],
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -7623,13 +7623,13 @@
         "features": [
             {
                 "index": "supreme-sneak",
-                "name": "Furtividade Suprema",
+                "name": "Furtividade suprema",
                 "url": "/api/features/supreme-sneak"
             }
         ],
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -7647,12 +7647,12 @@
         "features": [
             {
                 "index": "otherworldly-patron",
-                "name": "Patrono de Outromundo",
+                "name": "Patrono Transcendental",
                 "url": "/api/features/otherworldly-patron"
             },
             {
                 "index": "pact-magic",
-                "name": "Magia do Pacto",
+                "name": "Magia de pacto",
                 "url": "/api/features/pact-magic"
             }
         ],
@@ -7679,7 +7679,7 @@
         "index": "warlock-1",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/1"
@@ -7712,7 +7712,7 @@
         "index": "warlock-10",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/10"
@@ -7724,7 +7724,7 @@
         "features": [
             {
                 "index": "mystic-arcanum-6th-level",
-                "name": "Arcano Místico (6 nível)",
+                "name": "Arcana mística (6º nível)",
                 "url": "/api/features/mystic-arcanum-6th-level"
             }
         ],
@@ -7751,7 +7751,7 @@
         "index": "warlock-11",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/11"
@@ -7763,7 +7763,7 @@
         "features": [
             {
                 "index": "warlock-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/warlock-ability-score-improvement-3"
             }
         ],
@@ -7790,7 +7790,7 @@
         "index": "warlock-12",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/12"
@@ -7802,7 +7802,7 @@
         "features": [
             {
                 "index": "mystic-arcanum-7th-level",
-                "name": "Arcano Místico (nível 7)",
+                "name": "Arcana mística (7º nível)",
                 "url": "/api/features/mystic-arcanum-7th-level"
             }
         ],
@@ -7829,7 +7829,7 @@
         "index": "warlock-13",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/13"
@@ -7862,7 +7862,7 @@
         "index": "warlock-14",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/14"
@@ -7874,7 +7874,7 @@
         "features": [
             {
                 "index": "mystic-arcanum-8th-level",
-                "name": "Arcano Místico (nível 8)",
+                "name": "Arcana mística (8º nível)",
                 "url": "/api/features/mystic-arcanum-8th-level"
             }
         ],
@@ -7901,7 +7901,7 @@
         "index": "warlock-15",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/15"
@@ -7913,7 +7913,7 @@
         "features": [
             {
                 "index": "warlock-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/warlock-ability-score-improvement-4"
             }
         ],
@@ -7940,7 +7940,7 @@
         "index": "warlock-16",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/16"
@@ -7952,7 +7952,7 @@
         "features": [
             {
                 "index": "mystic-arcanum-9th-level",
-                "name": "Arcano Místico (9° nível)",
+                "name": "Arcana mística (9º nível)",
                 "url": "/api/features/mystic-arcanum-9th-level"
             }
         ],
@@ -7979,7 +7979,7 @@
         "index": "warlock-17",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/17"
@@ -8012,7 +8012,7 @@
         "index": "warlock-18",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/18"
@@ -8024,7 +8024,7 @@
         "features": [
             {
                 "index": "warlock-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/warlock-ability-score-improvement-5"
             }
         ],
@@ -8051,7 +8051,7 @@
         "index": "warlock-19",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/19"
@@ -8063,7 +8063,7 @@
         "features": [
             {
                 "index": "eldritch-invocations",
-                "name": "Invocações de Eldritch",
+                "name": "Invocações místicas",
                 "url": "/api/features/eldritch-invocations"
             }
         ],
@@ -8090,7 +8090,7 @@
         "index": "warlock-2",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/2"
@@ -8102,7 +8102,7 @@
         "features": [
             {
                 "index": "eldritch-master",
-                "name": "Mestre Eldritch",
+                "name": "Mestre místico",
                 "url": "/api/features/eldritch-master"
             }
         ],
@@ -8129,7 +8129,7 @@
         "index": "warlock-20",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/20"
@@ -8141,7 +8141,7 @@
         "features": [
             {
                 "index": "pact-boon",
-                "name": "Boon do Pacto",
+                "name": "Dádiva do pacto",
                 "url": "/api/features/pact-boon"
             }
         ],
@@ -8168,7 +8168,7 @@
         "index": "warlock-3",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/3"
@@ -8180,7 +8180,7 @@
         "features": [
             {
                 "index": "warlock-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/warlock-ability-score-improvement-1"
             }
         ],
@@ -8207,7 +8207,7 @@
         "index": "warlock-4",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/4"
@@ -8240,7 +8240,7 @@
         "index": "warlock-5",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/5"
@@ -8273,7 +8273,7 @@
         "index": "warlock-6",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/6"
@@ -8306,7 +8306,7 @@
         "index": "warlock-7",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/7"
@@ -8318,7 +8318,7 @@
         "features": [
             {
                 "index": "warlock-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/warlock-ability-score-improvement-2"
             }
         ],
@@ -8345,7 +8345,7 @@
         "index": "warlock-8",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/8"
@@ -8378,7 +8378,7 @@
         "index": "warlock-9",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "url": "/api/classes/warlock/levels/9"
@@ -8390,12 +8390,12 @@
         "features": [
             {
                 "index": "spellcasting-wizard",
-                "name": "Lançamento: Assistente",
+                "name": "Conjuração: Mago",
                 "url": "/api/features/spellcasting-wizard"
             },
             {
                 "index": "arcane-recovery",
-                "name": "Recuperação Arcana",
+                "name": "Recuperação arcana",
                 "url": "/api/features/arcane-recovery"
             }
         ],
@@ -8417,7 +8417,7 @@
         "index": "wizard-1",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/1"
@@ -8445,7 +8445,7 @@
         "index": "wizard-10",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/10"
@@ -8473,7 +8473,7 @@
         "index": "wizard-11",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/11"
@@ -8485,7 +8485,7 @@
         "features": [
             {
                 "index": "wizard-ability-score-improvement-3",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/wizard-ability-score-improvement-3"
             }
         ],
@@ -8507,7 +8507,7 @@
         "index": "wizard-12",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/12"
@@ -8535,7 +8535,7 @@
         "index": "wizard-13",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/13"
@@ -8563,7 +8563,7 @@
         "index": "wizard-14",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/14"
@@ -8591,7 +8591,7 @@
         "index": "wizard-15",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/15"
@@ -8603,7 +8603,7 @@
         "features": [
             {
                 "index": "wizard-ability-score-improvement-4",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/wizard-ability-score-improvement-4"
             }
         ],
@@ -8625,7 +8625,7 @@
         "index": "wizard-16",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/16"
@@ -8653,7 +8653,7 @@
         "index": "wizard-17",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/17"
@@ -8665,7 +8665,7 @@
         "features": [
             {
                 "index": "spell-mastery",
-                "name": "Maestria com Feitiços",
+                "name": "Dominar magia",
                 "url": "/api/features/spell-mastery"
             }
         ],
@@ -8687,7 +8687,7 @@
         "index": "wizard-18",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/18"
@@ -8699,7 +8699,7 @@
         "features": [
             {
                 "index": "wizard-ability-score-improvement-5",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/wizard-ability-score-improvement-5"
             }
         ],
@@ -8721,7 +8721,7 @@
         "index": "wizard-19",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/19"
@@ -8733,7 +8733,7 @@
         "features": [
             {
                 "index": "arcane-tradition",
-                "name": "Tradição Arcana",
+                "name": "Tradição arcana",
                 "url": "/api/features/arcane-tradition"
             }
         ],
@@ -8755,7 +8755,7 @@
         "index": "wizard-2",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/2"
@@ -8767,7 +8767,7 @@
         "features": [
             {
                 "index": "signature-spell",
-                "name": "Feitiço de Assinatura",
+                "name": "Assinatura mágica",
                 "url": "/api/features/signature-spell"
             }
         ],
@@ -8789,7 +8789,7 @@
         "index": "wizard-20",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/20"
@@ -8817,7 +8817,7 @@
         "index": "wizard-3",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/3"
@@ -8829,7 +8829,7 @@
         "features": [
             {
                 "index": "wizard-ability-score-improvement-1",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/wizard-ability-score-improvement-1"
             }
         ],
@@ -8851,7 +8851,7 @@
         "index": "wizard-4",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/4"
@@ -8879,7 +8879,7 @@
         "index": "wizard-5",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/5"
@@ -8907,7 +8907,7 @@
         "index": "wizard-6",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/6"
@@ -8935,7 +8935,7 @@
         "index": "wizard-7",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/7"
@@ -8947,7 +8947,7 @@
         "features": [
             {
                 "index": "wizard-ability-score-improvement-2",
-                "name": "Melhoria da Habilidade Pontuação",
+                "name": "Incremento no valor de habilidade",
                 "url": "/api/features/wizard-ability-score-improvement-2"
             }
         ],
@@ -8969,7 +8969,7 @@
         "index": "wizard-8",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/8"
@@ -8997,7 +8997,7 @@
         "index": "wizard-9",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "url": "/api/classes/wizard/levels/9"
