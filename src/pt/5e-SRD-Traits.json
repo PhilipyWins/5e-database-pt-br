@@ -5,13 +5,13 @@
         "subraces": [
             {
                 "index": "rock-gnome",
-                "name": "format@@0 Rock Gnome",
+                "name": "Gnomo das Rochas",
                 "url": "/api/subraces/rock-gnome"
             }
         ],
-        "name": "Lore do artifício",
+        "name": "Conhecimento do Artífice",
         "desc": [
-            "Sempre que você faz uma Inteligência (História) cheque relacionado a itens mágicos, objetos alquímicos ou dispositivos tecnológicos, você pode adicionar duas vezes seu bônus de proficiência, ao invés de qualquer bônus de proficiência que você normalmente se aplica."
+            ". Toda vez que você fizer um teste de Inteligência (História) relacionado a itens mágicos, objetos alquímicos ou mecanismos tecnológicos, você pode adicionar o dobro do seu bônus de proficiência, ao invés de qualquer bônus de proficiência que você normalmente use."
         ],
         "proficiencies": [],
         "url": "/api/traits/artificers-lore"
@@ -21,14 +21,14 @@
         "races": [
             {
                 "index": "halfling",
-                "name": "Híbrido",
+                "name": "Halfling",
                 "url": "/api/races/halfling"
             }
         ],
         "subraces": [],
-        "name": "Valente",
+        "name": "Bravura",
         "desc": [
-            "Você tem vantagem em salvar seus jogos, contra ter medo."
+            "Você tem vantagem em testes de resistência contra ficar amedrontado."
         ],
         "proficiencies": [],
         "url": "/api/traits/brave"
@@ -38,16 +38,16 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Arma de Sopro",
         "desc": [
-            "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração.",
-            "Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16.",
-            "Depois de usar a sua arma de respiração, você não poderá usá-la novamente até você completar um descanso curto ou longo."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele.",
+            "Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível.",
+            "Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "proficiencies": [],
         "url": "/api/traits/breath-weapon"
@@ -57,14 +57,14 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Resistência ao Dano",
+        "name": "Resistência a Dano",
         "desc": [
-            "Tem resistência ao tipo de dano associado à sua ascendência dracônica."
+            "Você possui resistência ao tipo de dano associado ao seu ancestral dracônico."
         ],
         "proficiencies": [],
         "url": "/api/traits/damage-resistance"
@@ -74,7 +74,7 @@
         "races": [
             {
                 "index": "dwarf",
-                "name": "Awarf",
+                "name": "Anão",
                 "url": "/api/races/dwarf"
             },
             {
@@ -84,17 +84,17 @@
             },
             {
                 "index": "gnome",
-                "name": "Gnome",
+                "name": "Gnomo",
                 "url": "/api/races/gnome"
             },
             {
                 "index": "half-elf",
-                "name": "Meia-Elfo",
+                "name": "Meio-Elfo",
                 "url": "/api/races/half-elf"
             },
             {
                 "index": "half-orc",
-                "name": "Meia-Orc:",
+                "name": "Meio-Orc:",
                 "url": "/api/races/half-orc"
             },
             {
@@ -104,9 +104,9 @@
             }
         ],
         "subraces": [],
-        "name": "Escuridão",
+        "name": "Visão no Escuro",
         "desc": [
-            "Você tem uma visão superior em condições escuras e escuras. Pode-se ver em luz fraca a 60 pés como se ela fosse luz brilhante. e na escuridão como se ela fosse pouca luz. Não se pode distinguir cor na escuridão, apenas tons de cinza."
+            "Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza."
         ],
         "proficiencies": [],
         "url": "/api/traits/darkvision"
@@ -116,14 +116,14 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Draconic Ancestry",
+        "name": "Ancestral Dracônico",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você possui um ancestral dracônico. Escolha um tipo de dragão da tabela Ancestral Dracônico. Sua arma de sopro e resistência a dano são determinadas pelo tipo de dragão, como mostrado na tabela."
         ],
         "proficiencies": [],
         "trait_specific": {
@@ -136,7 +136,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "draconic-ancestry-black",
-                                "name": "Ancestral Dracônico (Falta)",
+                                "name": "Ancestral Dracônico (Negro)",
                                 "url": "/api/traits/draconic-ancestry-black"
                             }
                         },
@@ -152,7 +152,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "draconic-ancestry-brass",
-                                "name": "Draconic Ancestry (Brass)",
+                                "name": "Ancestral Dracônico (Latão)",
                                 "url": "/api/traits/draconic-ancestry-brass"
                             }
                         },
@@ -168,7 +168,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "draconic-ancestry-copper",
-                                "name": "Ancestral Dracônico (Cobredor)",
+                                "name": "Ancestral Dracônico (Cobre)",
                                 "url": "/api/traits/draconic-ancestry-copper"
                             }
                         },
@@ -200,7 +200,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "draconic-ancestry-silver",
-                                "name": "Ancestrado Dracônico (Silver)",
+                                "name": "Ancestrado Dracônico (Prata)",
                                 "url": "/api/traits/draconic-ancestry-silver"
                             }
                         },
@@ -224,18 +224,18 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Ancestral Dracônico (Falta)",
+        "name": "Ancestral Dracônico (Negro)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você possui um ancestral dracônico. Escolha um tipo de dragão da tabela Ancestral Dracônico. Sua arma de sopro e resistência a dano são determinadas pelo tipo de dragão, como mostrado na tabela."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
@@ -247,10 +247,10 @@
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 30,
-                    "type": "linha"
+                    "size": 9,
+                    "type": "Linha"
                 },
                 "usage": {
                     "type": "por resto",
@@ -259,7 +259,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -288,33 +288,33 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Ancestral Dracônico (Azul)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
         "trait_specific": {
             "damage_type": {
                 "index": "lightning",
-                "name": "Relâmpago",
+                "name": "Elétrico",
                 "url": "/api/damage-types/lightning"
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 30,
-                    "type": "linha"
+                    "size": 9,
+                    "type": "Linha"
                 },
                 "usage": {
                     "type": "por resto",
@@ -323,7 +323,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -332,7 +332,7 @@
                     {
                         "damage_type": {
                             "index": "lightning",
-                            "name": "Relâmpago",
+                            "name": "Elétrico",
                             "url": "/api/damage-types/lightning"
                         },
                         "damage_at_character_level": {
@@ -352,33 +352,33 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Draconic Ancestry (Brass)",
+        "name": "Ancestral Dracônico (Latão)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
         "trait_specific": {
             "damage_type": {
                 "index": "fire",
-                "name": "Disparar",
+                "name": "Fogo",
                 "url": "/api/damage-types/fire"
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 30,
-                    "type": "linha"
+                    "size": 9,
+                    "type": "Linha"
                 },
                 "usage": {
                     "type": "por resto",
@@ -387,7 +387,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -396,7 +396,7 @@
                     {
                         "damage_type": {
                             "index": "fire",
-                            "name": "Disparar",
+                            "name": "Fogo",
                             "url": "/api/damage-types/fire"
                         },
                         "damage_at_character_level": {
@@ -416,33 +416,33 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Ancestral Dracônico (Bronze)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
         "trait_specific": {
             "damage_type": {
                 "index": "lightning",
-                "name": "Relâmpago",
+                "name": "Elétrico",
                 "url": "/api/damage-types/lightning"
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 30,
-                    "type": "linha"
+                    "size": 9,
+                    "type": "Linha"
                 },
                 "usage": {
                     "type": "por resto",
@@ -451,7 +451,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -460,7 +460,7 @@
                     {
                         "damage_type": {
                             "index": "lightning",
-                            "name": "Relâmpago",
+                            "name": "Elétrico",
                             "url": "/api/damage-types/lightning"
                         },
                         "damage_at_character_level": {
@@ -480,18 +480,18 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Ancestral Dracônico (Cobredor)",
+        "name": "Ancestral Dracônico (Cobre)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
@@ -503,10 +503,10 @@
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 30,
-                    "type": "linha"
+                    "size": 9,
+                    "type": "Linha"
                 },
                 "usage": {
                     "type": "por resto",
@@ -515,7 +515,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -544,33 +544,33 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Ancestral Dracônico (Ouro)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
         "trait_specific": {
             "damage_type": {
                 "index": "fire",
-                "name": "Disparar",
+                "name": "Fogo",
                 "url": "/api/damage-types/fire"
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
                 "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
                 "area_of_effect": {
-                    "size": 15,
-                    "type": "cone"
+                    "size": 4,5,
+                    "type": "Cone"
                 },
                 "usage": {
                     "type": "por resto",
@@ -579,7 +579,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -588,7 +588,7 @@
                     {
                         "damage_type": {
                             "index": "fire",
-                            "name": "Disparar",
+                            "name": "Fogo",
                             "url": "/api/damage-types/fire"
                         },
                         "damage_at_character_level": {
@@ -608,18 +608,18 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Ancestral Dracônico (Verde)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
@@ -631,10 +631,10 @@
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 15,
-                    "type": "cone"
+                    "size": 4,5,
+                    "type": "Cone"
                 },
                 "usage": {
                     "type": "por resto",
@@ -672,33 +672,33 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
         "name": "Ancestral Dracônico (Vermelho)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
         "trait_specific": {
             "damage_type": {
                 "index": "fire",
-                "name": "Disparar",
+                "name": "Fogo",
                 "url": "/api/damage-types/fire"
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 15,
-                    "type": "cone"
+                    "size": 4,5,
+                    "type": "Cone"
                 },
                 "usage": {
                     "type": "por resto",
@@ -707,7 +707,7 @@
                 "dc": {
                     "dc_type": {
                         "index": "dex",
-                        "name": "DEXO",
+                        "name": "DES",
                         "url": "/api/ability-scores/dex"
                     },
                     "success_type": "Metade"
@@ -716,7 +716,7 @@
                     {
                         "damage_type": {
                             "index": "fire",
-                            "name": "Disparar",
+                            "name": "Fogo",
                             "url": "/api/damage-types/fire"
                         },
                         "damage_at_character_level": {
@@ -736,18 +736,18 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
         "subraces": [],
-        "name": "Ancestrado Dracônico (Silver)",
+        "name": "Ancestrado Dracônico (Prata)",
         "desc": [
-            "Você tem ancestral dracônico. Escolha um tipo de dragão da mesa Ancestral Dracônica. Sua arma de respiração e resistência ao dano são determinados pelo tipo de dragão, conforme mostrado na tabela."
+            "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo."
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
@@ -759,10 +759,10 @@
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 15,
-                    "type": "cone"
+                    "size": 4,5,
+                    "type": "Cone"
                 },
                 "usage": {
                     "type": "por resto",
@@ -800,7 +800,7 @@
         "races": [
             {
                 "index": "dragonborn",
-                "name": "Dragonborn",
+                "name": "Draconato",
                 "url": "/api/races/dragonborn"
             }
         ],
@@ -811,7 +811,7 @@
         ],
         "parent": {
             "index": "draconic-ancestry",
-            "name": "Draconic Ancestry",
+            "name": "Ancestral Dracônico",
             "url": "/api/traits/draconic-ancestry"
         },
         "proficiencies": [],
@@ -823,10 +823,10 @@
             },
             "breath_weapon": {
                 "name": "Arma de Sopro",
-                "desc": "Você pode usar sua ação para exalar energia destrutiva. Suas ancestrais dracônicas determinam o tamanho, a forma e o tipo de dano da expiração. Quando você usa sua arma de fôlego, cada criatura na área da exalação precisa fazer um lançamento salvo, o tipo do qual é determinado pela sua ascendência dracônica. O DC para este lançamento de salvamento é igual a 8 + o seu modificador de Constituição + o seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento falhado e metade de dano em um sucesso. Os danos aumentam para o 3d6 ao 6° nível, para o 4d6 ao 11o nível e para o 5d6 ao 16. Depois de usar a sua arma de fôlego, você não poderá usá-la novamente até descansar curto ou longo.",
+                "desc": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele. Quando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível. Depois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "area_of_effect": {
-                    "size": 15,
-                    "type": "cone"
+                    "size": 4,5,
+                    "type": "Cone"
                 },
                 "usage": {
                     "type": "por resto",
@@ -864,14 +864,14 @@
         "races": [
             {
                 "index": "dwarf",
-                "name": "Awarf",
+                "name": "Anão",
                 "url": "/api/races/dwarf"
             }
         ],
         "subraces": [],
-        "name": "Treinamento de Guerra Avalanche",
+        "name": "Treinamento Anão em Combate",
         "desc": [
-            "Você tem proficiência com o machado de batalha, handaxe, martelo leve e martelo quente."
+            "Você tem proficiência com machados de batalha, machadinhas, martelos leves e martelos de guerra."
         ],
         "proficiencies": [
             {
@@ -881,17 +881,17 @@
             },
             {
                 "index": "handaxes",
-                "name": "Handaxes",
+                "name": "Machadinhas",
                 "url": "/api/proficiencies/handaxes"
             },
             {
                 "index": "light-hammers",
-                "name": "Martelos claros",
+                "name": "Martelos leves",
                 "url": "/api/proficiencies/light-hammers"
             },
             {
                 "index": "warhammers",
-                "name": "Warhammers",
+                "name": "Martelos de guerra",
                 "url": "/api/proficiencies/warhammers"
             }
         ],
@@ -902,14 +902,14 @@
         "races": [
             {
                 "index": "dwarf",
-                "name": "Awarf",
+                "name": "Anão",
                 "url": "/api/races/dwarf"
             }
         ],
         "subraces": [],
-        "name": "Reservatório de Resiliência",
+        "name": "Resiliência Anã",
         "desc": [
-            "Você tem vantagem em economizar lançamentos contra veneno, e tem resistência contra dano venenoso."
+            "Você possui vantagem em testes de resistência contra venenos e resistência contra dano de veneno."
         ],
         "proficiencies": [],
         "url": "/api/traits/dwarven-resilience"
@@ -920,13 +920,13 @@
         "subraces": [
             {
                 "index": "hill-dwarf",
-                "name": "Dwarf do monte",
+                "name": "Anão da Colina",
                 "url": "/api/subraces/hill-dwarf"
             }
         ],
-        "name": "Tenacidade Aduvidada",
+        "name": "Tenacidade Anã",
         "desc": [
-            "O máximo de pontos de acerto aumenta em 1, e sempre que você ganha um nível."
+            "Seu máximo de pontos de vida aumentam em 1, e cada vez que o anão da colina sobe um nível, ele recebe 1 ponto de vida adicional."
         ],
         "proficiencies": [],
         "url": "/api/traits/dwarven-toughness"
@@ -937,13 +937,13 @@
         "subraces": [
             {
                 "index": "high-elf",
-                "name": "Elfo Alto",
+                "name": "Alto Elfo",
                 "url": "/api/subraces/high-elf"
             }
         ],
-        "name": "Treinamento de Armas Elfas",
+        "name": "Treinamento Élfico com Armas",
         "desc": [
-            "Você tem proficiência com a espada longa, espada curta, arco curto e arco longo."
+            "Você possui proficiência com espadas longas, espadas curtas, arcos longos e arcos curtos."
         ],
         "proficiencies": [
             {
@@ -953,7 +953,7 @@
             },
             {
                 "index": "shortswords",
-                "name": "Palavras curtas",
+                "name": "Espadas curtas",
                 "url": "/api/proficiencies/shortswords"
             },
             {
@@ -963,7 +963,7 @@
             },
             {
                 "index": "longbows",
-                "name": "Longbows",
+                "name": "Arcos longos",
                 "url": "/api/proficiencies/longbows"
             }
         ],
@@ -975,13 +975,13 @@
         "subraces": [
             {
                 "index": "high-elf",
-                "name": "Elfo Alto",
+                "name": "Alto Elfo",
                 "url": "/api/subraces/high-elf"
             }
         ],
-        "name": "Idioma extra",
+        "name": "Idioma Adicional",
         "desc": [
-            "Você pode falar, ler e escrever um idioma extra de sua escolha."
+            "Você pode falar, ler e escrever um idioma adicional à sua escolha."
         ],
         "proficiencies": [],
         "language_options": {
@@ -994,7 +994,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "dwarvish",
-                            "name": "Antecedente",
+                            "name": "Anão",
                             "url": "/api/languages/dwarvish"
                         }
                     },
@@ -1010,7 +1010,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "gnomish",
-                            "name": "Gnomish",
+                            "name": "Gnômico",
                             "url": "/api/languages/gnomish"
                         }
                     },
@@ -1026,7 +1026,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "halfling",
-                            "name": "Híbrido",
+                            "name": "Halfling",
                             "url": "/api/languages/halfling"
                         }
                     },
@@ -1034,7 +1034,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "orc",
-                            "name": "Orc,",
+                            "name": "Orc",
                             "url": "/api/languages/orc"
                         }
                     },
@@ -1042,7 +1042,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "abyssal",
-                            "name": "Abyssal",
+                            "name": "Abissal",
                             "url": "/api/languages/abyssal"
                         }
                     },
@@ -1058,7 +1058,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "draconic",
-                            "name": "Draconic",
+                            "name": "Dracônico",
                             "url": "/api/languages/draconic"
                         }
                     },
@@ -1066,7 +1066,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "deep-speech",
-                            "name": "Discurso Profundo",
+                            "name": "Dialeto Subterrâneo",
                             "url": "/api/languages/deep-speech"
                         }
                     },
@@ -1117,14 +1117,14 @@
             },
             {
                 "index": "half-elf",
-                "name": "Meia-Elfo",
+                "name": "Meio-Elfo",
                 "url": "/api/races/half-elf"
             }
         ],
         "subraces": [],
-        "name": "Ancestral Fey",
+        "name": "Ancestral Feérico",
         "desc": [
-            "Você tem vantagem em salvar lançamentos contra ser encanto e a magia não pode colocar você no sono."
+            "o. Você tem vantagem nos testes de resistência para resistir a ser enfeitiçado e magias não podem colocá-lo para dormir."
         ],
         "proficiencies": [],
         "url": "/api/traits/fey-ancestry"
@@ -1134,14 +1134,14 @@
         "races": [
             {
                 "index": "gnome",
-                "name": "Gnome",
+                "name": "Gnomo",
                 "url": "/api/races/gnome"
             }
         ],
         "subraces": [],
-        "name": "Gnome Cunning",
+        "name": "Esperteza Gnômica",
         "desc": [
-            "Você tem vantagem em toda Inteligência, Sabedoria e Carisma salvando lançamentos contra magia."
+            "Você possui vantagem em todos os testes de resistência de Inteligência, Sabedoria e Carisma contra magia."
         ],
         "proficiencies": [],
         "url": "/api/traits/gnome-cunning"
@@ -1151,14 +1151,14 @@
         "races": [
             {
                 "index": "halfling",
-                "name": "Híbrido",
+                "name": "Halfling",
                 "url": "/api/races/halfling"
             }
         ],
         "subraces": [],
-        "name": "Halfling Nimbleness",
+        "name": "Agilidade Halfling",
         "desc": [
-            "Você pode se mover pelo espaço de qualquer criatura de um tamanho maior que a sua."
+            "Você pode mover-se através do espaço de qualquer criatura que for de um tamanho maior que o seu."
         ],
         "proficiencies": [],
         "url": "/api/traits/halfling-nimbleness"
@@ -1173,9 +1173,9 @@
             }
         ],
         "subraces": [],
-        "name": "Resistência Elétrica",
+        "name": "Resistência Infernal",
         "desc": [
-            "Você tem resistência a danos de fogo."
+            "Você possui resistência a dano de fogo."
         ],
         "proficiencies": [],
         "url": "/api/traits/hellish-resistance"
@@ -1186,13 +1186,13 @@
         "subraces": [
             {
                 "index": "high-elf",
-                "name": "Elfo Alto",
+                "name": "Alto Elfo",
                 "url": "/api/subraces/high-elf"
             }
         ],
-        "name": "Lápis de Alto Elfo",
+        "name": "Truque de Alto Elfo",
         "desc": [
-            "Você conhece um canhão de sua escolha da lista de feitiços do assistente. Inteligência é sua habilidade de magia para isso."
+            " Você conhece um truque, à sua escolha, da lista de truques do mago. Inteligência é a habilidade usado para conjurar este truque."
         ],
         "proficiencies": [],
         "trait_specific": {
@@ -1205,7 +1205,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "light",
-                                "name": "Fino",
+                                "name": "Luz",
                                 "url": "/api/spells/light"
                             }
                         },
@@ -1213,7 +1213,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "url": "/api/spells/mage-hand"
                             }
                         },
@@ -1221,7 +1221,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "mending",
-                                "name": "Remendo",
+                                "name": "Consertar",
                                 "url": "/api/spells/mending"
                             }
                         },
@@ -1229,7 +1229,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "message",
-                                "name": "mensagem",
+                                "name": "Mensagem",
                                 "url": "/api/spells/message"
                             }
                         },
@@ -1237,7 +1237,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "minor-illusion",
-                                "name": "Pequena ilusão",
+                                "name": "Ilusão Menor",
                                 "url": "/api/spells/minor-illusion"
                             }
                         },
@@ -1245,7 +1245,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "acid-splash",
-                                "name": "Acid Arremessável",
+                                "name": "Espirro Ácido",
                                 "url": "/api/spells/acid-splash"
                             }
                         },
@@ -1269,7 +1269,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "shocking-grasp",
-                                "name": "Aperto Eletrificado",
+                                "name": "Toque Chocante",
                                 "url": "/api/spells/shocking-grasp"
                             }
                         },
@@ -1277,7 +1277,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "true-strike",
-                                "name": "Ataque verdadeiro",
+                                "name": "Ataque Certeiro",
                                 "url": "/api/spells/true-strike"
                             }
                         },
@@ -1285,7 +1285,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "chill-touch",
-                                "name": "Toque Frio",
+                                "name": "Toque Arrepiante",
                                 "url": "/api/spells/chill-touch"
                             }
                         },
@@ -1293,7 +1293,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "dancing-lights",
-                                "name": "Luzes Dançantes",
+                                "name": "Globos de Luz",
                                 "url": "/api/spells/dancing-lights"
                             }
                         },
@@ -1301,7 +1301,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fire-bolt",
-                                "name": "Parafuso de Fogo",
+                                "name": "Raio de Fogo",
                                 "url": "/api/spells/fire-bolt"
                             }
                         },
@@ -1309,7 +1309,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "poison-spray",
-                                "name": "Spray Venenoso",
+                                "name": "Rajada de Veneno",
                                 "url": "/api/spells/poison-spray"
                             }
                         }
@@ -1332,7 +1332,7 @@
         "subraces": [],
         "name": "Legado Infernal",
         "desc": [
-            "Você conhece a viagem do thaumaturgo. Quando você atingir o nível 3 você pode usar o feitiço infernal de repreensão como um feitiço de 2 níveis uma vez com essa característica e recuperar a habilidade de fazê-lo quando terminar uma descanso longo. Quando você atinge o 5° nível, Pode lançar o feitiço de escuridão uma vez com essa característica e recuperar a habilidade de fazê-lo quando terminar um longo descanso. Charisma é sua habilidade de feitiço para esses feitiços."
+            "Você conhece o truque taumaturgia. Quando você atingir o 3° nível, você poderá conjurar a magia repreensão infernal como uma magia de 2° nível. Quando você atingir o 5° nível, você também poderá conjurar a magia escuridão. Você precisa terminar um descanso longo para poder usar as magias desse traço novamente. Sua habilidade de conjuração para essas magias é Carisma."
         ],
         "proficiencies": [],
         "url": "/api/traits/infernal-legacy"
@@ -1347,9 +1347,9 @@
             }
         ],
         "subraces": [],
-        "name": "Sentidos Keen",
+        "name": "Sentidos Aguçados",
         "desc": [
-            "Você tem proficiência na habilidade Percepção."
+            "Você tem proficiência na perícia Percepção."
         ],
         "proficiencies": [
             {
@@ -1365,14 +1365,14 @@
         "races": [
             {
                 "index": "halfling",
-                "name": "Híbrido",
+                "name": "Halfling",
                 "url": "/api/races/halfling"
             }
         ],
         "subraces": [],
-        "name": "Sorte",
+        "name": "Sortudo",
         "desc": [
-            "Quando você joga um 1 no d20 para um rolo de ataque, verificação de habilidade, ou poupando lançamentos, você pode rolar o dado novamente e deve usar o novo rolamento."
+            "Quando você obtiver um 1 natural em uma jogada de ataque, teste de habilidade ou teste de resistência, você pode jogar de novo o dado e deve utilizar o novo resultado."
         ],
         "proficiencies": [],
         "url": "/api/traits/lucky"
@@ -1382,14 +1382,14 @@
         "races": [
             {
                 "index": "half-orc",
-                "name": "Meia-Orc:",
+                "name": "Meio-Orc:",
                 "url": "/api/races/half-orc"
             }
         ],
         "subraces": [],
-        "name": "Miquerinação",
+        "name": "Ameaçador",
         "desc": [
-            "Você ganha proficiência na habilidade de Intimidação."
+            "Você adquire proficiência na perícia Intimidação."
         ],
         "proficiencies": [
             {
@@ -1406,13 +1406,13 @@
         "subraces": [
             {
                 "index": "lightfoot-halfling",
-                "name": "Híbrido Pé Leve",
+                "name": "Halfling Pés Leves",
                 "url": "/api/subraces/lightfoot-halfling"
             }
         ],
-        "name": "Ladrão naturalmente",
+        "name": "Furtividade Natural",
         "desc": [
-            "Você pode tentar esconder, mesmo quando você é obscurecido apenas por uma criatura que é pelo menos um tamanho maior que você."
+            "Você pode tentar se esconder mesmo quando possuir apenas a cobertura de uma criatura que for no mínimo um tamanho maior que o seu."
         ],
         "proficiencies": [],
         "url": "/api/traits/naturally-stealthy"
@@ -1422,14 +1422,14 @@
         "races": [
             {
                 "index": "half-orc",
-                "name": "Meia-Orc:",
+                "name": "Meio-Orc:",
                 "url": "/api/races/half-orc"
             }
         ],
         "subraces": [],
-        "name": "Perseverança Implacável",
+        "name": "Resistência Implacável",
         "desc": [
-            "Quando você for reduzido para 0 pontos de batida mas não for morto completamente, você pode cair até 1 ponto de acerto em vez disso. você não pode usar esse recurso novamente até terminar um descanso."
+            "Quando você é reduzido a 0 pontos de vida mas não é completamente morto, você pode voltar para 1 ponto de vida. Você não pode usar essa característica novamente até completar um descanso longo."
         ],
         "proficiencies": [],
         "url": "/api/traits/relentless-endurance"
@@ -1439,14 +1439,14 @@
         "races": [
             {
                 "index": "half-orc",
-                "name": "Meia-Orc:",
+                "name": "Meio-Orc:",
                 "url": "/api/races/half-orc"
             }
         ],
         "subraces": [],
         "name": "Ataques Selvagens",
         "desc": [
-            "Quando você marca um acerto crítico com um ataque de arma branca você pode rolar uma das armas com dados de dano adicional de uma vez e adicioná-la ao dano extra do acerto crítico."
+            "Quando você atinge um ataque crítico com uma arma corpo-a-corpo, você pode rolar um dos dados de dano da arma mais uma vez e adicioná-lo ao dano extra causado pelo acerto crítico."
         ],
         "proficiencies": [],
         "url": "/api/traits/savage-attacks"
@@ -1456,14 +1456,14 @@
         "races": [
             {
                 "index": "half-elf",
-                "name": "Meia-Elfo",
+                "name": "Meio-Elfo",
                 "url": "/api/races/half-elf"
             }
         ],
         "subraces": [],
-        "name": "Versatilidade da Habilidade",
+        "name": "Versatilidade em Perícia",
         "desc": [
-            "Você ganha proficiência em duas habilidades de sua escolha."
+            "Você ganha proficiência em duas perícias, à sua escolha."
         ],
         "proficiencies": [],
         "proficiency_choices": {
@@ -1476,7 +1476,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-acrobatics",
-                            "name": "Habilidade: Acrobática",
+                            "name": "Habilidade: Acrobacia",
                             "url": "/api/proficiencies/skill-acrobatics"
                         }
                     },
@@ -1484,7 +1484,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-animal-handling",
-                            "name": "Habilidade: Manipulação de Animais",
+                            "name": "Habilidade: Adestrar Animais",
                             "url": "/api/proficiencies/skill-animal-handling"
                         }
                     },
@@ -1492,7 +1492,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-arcana",
-                            "name": "Habilidade: Arcana",
+                            "name": "Habilidade: Arcanismo",
                             "url": "/api/proficiencies/skill-arcana"
                         }
                     },
@@ -1500,7 +1500,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-athletics",
-                            "name": "Habilidade: Atleta",
+                            "name": "Habilidade: Atletismo",
                             "url": "/api/proficiencies/skill-athletics"
                         }
                     },
@@ -1508,7 +1508,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-deception",
-                            "name": "Habilidade: Engodo",
+                            "name": "Habilidade: Enganação",
                             "url": "/api/proficiencies/skill-deception"
                         }
                     },
@@ -1516,7 +1516,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-history",
-                            "name": "Habilidade: Histórico",
+                            "name": "Habilidade: História",
                             "url": "/api/proficiencies/skill-history"
                         }
                     },
@@ -1524,7 +1524,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-insight",
-                            "name": "Habilidade: Conhecimento",
+                            "name": "Habilidade: Intuição",
                             "url": "/api/proficiencies/skill-insight"
                         }
                     },
@@ -1572,7 +1572,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-performance",
-                            "name": "Habilidade: Desempenho",
+                            "name": "Habilidade: Atuação",
                             "url": "/api/proficiencies/skill-performance"
                         }
                     },
@@ -1596,7 +1596,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "skill-sleight-of-hand",
-                            "name": "Habilidade: Trenó da Mão",
+                            "name": "Habilidade: Prestidigitação",
                             "url": "/api/proficiencies/skill-sleight-of-hand"
                         }
                     },
@@ -1626,14 +1626,14 @@
         "races": [
             {
                 "index": "dwarf",
-                "name": "Awarf",
+                "name": "Anão",
                 "url": "/api/races/dwarf"
             }
         ],
         "subraces": [],
-        "name": "Pedreiro",
+        "name": "Especialização em Rochas",
         "desc": [
-            "Sempre que você fazer uma Inteligência (Histórico) verificar relacionados à origem do trabalho de pedra, você é considerado proficiente na habilidade Histórico e adiciona o dobro de seu bônus de proficiência à verificação, em vez de seu bônus normal de proficiência."
+            " Sempre que você realizar um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e adiciona o dobro do seu bônus de proficiência ao teste, ao invés do seu bônus de proficiência normal."
         ],
         "proficiencies": [],
         "url": "/api/traits/stonecunning"
@@ -1644,22 +1644,22 @@
         "subraces": [
             {
                 "index": "rock-gnome",
-                "name": "format@@0 Rock Gnome",
+                "name": "Gnomo das Rochas",
                 "url": "/api/subraces/rock-gnome"
             }
         ],
-        "name": "Tinker",
+        "name": "Engenhoqueiro",
         "desc": [
-            "Você tem proficiência com as ferramentas do artesão (ferramentas do inventário). Usando essas ferramentas, você pode gastar 1 hora e 10 gps de materiais para construir um pequeno dispositivo de relógio (AC 5, 1 hp). O dispositivo para de funcionar após 24 horas (a menos que você gaste 1 hora a reparar para manter o dispositivo funcionando), ou quando você usar sua ação para desmontá-la; Nesse momento, você pode recuperar os materiais usados para criá-lo. Você pode ter até três dispositivos deste tipo ativos de cada vez.",
-            "Quando você criar um dispositivo, escolha uma das seguintes opções:",
-            "Brinquedo: Este brinquedo é um animal de relógio com monstro ou pessoa, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo move 5 pés pelo chão em cada um dos seus giros em uma direção aleatória. Faz ruídos como adequados à criatura que representa.",
-            "Começo de Fogo: O dispositivo produz uma chama miniatura, que você pode usar para acender uma vela, tocha ou fogueira. Usar o dispositivo requer sua ação.",
-            "Caixa de música: Quando aberta, esta caixa de música toca uma única música em um volume moderado. A caixa para de tocar quando atinge o final da música ou quando é fechada."
+            "Você possui proficiência com ferramentas de artesão (ferramentas de engenhoqueiro). Usando essas ferramentas, você pode gastar 1 hora e 10 po em materiais para construir um mecanismo Miúdo (CA 5, 1 pv). O mecanismo para de funcionar após 24 horas (a não ser que você gaste 1 hora reparando-o para manter o mecanismo funcionando), ou quando você usa sua ação para desmantelá-lo; nesse momento, você pode recuperar o material usado para criá-lo. Você pode ter até três desses mecanismos ativos ao mesmo tempo.",
+            "Quando você criar um mecanismo, escolha uma das seguintes opções:",
+            "Brinquedo Mecânico. Esse brinquedo é um animal, monstro ou pessoa mecânica, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 1,5 metro pelo chão em cada um dos seus turnos em uma direção aleatória. Ele faz barulhos apropriados a criatura que ele representa.",
+            "Isqueiro Mecânico. O mecanismo produz uma miniatura de chama, que você pode usar para acender uma vela, tocha ou fogueira. Usar o mecanismo requer sua ação.",
+            "Caixa de Música. Quando aberta, essa caixa de música toca uma canção a um volume moderado. A caixa para de tocar quando alcança o fim da música ou quando é fechada."
         ],
         "proficiencies": [
             {
                 "index": "tinkers-tools",
-                "name": "Ferramentas do Tinker",
+                "name": "Ferramentas do Artesão",
                 "url": "/api/proficiencies/tinkers-tools"
             }
         ],
@@ -1670,14 +1670,14 @@
         "races": [
             {
                 "index": "dwarf",
-                "name": "Awarf",
+                "name": "Anão",
                 "url": "/api/races/dwarf"
             }
         ],
         "subraces": [],
-        "name": "Proficiência da Ferramenta",
+        "name": "Proficiência com Ferramenta",
         "desc": [
-            "Você ganha proficiência com as ferramentas do artesão de sua escolha: ferramentas do ferreiro, suprimentos de cervejeiros ou ferramentas de massa."
+            "Você tem proficiência em uma ferramenta de artesão à sua escolha entre: ferramentas de ferreiro, suprimentos de cervejeiro ou ferramentas de pedreiro."
         ],
         "proficiencies": [],
         "proficiency_choices": {
@@ -1690,7 +1690,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "smiths-tools",
-                            "name": "Ferramentas de Smith",
+                            "name": "Ferramentas de Ferreiro",
                             "url": "/api/proficiencies/smiths-tools"
                         }
                     },
@@ -1698,7 +1698,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "brewers-supplies",
-                            "name": "Suprimentos de Cerveiro",
+                            "name": "Suprimentos de Cervejeiro",
                             "url": "/api/proficiencies/brewers-supplies"
                         }
                     },
@@ -1706,7 +1706,7 @@
                         "option_type": "reference",
                         "item": {
                             "index": "masons-tools",
-                            "name": "Ferramentas de Mason",
+                            "name": "Ferramentas de Pedreiro",
                             "url": "/api/proficiencies/masons-tools"
                         }
                     }
@@ -1725,9 +1725,9 @@
             }
         ],
         "subraces": [],
-        "name": "Tranquilidade",
+        "name": "Transe",
         "desc": [
-            "Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes, por 4 horas por dia. (A palavra comum para tal meditação é \"trance\". ) Durante a meditação, pode-se sonhar depois de uma moda; tais sonhos são, na verdade, exercícios mentais que se tornaram reflexos ao longo de anos de prática. Depois de descansar dessa maneira, você ganha o mesmo benefício que um humano recebe por 8 horas de sono."
+            "Elfos não precisam dormir. Ao invés disso, eles meditam profundamente, permanecendo semi conscientes, durante 4 horas por dia. (A palavra em idioma comum para tal meditação é "transe".) Enquanto medita, um elfo é capaz de sonhar de certo modo. Esses sonhos na verdade são exercícios mentais que se tornam reflexos através de anos de prática. Depois de descansar dessa forma, você ganha os mesmos benefícios que um humano depois de 8 horas de sono."
         ],
         "proficiencies": [],
         "url": "/api/traits/trance"
