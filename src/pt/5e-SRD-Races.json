@@ -62,7 +62,7 @@
     {
         "index": "dwarf",
         "name": "Anão",
-        "speed": 7,5,
+        "speed": 7.5,
         "ability_bonuses": [
             {
                 "ability_score": {
@@ -254,7 +254,7 @@
     {
         "index": "gnome",
         "name": "Gnomo",
-        "speed": 7,5,
+        "speed": 7.5,
         "ability_bonuses": [
             {
                 "ability_score": {
@@ -758,7 +758,7 @@
     {
         "index": "halfling",
         "name": "Halflings",
-        "speed": 7,5,
+        "speed": 7.5,
         "ability_bonuses": [
             {
                 "ability_score": {
