@@ -6,12 +6,12 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Ação Surto (1 uso)",
+        "name": "Surto de Ação (1 uso)",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, você pode empurrar-se para além dos seus limites normais por um momento. Em sua vez, você pode tomar uma ação adicional no topo de sua ação regular e uma possível ação de bônus.",
-            "Depois de usar este recurso, você deve terminar um descanso curto ou longo antes de usá-lo novamente. A partir do 17 nível, você pode usá-lo duas vezes antes de descansar, mas apenas uma vez no mesmo turno."
+            "A partir do 2º nível, você pode forçar o seu limite para além do normal por um momento. Durante o seu turno, você pode realizar uma ação adicional juntamente com sua ação e possível ação bônus.",
+            "Uma vez que você use essa característica, você precisa terminar um descanso curto ou longo para usá-la de novo. A partir do 17º nível, você pode usá-la duas vezes antes do descanso, porém somente uma vez por turno."
         ],
         "url": "/api/features/action-surge-1-use"
     },
@@ -26,8 +26,8 @@
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, você pode empurrar-se para além dos seus limites normais por um momento. Em sua vez, você pode tomar uma ação adicional no topo de sua ação regular e uma possível ação de bônus.",
-            "Depois de usar este recurso, você deve terminar um descanso curto ou longo antes de usá-lo novamente. A partir do 17 nível, você pode usá-lo duas vezes antes de descansar, mas apenas uma vez no mesmo turno."
+            "A partir do 2º nível, você pode forçar o seu limite para além do normal por um momento. Durante o seu turno, você pode realizar uma ação adicional juntamente com sua ação e possível ação bônus.",
+            "Uma vez que você use essa característica, você precisa terminar um descanso curto ou longo para usá-la de novo. A partir do 17º nível, você pode usá-la duas vezes antes do descanso, porém somente uma vez por turno."
         ],
         "url": "/api/features/action-surge-2-uses"
     },
@@ -43,11 +43,11 @@
             "name": "Campeão",
             "url": "/api/subclasses/champion"
         },
-        "name": "Estilo adicional de combate",
+        "name": "Estilo de Luta Adicional",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "No nível 10, você pode escolher uma segunda opção entre o recurso de classe de Luta de Estilo"
+            "No 10º nível, você pode escolher um segundo Estilo de Combate da sua característica de classe."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -60,7 +60,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-archery",
-                                "name": "Estilo de Combate: Arqueiro",
+                                "name": "Estilo de Luta: Arquearia",
                                 "url": "/api/features/fighter-fighting-style-archery"
                             }
                         },
@@ -68,7 +68,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-defense",
-                                "name": "Estilo de Combate: Defesa",
+                                "name": "Estilo de Luta: Defesa",
                                 "url": "/api/features/fighter-fighting-style-defense"
                             }
                         },
@@ -76,7 +76,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-dueling",
-                                "name": "Estilo de Combate: Duelagem",
+                                "name": "Estilo de Luta: Duelismo",
                                 "url": "/api/features/fighter-fighting-style-dueling"
                             }
                         },
@@ -84,7 +84,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-great-weapon-fighting",
-                                "name": "Estilo de Combate: Luta com Grande Arma",
+                                "name": "Estilo de Luta: Combate Com Armas Grandes",
                                 "url": "/api/features/fighter-fighting-style-great-weapon-fighting"
                             }
                         },
@@ -92,7 +92,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-protection",
-                                "name": "Estilo de Combate: Proteção",
+                                "name": "Estilo de Luta: Proteção",
                                 "url": "/api/features/fighter-fighting-style-protection"
                             }
                         },
@@ -100,7 +100,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-two-weapon-fighting",
-                                "name": "Estilo de Combate: Luta em Duas Armas",
+                                "name": "Estilo de Luta: Combate Com Duas Armas",
                                 "url": "/api/features/fighter-fighting-style-two-weapon-fighting"
                             }
                         }
@@ -119,14 +119,14 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
         "name": "Segredos Mágicos Adicionais",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "No 6° nível, você aprende dois feitiços de sua escolha de qualquer classe. Um feitiço que você escolher deve ser de um nível que você possa transmitir, conforme mostrado na mesa do Bardo, ou na travessura. Os feitiços escolhidos contam como feitiços para você, mas não contem contra o número de feitiços que você conhece."
+            "No 6° nível, você aprende duas magias, à sua escolha, de qualquer classe. As magias que você escolher devem ser de um nível que você possa conjurar, como mostrado na tabela O Bardo, ou um truque. As magias escolhidas contam como magias de bardo pra você, mas não contam no número de magias de bardo que você conhece."
         ],
         "url": "/api/features/additional-magical-secrets"
     },
@@ -134,15 +134,15 @@
         "index": "arcane-recovery",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Recuperação Arcana",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Você aprendeu a recuperar uma parte da sua energia mágica estudando seu livro de feitiços. Uma vez por dia quando terminar um curto descanso, você pode escolher slots de feitiços gastos para recuperar. Os slots de feitiços podem ter um nível combinado igual ou inferior à metade do seu nível de assistente (arredondado para cima), e nenhum dos slots pode ser de nível 6 ou maior.",
-            "Por exemplo, se você for um mago de 4 níveis, você pode recuperar até dois níveis de slots de feitiço. Você pode recuperar um espaço de 2 níveis de feitiço ou dois espaços de feitiço de 1 nível."
+            "Você aprendeu como recuperar um pouco de sua energia mágica estudando seu grimório. Uma vez por dia, quando você terminar um descanso curto, você pode escolher espaços de magia gastos para recuperá-los. Os espaços gastos a serem recuperados podem ser de qualquer combinação de níveis de magia, desde que sejam iguais ou inferiores a metade de seu nível de mago (arredondado para cima) e nenhum deles seja de 6º ou superior.",
+            "Por exemplo, se você é um mago de 4º nível, você pode recuperar até 2 espaços de magia gastos. Você pode recuperar o espaço de uma magia de 2º nível ou os espaços de duas magias de 1º nível."
         ],
         "url": "/api/features/arcane-recovery"
     },
@@ -150,15 +150,15 @@
         "index": "arcane-tradition",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Tradição Arcana",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o segundo nível, você escolhe uma tradição arcana, moldando sua prática mágica através de uma de oito escolas, como a exclamação.",
-            "Sua escolha concede recursos a 2 níveis e novamente a 6 de nível 10 e 14 de nível."
+            "Quando alcança o 2º nível, você pode escolher uma Tradição Arcana, moldando sua prática de magia em uma das oito escolas: Abjuração, Adivinhação, Conjuração, Encantamento, Evocação, Ilusão, Necromancia e Transmutação, todas detalhadas no fim da descrição da classe.",
+            "Sua escolha confere características no 2º nível e de novo no 6º, 10º e 14º nível."
         ],
         "url": "/api/features/arcane-tradition"
     },
@@ -169,12 +169,12 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Archdruid",
+        "name": "Arquidruida",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "No nível 20, você pode usar sua forma Wild um número ilimitado de vezes.",
-            "Além disso, você pode ignorar os componentes verbais e somáticos dos seus feitiços de druids, assim como quaisquer componentes materiais que não têm um custo e não são consumidos por um feitiço. Você ganha esse benefício tanto na sua forma normal quanto na sua forma besta da Forma Selvagem."
+            "No 20° nível, você pode usar sua Forma Selvagem um número ilimitado de vezes.",
+            "Além disso, você pode ignorar os componentes verbais e somáticos das suas magias de druida, assim como qualquer componente material que não tenha custo e não seja consumido pela magia. Você recebe esse benefício tanto na sua forma normal, quanto na forma de besta da sua Forma Selvagem."
         ],
         "url": "/api/features/archdruid"
     },
@@ -185,11 +185,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhorias de Aura",
+        "name": "Aprimoramentos de Aura",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Ao nível 18, o intervalo de suas auras aumenta para 30 pés."
+            "No 18° nível, o alcance dessa aura aumenta para 9 metros."
         ],
         "url": "/api/features/aura-improvements"
     },
@@ -200,12 +200,12 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Aura de coragem",
+        "name": "Aura de Coragem",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "A partir do décimo nível, você e criaturas amigáveis dentro de 10 pés não poderão se assustar enquanto estiver consciente.",
-            "Ao nível 18, o alcance desta aura aumenta para 30 pés."
+            "Começando no 10° nível, você e as criaturas amigáveis dentro de um raio de 3 metros de você não podem ser amedrontadas enquanto você estiver consciente.",
+            "No 18° nível, o alcance dessa aura aumenta para 9 metros."
         ],
         "url": "/api/features/aura-of-courage"
     },
@@ -218,15 +218,15 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "name": "Aura de Devoção",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 7, você e criaturas amigáveis dentro de 10 pés não poderão ser encantadas enquanto você estiver consciente.",
-            "Ao nível 18, o alcance desta aura aumenta para 30 pés."
+            "A partir do 7° nível, você e as criaturas amistosas a até 3 metros não podem ser enfeitiçadas enquanto você estiver consciente.",
+            "No 18° nível, o alcance dessa aura aumenta para 9 metros."
         ],
         "url": "/api/features/aura-of-devotion"
     },
@@ -237,12 +237,12 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Aura de proteção",
+        "name": "Aura de Proteção",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando no 6° nível, sempre que você ou uma criatura amigável a 10 pés de você deve fazer um arremesso poupante, a criatura ganha um bônus de lançamento de save igual a seu modificador de Charisma (com um bônus mínimo de +1). Você deve estar consciente para conceder este bônus.",
-            "Ao nível 18, o alcance desta aura aumenta para 30 pés."
+            "A partir do 6° nível, sempre que você ou uma criatura amigável a até 3 metros de você tiver que fazer um teste de resistência, aquela criatura ganha um bônus no seu teste de proteção igual a seu modificador de Carisma (com um bônus mínimo de +1). Você deve estar consciente para garantir esse bônus.",
+            "No 18° nível, o alcance dessa aura aumenta para 9 metros."
         ],
         "url": "/api/features/aura-of-protection"
     },
@@ -253,11 +253,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/barbarian-ability-score-improvement-1"
     },
@@ -268,11 +268,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/barbarian-ability-score-improvement-2"
     },
@@ -283,11 +283,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/barbarian-ability-score-improvement-3"
     },
@@ -298,11 +298,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/barbarian-ability-score-improvement-4"
     },
@@ -313,11 +313,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/barbarian-ability-score-improvement-5"
     },
@@ -332,7 +332,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno."
+            "A partir do 5° nível, você pode atacar duas vezes, ao invés de uma, sempre que você realizar a ação de Ataque no seu turno."
         ],
         "url": "/api/features/barbarian-extra-attack"
     },
@@ -343,11 +343,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Defesa Perversa",
+        "name": "Defesa Sem Armadura",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Enquanto você não estiver usando nenhuma armadura, sua Classe de Armadura é igual a 10 + seu modificador de Destreza + seu modificador de Constituição. Você pode usar um escudo e ainda ganhar este benefício."
+            "Quando você não estiver vestindo qualquer armadura, sua Classe de Armadura será 10 + seu modificador de Destreza + seu modificador de Constituição. Você pode usar um escudo e continuar a receber esse benefício."
         ],
         "url": "/api/features/barbarian-unarmored-defense"
     },
@@ -358,11 +358,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/bard-ability-score-improvement-1"
     },
@@ -373,11 +373,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/bard-ability-score-improvement-2"
     },
@@ -388,11 +388,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/bard-ability-score-improvement-3"
     },
@@ -403,11 +403,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/bard-ability-score-improvement-4"
     },
@@ -418,11 +418,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/bard-ability-score-improvement-5"
     },
@@ -433,11 +433,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Faculdade de Bardo",
+        "name": "Colégio de Bardo",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, você se intromete nas técnicas avançadas de uma faculdade de bardos à sua escolha, como o College of Lore. Sua escolha concede recursos de nível 3 e novamente ao nível 6 e 14."
+            "No 3° nível, você investiga as técnicas avançadas de um colégio de bardo, à sua escolha: o Colégio do Conhecimento ou o Colégio da Bravura, ambos detalhados no final da descrição da classe. Sua escolha lhe concede características no 3° nível e novamente no 6° e 14° nível."
         ],
         "url": "/api/features/bard-college"
     },
@@ -448,11 +448,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Experiência",
+        "name": "Aptidão",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, escolha duas de suas competências de habilidade. Seu bônus de proficiência é duplicado para qualquer verificação de habilidade que você fizer que use qualquer um dos proficiências escolhidas. No nível 10, você pode escolher outras duas habilidades proficiências para ganhar esse benefício."
+            "No 3° nível, escolha duas das perícias em que você é proficiente. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que você fizer que utilize qualquer das perícias escolhidas. No 10° nível, você escolhe mais duas perícias em que é proficiente para ganhar esse benefício."
         ],
         "feature_specific": {
             "expertise_options": {
@@ -465,7 +465,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -473,7 +473,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -481,7 +481,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -489,7 +489,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -497,7 +497,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -505,7 +505,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -513,7 +513,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -561,7 +561,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-performance",
-                                "name": "Habilidade: Desempenho",
+                                "name": "Habilidade: Atuação",
                                 "url": "/api/proficiencies/skill-performance"
                             }
                         },
@@ -585,7 +585,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-sleight-of-hand",
-                                "name": "Habilidade: Trenó da Mão",
+                                "name": "Habilidade: Prestidigitação",
                                 "url": "/api/proficiencies/skill-sleight-of-hand"
                             }
                         },
@@ -618,11 +618,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Experiência",
+        "name": "Aptidão",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, escolha duas de suas competências de habilidade. Seu bônus de proficiência é duplicado para qualquer verificação de habilidade que você fizer que use qualquer um dos proficiências escolhidas. No nível 10, você pode escolher outras duas habilidades proficiências para ganhar esse benefício."
+            "No 3° nível, escolha duas das perícias em que você é proficiente. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que você fizer que utilize qualquer das perícias escolhidas. No 10° nível, você escolhe mais duas perícias em que é proficiente para ganhar esse benefício."
         ],
         "feature_specific": {
             "expertise_options": {
@@ -635,7 +635,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -643,7 +643,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -651,7 +651,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -659,7 +659,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -667,7 +667,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -675,7 +675,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -683,7 +683,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -731,7 +731,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-performance",
-                                "name": "Habilidade: Desempenho",
+                                "name": "Habilidade: Atuação",
                                 "url": "/api/proficiencies/skill-performance"
                             }
                         },
@@ -755,7 +755,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-sleight-of-hand",
-                                "name": "Habilidade: Trenó da Mão",
+                                "name": "Habilidade: Prestidigitação",
                                 "url": "/api/proficiencies/skill-sleight-of-hand"
                             }
                         },
@@ -788,13 +788,13 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Inspiração Bárbara (d10)",
+        "name": "Inspiração de Bardo (d10)",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Você pode inspirar os outros agitando palavras ou música. Para fazer isso, você usa uma ação bônus em sua vez para escolher uma criatura diferente de você mesmo a 60 pés de você, que poderá ouvi-lo. Essa criatura ganha uma Inspiração Bárbara morre, um d6. Uma vez dentro dos próximos 10 minutos, a criatura pode rolar o dado e adicionar o número rolado a uma verificação de habilidade, atacar o rolo ou salvar o lançamento acaba. A criatura pode esperar até depois de rolar o d20 antes de decidir usar a Inspiração Bárbara morrer, mas tem de decidir antes de o GM dizer se a rolada é bem-sucedida ou falha. Uma vez que a inspiração bárbara morrer, ela será perdida. Uma criatura pode ter apenas uma inspiração bárbara morre de cada vez.",
-            "Você pode usar este recurso um número de vezes igual ao seu modificador de Charisma (um mínimo de uma vez). Você recupera qualquer uso gasto quando termina um longo descanso. ",
-            "Sua inspiração bárbara muda quando você alcança certos níveis nesta classe. O dado torna-se um d8 ao quinto nível, um d10 ao décimo nível e um d12 ao 15."
+            "Você pode inspirar os outros através de palavras animadoras ou música. Para tanto, você usa uma ação bônus no seu turno para escolher uma outra criatura, que não seja você mesmo, a até 18 metros de você que possa ouvi-lo. Essa criatura ganha um dado de Inspiração de Bardo, um d6. Uma vez, nos próximos 10 minutos, a criatura poderá rolar o dado e adicionar o valor rolado a um teste de habilidade, jogada de ataque ou teste de resistência que ela fizer. A criatura pode esperar até rolar o d20 antes de decidir usar o dado de Inspiração de Bardo, mas deve decidir antes do Mestre dizer se a rolagem foi bem ou mal sucedida. Quando o dado de Inspiração de Bardo for rolado, ele é gasto. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.",
+            "Você pode usar essa característica um número de vezes igual ao seu modificador de Carisma (no mínimo uma vez). Você recupera todos os usos quando termina um descanso longo.",
+            "Seu dado de Inspiração de Bardo muda quando você atinge certos níveis na classe. O dado se torna um d8 no 5° nível, um d10 no 10° nível e um d12 no 15° nível."
         ],
         "url": "/api/features/bardic-inspiration-d10"
     },
@@ -805,13 +805,13 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Inspiração Bárbara (d12)",
+        "name": "Inspiração de Bardo (d12)",
         "level": 15,
         "prerequisites": [],
         "desc": [
-            "Você pode inspirar os outros agitando palavras ou música. Para fazer isso, você usa uma ação bônus em sua vez para escolher uma criatura diferente de você mesmo a 60 pés de você, que poderá ouvi-lo. Essa criatura ganha uma Inspiração Bárbara morre, um d6. Uma vez dentro dos próximos 10 minutos, a criatura pode rolar o dado e adicionar o número rolado a uma verificação de habilidade, atacar o rolo ou salvar o lançamento acaba. A criatura pode esperar até depois de rolar o d20 antes de decidir usar a Inspiração Bárbara morrer, mas tem de decidir antes de o GM dizer se a rolada é bem-sucedida ou falha. Uma vez que a inspiração bárbara morrer, ela será perdida. Uma criatura pode ter apenas uma inspiração bárbara morre de cada vez.",
-            "Você pode usar este recurso um número de vezes igual ao seu modificador de Charisma (um mínimo de uma vez). Você recupera qualquer uso gasto quando termina um longo descanso. ",
-            "Sua inspiração bárbara muda quando você alcança certos níveis nesta classe. O dado torna-se um d8 ao quinto nível, um d10 ao décimo nível e um d12 ao 15."
+            "Você pode inspirar os outros através de palavras animadoras ou música. Para tanto, você usa uma ação bônus no seu turno para escolher uma outra criatura, que não seja você mesmo, a até 18 metros de você que possa ouvi-lo. Essa criatura ganha um dado de Inspiração de Bardo, um d6. Uma vez, nos próximos 10 minutos, a criatura poderá rolar o dado e adicionar o valor rolado a um teste de habilidade, jogada de ataque ou teste de resistência que ela fizer. A criatura pode esperar até rolar o d20 antes de decidir usar o dado de Inspiração de Bardo, mas deve decidir antes do Mestre dizer se a rolagem foi bem ou mal sucedida. Quando o dado de Inspiração de Bardo for rolado, ele é gasto. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.",
+            "Você pode usar essa característica um número de vezes igual ao seu modificador de Carisma (no mínimo uma vez). Você recupera todos os usos quando termina um descanso longo.",
+            "Seu dado de Inspiração de Bardo muda quando você atinge certos níveis na classe. O dado se torna um d8 no 5° nível, um d10 no 10° nível e um d12 no 15° nível."
         ],
         "url": "/api/features/bardic-inspiration-d12"
     },
@@ -822,13 +822,13 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Inspiração Bárbara (d6)",
+        "name": "Inspiração de Bardo (d6)",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Você pode inspirar os outros agitando palavras ou música. Para fazer isso, você usa uma ação bônus em sua vez para escolher uma criatura diferente de você mesmo a 60 pés de você, que poderá ouvi-lo. Essa criatura ganha uma Inspiração Bárbara morre, um d6. Uma vez dentro dos próximos 10 minutos, a criatura pode rolar o dado e adicionar o número rolado a uma verificação de habilidade, atacar o rolo ou salvar o lançamento acaba. A criatura pode esperar até depois de rolar o d20 antes de decidir usar a Inspiração Bárbara morrer, mas tem de decidir antes de o GM dizer se a rolada é bem-sucedida ou falha. Uma vez que a inspiração bárbara morrer, ela será perdida. Uma criatura pode ter apenas uma inspiração bárbara morre de cada vez.",
-            "Você pode usar este recurso um número de vezes igual ao seu modificador de Charisma (um mínimo de uma vez). Você recupera qualquer uso gasto quando termina um longo descanso. ",
-            "Sua inspiração bárbara muda quando você alcança certos níveis nesta classe. O dado torna-se um d8 ao quinto nível, um d10 ao décimo nível e um d12 ao 15."
+            "Você pode inspirar os outros através de palavras animadoras ou música. Para tanto, você usa uma ação bônus no seu turno para escolher uma outra criatura, que não seja você mesmo, a até 18 metros de você que possa ouvi-lo. Essa criatura ganha um dado de Inspiração de Bardo, um d6. Uma vez, nos próximos 10 minutos, a criatura poderá rolar o dado e adicionar o valor rolado a um teste de habilidade, jogada de ataque ou teste de resistência que ela fizer. A criatura pode esperar até rolar o d20 antes de decidir usar o dado de Inspiração de Bardo, mas deve decidir antes do Mestre dizer se a rolagem foi bem ou mal sucedida. Quando o dado de Inspiração de Bardo for rolado, ele é gasto. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.",
+            "Você pode usar essa característica um número de vezes igual ao seu modificador de Carisma (no mínimo uma vez). Você recupera todos os usos quando termina um descanso longo.",
+            "Seu dado de Inspiração de Bardo muda quando você atinge certos níveis na classe. O dado se torna um d8 no 5° nível, um d10 no 10° nível e um d12 no 15° nível."
         ],
         "url": "/api/features/bardic-inspiration-d6"
     },
@@ -839,13 +839,13 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Inspiração Bárbara (d8)",
+        "name": "Inspiração de Bardo (d8)",
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Você pode inspirar os outros agitando palavras ou música. Para fazer isso, você usa uma ação bônus em sua vez para escolher uma criatura diferente de você mesmo a 60 pés de você, que poderá ouvi-lo. Essa criatura ganha uma Inspiração Bárbara morre, um d6. Uma vez dentro dos próximos 10 minutos, a criatura pode rolar o dado e adicionar o número rolado a uma verificação de habilidade, atacar o rolo ou salvar o lançamento acaba. A criatura pode esperar até depois de rolar o d20 antes de decidir usar a Inspiração Bárbara morrer, mas tem de decidir antes de o GM dizer se a rolada é bem-sucedida ou falha. Uma vez que a inspiração bárbara morrer, ela será perdida. Uma criatura pode ter apenas uma inspiração bárbara morre de cada vez.",
-            "Você pode usar este recurso um número de vezes igual ao seu modificador de Charisma (um mínimo de uma vez). Você recupera qualquer uso gasto quando termina um longo descanso. ",
-            "Sua inspiração bárbara muda quando você alcança certos níveis nesta classe. O dado torna-se um d8 ao quinto nível, um d10 ao décimo nível e um d12 ao 15."
+            "Você pode inspirar os outros através de palavras animadoras ou música. Para tanto, você usa uma ação bônus no seu turno para escolher uma outra criatura, que não seja você mesmo, a até 18 metros de você que possa ouvi-lo. Essa criatura ganha um dado de Inspiração de Bardo, um d6. Uma vez, nos próximos 10 minutos, a criatura poderá rolar o dado e adicionar o valor rolado a um teste de habilidade, jogada de ataque ou teste de resistência que ela fizer. A criatura pode esperar até rolar o d20 antes de decidir usar o dado de Inspiração de Bardo, mas deve decidir antes do Mestre dizer se a rolagem foi bem ou mal sucedida. Quando o dado de Inspiração de Bardo for rolado, ele é gasto. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.",
+            "Você pode usar essa característica um número de vezes igual ao seu modificador de Carisma (no mínimo uma vez). Você recupera todos os usos quando termina um descanso longo.",
+            "Seu dado de Inspiração de Bardo muda quando você atinge certos níveis na classe. O dado se torna um d8 no 5° nível, um d10 no 10° nível e um d12 no 15° nível."
         ],
         "url": "/api/features/bardic-inspiration-d8"
     },
@@ -856,11 +856,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Beast Spells",
+        "name": "Magias da Besta",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Começando pelo nível 18, você pode lançar muitos dos seus feitiços de droga em qualquer forma que você assumir usando a Forma Selvagem. Você pode realizar os componentes somáticos e verbais de um feitiço de druid enquanto estiver em forma de fera, mas não é capaz de fornecer componentes de material."
+            "A partir do 18° nível, você pode conjurar muitas das suas magias em qualquer forma que assumir usando a Forma Selvagem. Você pode realizar os componentes somáticos e verbais de uma magia de druida na forma de besta, mas você não é capaz de prover os componentes materiais."
         ],
         "url": "/api/features/beast-spells"
     },
@@ -868,19 +868,19 @@
         "index": "blessed-healer",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da Vida",
             "url": "/api/subclasses/life"
         },
         "name": "Curandeiro Abençoado",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando ao nível 6, a cura feitiça que você lançou em outros também te cura. Quando você lançar um feitiço de primeiro nível ou superior que restaure pontos de acerto para uma criatura diferente de você, você recupera pontos de acerto iguais a 2 + o nível do feitiço."
+            "A partir do 6º nível, as magias que você conjurar para curar os outros também curam você. Quando conjurar uma magia de cura em outra criatura, você também recupera pontos de vida, em um total de 2 + nível da magia."
         ],
         "url": "/api/features/blessed-healer"
     },
@@ -888,14 +888,14 @@
         "index": "blindsense",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
-        "name": "Cegueira",
+        "name": "Sentido Cego",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "A partir do quarto nível, se você consegue ouvir, você está ciente da localização de qualquer criatura oculta ou invisível a 10 pés de você."
+            "No 14º nível, se você for capaz de ouvir, você está ciente da localização de qualquer criatura escondida ou invisível a até 3 metros de você."
         ],
         "url": "/api/features/blindsense"
     },
@@ -908,14 +908,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Bônus de Corrida",
+        "name": "Truque Adicional",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Ao escolher este círculo no segundo nível, você aprende mais uma viagem de mão de druida à sua escolha."
+            "Quando você escolhe esse círculo no 2° nível, você aprende um truque de druida adicional, à sua escolha."
         ],
         "url": "/api/features/bonus-cantrip"
     },
@@ -928,14 +928,14 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
-        "name": "Proficiências de Bônus",
+        "name": "Proficiência Adcional",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você se junta à Faculdade de Minério no terceiro nível, ganha proficiência com três habilidades à sua escolha."
+            "Quando você se junta ao Colégio do Conhecimento no 3° nível, você ganha proficiência em três perícias, à sua escolha."
         ],
         "url": "/api/features/bonus-proficiencies"
     },
@@ -943,19 +943,19 @@
         "index": "bonus-proficiency",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da Vida",
             "url": "/api/subclasses/life"
         },
-        "name": "Bônus de Proficiência",
+        "name": "Proficiência Adicional",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Quando você escolhe este domínio ao primeiro nível, você ganha proficiência com armadura pesada."
+            "Quando você escolhe este domínio no 1º nível, você ganha proficiência com armaduras pesadas."
         ],
         "url": "/api/features/bonus-proficiency"
     },
@@ -966,11 +966,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Crítico Brutal (1 morto)",
+        "name": "Crítico Brutal (1 dado)",
         "level": 9,
         "prerequisites": [],
         "desc": [
-            "Começando no nível 9, você pode rolar um dano adicional da arma ao determinar o dano extra para um acerto crítico com um ataque corpo a corpo. Isso aumenta para dois dados adicionais em nível 13 e três dados adicionais no nível 17."
+            "A partir do 9° nível, você pode rolar um dado de dano de arma adicional quando estiver determinando o dano extra de um acerto crítico com uma arma corpo-a-corpo. Isso aumenta para dois dados adicionais no 13° nível e três dados adicionais no 17° nível."
         ],
         "url": "/api/features/brutal-critical-1-die"
     },
@@ -985,7 +985,7 @@
         "level": 13,
         "prerequisites": [],
         "desc": [
-            "Começando no nível 9, você pode rolar um dano adicional da arma ao determinar o dano extra para um acerto crítico com um ataque corpo a corpo. Isso aumenta para dois dados adicionais em nível 13 e três dados adicionais no nível 17."
+            "A partir do 9° nível, você pode rolar um dado de dano de arma adicional quando estiver determinando o dano extra de um acerto crítico com uma arma corpo-a-corpo. Isso aumenta para dois dados adicionais no 13° nível e três dados adicionais no 17° nível."
         ],
         "url": "/api/features/brutal-critical-2-dice"
     },
@@ -1000,7 +1000,7 @@
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "Começando no nível 9, você pode rolar um dano adicional da arma ao determinar o dano extra para um acerto crítico com um ataque corpo a corpo. Isso aumenta para dois dados adicionais em nível 13 e três dados adicionais no nível 17."
+            "A partir do 9° nível, você pode rolar um dado de dano de arma adicional quando estiver determinando o dano extra de um acerto crítico com uma arma corpo-a-corpo. Isso aumenta para dois dados adicionais no 13° nível e três dados adicionais no 17° nível."
         ],
         "url": "/api/features/brutal-critical-3-dice"
     },
@@ -1011,13 +1011,13 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Divindade do canal",
+        "name": "Canalizar Divindade",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Seu juramento permite que você canalize energia divina para combustível de efeitos mágicos. Cada opção de Divindade do canal fornecido pelo juramento explica como usá-la.",
-            "Quando você usa a Divindade do Canal, você escolhe qual opção usar. Você deve então terminar um descanso curto ou longo para usar a Divindade do Canal novamente.",
-            "Alguns efeitos de Divindade do Canal requerem lançar de salvamento. Quando você usa tal efeito desta classe, a DC é igual a sua bola de salvamento de DC."
+            "Seu juramento permite que você canalize energia divina para abastecer efeitos mágicos. Cada opção de Canalizar Divindade concedida por um juramento explica como usá-la",
+            "Quando você usa o seu Canalizar Divindade, você escolhe qual opção usar. Você deve terminar um descanso curto ou longo para pode usar seu Canalizar Divindade novamente. ",
+            "Alguns efeitos de Canalizar Divindade requerem um teste de resistência. Quando você usar tais efeitos dessa classe, a CD será igual a CD das suas magias de paladino."
         ],
         "url": "/api/features/channel-divinity"
     },
@@ -1025,17 +1025,17 @@
         "index": "channel-divinity-1-rest",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Divindade do canal (1/rest)",
+        "name": "Canalizar Divindade (1/Descanso)",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Ao segundo nível, você ganha a capacidade de canalizar a energia divina diretamente da sua divindade, usando aquela energia para combustível de efeitos mágicos. Você começa com dois desses efeitos: vire Mortos-vivos e um efeito determinado pelo seu domínio. Alguns domínios concedem efeitos adicionais à medida que você avança em níveis, conforme mencionado na descrição do domínio.",
-            "Quando você usa a Divindade do Canal, você escolhe qual efeito criar. Você deve então terminar um descanso curto ou longo para usar a Divindade do Canal novamente.",
-            "Alguns efeitos de Divindade de Canal requerem jogadas de salvamento. Quando você usa esse efeito para esta classe, a DC é igual a seu salto de DC.",
-            "A partir do nível 6, você pode usar a Divindade do Canal duas vezes entre o descanso, e começando ao nível 18, você pode usá-lo três vezes entre o resto. Quando terminar um curto ou longo descanso, você recupera seus usos gastos."
+            "No 2º nível, você se torna capaz de canalizar energia diretamente de sua divindade, utilizando-a como combustível para efeitos mágicos. Você começa com dois efeitos: Expulsar Mortos-vivos e um efeito determinado pelo seu domínio. Alguns domínios conferem efeitos adicionais conforme você avança de nível, como consta na descrição de cada domínio.",
+            "Quando você usar seu Canalizar Divindade, você escolhe qual efeito quer criar. Você precisa terminar um descanso curto ou longo para usar a característica de novo.",
+            "Alguns efeitos requerem teste de resistência. Quando você usar um desses efeitos, a CD é igual a das suas magias de clérigo.",
+            "A partir do 6º nível, você pode Canalizar Divindade duas vezes entre descansos e a partir do 18º nível, três vezes. Você recupera os usos dessa característica quando termina um descanso curto ou longo."
         ],
         "url": "/api/features/channel-divinity-1-rest"
     },
@@ -1043,14 +1043,14 @@
         "index": "channel-divinity-2-rest",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Divindade do canal (2/rest)",
+        "name": "Canalizar Divindade (2/Descanso)",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 6, você pode usar a Divindade do Canal duas vezes entre o descanso, e começando ao nível 18, você pode usá-lo três vezes entre o resto. Quando terminar um curto ou longo descanso, você recupera seus usos gastos."
+            "A partir do 6º nível, você pode Canalizar Divindade duas vezes entre descansos e a partir do 18º nível, três vezes. Você recupera os usos dessa característica quando termina um descanso curto ou longo."
         ],
         "url": "/api/features/channel-divinity-2-rest"
     },
@@ -1058,14 +1058,14 @@
         "index": "channel-divinity-3-rest",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Divindade do canal (3/rest)",
+        "name": "Canalizar Divindade (3/Descanso)",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 6, você pode usar a Divindade do Canal duas vezes entre o descanso, e começando ao nível 18, você pode usá-lo três vezes entre o resto. Quando terminar um curto ou longo descanso, você recupera seus usos gastos."
+            "A partir do 6º nível, você pode Canalizar Divindade duas vezes entre descansos e a partir do 18º nível, três vezes. Você recupera os usos dessa característica quando termina um descanso curto ou longo."
         ],
         "url": "/api/features/channel-divinity-3-rest"
     },
@@ -1073,21 +1073,21 @@
         "index": "channel-divinity-preserve-life",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da Vida",
             "url": "/api/subclasses/life"
         },
-        "name": "Divindade do Canal: Preserve Vida",
+        "name": "Canalizar Divindade: Preservar a Vida",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, você pode usar a Divindade do Canal para curar o mal ferido.",
-            "Como uma ação, você apresenta seu símbolo sagrado e evoca a energia de cura que pode restaurar vários pontos de acerto iguais a cinco vezes o seu nível clerônico.",
-            "Escolha quaisquer criaturas com menos de 30 pés de você e divida os pontos de batida entre elas. Esse recurso pode restaurar uma criatura a não mais do que metade do seu ponto de chegada. Você não pode usar este recurso em um morto-vivo ou um construtor."
+            "A partir do 2º nível, você pode usar seu Canalizar Divindade para curar os feridos.",
+            "Como uma ação, você usa seu símbolo sagrado para invocar energia que pode recuperar um total de 5 vezes seu nível de clérigo em pontos de vida.",
+            "Você escolhe quaisquer criaturas a até 9 metros de você e divide esses pontos entre elas. Essa característica só pode curar as criaturas a até metade de seu máximo de pontos de vida. Você não pode usar essa característica em um morto-vivo ou constructo."
         ],
         "url": "/api/features/channel-divinity-preserve-life"
     },
@@ -1100,15 +1100,15 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
-        "name": "Divindade do Canal: Arma Sagrada",
+        "name": "Canalizar Divindade: Arma Sagrada",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Como ação você pode imbuir uma arma que você está segurando com energia positiva, usando sua Divindade do Canal da Mancha. Por 1 minuto, você adiciona seu modificador de Charisma para atacar espólios feitos com essa arma (com um bônus mínimo de +1). A arma emite também luz brilhante num raio de 20 pés e escurece 20 pés para além disso. Se a arma já não é mágica, torna-se mágica para a duração.",
-            "Você pode terminar esse efeito no seu turno como parte de qualquer outra ação. Se você não estiver mais segurando ou carregando esta arma, ou se ficar inconsciente, este efeito termina."
+            "Com uma ação, você pode imbuir uma arma que você esteja empunhando com energia positiva, usando seu Canalizar Divindade. Por 1 minuto, você adiciona seu modificador de Carisma as jogadas de ataque feitas com essa arma (bônus mínimo de +1). A arma também emite luz plena num raio de 6 metros e penumbra mais 6 metros além. Se a arma ainda não for mágica, ela se torna mágica por essa duração.",
+            "Você pode terminar o efeito no seu turno, como parte de qualquer ação. Se você não estiver mais segurando ou portando a arma, ou estiver inconsciente, esse efeito termina."
         ],
         "url": "/api/features/channel-divinity-sacred-weapon"
     },
@@ -1121,15 +1121,15 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
-        "name": "Divindade do Canal: Vire o Profano",
+        "name": "Canalizar Divindade: Expulsar o Profano",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Como ação, você apresenta seu símbolo sagrado e fala uma oração censurando demônios e mortos, usando sua Divindade de Canal Cada fogo ou morto-vivo que pode ver ou ouvir você dentro de 30 pés de você deve fazer um arremessar de sabedoria. Se a criatura falhar no lançamento de salvamento, será ativado por 1 minuto ou até ser danificado.",
-            "Uma criatura virada deve gastar suas voltas tentando se afastar de você o mais longe que puder, e ele não pode se mover para um espaço a menos de 30 pés de você. Também não pode tomar reações. Por sua ação, só pode usar a ação Dash ou tentar escapar de um efeito que o impede de se mover. Se não houver onde se mover, a criatura pode usar a ação Esquivar."
+            "Com uma ação, você apresenta seu símbolo sagrado e faz uma oração censurando corruptores e mortos-vivos, usando seu Canalizar Divindade. Cada corruptor ou morto-vivo que puder ver ou ouvir você e esteja a até 9 metros, deve realizar um teste de resistência de Sabedoria. Se a criatura falhar no teste de resistência, ela será expulsa por 1 minuto ou até sofrer dano.",
+            "Uma criatura expulsa deve gastar seu turno tentando se mover para longe de você da melhor forma possível e não pode, voluntariamente, se mover para um espaço a menos de 9 metros de você. Ela também não pode realizar reações. Nas ações delas, elas só poderão realizar a ação de Disparada ou tentar escapar de um efeito que as impeça de se mover. Se não houver lugar para se mover, a criatura pode usar a ação de Esquivar."
         ],
         "url": "/api/features/channel-divinity-turn-the-unholy"
     },
@@ -1137,15 +1137,15 @@
         "index": "channel-divinity-turn-undead",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Divindade do Canal: Virar Morto-vivo",
+        "name": "Canalizar Divindade: Expulsar Mortos-Vivos",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Como ação, você apresenta seu símbolo sagrado e fala uma censura de oração aos mortos-vivos. Cada morto-vivo que puder vê-lo ou ouvi-lo a menos de 30 pés de você deve fazer uma sabedoria economizando. Se a criatura falhar no lançamento de sua poupança, será ativado por 1 minuto ou até sofrer qualquer dano.",
-            "Uma criatura virada deve gastar suas voltas tentando se afastar de você o mais longe que puder, e ele não pode se mover para um espaço a menos de 30 pés de você. Também não pode tomar reações. Por sua ação, só pode usar a ação Dash ou tentar escapar de um efeito que o impede de se mover. Se não houver onde se mover, a criatura pode usar a ação Esquivar."
+            "Usando uma ação, você levanta seu símbolo sagrado e murmura uma prece repreendendo os mortos-vivos. Cada morto-vivo que puder ver ou ouvir você em um raio de 9 metros a partir de você, deve fazer um teste de resistência de Sabedoria. Se falhar, a criatura está expulsa por 1 minuto ou até sofrer algum dano.",
+            "Uma criatura expulsa deve usar seu turno para fugir da melhor forma possível e de forma alguma pode aproximar-se a mais de 9 metros de você por vontade própria. Ela também não pode usar reações. Como uma ação, a criatura pode apenas realizar uma Disparada outentar escapar de um efeito que a impeça de se mover. Se não há lugar para ir, a criatura pode usar a ação Esquivar."
         ],
         "url": "/api/features/channel-divinity-turn-undead"
     },
@@ -1158,14 +1158,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -1210,7 +1210,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "circle-of-the-land-grassland",
-                                "name": "Círculo da Terra: Vovó",
+                                "name": "Círculo da Terra: Planície",
                                 "url": "/api/features/circle-of-the-land-grassland"
                             }
                         },
@@ -1245,14 +1245,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Ártico",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1270,14 +1270,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Costa",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1295,14 +1295,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Deserto",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1320,14 +1320,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Floresta",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1345,14 +1345,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Círculo da Terra: Vovó",
+        "name": "Círculo da Terra: Planície",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1370,14 +1370,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Montanha",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1395,14 +1395,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Círculo da Terra: Pântano",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "O Círculo da Terra é composto de mística e sábios que salvaguardam o conhecimento e os ritos antigos através de uma vasta tradição oral. Estes medicamentos encontram-se dentro de círculos sagrados de árvores ou de pedras para sussurrar segredos primários na droga. Os membros mais sábios do círculo presidem como os sacerdotes principais das comunidades que mantêm a Fé Velha e servem de conselheiros para os governantes dessas pessoas. Como membro desse círculo, sua magia é influenciada pela terra onde você foi iniciado nos ritos misteriosos do círculo."
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
         ],
         "parent": {
             "index": "circle-of-the-land",
@@ -1420,16 +1420,16 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Feitiços de Círculo",
+        "name": "Magias de Círculo",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Sua conexão mística à terra funde sua capacidade de lançar certos feitiços. No terceiro, 5, 7 e 9 níveis você ganha acesso aos feitiços de círculo conectados à terra onde você se tornou um medicamento.",
-            "Escolha a terra - arco, costa, deserto, floresta, pradaria, montanha ou pântano - e consulte a lista de feitiços.",
-            "Quando se tem acesso à magia do círculo, sempre se prepara, e não conta contra o número de feitiços que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de feitiços de druid, o feitiço é mesmo assim um feitiço de druida para você."
+            "Sua conexão mística com a terra infunde você com a habilidade de conjurar certas magias. No 3°, 5°, 7° e 9° nível, você ganha acesso a magias de círculo ligadas ao terreno em que você se tornou druida.",
+            "Escolha o terreno – ártico, costa, deserto, floresta, montanha, pântano, planície ou subterrâneo – e consulte a lista de magias associada.",
+            "Uma vez que você tenha acesso a uma magia de círculo, você sempre poderá prepará-la e ela não conta no número de magias que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de magias de druida, a magia, no entanto, será uma magia de druida para você."
         ],
         "url": "/api/features/circle-spells-1"
     },
@@ -1442,16 +1442,16 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Feitiços de Círculo",
+        "name": "Magias de Círculo",
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Sua conexão mística à terra funde sua capacidade de lançar certos feitiços. No terceiro, 5, 7 e 9 níveis você ganha acesso aos feitiços de círculo conectados à terra onde você se tornou um medicamento.",
-            "Escolha a terra - arco, costa, deserto, floresta, pradaria, montanha ou pântano - e consulte a lista de feitiços.",
-            "Quando se tem acesso à magia do círculo, sempre se prepara, e não conta contra o número de feitiços que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de feitiços de druid, o feitiço é mesmo assim um feitiço de druida para você."
+            "Sua conexão mística com a terra infunde você com a habilidade de conjurar certas magias. No 3°, 5°, 7° e 9° nível, você ganha acesso a magias de círculo ligadas ao terreno em que você se tornou druida.",
+            "Escolha o terreno – ártico, costa, deserto, floresta, montanha, pântano, planície ou subterrâneo – e consulte a lista de magias associada.",
+            "Uma vez que você tenha acesso a uma magia de círculo, você sempre poderá prepará-la e ela não conta no número de magias que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de magias de druida, a magia, no entanto, será uma magia de druida para você."
         ],
         "url": "/api/features/circle-spells-2"
     },
@@ -1464,16 +1464,16 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Feitiços de Círculo",
+        "name": "Magias de Círculo",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "Sua conexão mística à terra funde sua capacidade de lançar certos feitiços. No terceiro, 5, 7 e 9 níveis você ganha acesso aos feitiços de círculo conectados à terra onde você se tornou um medicamento.",
-            "Escolha a terra - arco, costa, deserto, floresta, pradaria, montanha ou pântano - e consulte a lista de feitiços.",
-            "Quando se tem acesso à magia do círculo, sempre se prepara, e não conta contra o número de feitiços que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de feitiços de druid, o feitiço é mesmo assim um feitiço de druida para você."
+            "Sua conexão mística com a terra infunde você com a habilidade de conjurar certas magias. No 3°, 5°, 7° e 9° nível, você ganha acesso a magias de círculo ligadas ao terreno em que você se tornou druida.",
+            "Escolha o terreno – ártico, costa, deserto, floresta, montanha, pântano, planície ou subterrâneo – e consulte a lista de magias associada.",
+            "Uma vez que você tenha acesso a uma magia de círculo, você sempre poderá prepará-la e ela não conta no número de magias que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de magias de druida, a magia, no entanto, será uma magia de druida para você."
         ],
         "url": "/api/features/circle-spells-3"
     },
@@ -1486,16 +1486,16 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Feitiços de Círculo",
+        "name": "Magias de Círculo",
         "level": 9,
         "prerequisites": [],
         "desc": [
-            "Sua conexão mística à terra funde sua capacidade de lançar certos feitiços. No terceiro, 5, 7 e 9 níveis você ganha acesso aos feitiços de círculo conectados à terra onde você se tornou um medicamento.",
-            "Escolha a terra - arco, costa, deserto, floresta, pradaria, montanha ou pântano - e consulte a lista de feitiços.",
-            "Quando se tem acesso à magia do círculo, sempre se prepara, e não conta contra o número de feitiços que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de feitiços de druid, o feitiço é mesmo assim um feitiço de druida para você."
+            "Sua conexão mística com a terra infunde você com a habilidade de conjurar certas magias. No 3°, 5°, 7° e 9° nível, você ganha acesso a magias de círculo ligadas ao terreno em que você se tornou druida.",
+            "Escolha o terreno – ártico, costa, deserto, floresta, montanha, pântano, planície ou subterrâneo – e consulte a lista de magias associada.",
+            "Uma vez que você tenha acesso a uma magia de círculo, você sempre poderá prepará-la e ela não conta no número de magias que você pode preparar a cada dia. Se você tiver acesso a uma magia que não aparece na lista de magias de druida, a magia, no entanto, será uma magia de druida para você."
         ],
         "url": "/api/features/circle-spells-4"
     },
