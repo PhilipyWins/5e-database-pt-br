@@ -38,7 +38,7 @@
                 "url": "/api/languages/draconic"
             }
         ],
-        "language_desc": " Você pode falar, ler e escrever Comum e Dracônico .O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+        "language_desc": "Você pode falar, ler e escrever Comum e Dracônico .O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
         "traits": [
             {
                 "index": "draconic-ancestry",
@@ -772,7 +772,7 @@
         "age": "Um halfling atinge a idade adulta aos 20 anos e pode chegar a 150 anos.",
         "alignment": "A maioria dos halflings é leal e boa. Via de regra, eles possuem um bom coração e são amáveis, odeiam ver o sofrimento dos outros e não toleram a opressão. Eles também são muito ordeiros e tradicionais, fortemente apegados à sua comunidade e ao conforto de suas antigas tradições.",
         "size": "Pequeno",
-        "size_description": " Halflings medem cerca de 0,90 metro de altura e pesam aproximadamente 20 kg.",
+        "size_description": "Halflings medem cerca de 0,90 metro de altura e pesam aproximadamente 20 kg.",
         "starting_proficiencies": [],
         "languages": [
             {
@@ -870,7 +870,7 @@
         "age": "Os humanos chegam à idade adulta no final da adolescência e vivem menos de um século.",
         "alignment": "Os humanos não possuem inclinação a nenhuma tendência em especial. Os melhores e os piores são encontrados entre eles. ",
         "size": "Médio",
-        "size_description": " Os humanos variam muito em altura e peso, podem ter quase 1,50 metro ou mais de 1,80 metro. Independentemente da sua posição entre esses valores.",
+        "size_description": "Os humanos variam muito em altura e peso, podem ter quase 1,50 metro ou mais de 1,80 metro. Independentemente da sua posição entre esses valores.",
         "starting_proficiencies": [],
         "languages": [
             {
