@@ -1506,12 +1506,12 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Toque de limpeza",
+        "name": "Toque Purificador",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Começando ao nível 14, você pode usar sua ação para acabar com uma magia em si mesmo ou com uma criatura desejada que você toca.",
-            "Você pode usar este recurso um número de vezes igual ao seu modificador de Charisma (um mínimo de uma vez). Você recupera usos gastos quando termina um longo descanso."
+            "A partir do 14° nível, você pode usar sua ação para terminar uma magia em si mesmo ou em uma criatura voluntária que você tocar.",
+            "Você pode usar essa característica um número de vezes igual a seu modificador de Carisma (mínimo uma vez). Você recupera os usos gastos quando termina um descanso longo."
         ],
         "url": "/api/features/cleansing-touch"
     },
@@ -1519,14 +1519,14 @@
         "index": "cleric-ability-score-improvement-1",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/cleric-ability-score-improvement-1"
     },
@@ -1534,14 +1534,14 @@
         "index": "cleric-ability-score-improvement-2",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/cleric-ability-score-improvement-2"
     },
@@ -1549,14 +1549,14 @@
         "index": "cleric-ability-score-improvement-3",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/cleric-ability-score-improvement-3"
     },
@@ -1564,14 +1564,14 @@
         "index": "cleric-ability-score-improvement-4",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/cleric-ability-score-improvement-4"
     },
@@ -1579,14 +1579,14 @@
         "index": "cleric-ability-score-improvement-5",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica."
         ],
         "url": "/api/features/cleric-ability-score-improvement-5"
     },
@@ -1597,11 +1597,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Contra-charme",
+        "name": "Canção de Proteção",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "No sexto nível, você ganha a capacidade de usar notas musicais ou palavras de poder para perturbar efeitos influenciadores mentais. Como ação, você pode iniciar uma performance que dura até o final do seu próximo turno. Durante esse tempo, você e qualquer criatura amigável a menos de 30 pés de você tem vantagem em economizar lanças contra ser assustado ou encantado. Uma criatura deve ser capaz de ouvi-lo para ganhar esse benefício. O desempenho termina mais cedo se você estiver incapacitado ou silenciado ou se você o finalizar voluntariamente (nenhuma ação necessária)."
+            "No 6° nível, você adquire a habilidade de usar notas musicais ou palavras de poder para interromper efeito de influência mental. Com uma ação, você pode começar uma atuação que dura até o fim do seu próximo turno. Durante esse tempo, você e qualquer criatura amigável a até 9 metros de você terá vantagem em testes de resistência para não ser amedrontado ou enfeitiçado. Uma criatura deve ser capaz de ouvir você para receber esse benefício. A atuação termina prematuramente se você for incapacitado ou silenciado ou se você terminá-la voluntariamente (não requer ação)."
         ],
         "url": "/api/features/countercharm"
     },
@@ -1609,14 +1609,14 @@
         "index": "cunning-action",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
-        "name": "Ação cunhada",
+        "name": "Ação Ardilosa",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, seu pensamento rápido e agilidade permitem que você se mova e aja rapidamente. Você pode tomar uma ação de bônus em cada um dos seus turnos em combate. Esta ação só pode ser usada para fazer o Dash, Desengajamento ou Ocultar ação."
+            "A partir do 2º nível, seu pensamento rápido e agilidade faz você se mover e agir rapidamente. Você pode usar uma ação bônus durante cada um de seus turnos em combate. Esta ação pode ser usada somente para Disparada, Desengajar ou Esconder."
         ],
         "url": "/api/features/cunning-action"
     },
@@ -1629,16 +1629,16 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
-        "name": "Cortando as palavras",
+        "name": "Palavras de Interrupção",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Também no terceiro nível, você aprende a usar a matéria para distrair, confundir, e de outra forma estragar a confiança e a competência dos outros.",
-            "Quando uma criatura que você pode ver dentro de 60 pés de você faz um ataque, uma verificação de habilidade, ou uma rolagem de dano, você pode usar sua reação para gastar um dos seus usos da inspiração bárbara, rolando uma Inspiração Bardic morrem e subtraindo o número rolado do rolo da criatura.",
-            "Você pode escolher usar este recurso depois que a criatura fizer sua rolagem, mas antes que o GM determina se a rolagem de ataque ou a verificação de habilidade de sucesso ou falha, ou antes que a criatura cause seu dano. A criatura é imune se não pode ouvi-la ou se é imune a ser encantada."
+            "Também no 3° nível, você aprende como usar sua perspicácia para distrair, confundir e, de outras formas, atrapalhar a confiança e competência de outros.",
+            "Quando uma criatura que você pode ver a até 18 metros de você realizar uma jogada de ataque, um teste de habilidade ou uma jogada de dano, você pode usar sua reação para gastar um uso de Inspiração de Bardo, rolando o dado de Inspiração de Bardo e subtraindo o número rolado da rolagem da criatura.",
+            "Você escolhe usar essa característica depois da criatura fazer a rolagem, mas antes do Mestre determinar se a jogada de ataque ou teste de habilidade foi bem ou mal sucedido, ou antes da criatura causar dano. A criatura será imune se não puder ouvir ou se não puder ser enfeitiçada."
         ],
         "url": "/api/features/cutting-words"
     },
@@ -1649,11 +1649,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Senso do Perigo",
+        "name": "Sentido de Perigo",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "No segundo nível, você ganha um estranho senso de quando as coisas nas proximidades não são o que deveriam ser, Te dá uma vantagem quando esquiva do perigo. Você tem vantagem na Destreity salvando registros contra efeitos que você pode ver, como armadilhas e feitiços. Para obter esse benefício, você não pode ser cego, surdo ou incapacitado."
+            "No 2° nível, você adquire um sentido sobrenatural de quando as coisas próximas não estão como deveriam, concedendo a você uma chance maior quando estiver evitando perigos. Você possui vantagem em testes de resistência de Destreza contra efeitos que você possa ver, como armadilhas e magias. Para receber esse benefício você não pode estar cego, surdo ou incapacitado."
         ],
         "url": "/api/features/danger-sense"
     },
@@ -1661,19 +1661,19 @@
         "index": "dark-ones-blessing",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "name": "Bênção da Mão Sombria",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Começando no primeiro nível, quando você reduz uma criatura hostil para 0 pontos de batida você ganha pontos de acerto temporários iguais ao seu modificador de Charisma + seu nível de bloqueio de guerra (mínimo de 1)."
+            "A partir do 1° nível, quando você reduzir uma criatura hostil a 0 pontos de vida, você ganha uma quantidade de pontos de vida temporários igual ao seu modificador de Carisma + seu nível de bruxo (mínimo 1)."
         ],
         "url": "/api/features/dark-ones-blessing"
     },
@@ -1681,20 +1681,20 @@
         "index": "dark-ones-own-luck",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
-        "name": "Própria Sorte do Dark One",
+        "name": "Sorte do Próprio Obscuro",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando no 6° nível, você pode chamar seu patrono para alterar o destino em seu favor. Quando você faz uma verificação de habilidade ou um lançamento de salvamento, você pode usar este recurso para adicionar um d10 à sua rolagem. Você pode fazê-lo depois de ver o rolamento inicial, mas antes que ocorram quaisquer efeitos do roll.",
-            "Depois de usar esse recurso, você não poderá usá-lo novamente até terminar um descanso curto ou longo."
+            "A partir do 6° nível, você pode pedir ao seu patrono para alterar o destino em seu favor. Quando você realizar um teste de habilidade ou um teste de resistência, você pode usar essa característica para adicionar 1d10 a sua jogada. Você pode fazer isso após ver sua jogada inicial, mas antes que qualquer efeito da jogada ocorra.",
+            "Após usar essa características, você não poderá utilizá-la novamente até terminar um descanso curto ou longo."
         ],
         "url": "/api/features/dark-ones-own-luck"
     },
@@ -1702,21 +1702,21 @@
         "index": "defensive-tactics",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Defesa Militar",
+        "name": "Táticas Defensivas",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "No nível 7, você ganha uma das seguintes características de sua escolha.",
-            "Fuja do bando",
-            "Defesa Multiataque",
+            "No 7° nível, você ganha uma das seguintes características, à sua escolha.",
+            "Escapar da Horda",
+            "Defesa Contra Múltiplos Ataques",
             "Vontade de Aço"
         ],
         "feature_specific": {
@@ -1730,7 +1730,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "defensive-tactics-escape-the-horde",
-                                "name": "Táticas Defensivas: Fuja do Corno",
+                                "name": "Táticas Defensivas: Escapar da Horda",
                                 "url": "/api/features/defensive-tactics-escape-the-horde"
                             }
                         },
@@ -1738,7 +1738,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "defensive-tactics-multiattack-defense",
-                                "name": "Táticas Defensivas: Defesa Multiataque",
+                                "name": "Táticas Defensivas: Defesa Contra Múltiplos Ataques",
                                 "url": "/api/features/defensive-tactics-multiattack-defense"
                             }
                         },
@@ -1746,7 +1746,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "defensive-tactics-steel-will",
-                                "name": "Movimento Defensivo: Vontade de Aço",
+                                "name": "Táticas Defensivas: Vontade de Aço",
                                 "url": "/api/features/defensive-tactics-steel-will"
                             }
                         }
@@ -1760,23 +1760,23 @@
         "index": "defensive-tactics-escape-the-horde",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Táticas Defensivas: Fuja do Corno",
+        "name": "Táticas Defensivas: Escapar da Horda",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "Os ataques de oportunidade contra você são feitos com desvantagem."
+            "Ataques de oportunidade contra você são feitos com desvantagem."
         ],
         "parent": {
             "index": "defensive-tactics",
-            "name": "Defesa Militar",
+            "name": "Defesa Contra Múltiplos Ataques",
             "url": "/api/features/defensive-tactics"
         },
         "url": "/api/features/defensive-tactics-escape-the-horde"
@@ -1785,23 +1785,23 @@
         "index": "defensive-tactics-multiattack-defense",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Táticas Defensivas: Defesa Multiataque",
+        "name": "Táticas Defensivas: Defesa Contra Múltiplos Ataques",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "Quando uma criatura te atinge com um ataque, você ganha um bônus de +4 para CA contra todos os ataques subsequentes feitos por essa criatura para o resto da vez."
+            "Quando uma criatura atinge você com um ataque, você recebe +4 de bônus na CA contra todos os ataques subsequentes feitos por essa criatura no resto do turno."
         ],
         "parent": {
             "index": "defensive-tactics",
-            "name": "Defesa Militar",
+            "name": "Táticas Defensivas",
             "url": "/api/features/defensive-tactics"
         },
         "url": "/api/features/defensive-tactics-multiattack-defense"
@@ -1810,23 +1810,23 @@
         "index": "defensive-tactics-steel-will",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Movimento Defensivo: Vontade de Aço",
+        "name": "Táticas Defensivas: Vontade de Aço",
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "Você tem vantagem em economizar jogos, contra ter medo de ser assustado."
+            "Você tem vantagem em testes de resistência para evitar ser amedrontado."
         ],
         "parent": {
             "index": "defensive-tactics",
-            "name": "Defesa Militar",
+            "name": "Táticas Defensivas",
             "url": "/api/features/defensive-tactics"
         },
         "url": "/api/features/defensive-tactics-steel-will"
@@ -1838,12 +1838,12 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Desviar Mísseis",
+        "name": "Defletir Projéteis",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Começando no terceiro nível, você pode usar sua reação para se desviar ou pegar o míssil quando for atingido por um ataque de arma de longo alcance. Quando você faz isso, o dano que recebe do ataque é reduzido por 1d10 + seu modificador de Agilidade + seu nível de monge.",
-            "Se você reduzir o dano para 0, você pode pegar o míssil se for pequeno o suficiente para você segurar em uma mão e você tem pelo menos uma mão livre Se você pegar um míssil deste modo, você pode gastar 1 ki ponto para fazer um ataque de longo alcance com a arma ou parte de munição que você acabou de pegar, como parte da mesma reação. Você faz este ataque com proficiência, independentemente de suas proficiências de arma, e o míssil conta como arma monge para o ataque, que tem uma variação normal de 20 pés e uma longa gama de 60 metros."
+            "A partir do 3° nível, você pode usar sua reação para defletir ou apanhar o projétil quando você é atingido por um ataque de arma à distância. Quando o fizer, o dano que você sofrer do ataque é reduzido em 1d10 + seu modificador de Destreza + seu nível de monge.",
+            "Se o dano for reduzido a 0, você pode apanhar o projétil se ele for pequeno o suficiente para ser segurando em uma mão e você tenha, pelo menos, uma mão livre. Se você apanhar um projétil dessa forma, você pode gastar 1 ponto de chi para realizar uma ataque à distância com a arma ou munição que você acabou de pegar, como parte da mesma reação. Você realiza esse ataque com proficiência, independentemente das armas em que você é proficiente, e o projétil conta como uma arma de monge para o ataque. A distância do ataque do monge é de 6/18 metros."
         ],
         "url": "/api/features/deflect-missiles"
     },
@@ -1851,14 +1851,14 @@
         "index": "destroy-undead-cr-1-2-or-below",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Destrua mortos-vivos (CR 1/2 ou abaixo)",
+        "name": "Destruir Mortos-vivos (1/2 ou menor)",
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, quando um morto-vivo falha em salvar seu lançamento contra sua função de virar mortos-vivos, a criatura é destruída instantaneamente se sua classificação de desafio estiver em ou abaixo de um determinado limiar."
+            "A partir do 5º nível, quando um morto-vivo falhar no teste de resistência contra a sua característica Expulsar Mortos-vivos, ele é instantaneamente destruído se o Nível de Desafio dele for menor ou igual ao valor da tabela Destruir Mortos-vivos, de acordo com seu nível de clérigo."
         ],
         "url": "/api/features/destroy-undead-cr-1-2-or-below"
     },
@@ -1866,14 +1866,14 @@
         "index": "destroy-undead-cr-1-or-below",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Destrua os Mortos-vivos (CR 1 ou abaixo)",
+        "name": "Destruir os Mortos-vivos (1 ou menor)",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, quando um morto-vivo falha em salvar seu lançamento contra sua função de virar mortos-vivos, a criatura é destruída instantaneamente se sua classificação de desafio estiver em ou abaixo de um determinado limiar."
+            "A partir do 5º nível, quando um morto-vivo falhar no teste de resistência contra a sua característica Expulsar Mortos-vivos, ele é instantaneamente destruído se o Nível de Desafio dele for menor ou igual ao valor da tabela Destruir Mortos-vivos, de acordo com seu nível de clérigo."
         ],
         "url": "/api/features/destroy-undead-cr-1-or-below"
     },
@@ -1881,14 +1881,14 @@
         "index": "destroy-undead-cr-2-or-below",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Destrua mortos-vivos (CR 2 ou abaixo)",
+        "name": "Destruir Mortos-vivos (2 ou menor)",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, quando um morto-vivo falha em salvar seu lançamento contra sua função de virar mortos-vivos, a criatura é destruída instantaneamente se sua classificação de desafio estiver em ou abaixo de um determinado limiar."
+            "A partir do 5º nível, quando um morto-vivo falhar no teste de resistência contra a sua característica Expulsar Mortos-vivos, ele é instantaneamente destruído se o Nível de Desafio dele for menor ou igual ao valor da tabela Destruir Mortos-vivos, de acordo com seu nível de clérigo."
         ],
         "url": "/api/features/destroy-undead-cr-2-or-below"
     },
@@ -1896,14 +1896,14 @@
         "index": "destroy-undead-cr-3-or-below",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Destrua mortos-vivos (CR 3 ou abaixo)",
+        "name": "Destruir Mortos-vivos (3 ou menor)",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, quando um morto-vivo falha em salvar seu lançamento contra sua função de virar mortos-vivos, a criatura é destruída instantaneamente se sua classificação de desafio estiver em ou abaixo de um determinado limiar."
+            "A partir do 5º nível, quando um morto-vivo falhar no teste de resistência contra a sua característica Expulsar Mortos-vivos, ele é instantaneamente destruído se o Nível de Desafio dele for menor ou igual ao valor da tabela Destruir Mortos-vivos, de acordo com seu nível de clérigo."
         ],
         "url": "/api/features/destroy-undead-cr-3-or-below"
     },
@@ -1911,14 +1911,14 @@
         "index": "destroy-undead-cr-4-or-below",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
-        "name": "Destrua os Mortos-vivos (CR 4 ou abaixo)",
+        "name": "Destruir Mortos-vivos (4 ou menor)",
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, quando um morto-vivo falha em salvar seu lançamento contra sua função de virar mortos-vivos, a criatura é destruída instantaneamente se sua classificação de desafio estiver em ou abaixo de um determinado limiar."
+            "A partir do 5º nível, quando um morto-vivo falhar no teste de resistência contra a sua característica Expulsar Mortos-vivos, ele é instantaneamente destruído se o Nível de Desafio dele for menor ou igual ao valor da tabela Destruir Mortos-vivos, de acordo com seu nível de clérigo."
         ],
         "url": "/api/features/destroy-undead-cr-4-or-below"
     },
@@ -1929,12 +1929,12 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Alma de diamante",
+        "name": "Alma de Diamante",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "A partir de 14 de nível, sua maestria do ki concede a você proficiência em todos os lançamentos de poupança.",
-            "Além disso, sempre que você fizer um lançamento e falhar, você pode gastar 1 ki ponto para rolá-lo e obter o segundo resultado."
+            "A partir do 14° nível, sua maestria do chi concede a você proficiência em todos os testes de resistência.",
+            "Além disso, toda vez que você realizar um teste de resistência e falha, você pode gastar 1 ponto de chi para jogar novamente e ficar com o segundo resultado."
         ],
         "url": "/api/features/diamond-soul"
     },
@@ -1942,19 +1942,19 @@
         "index": "disciple-of-life",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "subclass": {
             "index": "life",
-            "name": "Vida",
+            "name": "Domínio da Vida",
             "url": "/api/subclasses/life"
         },
         "name": "Discípulo da Vida",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Também a partir do primeiro nível, seus feitiços de cura são mais eficazes. Sempre que você usar um feitiço de primeiro nível ou superior para restaurar pontos de acerto para uma criatura, a criatura recupera pontos de vida adicionais iguais a 2 + nível do feitiço."
+            "Também no 1º nível, suas magias de cura são mais efetivas. Sempre que você conjurar uma magia de cura para recuperar pontos de vida, o alvo daquela magia recupera pontos de vida adicionais iguais a 2 + nível da magia."
         ],
         "url": "/api/features/disciple-of-life"
     },
@@ -1962,15 +1962,15 @@
         "index": "divine-domain",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "name": "Domínio Divino",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Escolha um domínio relacionado à sua divindade, como Conhecimento, Vida, Luz, Natureza, Tempestade, Trickery ou Guerra. Apenas o domínio da Vida é detalhado na SRD da Licença do Jogo Aberto. Domínios adicionais são descritos nos livros de regras oficiais ou produtos de outros editores.",
-            "Seu domínio permite a você feitiços de domínio e outros recursos ao escolhê-lo no primeiro nível. Também garante maneiras adicionais de usar a Divindade do Canal quando você ganha esse recurso ao segundo nível, e benefícios adicionais aos níveis 6, 8 e 17."
+            "Escolha um domínio relacionado à sua divindade: Conhecimento, Enganação, Guerra, Luz, Natureza, Tempestade ou Vida. Cada domínio é detalhado ao final da descrição da classe e, cada um, fornece exemplos dos deuses associados a eles.",
+            "Essa escolha, realizada no 1º nível, concede magias de domínio e outras características. Ela também concede a você outras formas de utilizar seu Canalizar Divindade quando você ganhá-lo no 2º nível, bem como outros benefícios no 6º, 8º e 17º níveis."
         ],
         "url": "/api/features/divine-domain"
     },
@@ -1981,11 +1981,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Vida Divina",
+        "name": "Saúde Divina",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Por terceiro nível, a mágica divina que corre através de você torna você imune à doença."
+            "No 3° nível, a magia divina flui através de você tornando você imune a doenças."
         ],
         "url": "/api/features/divine-health"
     },
@@ -1993,17 +1993,17 @@
         "index": "divine-intervention",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "name": "Intervenção Divina",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Começando pelo décimo nível, você pode pedir a sua divindade para intervir em seu nome quando sua necessidade for grande.",
-            "Implorar a ajuda da sua divindade requer que você use sua ação. Descreva a ajuda que você procura e use dados exclusivos por cento. Se você jogar um número igual ou inferior ao nível clérico, sua divindade intervém. O GM escolhe a natureza da intervenção; o efeito de qualquer ortografia clerica ou ortografia de domínio clerico seria apropriado.",
-            "Se a sua divindade intervir, você não pode usar este recurso novamente por 7 dias. Caso contrário, você poderá usá-lo novamente depois de terminar um descanso longo.",
-            "Ao nível 20, sua chamada para intervenção é bem-sucedida automaticamente, nenhuma rolagem é necessária."
+            "A partir do 10º nível, você pode rogar à sua divindade para que auxilie você em uma árdua tarefa.",
+            "Implorar pelo auxílio requer uma ação. Você precisa descrever o que busca e realizar uma rolagem de dado de percentagem. Se o resultado for menor ou igual ao seu nível de clérigo, sua divindade intervém. O Mestre escolhe a natureza da intervenção. O efeito de qualquer magia de clérigo ou magia de domínio é apropriado como resultado.",
+            "Se sua divindade intervir, você fica impedido de usar essa característica de novo por 7 dias. Do contrário, você pode usá-la de novo após terminar um descanso longo.",
+            "No 20º nível, seus pedidos de intervenção funcionam automaticamente, sem necessidade de rolagem de dados."
         ],
         "url": "/api/features/divine-intervention"
     },
@@ -2011,14 +2011,14 @@
         "index": "divine-intervention-improvement",
         "class": {
             "index": "cleric",
-            "name": "Clérico",
+            "name": "Clérigo",
             "url": "/api/classes/cleric"
         },
         "name": "Melhoria de Intervenção Divina",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "Ao nível 20, sua chamada para intervenção é bem-sucedida automaticamente, nenhuma rolagem é necessária."
+            "No 20º nível, seus pedidos de intervenção funcionam automaticamente, sem necessidade de rolagem de dados."
         ],
         "url": "/api/features/divine-intervention-improvement"
     },
@@ -2033,8 +2033,8 @@
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "A presença de fortes registros do mal em seus sentidos como um odor nocivo e bons anéis poderosos como música celestial em seus ouvidos. Como ação, você pode abrir sua consciência para detectar tais forças. Até o final do seu próximo turno, você sabe a localização de qualquer celestial, o fogo ou os mortos-vivos a 60 pés de você, não está atrás de uma cobertura total. Você conhece o tipo (celestial, demagógico ou morto) de qualquer ser cuja presença você senti, mas não sua identidade. Dentro do mesmo raio, você também detecta a presença de qualquer lugar ou objeto que tenha sido consagrado ou decorado, como no feitiço do hallow.",
-            "Você pode usar esse recurso um número de vezes igual a 1 + seu modificador de Charisma. Quando terminar um longo descanso, recupera todos os usos gastos."
+            "A presença de um mal poderoso é registrada nos seus sentidos como um odor nocivo e o bem poderoso badala como música celestial nos seus ouvidos. Com uma ação, você pode expandir sua consciência para detectar tais forças. Até o final do seu próximo turno, você sabe a localização de qualquer celestial, corruptor ou morto-vivo a 18 metros de você que não esteja com cobertura total. Você sabe o tipo (celestial, corruptor ou morto-vivo) de qualquer ser cuja presença você sentiu, mas não sua identidade (o vampiro Conde Strahd von Zarovish, por exemplo). Dentro do mesmo raio, você também detecta a presença de qualquer lugar ou objeto que tenha sido consagrado ou conspurcado, como pela magia consagrar.",
+            "Você pode usar essa característica um número de vezes igual a 1 + seu modificador de Carisma. Quando você concluir um descanso longo, você recupera todos os usos gastos."
         ],
         "url": "/api/features/divine-sense"
     },
@@ -2045,11 +2045,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Julgamento Divino",
+        "name": "Destruição Divina",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Começando no segundo nível, quando você acerta uma criatura com um ataque de arma corpo a corpo, você pode gastar um slot de feitiço para causar dano radiante ao alvo, além do dano da arma. O dano extra é 2d8 para um slot de feitiço de nível 1, mais 1d8 para cada nível de feitiço maior que 1, até um máximo de 5d8. O dano aumenta 1d8 se o alvo for mortos-vivos ou provocado."
+            "A partir do 2° nível, quando você atingir uma criatura com um ataque corpo-a-corpo com arma, você pode gastar um espaço de magia de qualquer classe para causar dano radiante no alvo, além do dano normal da arma. O dano extra é de 2d8 para um espaço de magia de 1° nível, mais 1d8 para cada espaço de magia acima do 1°, até o máximo de 5d8. O dano aumenta em 1d8 se o alvo for um corruptor ou um morto-vivo."
         ],
         "url": "/api/features/divine-smite"
     },
