@@ -9,11 +9,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, o dano (inicial e posterior) aumenta em 1d4 para cada nível de slot acima de 2 anos."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Folha de ruibarbo reforçada e estômago de um adicionador.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -72,10 +68,7 @@
             "O dano deste feitiço aumenta em 1d6 quando você alcança o quinto nível (2d6), o décimo primeiro nível (3d6) e o sétimo nível (4d6)."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -138,11 +131,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, os pontos de acerto do alvo aumentam 5 a mais para cada slot acima de 2 horas."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena faixa de pano branco.",
         "ritual": false,
         "duration": "8 horas",
@@ -194,11 +183,7 @@
             "Um alarme audível produz o som de uma campainha de mão durante 10 segundos dentro de 60 metros."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno sino e um pedaço de bom fio de prata.",
         "ritual": true,
         "duration": "8 horas",
@@ -245,10 +230,7 @@
             "***Armas Naturais.*** Você cresce garras, presas, espinhos, chifres ou uma arma natural diferente de sua escolha. Seus ataques desarmados causam 1d6 lamuras, perfuração ou dano de corte, conforme a arma que você escolheu, e você é proficiente com seus ataques desarmados. Finalmente, a arma natural é mágica e você tem um bônus de +1 para atacar e causar dano usando ela."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -287,11 +269,7 @@
             "Esse feitiço permite que você convença um animal de que não quer dizer mal. Escolha um animal que você possa ver dentro do alcance. Deve ver e ouvir você. Se a Inteligência da fera for 4 ou maior, o feitiço falhará. Caso contrário, a besta deve ter sucesso em um lançamento de sabedoria ou ser encantada por você durante a duração do feitiço. Se você ou um de seus companheiros prejudicar o alvo, os feitiços acabarão."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um morsel de comida.",
         "ritual": false,
         "duration": "24 horas",
@@ -347,11 +325,7 @@
             "Se você lançar este feitiço usando um slot de feitiço de nível 3 ou superior, a duração do feitiço aumenta em 48 horas para cada slot acima de 2 horas."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um morsel de comida.",
         "ritual": true,
         "duration": "24 horas",
@@ -398,10 +372,7 @@
             "A armadura do alvo se derrete na nova forma. O alvo não pode ativar, empunhar ou se beneficiar de qualquer um de seus equipamentos."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 24 horas",
         "concentration": true,
@@ -434,11 +405,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, você anima ou reafirma o controle sobre duas criaturas morto-vivas adicionais para cada nível de slot acima da 3. Cada uma das criaturas deve vir de um cadáver diferente ou pilha de ossos."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de sangue, um pedaço de carne e uma pitada de pó de osso.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -492,10 +459,7 @@
             "Se você lançar este feitiço usando um slot de feitiço de nível 6 ou superior, você pode animar dois objetos adicionais para cada nível de slot acima de 5th."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -535,10 +499,7 @@
             "Se você se mover para que uma criatura afetada seja forçada a passar pela barreira, o feitiço acaba."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -579,11 +540,7 @@
             "***Dispel Mágica.*** Feitiços e efeitos mágicos como dissipar a magia não têm efeito na esfera. Da mesma forma, as esferas criadas por diferentes feitiços de campo antimágico não anulam umas às outras."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de ferro em pó ou filamentos de ferro.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -626,11 +583,7 @@
             "Uma criatura que economiza com êxito contra este efeito é imune a ele durante 1 minuto, após o que poderá ser novamente afetada."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Ou um pedaço de alum encharcado em vinagre para o efeito antipatia, ou uma gota de mel para o efeito de simpatia.",
         "ritual": false,
         "duration": "10 dias",
@@ -670,11 +623,7 @@
             "Como uma ação, você pode mover o olho até 30 pés em qualquer direção. Não há limite para o quão longe você o olho pode se mover, mas não pode entrar em outro plano de existência. Uma barreira sólida bloqueia o movimento dos olhos, mas o olho pode passar por uma abertura tão pequena quanto uma polegada de diâmetro."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de peles de morcego.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -721,11 +670,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 6 ou superior, o dano da opção de punho esfregado aumenta em 2d8 e o dano causado pela mão coberta aumenta em 2d6 para cada nível acima de 5 horas."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um concha de ovo e uma luva de serpente.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -755,11 +700,7 @@
             "Enquanto afetado por este feitiço, o objeto é mais difícil de quebrar ou abrir força; o DC para quebrá-lo ou escolher qualquer fechadura ele aumenta em 10."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pó de ouro vale pelo menos 25gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -795,11 +736,7 @@
             "Quando a espada aparecer, você faz um ataque físico contra um alvo à sua escolha dentro de 5 pés da espada. Em um golpe, o alvo recebe 3d10 danos forçados. Até que a magia termine, você pode usar um bônus de ação em cada um dos seus turnos para mover a espada para um ponto que você pode ver e repetir esse ataque contra o mesmo alvo ou contra um diferente."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma espada de platina em miniatura com um punho e pomo de cobre e zinco, que vale 250 gp.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -847,11 +784,7 @@
             "***Máscara. ** Você muda a forma como o alvo aparece para feitiços e efeitos mágicos que detectam tipos de criatura, como um senso divino do paladino ou o gatilho de um feitiço de símbolos. Você escolhe um tipo de criatura e outros feitiços e efeitos mágicos tratam o alvo como se fosse uma criatura desse tipo ou desse alinhamento."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno quadrado de seda.",
         "ritual": false,
         "duration": "24 horas",
@@ -891,11 +824,7 @@
             "Se você for devolvido ao seu corpo prematuramente, seus companheiros permanecem em suas formas astronômicas e devem encontrar seu caminho de volta para seus corpos, geralmente caindo até 0 pontos de bônus."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Para cada criatura que você afeta com este feitiço, você deve fornecer uma domina de pelo menos 1 00gp e uma barra ornamentadamente esculpida de prata no valor de pelo menos 100gp, tudo o que o feitiço consome.",
         "ritual": false,
         "duration": "Promoções",
@@ -940,11 +869,7 @@
             "Se você lançar o feitiço duas ou mais vezes antes de completar o próximo descanso longo, há uma chance cumulativa de 25 por cento de cada lançamento após o primeiro que você obtém uma leitura aleatória. O GM faz esta rolagem em segredo."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Sticks, ossos ou tokens similares com marcas especiais que valem pelo menos 25gp.",
         "ritual": true,
         "duration": "Instantâneo",
@@ -980,11 +905,7 @@
             "A besta ou planta acordada é encantada por você durante 30 dias ou até que você ou seus companheiros façam algo prejudicial a ela. Quando a condição encharcada termina, a criatura despertada escolhe se deve permanecer amigável com você, com base na forma como a tratou enquanto foi encantada."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um agro de pelo menos 1.000 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -1021,11 +942,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você pode escolher uma criatura adicional para cada slot acima de 1."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de sangue.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -1078,11 +995,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5° nível ou superior, você pode escolher uma criatura adicional para cada slot acima de 4th."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um item desagradável para o alvo.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -1139,11 +1052,7 @@
             "Você toca em uma criatura desejável. Até que o feitiço acabe, a pele do alvo tem uma aparência áspera, parecida com cascos, e o AC do alvo não pode ser menor que 16, independentemente do tipo de armadura que ele esteja usando."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um punhado de carvalho late de carvalho.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -1188,10 +1097,7 @@
             "Este feitiço concede esperança e vitalidade. Escolha qualquer número de criaturas dentro do alcance. Durante a duração, cada alvo tem vantagem na sabedoria salvando e salvando mortes, e recupera o número máximo de pontos de vida possível de qualquer cura."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -1243,10 +1149,7 @@
             "Se você lançar este feitiço usando um slot de feitiço de 4 ou superior, a duração é a concentração, até 10 minutos. Se você usar um slot de feitiço de nível 5 ou superior, a duração é 8 horas. Se você usar um slot de feitiço de nível 7 ou superior, a duração é 24 horas. Se você usar um slot de feitiço de nível 9, o feitiço dura até ser dissolvido. Usar um slot de feitiço do quinto nível ou maior concede uma duração que não requer concentração."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -1301,11 +1204,7 @@
             "Uma criatura contida pelos tentáculos pode usar sua ação para fazer uma Verificação de Força ou Agilidade (sua escolha) contra a sua prova ortográfica. Com êxito, liberta-se a si próprio."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um tentáculo de um polvo gigante ou uma lula gigante",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -1358,10 +1257,7 @@
             "Quando uma criatura entra na área da parede pela primeira vez em um turno ou começa seu turno lá, a criatura deve lançar uma economia de destreza. Em salvamento falhado, a criatura sofre danos cortantes de 6d10. Em uma economia bem sucedida, a criatura recebe metade do dano."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -1414,11 +1310,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você pode escolher uma criatura adicional para cada slot acima de 1."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma granizo de água sagrada.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -1468,10 +1360,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5o nível mais elevado, o dano aumenta em 1d8 para cada slot acima de 4th."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -1546,9 +1435,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, você pode usar uma criatura adicional para cada slot acima do segundo grau."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -1611,10 +1498,7 @@
             "Enquanto estiver no plano Ethereal, você poderá ver e ouvir o avião do qual se originou, que é envergada em tons de cinza e você não consegue ver nada lá a mais de 60 pés de distância. Você só pode afetar e ser afetado por outras criaturas no plano Ethereal. Criaturas que não estão lá não podem te perceber ou interagir com você, a menos que tenham a habilidade de fazer isso."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -1653,9 +1537,7 @@
             "Seu corpo fica borrado, deslocado e hesitando para todos que podem te ver. Pela duração, qualquer criatura tem desvantagem em rolagens de ataque contra você. Um atacante é imune a esse efeito se não depender de visão, como de visão cega, ou pode ver ilusões, como a veracidade da altura."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -1702,9 +1584,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, o dano extra aumenta em 1d6 para cada nível de slot acima de 2nd."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -1753,10 +1633,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 2 níveis ou superior, o dano aumenta em 1d6 para cada nível de slot acima de 1."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -1835,10 +1712,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 4 de nível ou superior, o dano aumenta em 1d10 para cada nível de slot acima do 33."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -1898,10 +1772,7 @@
             "Como alternativa, você pode fazer um alvo indiferente sobre criaturas de sua escolha em relação às quais ele é hostil. Esta indiferença termina se o alvo é atacado ou prejudicado por um feitiço ou se testemunha de algum dos seus amigos que está a ser ferido. Quando termina a magia, a criatura torna-se hostil novamente, a menos que as regras GM sejam de outra forma."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -1956,11 +1827,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, um parafuso adicional do primeiro alvo para outro alvo para cada nível de slot acima de 6th."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pelo; um pedaço de âmbar, vidro ou uma vara de cristal; e três pinos de prata.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -2015,10 +1882,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você pode escolher uma criatura adicional para cada slot acima de 1. As criaturas devem estar dentro de 30 pés uma da outra quando você as atacar."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -2082,10 +1946,7 @@
             "O dano deste feitiço aumenta em 1d8 quando você alcança o quinto nível (2d8), o décimo primeiro nível (3d8) e o sétimo nível (4d8)."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "1 rodada",
         "concentration": false,
@@ -2146,11 +2007,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, o dano aumenta em 2d6 para cada slot acima de 6th."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "O pó de uma pérola preta esmagada que vale pelo menos 500 gp.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -2216,11 +2073,7 @@
             "Uma criatura que pode ver o sensor (como uma criatura que se beneficia de ver invisibilidade ou verdadeira) vê uma luminosa, orbe intangível sobre o tamanho de seu punho."
         ],
         "range": "1 milha",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um foco que vale pelo menos 100gp, um chifre de jóia para ouvir ou um olho de vidro para ver.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -2271,11 +2124,7 @@
             "A qualquer momento após a maturidade do clone, se a criatura original morrer, sua alma transfere para o clone, desde que a alma seja gratuita e esteja disposta a retornar. O clone é fisicamente idêntico ao original e tem a mesma personalidade, memórias e habilidades, mas nenhum do equipamento do original. O físico da criatura original permanece, se eles ainda existirem, se tornam inertes e não podem ser restaurados à vida, já que a alma da criatura está em outro lugar."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um diamante de pelo menos 1.000 gps e pelo menos 1 polegada cúbica de carne da criatura a clonar, que o feitiço consome, e um navio de pelo menos 2, 00 gp que tem uma tampa selável e é grande o suficiente para ter uma criatura média, como uma urita enorme, cofre, cisto cheio de lama no chão ou recipiente de cristal cheio de água salgada.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -2309,10 +2158,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 6o nível ou superior, o dano aumenta em 1d8 para cada slot acima de 5th."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -2382,11 +2228,7 @@
             "Quando você lançar este feitiço usando um slot de feitiço de 2 níveis ou superior, role um 2d10 adicional para cada slot acima de 1."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de pó ou areia colorida, amarela e azul.",
         "ritual": false,
         "duration": "1 rodada",
@@ -2439,9 +2281,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você pode afetar uma criatura adicional para cada slot acima de 1. As criaturas devem estar dentro de 30 pés uma da outra quando você as atacar."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "1 rodada",
         "concentration": false,
@@ -2495,11 +2335,7 @@
             "Se você lançar o feitiço duas ou mais vezes antes de terminar seu próximo repouso longo, há uma cumulativa de 25% de chance de cada lingotamento após o primeiro que você não recebe nenhuma resposta. O GM faz esta rolagem em segredo."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Incenso e um frasco de água sagrada ou não sagrada.",
         "ritual": true,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -2541,10 +2377,7 @@
             "Por exemplo, você poderia determinar a localização de mortos-vivos poderosos na área, a localização das principais fontes de água potável e a localização de quaisquer cidades próximas."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "Instantâneo",
         "concentration": false,
@@ -2584,11 +2417,7 @@
             "Essa magia não decodifica mensagens secretas em um texto ou um glyph, como um emblema arcano, que não faz parte de uma língua escrita."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de fuligem e sal.",
         "ritual": true,
         "duration": "number@@0 horas",
@@ -2639,10 +2468,7 @@
             "Um alvo não é obrigado a se mover para um risco obviamente mortal, como um fogo ou um poço, mas irá provocar ataques de oportunidade para avançar na direcção designada."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -2682,11 +2508,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 6o nível ou superior, o dano aumenta em 1d8 para cada slot acima de 5th."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno cone de vidro ou cristal.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -2764,11 +2586,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5° nível ou superior, o raio da esfera aumenta em 5 pés para cada slot acima de 4th."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Três conchas de noiva.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -2834,10 +2652,7 @@
             "Ao lançar este feitiço usando certos slots de feitiço de alto nível, você escolhe uma das opções de invocação acima, e mais criaturas aparecem: o dobro com um espaço de 5 níveis, o triplo com um nível 7."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -2881,10 +2696,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 9, você invoca um celestial de classificação de desafio 5 ou inferior."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -2918,11 +2730,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 6 ou superior, a classificação do desafio aumenta em 1 para cada slot acima de 5th."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Queima para o ar, argila suave para a terra, enxofre e fósforo para fogo, ou água e areia para a água.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -2972,10 +2780,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, a classificação do desafio aumenta 1 para cada slot acima de 6th."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -3018,10 +2823,7 @@
             "Ao lançar este feitiço usando certos slots de feitiço de alto nível, você escolhe uma das opções de invocação acima, e mais criaturas aparecem: o dobro com um slot de nível 6 e três vezes mais com um slot de nível 8."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -3064,11 +2866,7 @@
             "Ao lançar este feitiço usando certos slots de feitiço de alto nível, você escolhe uma das opções de invocação acima, e mais criaturas aparecem: o dobro com um slot de nível 6 e três vezes mais com um slot de nível 8."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma fruta sagrada por criatura invocada.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -3103,9 +2901,7 @@
             "Em uma economia bem sucedida, você pode fazer até cinco perguntas à entidade. Você deve fazer suas perguntas antes que o feitiço termine. O GM responde a cada pergunta com uma palavra, como \"sim\", \"não\", \"talvez\", \"nunca\", \"nunca, \"irrelevante\" ou \"incerto\" (se a entidade não souber a resposta à questão). Se uma resposta de uma só palavra fosse enganadora, o OGM poderia antes oferecer uma pequena expressão como resposta."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": true,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -3155,10 +2951,7 @@
             "***Slimy Doom.*** A criatura começa a sangrar sem controle. A criatura tem desvantagem sobre verificações de constituição e lançamentos de salvamento. Além disso, sempre que a criatura toma dano, fica atordoada até o final de seu próximo turno."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "7 dias",
         "concentration": false,
@@ -3203,11 +2996,7 @@
             "O feitiço de contingente só tem efeito sobre você, mesmo que normalmente possa atingir os outros. Você pode usar apenas um feitiço de contingência de cada vez. Se você lançar esse feitiço novamente, o efeito de outro feitiço de contingência termine. Além disso, a contingência termina em você, se seu componente de material não for para sua pessoa."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma estátua de si esculpida de marfim e decorada com gemas no valor de pelo menos 1.500 gp.",
         "ritual": false,
         "duration": "10 dias",
@@ -3236,11 +3025,7 @@
             "Uma chama, equivalente a brilho a uma tocha, brota de um objeto que você toca. O efeito parece uma chama normal, mas não cria calor e não usa oxigênio. Uma chama contínua pode ser coberta ou escondida, mas não sufocada ou extinta."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pó de Ruby vale 50 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -3288,11 +3073,7 @@
             "Na primeira vez que cada vez que um objeto entra no vórtex, o objeto leva 2d8 de dano de azul; esse dano ocorre a cada rodada que permanece no vórtice."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de água e uma pitada de pó.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -3380,11 +3161,7 @@
             "£5 (Tempestade à Tempestade"
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Queima e pedaços de terra e madeira misturados na água.",
         "ritual": false,
         "duration": "Até 8 horas",
@@ -3432,9 +3209,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, o feitiço interrompido não tem efeito se seu nível for menor ou igual ao nível do slot de feitiço usado."
         ],
         "range": "60 pés",
-        "components": [
-            "S.O."
-        ],
+        "components": ["S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -3472,10 +3247,7 @@
             "Você cria 45 libras de comida e 30 litros de água no chão ou em contêineres dentro de alcance, suficiente para sustentar até quinze humanos ou cinco cordeiros por 24 horas. A comida é branda, mas nutriente, e estraga se não comer depois de 24 horas. A água está limpa e não fica estragada."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -3529,11 +3301,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 2 níveis ou superior, você cria ou destrói mais 10 litros de água ou o tamanho do cubo aumenta em 5 pés, para cada slot acima de 1."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de água ao criar água, ou alguns grãos de areia ao destruí-la.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -3582,11 +3350,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 7 níveis, é possível animar ou reafirmar o controle sobre quatro fantasmas. Quando você lança este feitiço usando um slot de feitiço de 8 níveis, você pode animar ou reafirmar o controle sobre cinco fantasmas ou dois fantasmas ou lavavos. Quando você lança este feitiço usando um slot de feitiço de 9 níveis, Você pode animar ou reorganizar o controle sobre seis fantasmas, três gafes ou limpezas, ou duas múmias."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pátio de argila cheio de terra, um vaso de argila repleto de água chifre e uma pedra anônima preta de 150 gps por cadáver.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -3637,11 +3401,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 6 ou superior, o cubo aumenta em 5 pés para cada nível acima de 5th."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de matéria do mesmo tipo do item que você planeja criar.",
         "ritual": false,
         "duration": "Promoções",
@@ -3682,10 +3442,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 2 níveis ou superior, o aumento de cura em 1d8 para cada nível de slot acima de um."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -3756,11 +3513,7 @@
             "Como uma ação bônus em sua volta, você pode mover as luzes até 60 pés para um novo ponto dentro do alcance. Uma lâmpada deve ter menos de 20 pés de outra lâmpada criada por esse feitiço, e uma luz pisca se exceder o alcance do feitiço."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de fósforo ou madeira de outono, ou uma minhoca.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -3807,10 +3560,7 @@
             "Se alguma área deste feitiço se sobrepor a uma área de luz criada por um feitiço de nível 2 ou inferior, a magia que criou a luz foi dissipada."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "Pele de morcego e uma gota de Tom ou pedaço de carvão.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -3864,11 +3614,7 @@
             "Você toca em uma criatura desejada para conceder a habilidade de ver no escuro. Pela duração, essa criatura escurece até os 60 pés de distância."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Ou uma pitada de cenoura seca ou um anjo.",
         "ritual": false,
         "duration": "8 horas",
@@ -3920,10 +3666,7 @@
             "Se alguma área deste feitiço se sobrepor a uma área de escuridão criada por um feitiço de 3 níveis ou inferior, a magia que criou a escuridão é dissipada."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -3988,10 +3731,7 @@
             "Se o feitiço ainda estiver em vigor quando o alvo estiver sujeito a um efeito que o mataria instantaneamente sem causar dano, em vez disso, esse efeito é negado contra o alvo e o feitiço termina."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "8 horas",
         "concentration": false,
@@ -4036,11 +3776,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 8 ou superior, o dano base aumenta em 1d6 para cada nível acima de 7th."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena bola de guano de morcego e enxofre.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -4099,9 +3835,7 @@
             "Cada vez que você lançar este feitiço, você poderá criar um novo plano de epidemia, ou conectar a porta sombria a a um plano de demônio que você criou com um lançamento anterior deste feitiço. Além disso, se você conhece a natureza e o conteúdo de uma demência criada por um lançamento deste feitiço por outra criatura, em vez disso, você pode conectar a porta sombria ao plano da sua epidemia."
         ],
         "range": "60 pés",
-        "components": [
-            "S.O."
-        ],
+        "components": ["S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -4135,10 +3869,7 @@
             "O feitiço pode penetrar na maioria das barreiras, mas está bloqueado por 1 pé de pedra, 1 polegada de metal comum, uma fina folha de chumbo, ou 3 pés de madeira ou terra."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -4182,10 +3913,7 @@
             "O feitiço pode penetrar na maioria das barreiras, mas está bloqueado por 1 pé de pedra, 1 polegada de metal comum, uma fina folha de chumbo, ou 3 pés de madeira ou terra."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -4254,11 +3982,7 @@
             "O feitiço pode penetrar na maioria das barreiras, mas está bloqueado por 1 pé de pedra, 1 polegada de metal comum, uma fina folha de chumbo, ou 3 pés de madeira ou terra."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma folha de colírio.",
         "ritual": true,
         "duration": "Até 10 minutos",
@@ -4316,11 +4040,7 @@
             "Uma vez que você detectar a presença de uma criatura desta forma, você pode ler seus pensamentos para o resto da duração conforme descrito acima, Mesmo se você não consegue vê-lo, mas ela deve estar dentro do alcance."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Moeda de cobre.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -4367,9 +4087,7 @@
             "Se você chegasse em um lugar já ocupado por um objeto ou uma criatura, você e qualquer criatura viajando com você levam 4d6 de dano forçado, e o feitiço não consegue teletransportar você."
         ],
         "range": "500 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -4424,10 +4142,7 @@
             "Para discernir que você está disfarçado, uma criatura pode usar sua ação para inspecionar sua aparência e deve ter sucesso em uma verificação de Inteligência (Investigação) contra sua prova ortográfica."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -4477,11 +4192,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, o dano aumenta em 3d6 para cada nível de slot acima de 6th."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "O perdedor e uma pitada de pó.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -4540,11 +4251,7 @@
             "***Descartar.*** Como sua ação, faça um feitiço de corpo a corpo atacar contra um celestial, um elemental, uma taxa, um incêndio, ou um morto-vivo que você consegue alcançar. Em um golpe, você tenta levar a criatura de volta para o avião residencial dele. A criatura deve ter sucesso em um carisma salvando atiradores ou ser enviada de volta para seu avião de casa (se já não estiver lá). Se eles não estão em seu avião natal, mortos-vivos são enviados para as sombras, e as taxas são enviadas para os Poucos."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Água sagrada ou prata e ferro em pé.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -4590,10 +4297,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, você automaticamente termina os efeitos de um feitiço no alvo se o nível do feitiço for igual ou menor que o nível do slot de feitiço usado."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -4664,11 +4368,7 @@
             "Se você lançar o feitiço duas ou mais vezes antes de terminar seu próximo repouso longo, há uma chance cumulativa de 25 por cento de cada lançamento após o primeiro que você obtém uma leitura aleatória. O GM faz esta rolagem em segredo."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Incenso e uma oferta de sacrifícios adequada à sua religião, juntos valendo pelo menos 25gp, que o feitiço consome.",
         "ritual": true,
         "duration": "Instantâneo",
@@ -4703,10 +4403,7 @@
             "Sua oração fortalece você com radiação divina. Até que o feitiço acabe, seus ataques com armas causam um dano extra de 1d4 radiante a um golpe."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -4755,9 +4452,7 @@
             "Independentemente do ponto de acerto atual, um celestial, um elemento, uma taxa, ou um demônio que falha em seu save é forçado de volta ao seu plano de origem (se já não estiver lá) e não pode retornar para o seu avião atual por 24 horas de qualquer forma que não tenha um feitiço."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -4799,10 +4494,7 @@
             "Quando você lança este feitiço com um slot de feitiço de nível 9, a duração é concentração, até 8 horas."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -4849,10 +4541,7 @@
             "Quando você lança este feitiço com um slot de feitiço de 9 níveis, a duração é concentração, até 8 horas."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -4910,10 +4599,7 @@
             "Quando você lança este feitiço utilizando um slot de feitiço de nível 6, a duração é a concentração, até 10 minutos. Quando você usa um slot de 7 níveis, a duração é concentração, até 1 hora. Quando você usa um slot de feitiço de nível 8 ou maior, a duração é concentração, até 8 horas."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -4964,11 +4650,7 @@
             "Se você tem uma parte do corpo, tranca de cabelo, corte de um prego, ou parte similar do corpo do alvo, o alvo faz com que a sua poupança seja lançada em desvantagem."
         ],
         "range": "Promoções",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um punhado de areia, um punhado de tinta e um espinho de escrita arrancados de um pássaro dormindo.",
         "ritual": false,
         "duration": "8 horas",
@@ -5036,10 +4718,7 @@
             "- Você instantaneamente leve ou espreita uma vela, uma tocha ou uma fogueira."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -5073,11 +4752,7 @@
             "Estruturas. O tremor causa 50 danos especiais a qualquer estrutura em contato com o chão na área quando você usa o feitiço e no início de cada turno até que o feitiço termine. Se uma estrutura cair para 0 pontos de chegada, ela cai e potencialmente danifica criaturas próximas. Uma criatura à metade da distância da altura de uma estrutura deve fazer lançamentos de destreza. Em um salvamento falhado, a criatura sofre 5d6 dano de bludgeoning, é tocada, e é enterrada nos escombros, exigindo uma verificação de Força DC 20 (Athletica) como uma ação para escapar. O GM pode ajustar o valor da DC mais alto ou mais baixo, dependendo da natureza dos escombros. Em uma economia bem sucedida, a criatura causa metade do dano e não cai propenso nem se enterra."
         ],
         "range": "500 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de terra, um pedaço de rocha e um pedaço de argila.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -5120,10 +4795,7 @@
             "Um feixe de energia rachada até uma criatura dentro do alcance. Faça um ataque feitiço de longo alcance contra o alvo. Ao acertar, o alvo leva 1d10 de dano de força. O feitiço cria mais de um feixe quando você atinge níveis mais altos: dois feixes no quinto nível, três vigas no nível 11 e quatro vigas no nível 17. Você pode direcionar os raios para o mesmo alvo ou para os diferentes. Faça uma rolagem de ataque separada para cada feixe."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -5180,11 +4852,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, você pode usar uma criatura adicional para cada slot acima do segundo grau."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pelo ou uma pena de uma besta.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -5237,11 +4905,7 @@
             "***Redução.*** O tamanho do alvo é reduzido pela metade em todas as dimensões, e seu peso é reduzido a um oitavo do normal. Esta redução diminui a sua dimensão por uma categoria, por exemplo, de média a pequena. Até que o feitiço acabe, o alvo também tem desvantagem nas verificações de Força e nos lançamentos de poupança de força. As armas do alvo também encolhem para corresponder ao seu novo tamanho. Embora essas armas sejam reduzidas, os ataques do alvo com elas causam 1d4 menos dano (isso não pode reduzir o dano abaixo de 1)."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pinch de ferro em pó.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -5291,10 +4955,7 @@
             "Quando a magia termina, as plantas conjugadas murcham."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -5340,10 +5001,7 @@
             "Você tece uma sequência de palavras distraída. criando criaturas de sua escolha que você pode ver dentro do alcance e que podem ouvir você para fazer um arremesso de poupança. Qualquer criatura que não pode ser encantada tem sucesso neste jogo de salvamento automaticamente e se você ou seus companheiros estão lutando contra uma criatura, isso tem vantagem no salvamento. Em falha ao salvar, o alvo tem desvantagem nas verificações de sabedoria (percepção) feitas para perceber qualquer criatura diferente de você até que o feitiço termine ou até que o alvo não possa mais ouvi-lo. A magia termina se você for incapacitado ou não puder mais falar."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -5397,10 +5055,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 8 ou superior, você pode mirar até três criaturas desejadas (incluindo você) para cada intervalo acima de 7th. As criaturas devem estar a 10 pés de você quando você lançar o feitiço."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "8 horas",
         "concentration": false,
@@ -5448,10 +5103,7 @@
             "Esse feitiço permite que você se mova em um ritmo incrível. Quando você lança este feitiço, e então usa um bônus em cada um dos seus turnos até que o feitiço termine, você pode tomar uma providência."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -5498,10 +5150,7 @@
             "***Ativado.*** O alvo tem desvantagem em rolagens de ataque e verificações de habilidade. No final de cada vez, ele pode fazer outra sabedoria economizando. Se ele for bem-sucedido, o efeito termina."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -5555,10 +5204,7 @@
             "Criaturas ou itens mágicos não podem ser criados ou transmutados por este feitiço. Você também não pode usá-lo para criar itens que normalmente requerem um alto grau de habilidade, como joias, armas, vidro ou armadura, a menos que você tenha proficiência com o tipo de ferramentas dos artesãos usadas para criar tais objetos."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -5587,9 +5233,7 @@
             "Qualquer rolagem de ataque contra uma criatura ou objeto afetado tem vantagem se o atacante pode vê-lo, e a criatura ou objeto afetado não pode se beneficiar de ser invisível."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -5637,11 +5281,7 @@
             "No início de cada uma de suas turnas, o galo tenta morder uma criatura a menos de 5 pés dela que é hostil a você. O bônus de ataque do som é igual ao seu modificador de habilidade de feitiço + seu bônus de proficiência. A um acerto, ele causa 4d8 dano perfurante."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno apito de prata, um pedaço de osso e um fio",
         "ritual": false,
         "duration": "8 horas",
@@ -5684,11 +5324,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você ganha 5 pontos de vida adicionais para cada slot acima de 1."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena quantidade de álcool ou de bebidas espirituosas.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -5740,11 +5376,7 @@
             "Enquanto assustado por esse feitiço, uma criatura deve tomar a ação de Dash e se afastar de você pela rota mais segura disponível em cada uma de suas turmas, a não ser que haja lugar para mudar. Se a criatura terminar sua vez em um local onde não tem linha de visão para você, a criatura pode dar um salto sábio. Em um salvamento bem sucedido, o feitiço termina para aquela criatura."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pena branca ou o coração de uma galinha.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -5807,10 +5439,7 @@
             "Escolha até cinco criaturas caindo dentro do alcance. Uma taxa de descida caindo da criatura desacelera para 60 metros por rodada até que o feitiço termine. Se a criatura cair antes do fim do feitiço, não leva dano que caia e pode pousar de pé, e o feitiço termina para aquela criatura."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "Uma pequena pena ou um pedaço de baixo.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -5858,11 +5487,7 @@
             "A magia também pode ser terminada por uma maior restauração, cura ou desejo."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um punhado de esferas de argila, cristal, vidro ou mineral.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -5931,11 +5556,7 @@
             "Finalmente, quando você lança um feitiço com uma variedade de retoques, o seu familiar pode entregar o feitiço como se tivesse lançado o feitiço. Seu familiar deve estar a 100 pés de você, e deve usar sua reação para dar o feitiço quando você o lançar. Se o feitiço precisar de uma rolagem de ataque, você usa o modificador de ação para a rolagem."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "10gp de carvão, raiva e ervas que têm de ser consumidas pelo fogo num braseiro de pé.",
         "ritual": true,
         "duration": "Instantâneo",
@@ -5968,10 +5589,7 @@
             "Você não pode ter mais de um corcel com este feitiço de uma vez. Como ação, você pode liberar o corcel de seu vínculo a qualquer momento, fazendo com que ele desapareça."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -6006,11 +5624,7 @@
             "Pela duração, contanto que você esteja no mesmo plano de existência como o destino, V. Exa. sabe até onde está e em que direcção está. Enquanto você está viajando para lá, sempre que nos é apresentado uma escolha de caminhos ao longo do caminho, você determina automaticamente qual caminho é a rota mais curta e mais direta (mas não necessariamente a rota mais segura) para o destino."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um conjunto de ferramentas divinistas--como ossos, gravetos de marfim, cartões, dentes ou runas esculpidas - no valor de 100gp e um objeto do local que você deseja encontrar.",
         "ritual": false,
         "duration": "Até 24 horas",
@@ -6045,10 +5659,7 @@
             "Essa magia apenas revela que uma armadilha está presente. Você não aprende a localização de cada armadilha, mas aprende a natureza geral do perigo colocado por um senso de armadilha."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -6093,10 +5704,7 @@
             "Um humanoid morto por este feitiço sobe no início do seu próximo turno como um zumbi sob seu comando, seguindo suas ordens verbais o melhor que puder."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -6153,10 +5761,7 @@
             "O dano deste feitiço aumenta em 1d10 quando você alcança o quinto nível (2d10), o décimo primeiro nível (3d10) e o sétimo nível (4d10)."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -6205,11 +5810,7 @@
             "Além disso, sempre que uma criatura a 5 pés de você te atinge com um ataque corpo a corpo, as chamas nascem do escudo. O agressor sofre, então, com o modelo, 8 pontos de dano de fogo ou frio."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de fósforo ou um frígido.",
         "ritual": false,
         "duration": "10 minutos",
@@ -6259,10 +5860,7 @@
             "O fogo causa dano a objetos na área e ignita objetos inflamáveis que não estão sendo usados ou carregados. Se você escolher, a vida vegetal na área não é afetada por este feitiço."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -6326,11 +5924,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 4o nível ou superior, o dano aumenta em 1d6 para cada slot acima do 33."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena bola de guano de morcego e enxofre.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -6408,11 +6002,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, o dano aumenta em 1d6 a cada dois níveis de slot acima de 2 anos."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Folha de sumac.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -6463,11 +6053,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 6 ou superior, o dano de fogo ou o dano radiante (sua escolha) aumenta em 1d6 para cada nível de slot acima de 5th."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Beliscar de enxofre.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -6538,11 +6124,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 3 níveis ou superior, o dano aumenta em 1d6 para cada slot acima do segundo grau."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de selo, uma pitada de pedra gorda e uma poeira de ferro em pó.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -6602,11 +6184,7 @@
             "Se você continuar concentrado nesse feitiço durante toda a duração, a criatura será transformada em pedra até que o efeito seja removido."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de cal, água e terra.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -6651,11 +6229,7 @@
             "Se você se mover a mais de 100 metros de distância do disco (tipicamente porque ele não pode se mover em um obstáculo para te seguir), o feitiço termina."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de mercúrio.",
         "ritual": true,
         "duration": "number@@0 horas",
@@ -6693,11 +6267,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, você pode escolher uma criatura adicional para cada slot acima do 33."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pena de asa de qualquer pássaro.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -6745,10 +6315,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, o raio da neblina aumenta em 20 pés para cada slot acima de 1."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -6804,11 +6371,7 @@
             "A área do feitiço não pode se sobrepor à área de outro feitiço proibitivo. Se você proibir todos os dias por 30 dias no mesmo local, a magia dura até ser dissolvida, e os componentes materiais são consumidos no último lingotamento."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma corrida de água sagrada, um raro ódio e uma ruína em pó no valor de pelo menos 1.000 gp.",
         "ritual": true,
         "duration": "24 horas",
@@ -6846,11 +6409,7 @@
             "Esta magia não pode ser dissipada pela magia."
         ],
         "range": "100 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pó de Rubi vale 1.500 gp.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -6894,11 +6453,7 @@
             "Este feitiço termina imediatamente se você o lançar novamente antes de sua duração terminar."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pena do beija-pássaro.",
         "ritual": false,
         "duration": "8 horas",
@@ -6943,11 +6498,7 @@
             "O alvo também pode gastar 5 pés de movimento para escapar automaticamente de restrições não mágicas, como manáculos ou uma criatura que o tem batendo. Finalmente, ser submerso não impõe sanções ao movimento ou aos ataques do alvo."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma fita de couro, atrelada em torno do braço ou uma acrescenta semelhante.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -7007,11 +6558,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, o dano aumenta em 1d6 para cada nível de slot acima de 6."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena esfera de cristal.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -7064,11 +6611,7 @@
             "Enquanto estiver na forma de uma nuvem nebulosa, o alvo não pode falar ou manipular objetos, e quaisquer objetos que carregava ou segurava não podem ser deixados, usados ou de outra forma interagidos. O alvo não pode atacar ou lançar feitiços."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de bitola e um sabor de fumaça.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -7121,11 +6664,7 @@
             "Quando você transmite este feitiço, você pode falar o nome de uma criatura específica (um pseudônimo, título ou apelido não funciona). Se essa criatura estiver em um avião diferente do que você está, o portal abre na vizinhança imediata da criatura nomeada e desenha a criatura através dele para o espaço desocupado mais próximo do seu lado do portal. Não obtêm qualquer poder especial sobre a criatura, e é livre agir como os OGM consideram apropriados. Isso pode sair, te atacar ou te ajudar."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um diamante vale pelo menos 5.000 gp.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -7169,9 +6708,7 @@
             "Quando você lança este feitiço usando um slot de feitiço do nível 7 ou 8, a duração é 1 ano. Quando você lança este feitiço usando um slot de feitiço do nível 9, a magia dura até que seja terminada com um dos feitiços mencionados acima."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "30 dias",
         "concentration": false,
@@ -7228,11 +6765,7 @@
             "A magia também estende efetivamente o limite de tempo para elevar o alvo dos mortos, uma vez que os dias passados sob a influência desse feitiço não contam contra o limite de tempo de feitiços, como elevação morta."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de sal e uma peça de cobre colocados nos olhos de cada cadáver que deve permanecer lá durante a duração.",
         "ritual": true,
         "duration": "10 dias",
@@ -7275,10 +6808,7 @@
             "O OGM pode permitir-nos escolher diferentes alvos. Por exemplo, se transformarmos uma abelha, sua versão gigante pode ter as mesmas estatísticas que uma vespa gigante."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -7306,9 +6836,7 @@
             "Até que o feitiço acabe, quando você fizer uma verificação de Charisma, você pode substituir o número que rolar por um 15. Além disso, não importa o que você diga, magia que determinaria se você está dizendo a verdade indica que você está sendo verdade."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -7345,11 +6873,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, os blocos de barreira formam um nível maior para cada slot acima de 6."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um copo ou uma pérola cristalina que ressoa quando o feitiço termina.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -7396,11 +6920,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, o dano de uma runa explosiva aumenta glyph em 1d8 para cada nível de slot acima do 33. Se você criar um glifo feitiço, você pode armazenar qualquer feitiço de até o mesmo nível que o slot que você usa para o glyph de aviso."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Incenso e diamante em pó valem pelo menos 200 gp, que a magia consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -7446,11 +6966,7 @@
             "Os frutos de bagas perdem a sua potência se não tiverem sido consumidos 24 horas após o lançamento deste feitiço."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um sprite de detalhe.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -7485,11 +7001,7 @@
             "Quando a graxa aparecer, cada criatura de pé em sua área deve ter sucesso em um aterro de destreza economizando ou caindo propenso. Uma criatura que entra na área ou acaba com a sua vez também tem de ser bem sucedida num depósito de destreza que poupa ou que cai propenso."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de porco ou manteiga.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -7531,15 +7043,12 @@
     },
     {
         "index": "greater-invisibility",
-        "name": "Invisibilidade Superior",
+        "name": "Invisibilidade Maior",
         "desc": [
             "Você ou uma criatura em que tocará se torna invisível até que a magia termine. Qualquer coisa que o alvo esteja a usar ou a transportar é invisível, desde que seja na pessoa visada."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -7587,11 +7096,7 @@
             "- Um efeito que reduz o ponto máximo de acerto do alvo"
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pó de diamante vale pelo menos 100gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -7631,9 +7136,7 @@
             "Qualquer criatura hostil para você que se move para um espaço dentro de 10 pés do guardião pela primeira vez em uma virada deve ter sucesso numa economia de destreza. A criatura sofre 20 danos radiantes num salvamento falhado, ou metade do dano causado por um sucesso. O guardião desaparece quando causou um total de 60 danos."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "8 horas",
         "concentration": false,
@@ -7701,11 +7204,7 @@
             "Você pode criar uma estrutura permanentemente guardada e protegida lançando esse feitiço lá todo dia por um ano."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Encantamento Ardente, uma pequena medida de pedra e petróleo, uma linha nojentada, uma pequena quantidade de casco umbido e uma pequena haste de prata de pelo menos 10 gp.",
         "ritual": false,
         "duration": "24 horas",
@@ -7743,10 +7242,7 @@
             "Você toca numa criatura desejável. Uma vez antes que o feitiço termine, o alvo pode rolar um d4 e adicionar o número rolado a uma verificação de habilidade de sua escolha. Ele pode rolar o dado antes ou depois de verificar a habilidade. O feitiço então termina."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -7788,10 +7284,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 2 níveis ou superior, o dano aumenta em 1d6 para cada nível de slot acima de 1."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "1 rodada",
         "concentration": false,
@@ -7847,11 +7340,7 @@
             "Como uma ação de bônus em cada um dos seus turnos antes que o feitiço termine, você pode mudar a direção em que a linha explode de você."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma leguminosa semente.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -7920,11 +7409,7 @@
             "***João.*** Criaturas afetadas podem se comunicar com qualquer outra criatura na área, mesmo que não compartilhem uma língua comum."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Ervas, óleos e raiva valem pelo menos 1.000 gp, que a magia consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -7972,11 +7457,7 @@
             "As características tácticas do terreno não mudam, então criaturas que entram na área provavelmente verão a ilusão. Se a diferença não for óbvia por toque, uma criatura que estude cuidadosamente a ilusão pode tentar uma verificação de Inteligência (Investigação) contra a sua verificação ortográfica de DC para desacreditar a mesma. Uma criatura que discerna a ilusão para o que é, vê como uma imagem vaga sobreposta ao terreno."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pedra, um galho e um pouco de planta verde.",
         "ritual": false,
         "duration": "24 horas",
@@ -8030,10 +7511,7 @@
             "Você desencadeia uma doença virulenta sobre uma criatura que pode ser vista dentro do alcance. O alvo deve fazer com que uma constituição economize lançamento. Num salvamento falhado, sofre 14d6 danos necróticos, ou metade dos danos causados por uma poupança bem sucedida. O dano não pode reduzir os pontos de acerto do alvo abaixo de 1. Se o alvo falhar no lançamento de salvamento, seu ponto de acerto máximo é reduzido por 1 hora por uma quantidade igual ao dano necrótico causado. Qualquer efeito que remova uma doença permite que o ponto de acerto de uma criatura volte ao normal antes que esse tempo acabe."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -8080,11 +7558,7 @@
             "Quando o feitiço terminar, o alvo não pode se mover ou tomar ações até o seu próximo turno, como uma onda de letargia varre sobre ele."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um barbeamento de raízes de alcaçuz.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8132,10 +7606,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, a quantidade de cura aumenta em 10 para cada slot acima de 6th."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -8177,9 +7648,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 2 níveis ou superior, o aumento de cura em 1d4 para cada nível de slot acima de um."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -8238,11 +7707,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, o dano aumenta em 1d8 para cada slot acima do segundo grau."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pedaço de ferro e uma chama.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8311,10 +7776,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, o dano aumenta em 1d10 para cada nível de slot acima de um."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -8369,11 +7831,7 @@
             "Uma criatura que domina o banquete ganha vários benefícios. A criatura é curada por todas as doenças e veneno, torna-se imune a veneno e receosa, e faz com que toda a sabedoria economize com vantagens. Seu limite máximo de pontos de acerto também aumenta em 2d10 e ganha o mesmo número de pontos de chegada. Estes benefícios duram 24 horas."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma tigela com engarrafamento vale pelo menos 1.000 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -8407,10 +7865,7 @@
             "Uma criatura disposta que você toca está imbuída de bravura. Até que a magia termine, a criatura está imune a ser assustada e ganha pontos de acerto temporários iguais ao seu modificador de habilidade de magia no início de cada turno. Quando a magia termina, o alvo perde qualquer ponto de acerto temporário restante desta magia."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -8450,11 +7905,7 @@
             "No final de cada turno, e cada vez que recebe dano, o alvo pode fazer outra sabedoria poupar. O alvo teve vantagem no lançamento se for acionado por dano. Em um sucesso, o feitiço termina."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pequenas latas e uma pena que é acenada pelo ar.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8505,11 +7956,7 @@
             "Quando você lança este feitiço usando um nível 6 ou superior, você pode escolher uma criatura adicional para cada nível de localização além do quinto. As criaturas devem estar dentro de 30 pés de f umas das outras quando você as atacar."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de ferro.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8564,11 +8011,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, você pode escolher um humanoide adicional para cada slot acima do segundo grau. Os humanóides devem estar dentro de 30 pés um do outro quando atacá-los."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço liso de ferro.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8641,11 +8084,7 @@
             "A luz divina sai de você e coalesces num raio suave de 30 pés ao seu redor. Criaturas de sua escolha nesse raio quando você lança este feitiço lançam luz fraca em um raio de 5 pés e têm vantagem em todos os arredores de poupança, e outras criaturas têm desvantagem nas rolagens de ataque contra elas até que o feitiço termine. Além disso, quando uma fogueira ou um morto-vivo atinge uma criatura afetada com um ataque corpo a corpo, a aura brilha com uma luz brilhante. O atacante tem de ser bem sucedido em uma Constituição salvando o lançamento ou ficando cego até que o feitiço acabe."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um minúsculo reliquário de pelo menos 1.000 gp contendo uma relíquia sagrada, como um pedaço de tecido a partir de um santo ou um pedaço de pergaminho a partir de um texto religioso.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8681,9 +8120,7 @@
             "Quando você usa este feitiço usando um slot de feitiço de 3 ou 4 níveis. Você pode manter a sua concentração no feitiço por até 8 horas. Quando você usa um slot de feitiço de nível 5 ou superior, pode manter a sua concentração no feitiço por até 24 horas."
         ],
         "range": "90 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -8717,10 +8154,7 @@
             "O feitiço termina para uma criatura afetada caso receba algum dano ou se outra pessoa use uma ação para sacudir a criatura de seu estúdio."
         ],
         "range": "120 pés",
-        "components": [
-            "S.O.",
-            "MM"
-        ],
+        "components": ["S.O.", "MM"],
         "material": "Um bastão brilhante de raiva ou um frasco de cristal repleto de material fosfofinho.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -8783,11 +8217,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5° nível ou superior, o dano cascata aumenta em 1d8 para cada slot acima de 4th."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de poeira e algumas gotas de água.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -8860,11 +8290,7 @@
             "Se você tocar em uma criatura ao longo de toda a conversa, você aprende quais magias, se houver, estão atualmente a afetá-la."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pérola de pelo menos 100gp e uma pá de coruja.",
         "ritual": true,
         "duration": "Instantâneo",
@@ -8907,10 +8333,7 @@
             "Uma criatura com truesight pode ler a mensagem oculta."
         ],
         "range": "Toque",
-        "components": [
-            "S.O.",
-            "MM"
-        ],
+        "components": ["S.O.", "MM"],
         "material": "Uma tinta baseada em chumbo vale pelo menos 10gp, que esse feitiço consome.",
         "ritual": true,
         "duration": "10 dias",
@@ -8969,11 +8392,7 @@
             "Você pode usar um componente especial específico para criar apenas uma prisão de cada vez. Se você transmitir o feitiço novamente usando o mesmo componente, o alvo do primeiro lingotamento é imediatamente liberado do seu vínculo."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma representação de velino ou uma estátua esculpida à semelhança do alvo, e um componente especial que varia de acordo com a versão do feitiço que você escolheu, valendo pelo menos 500gp por Golpe Mortal do alvo.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -9018,10 +8437,7 @@
             "A nuvem se move a 10 pés diretamente para você em uma direção que você escolhe no início de cada uma de seus turnos."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -9079,10 +8495,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, o dano aumenta em 1d10 para cada nível de slot acima de um."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -9139,11 +8552,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 6o nível ou superior, o dano aumenta em 1d10 para cada slot acima de 5th."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Alguns grãos de açúcar, alguns kernel de grãos e um cheiro de gordura.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -9217,11 +8626,7 @@
             "Dissipar a magia ou um efeito semelhante aplicado com sucesso ao safira termina o efeito do feitiço."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um safira que vale 1.000 gp.",
         "ritual": true,
         "duration": "Até dissipar",
@@ -9253,11 +8658,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, você pode usar uma criatura adicional para cada slot acima do segundo grau."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma fadiga envolta em gum arábica.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -9313,9 +8714,7 @@
             "Uma criatura dançante deve usar todo o seu movimento para dançar sem deixar seu espaço e tem desvantagem na economia de destreza e rolagem de ataque. Enquanto o alvo é afetado por este feitiço, outras criaturas têm vantagem em espólios de ataque contra ele. Como uma ação, uma criatura dançante faz uma sabedoria economizando para recuperar o controle de si mesma. Em um salvamento bem-sucedido, o feitiço acaba."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -9348,11 +8747,7 @@
             "Você toca em uma criatura. A distância de salto da criatura é triplicada até que o feitiço termine."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Dá a perna de um grito.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -9405,9 +8800,7 @@
             "Quando você atira o feitiço, um forte tocador, audível do distante a 300 pés, emana do objeto alvo."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -9452,11 +8845,7 @@
             "As informações que você aprende são precisas, mas podem ser usadas em linguagem figurativa. Por exemplo, se você tiver um misterioso machado mágico em mãos, o feitiço pode render esta informação: \"Ai ao maluco-malandro cuja mão toca o machado, para até mesmo a falha fatia a mão dos malvados. Apenas uma verdadeira criança da pedra, amante e amada de Moradin, pode acordar as verdadeiras potências do machado, e somente com a palavra sagrada *Rudnogg* nos lábios.\""
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Incenso de pelo menos 250 gp, que o feitiço consome, e quatro tiras de marfim valem pelo menos 50 gp cada.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -9495,10 +8884,7 @@
             "Você toca em uma criatura e pode acabar com uma doença ou com uma doença que a afecta. A condição pode ser cega, surda, paralisada ou envenenada."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -9564,11 +8950,7 @@
             "Quando a magia termina, o alvo flutua suavemente para o solo, se ainda estiver alto."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno laço de couro ou um pedaço de arame dourado se curvou em uma forma de xícara com um fragmento longo em um só fim.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -9609,10 +8991,7 @@
             "Se você mirar em um objeto mantido ou usado por uma criatura hostil, essa criatura deve ter sucesso em um lançamento de destreza para evitar o feitiço."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "Uma musgo feia ou fósforo.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -9674,11 +9053,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 4o nível ou superior, o dano aumenta em 1d6 para cada slot acima do 33."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pele e uma vara de âmbar, cristal ou vidro.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -9751,11 +9126,7 @@
             "Descreva ou nomeie um tipo específico de besta ou planta. Concentrando-se na voz da natureza nos seus arredores, você aprende a direção e a distância até a criatura ou planta mais próxima desse tipo dentro de 5 milhas, se alguma estiver presente."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pele de um enxame de sangue.",
         "ritual": true,
         "duration": "Instantâneo",
@@ -9802,11 +9173,7 @@
             "Esta magia não pode localizar uma criatura se a água da corrida bloqueia pelo menos 10 pés de largura um caminho direto entre você e a criatura."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pele de um enxame de sangue.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -9868,11 +9235,7 @@
             "Esta magia não pode localizar um objeto se alguma espessura de chumbo, mesmo uma folha fina, bloqueia um caminho direto entre você e o objeto."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um galho de bifurcação.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -9935,11 +9298,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, você pode usar mais uma criatura para cada slot de feitiço acima de 1."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de terra.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -9989,11 +9348,7 @@
             "Você toca em uma criatura disposta que não está usando armadura, e uma força mágica protectora o cerca até que o feitiço termine. O AC base do alvo se torna 13 + seu modificador de Destreza. O feitiço termina se o alvo perder a armadura ou se você dispensar o feitiço como uma ação."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pedaço de couro curado.",
         "ritual": false,
         "duration": "8 horas",
@@ -10035,10 +9390,7 @@
             "A mão não pode atacar, ativar itens mágicos ou carregar mais de 10 libras."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -10095,11 +9447,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, a duração aumenta em 1 hora para cada nível de slot acima do 33."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Água sagrada ou prata e ferro de pelo menos 100 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -10168,11 +9516,7 @@
             "Quando o feitiço termina, o recipiente é destruído."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um gem, cristal, alívio ou algum outro recipiente ornamental de pelo menos 500 gp.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -10213,10 +9557,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, o feitiço cria mais um dardo para cada slot acima de 1."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -10276,11 +9617,7 @@
             "A circunstância de gatilho pode ser tão geral ou detalhada quanto quiser, embora tenha de se basear em condições visuais ou audíveis que ocorrem a 30 pés do objeto. Por exemplo, você poderia instruir a boca a falar quando qualquer criatura se mova a 30 pés do objeto ou quando um sino de prata toca a 30 pés dele."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um poeira de mel e poeira de jade de pelo menos 10 polegadas, o feitiço consome.",
         "ritual": true,
         "duration": "Até dissipar",
@@ -10323,10 +9660,7 @@
             "Quando você lançar este feitiço usando um slot de feitiço de 4o ou superior, o bônus aumenta para +2. Quando você usa um slot de feitiço de 6° nível ou maior, o bônus aumenta para +3."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -10367,11 +9701,7 @@
             "Você pode criar qualquer plano de piso que quiser, mas o espaço não pode exceder 50 cubos, cada cubo tendo 10 pés de cada lado. O lugar está movido e decorado como você escolher. Ele contém comida suficiente para servir um banquete de nove cursos para até 100 pessoas. Um cajado de 100 servidores quase transparentes atende a todos os que entram. Você decide a aparência visual destes servos e seus trajes. Eles são completamente obedientes a suas ordens. Cada servo pode executar qualquer tarefa que um servo humano normal possa realizar, mas eles não podem atacar ou tomar qualquer ação que prejudicaria diretamente outra criatura. Assim, os servos podem buscar coisas, limpos, dobras de roupa, incêndios de luz, servir comida, pousar vinho e assim por diante. Os servos podem ir a lugar nenhum na mansão, mas não podem deixá-la. Mobiliários e outros objetos criados por este feitiço se dissiparem em fumaça se forem removidos da mansão. Quando o feitiço terminar, quaisquer criaturas dentro do espaço extradimensional são expulsas para os espaços abertos mais próximos da entrada."
         ],
         "range": "300 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um portal em miniatura esculpido de marfim, uma pequena peça de mármore polido e uma pequena colher de prata, cada item de pelo menos 5 gp.",
         "ritual": false,
         "duration": "24 horas",
@@ -10414,11 +9744,7 @@
             "Quando você lança este feitiço usando um slot de feitiço do nível 6 ou superior, o feitiço dura até ser dissolvido, sem exigir a sua concentração."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pulseira.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -10471,10 +9797,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 6o nível ou superior, o valor da cura aumenta em 1d8 para cada slot acima de 5th."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -10529,10 +9852,7 @@
             "Um enchente de energia de cura flui de você para criaturas feridas ao seu redor. Você recupera até 700 pontos de batida, divididos entre qualquer número de criaturas que você pode ver dentro do alcance. Criaturas curadas por este feitiço também são curadas em todas as doenças e qualquer efeito que as torne cegas ou surdas. Esse feitiço não tem efeito em mortos-vivos ou construtores."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -10566,9 +9886,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 4 nível ou superior, o aumento de cura em 1d4 para cada slot acima do 33."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -10617,10 +9935,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7, a duração é 10 dias. Quando você usa um slot de feitiço de 8 níveis, a duração é de 30 dias. Quando você usa um slot de feitiço de 9 níveis, a duração é de um ano e de um dia."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "A língua da cobra e um pouco de favo de mel ou uma gota de óleo doce.",
         "ritual": false,
         "duration": "24 horas",
@@ -10674,10 +9989,7 @@
             "Quando o feitiço termina, o alvo reaparece no espaço deixado ou, se esse espaço for ocupado, no espaço desocupado mais próximo."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -10707,10 +10019,7 @@
             "Menores danos físicos à pedra não prejudicam você, mas sua destruição parcial ou uma mudança em sua forma (na medida em que você não se encaixa mais dentro dela) expulsa você e causa 6d6 dano de delapidação para você. A destruição completa da pedra (ou transmutação para uma substância diferente) expulsa você e causa 50 danos displicentes a você. Se expulso, você cai em um espaço inocupado mais próximo de onde você digitou."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "8 horas",
         "concentration": false,
@@ -10750,11 +10059,7 @@
             "Este feitiço pode consertar fisicamente um item mágico ou um construtor, mas o feitiço não pode restaurar a magia para esse objeto."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Dois ldestones.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -10810,11 +10115,7 @@
             "Você pode lançar esse feitiço através de objetos sólidos se você estiver familiarizado com o alvo e sabe que ele está além da barreira. Silêncio mágico, 1 pé de pedra, 1 polegada de metal comum, uma folha fina de chumbo, ou 3 pés de blocos de madeira o feitiço. O feitiço não precisa seguir uma linha reta e pode viajar livremente pelos cantos ou pelas aberturas."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de fio de cobre.",
         "ritual": false,
         "duration": "1 rodada",
@@ -10860,10 +10161,7 @@
             "A magia danifica objetos na área e ignita objetos inflamáveis que não estão sendo usados ou carregados."
         ],
         "range": "1 milha",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -10918,10 +10216,7 @@
             "Até que o feitiço acabe, uma criatura desejada que você toque estará imune a dano psiquico qualquer efeito que sentisse as suas emoções ou lesse os seus pensamentos, os feitiços de divinação e a condição encantada. A magia até mesmo os magos desejam feitiços e feitiços ou efeitos de poder similar usados para afetar a mente do alvo ou para obter informações sobre o alvo."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "24 horas",
         "concentration": false,
@@ -10957,10 +10252,7 @@
             "Se uma criatura usar sua ação para examinar o som ou a imagem, a criatura pode determinar que é uma ilusão com um cheque em Inteligência (Investigação) bem sucedido contra a sua letra salva DC. Se uma criatura discernir a ilusão para o que é, a ilusão se torna fraca para a criatura."
         ],
         "range": "30 pés",
-        "components": [
-            "S.O.",
-            "MM"
-        ],
+        "components": ["S.O.", "MM"],
         "material": "Um pouco de pulseira.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -11013,10 +10305,7 @@
             "As criaturas com veracidade podem ver a ilusão na verdadeira forma do terreno; No entanto, todos os outros elementos da ilusão permanecem, por isso, enquanto a criatura está ciente da presença da ilusão, a criatura ainda pode interagir fisicamente com a ilusão."
         ],
         "range": "Mira",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "10 dias",
         "concentration": false,
@@ -11062,10 +10351,7 @@
             "Uma criatura não é afetada por esta magia, se não puder ver, se ela depende de sentidos além de vista, tal como a visão cega, ou se consegue perceber ilusões como falsas, como a verdade."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -11116,9 +10402,7 @@
             "Você pode ver através dos olhos e ouvir através das orelhas como se estivesse onde está. Em cada um de seus turnos como uma ação de bônus, você pode mudar de sentido usando seu próprio ou de volta. Enquanto você utiliza os seus sentidos, você fica cego e ensurdecedor em relação ao seu próprio ambiente circundante."
         ],
         "range": "Auto",
-        "components": [
-            "S.O."
-        ],
+        "components": ["S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -11151,9 +10435,7 @@
             "Cerca de névoa de prateleira, teletransporta-se até 30 pés para um espaço desocupado que se vê."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -11209,10 +10491,7 @@
             "Se você lançar este feitiço usando um slot de feitiço de nível 6 ou superior, você pode alterar as memórias do alvo de um evento que ocorreu até 7 dias atrás (Nível 6), 30 dias atrás (nível 7), 1 ano atrás (nível 8), ou a qualquer momento no passado da criatura (nível 9)."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -11259,11 +10538,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 3 níveis ou superior, o dano aumenta em 1dl0 para cada slot acima do segundo grau."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Várias sementes de qualquer planta de sementes de lua e um pedaço de feltro opalescente.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -11331,11 +10606,7 @@
             "Da mesma forma, esse feitiço não afeta diretamente o crescimento da planta. A terra movida carrega qualquer planta com ela."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma lâmina de ferro e um pequeno saco contendo uma mistura de solos--argilas, loam e areia.",
         "ritual": false,
         "duration": "Até 2 horas",
@@ -11378,11 +10649,7 @@
             "Durante a duração, você esconde um alvo que você toca da magia de divinação. O alvo pode ser uma criatura voluntária ou um lugar ou um objeto não maior do que 10 pés em qualquer dimensão. O alvo não pode ser alvo de qualquer magia de divinação ou percebido através de sensores mágicos de scring."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de pó de diamante que vale 25 gp espalhado sobre o alvo, que o feitiço consome.",
         "ritual": false,
         "duration": "8 horas",
@@ -11427,11 +10694,7 @@
             "Um véu de sombras e silêncio irradia de você, mascarando você e seus companheiros na detecção. Pela duração, cada criatura que escolher com 30 pés de você (incluindo você) tem um bônus de +10 para a Agilidade (Roubo) verifica e não pode ser rastreada exceto por meios mágicos. Uma criatura que recebe este bônus não deixa qualquer caminho ou outros vestígios de sua passagem."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Cinzas de uma folha queimada de misto e um sprite de pinheiro.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -11477,11 +10740,7 @@
             "Quando a abertura desaparecer, quaisquer criaturas ou objetos ainda na passagem criada pelo feitiço são ejetados com segurança para um espaço desocupado mais próximo da superfície na qual você usa o feitiço."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de sementes de gergelo.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -11519,10 +10778,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5o nível ou superior, o dano aumenta em 1d10 para cada slot acima de 4th."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -11569,10 +10825,7 @@
             "Durante a duração, você ou uma criatura escolhida pode andar em cordeiro. A criatura usa as estatísticas para um cavalo de corrida, exceto que tem uma velocidade de 100 pés e pode percorrer 10 milhas em uma hora, ou 13 milhas em um ritmo rápido. Quando a magia termina, a corda vai diminuindo gradualmente, dando ao cavaleiro 1 minuto para desmontar. O feitiço termina se você usar uma ação para dispensá-lo ou se o corcel tomar qualquer dano."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -11611,10 +10864,7 @@
             "Uma criatura alistada para se juntar ao seu grupo conta como um membro, recebendo uma participação completa dos pontos de experiência adquiridos."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -11646,11 +10896,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de um nível mais alto, a duração aumenta para 10 dias com um slot de nível 6, para 30 dias com um espaço de 7 níveis, para 180 dias com um slot de 8 níveis, e a um ano e um dia com um slot de feitiço de 9 níveis."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma joia de pelo menos 1.000 gp, que a magia consome.",
         "ritual": false,
         "duration": "24 horas",
@@ -11704,11 +10950,7 @@
             "Use esse feitiço para banir uma criatura não desejada para outro avião. Escolha uma criatura ao seu alcance e faça um ataque feitiço contra ela. Em um golpe, a criatura deve fazer um lançamento de economia de carisma. Se a criatura falhar neste salvamento, ele é transportado para uma localização aleatória no plano de existência que você especificar. Uma criatura então transportada deve encontrar o caminho de volta para o seu plano de existência atual."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma vara de metal bifurcada, que vale pelo menos 250 gp, em sintonia com um determinado plano de existência.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -11770,10 +11012,7 @@
             "Se você lançar este feitiço por mais de 8 horas, enriquecerá a terra. Todas as plantas num raio de meia milha centradas num ponto dentro do alcance ficam enriquecidas durante 1 ano. As plantas produzem o dobro da quantidade normal de comida quando colhidas."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -11823,10 +11062,7 @@
             "O dano deste feitiço aumenta em 1d12 quando você alcança o quinto nível (2d12), o décimo primeiro nível (3d12) e o sétimo nível (4d12)."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -11889,11 +11125,7 @@
             "A armadura do alvo se funde na nova forma. A criatura não pode ativar, usar, usar ou se beneficiar de qualquer outro equipamento."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um casulo de lagarta.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -11945,9 +11177,7 @@
             "Você pronuncia uma palavra de poder que pode obrigar uma criatura que você pode ver ao alcance para morrer instantaneamente. Se a criatura escolhida tiver 100 pontos de vida ou menos, ela morre. Caso contrário, a magia não terá efeito."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -11991,9 +11221,7 @@
             "O alvo atordoado tem de fazer com que uma constituição economize no final de cada uma das suas jogadas. Em uma poupança bem sucedida, este efeito impressionante acabe."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12039,9 +11267,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 3 níveis ou superior, o aumento de cura em 1d8 para cada slot acima de 2 horas."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12092,10 +11318,7 @@
             "Se você lançar este feitiço várias vezes, pode ter até três dos seus efeitos não-instantâneos ativos por vez, e você pode descartar um efeito como uma ação."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -12152,10 +11375,7 @@
             "***8. Espécie.*** O alvo é atingido por dois rays. Role duas vezes mais, rolando qualquer 8."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12217,10 +11437,7 @@
             "***7. Violet.*** Em um salvamento falhado, a criatura está cega. Então ela deve fazer uma sabedoria salvando lançamento no início do seu próximo turno. Salva com sucesso acaba com a cegueira. Se falhar nessa poupança, a criatura é transportada para outro avião da escolha do OGM e já não está cega. (Normalmente, uma criatura que está em um avião que não é seu avião de casa é banida para casa, enquanto outras criaturas são geralmente colocadas nos aviões Astral ou Ethereal. Esta camada é destruída por um feitiço mágico de dissipação ou um feitiço similar de nível igual ou superior que pode acabar com feitiços e efeitos mágicos."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "10 minutos",
         "concentration": false,
@@ -12263,11 +11480,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5° nível ou superior, você pode aumentar o tamanho do cubo em 100 pés para cada nível de slot além de 4. Assim, você poderia proteger um cubo que pode ter até 200 pés de um lado usando um slot de feitiço de 5 níveis."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma fina folha de chumbo, um pedaço de vidro opaco, uma malha de algodão ou tecido, e crissólido em pó.",
         "ritual": false,
         "duration": "24 horas",
@@ -12302,10 +11515,7 @@
             "O dano deste feitiço aumenta em 1d8 quando você alcança o quinto nível (2d8), o décimo primeiro nível (3d8) e o sétimo nível (4d8)."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "10 minutos",
         "concentration": false,
@@ -12356,11 +11566,7 @@
             "A interação física com a imagem revela que é uma ilusão, porque as coisas podem passar por ela. Uma criatura que usa sua ação para examinar a imagem pode determinar que é uma ilusão com uma verificação bem sucedida da Inteligência (Investigação) contra a verificação da sua magia salvar DC. Se uma criatura discernir a ilusão para o que é, a criatura pode ver através da imagem, e qualquer barulho faz soar vazio à criatura."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pó de pulso e jade vale pelo menos 25 gp.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -12401,11 +11607,7 @@
             "A interação física com a imagem revela que é uma ilusão, porque as coisas podem passar por ela. Uma criatura que usa sua ação para examinar a imagem pode determinar que é uma ilusão com uma verificação bem sucedida da Inteligência (Investigação) contra a verificação da sua magia salvar DC. Se uma criatura discernir a ilusão para o que é, a criatura pode ver através da imagem, e qualquer barulho faz soar vazio à criatura."
         ],
         "range": "500 milhas",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena réplica de você feita a partir de materiais de pelo menos 5 gp.",
         "ritual": false,
         "duration": "Até 24 horas",
@@ -12439,10 +11641,7 @@
             "Durante a duração, a criatura disposta que você toca tem resistência a um tipo de dano de sua escolha: ácido, frio, fogo, raios ou trovão."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 hora",
         "concentration": true,
@@ -12502,11 +11701,7 @@
             "A proteção concede vários benefícios. Criaturas desse tipo têm desvantagem em atacar contra o alvo. O alvo também não pode ser encharcado, assustado ou possuído por eles. Se o alvo já está encharcado, assustado ou possuído por tal criatura, o alvo tem vantagem em qualquer novo lançamento de poupança contra o efeito relevante."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Água sagrada ou prata e ferro em pé, que o feitiço consome.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -12562,10 +11757,7 @@
             "Durante a duração, o alvo tem a vantagem de salvar os oponentes contra serem envenenados e tem resistência a danos venenosos."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "number@@0 horas",
         "concentration": false,
@@ -12614,10 +11806,7 @@
             "Todos os alimentos e bebidas não mágicos dentro de uma esfera de 5 pés centrada em um ponto de sua escolha dentro de sua alcance são purificados e tornados livres de veneno e doença."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12664,11 +11853,7 @@
             "Voltando dos mortos é uma provação. O alvo recebe uma penalidade de -4 para todos os rolos de ataque, salvando arremessos e verificações de habilidade. Sempre que o alvo acaba com um longo descanso, a pena é reduzida em 1 até desaparecer."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um diamante vale pelo menos 500gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -12714,10 +11899,7 @@
             "No final de cada volta do alvo, pode fazer uma constituição economizando contra os ventos e fazendo com que a magia acabe."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -12766,10 +11948,7 @@
             "O dano do feitiço aumenta em 1d8 quando você alcança o quinto nível (2d8), o décimo primeiro nível (3d8) e o sétimo nível (4d8)."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12823,11 +12002,7 @@
             "Os membros do corpo cortante do alvo (dedos, pernas, caudas e assim por diante), se houver, são restaurados após 2 minutos. Se você tiver a parte cortada e mantenha-a no toco, o feitiço faz o membro cortar no toco."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma oração roda e água sagrada.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -12887,11 +12062,7 @@
             "A criatura reencarnada recorda suas antigas vidas e experiências. Mantém as capacidades que tinha na sua forma original. Só que troca a sua corrida original pelo novo e altera as suas características raciais em conformidade."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Óleos raros e unguentes valem pelo menos 1.000 gp, que a magia consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -12920,10 +12091,7 @@
             "Ao toque, todas as maldições que afetam uma criatura ou objeto terminam. Se o objeto for um item mágico amaldiçoado, sua maldição permanece, mas a magia quebra a sintonia do seu dono com o objeto para que possa ser removido ou descartado."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -12975,11 +12143,7 @@
             "Um feitiço de desintegração direcionado ao globo destrói ele sem prejudicar nada dentro dele."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pedaço hemisfério de cristal claro e um pedaço hemisfério de sangue bélico.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -13016,11 +12180,7 @@
             "Você toca numa criatura desejável. Uma vez antes que o feitiço termine, o alvo pode rolar um d4 e adicionar o número rolado a um jogado de sua escolha. Ele pode rolar o dado antes ou depois de fazer lançamentos salvos. O feitiço então termina."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "A miniature cloak.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -13064,11 +12224,7 @@
             "Lançar esse feitiço para restaurar a vida de uma criatura que está morta há um ano ou mais tempo lhe tributa muito. Até terminar um longo descanso, você não pode lançar feitiços novamente, e você tem desvantagem em todas as rolagens de ataque, verificações de habilidade e lançamentos de salvamento."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um diamante de pelo menos 1.000gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -13104,11 +12260,7 @@
             "No final da duração, objetos afetados e criaturas caíram."
         ],
         "range": "100 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um ldestone e um ferro.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -13160,11 +12312,7 @@
             "Você toca uma criatura que morreu no último minuto. Essa criatura retorna à vida com um ponto de acerto. Esse feitiço não pode retornar à vida uma criatura que morreu velha, nem pode restaurar nenhuma parte do corpo que esteja faltando."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Diamantes equivalem a 300gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -13212,11 +12360,7 @@
             "Qualquer coisa dentro do espaço extradimensional cai quando o feitiço termina."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Extração de milho colado e um laço de pergaminho distorcido.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -13252,10 +12396,7 @@
             "O dano do feitiço aumenta em 1d8 quando você alcança o quinto nível (2d8), o décimo primeiro nível (3d8) e o sétimo nível (4d8)."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -13311,11 +12452,7 @@
             "Se a criatura guerreada fizer um ataque ou lançar um feitiço que afeta uma criatura inimiga, esse feitiço acaba."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno espelho de prata.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -13359,10 +12496,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, você cria um raio adicional para cada slot acima do segundo grau."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -13430,11 +12564,7 @@
             "Em vez de atacar uma criatura, você pode escolher um local que você viu antes como o alvo desse feitiço. Quando você o fizer, o sensor aparece nesse local e não se move."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um foco de pelo menos 1.000 gp, como uma bola de cristal, um espelho de prata ou uma fonte cheia de água sagrada.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -13499,11 +12629,7 @@
             "Após 60 dias, há 5% de chance acumulativa por dia de finalização do feitiço. Este efeito termina se você lançar esse feitiço novamente, se a réplica menor for destruída, ou se você optar por encerrar a magia como uma ação. Se o feitiço terminar e o baú maior for no Plano Ethereal, ele será perdido."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um baú requintado, 3 pés de 2 pés de 2 pés, construído a partir de materiais raros no mínimo 5, 00 gp, e uma pequena réplica feita a partir dos mesmos materiais no valor de pelo menos 50 gp.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -13532,11 +12658,7 @@
             "Pela duração do feitiço, você vê criaturas e objetos invisíveis como se eles estivessem visíveis, e você pode ver através da Ethereal. Os objetos etéreos e criaturas parecem fantasmagóricas."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um traço de talco e uma pequena quantidade de pó de prata.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -13584,10 +12706,7 @@
             "Uma criatura pode usar sua ação para inspecionar um alvo e fazer uma verificação de Inteligência (Investigação) contra sua prova ortográfica. Se for bem sucedida, torna-se consciente de que o objectivo é disfarçado."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "8 horas",
         "concentration": false,
@@ -13626,11 +12745,7 @@
             "Você pode enviar a mensagem através de qualquer distância e até mesmo para outros aviões de existência, mas se o alvo estiver em um avião diferente do que você, há 5% de chance que a mensagem não chega."
         ],
         "range": "Ilimitado",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de fio de cobre.",
         "ritual": false,
         "duration": "1 rodada",
@@ -13677,11 +12792,7 @@
             "Você pode definir uma condição para que a magia termine cedo. A condição pode ser qualquer coisa que você escolher, mas ela deve ocorrer ou ser visível a 1 milha do alvo. Exemplos incluem \"após 1.000 anos\" ou \"quando o tarrasque desperta.\" Este feitiço também termina se o alvo receber qualquer dano."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pó de diamante, esmeralda, rubo e pó de safira de pelo menos 5.000 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -13715,11 +12826,7 @@
             "Durante a duração deste feitiço, você pode usar sua ação para assumir um formulário diferente seguindo as mesmas restrições e regras para o formulário original. com uma exceção: se o seu novo formulário tiver mais pontos de acerto que o atual, seus pontos de acerto permanecem no seu valor atual."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um círculo de jade de pelo menos 1.500 gp, que você deve colocar na sua cabeça antes de lançar o feitiço.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -13757,11 +12864,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 ou superior, o dano do feitiço aumenta em 1d8 para cada nível de magia superior 2."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma explosão de presos.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -13840,10 +12943,7 @@
             "Uma barreira invisível da força mágica aparece e protege você. Até o início do seu próximo turno, você tem um bônus de +5 para AC, incluindo o ataque acionador, e você não recebe dano de mísseis mágicos."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "1 rodada",
         "concentration": false,
@@ -13882,11 +12982,7 @@
             "Um campo cintilante aparece e envolve uma criatura de sua escolha dentro do alcance, concedendo-lhe um bônus de +2 para AC durante a duração."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pergaminho com um pouco de texto sagrado escrito sobre ele.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -13926,11 +13022,7 @@
             "A madeira de um clube ou de um quartel-staff que estão a segurar está imbuída do poder da natureza. Durante a duração, você pode usar sua habilidade de magia em vez de Força para atacar e danificar rolos de ataques corpo-a-corpo usando essa arma, e o dano da arma torna-se um d8. A arma também se torna mágica, se não já. O feitiço termina se você lançá-la de novo ou se você soltar a arma."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Visco, uma folha de xrocha, e um clube ou trimestre.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -13966,10 +13058,7 @@
             "O dano do feitiço aumenta em 1d8 quando você alcança o quinto nível (2d8), o décimo primeiro nível (3d8) e o sétimo nível (4d8)."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -14023,10 +13112,7 @@
             "É impossível usar um feitiço que inclui um componente verbal lá."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -14081,11 +13167,7 @@
             "A interação física com a imagem revela que é uma ilusão, porque as coisas podem passar por ela. Uma criatura que usa sua ação para examinar a imagem pode determinar que é uma ilusão com uma verificação bem sucedida da Inteligência (Investigação) contra a verificação da sua magia salvar DC. Se uma criatura discernir a ilusão para o que é, a criatura pode ver através da imagem."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de pulseira.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -14137,11 +13219,7 @@
             "Se você lançar esse feitiço de novo, qualquer duplicata ativa que você criou atualmente com este feitiço será eliminada instantaneamente."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Neve ou gelo em quantidades suficientes para fazer uma cópia vitalícia da criatura duplicada; alguns cortinos de cabelo, unha a unha ou outro pedaço do corpo dessa criatura colocado dentro da neve ou gelo; e em pó de rubi de 1.500 gp, espalhado pelo duplicado e consumido pelo feitiço.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -14175,11 +13253,7 @@
             "Quando você lançar este feitiço usando um slot de feitiço de nível 2 ou superior, role um 2d8 adicional para cada slot acima de 1."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de areia fina, pétalas rosas, ou um críquete.",
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
@@ -14235,11 +13309,7 @@
             "Se uma criatura se concentra na área da magia, a criatura tem de fazer com que uma constituição bem sucedida economize contra o seu feitiço poupe o DC ou perca a concentração."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de poeira e algumas gotas de água.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -14296,11 +13366,7 @@
             "Uma criatura afetada por esse feitiço faz outra sabedoria salvando o final de sua jogada. Em uma economia de sucesso, o efeito acaba para isso."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de melaço.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -14358,10 +13424,7 @@
             "Você toca uma criatura viva que tem 0 pontos de acerto. A criatura se torna estável. Esse feitiço não tem efeito em mortos-vivos ou construtores."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -14389,10 +13452,7 @@
             "Você ganha a habilidade de compreender e se comunicar verbalmente com bestas durante a duração. O conhecimento e a consciência de muitas bestas é limitado pela sua inteligência, mas no mínimo, As feras podem fornecer informações sobre locais e monstros nas proximidades, incluindo tudo o que eles possam perceber ou ter percebido nos últimos dias. Talvez você consiga persuadir uma besta a fazer um pequeno favor a você, a critério do GM."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": true,
         "duration": "10 minutos",
         "concentration": false,
@@ -14437,11 +13497,7 @@
             "Até que o feitiço acabe, você pode fazer o cadáver até cinco perguntas. O cadáver só sabe o que sabia na vida, incluindo as línguas que sabia. As respostas são geralmente curtas, criptas ou repetitivas, e o cadáver não está obrigado a oferecer uma resposta verdadeira se você for hostil a ele ou ele te reconhece como inimigo. Este feitiço não retorna a alma da criatura ao seu corpo, apenas seu espírito animador. Assim, o cadáver não consegue aprender novas informações, não compreende nada do que aconteceu desde que morreu, e não pode especular sobre eventos futuros."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Iuba Flamejante.",
         "ritual": false,
         "duration": "10 minutos",
@@ -14485,10 +13541,7 @@
             "Esta magia pode fazer com que as plantas criadas pela feitiça entrelaçada liberem uma criatura moderada."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "10 minutos",
         "concentration": false,
@@ -14531,16 +13584,12 @@
     },
     {
         "index": "spider-climb",
-        "name": "Escalada de Aranha",
+        "name": "Patas de Aranha",
         "desc": [
             "Até que a magia termine, uma criatura desejada que você tocar ganha a habilidade de se mover para cima, para baixo, e através das superfícies verticais e de cima ao longo dos tetos, deixando as mãos livres. O alvo também ganha uma velocidade de escalar igual a sua velocidade de caminhar."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de betume e uma aranha.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -14591,11 +13640,7 @@
             "A transformação do solo é camuflada para parecer natural. Qualquer criatura que não possa ver a área no momento em que o feitiço é lançado pode fazer uma verificação de sabedoria (Percepção) contra o feitiço salvar DC para reconhecer o terreno como perigoso antes de entrar."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Sete espinhos afiados ou sete pequenos galhos, cada um afiado a um ponto.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -14648,11 +13693,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 4o nível ou superior, o dano aumenta em 1d8 para cada slot acima do 33."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um símbolo sagrado.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -14692,10 +13733,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 3 níveis ou superior, o dano aumenta em 1d8 a cada dois níveis de slot acima do 2nd."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -14754,11 +13792,7 @@
             "Um vento moderado (pelo menos 10 milhas por hora) dispersa a nuvem depois de 4 rodadas. Um vento forte (pelo menos 20 milhas por hora) dispersa depois de 1 rodada."
         ],
         "range": "90 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um ovo podre ou algumas folhas de repolho escabulado.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -14821,16 +13855,12 @@
     },
     {
         "index": "stone-shape",
-        "name": "Forma de Pedra",
+        "name": "Moldar Rochas",
         "desc": [
             "Você toca um objeto de pedra de tamanho médio ou menor ou uma seção de pedra com não mais de 5 pés de qualquer dimensão e a forma em qualquer forma que se encaixa no seu objetivo. Então, por exemplo, você poderia moldar uma rocha grande em uma arma, idol, ou cofre, ou faça uma pequena passagem através de uma parede, contanto que a parede tenha menos de 5 pés de espessura. Você também poderia moldar uma porta de pedra ou a sua estrutura para fechar a porta. O objeto que você cria pode ter até duas dobradiças e um travamento, mas um detalhe mecânico mais fino não é possível."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Barro suave, a ser trabalhado grosseiramente na forma desejada para o objeto de pedra.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -14875,11 +13905,7 @@
             "Esse feitiço vira a carne de uma criatura disposta que você toca tão duro quanto a pedra. Até que o feitiço acabe, o alvo tem resistência a danos não mágicos de revestimento, perfuração e cortação."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pó de diamante vale 100 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -14934,10 +13960,7 @@
             "***Rodada 5-10.*** As chuvas dos trajes e as chuvas geladas aumentam a área debaixo da nuvem. A área fica difícil e é muito obscurecida. Cada criatura recebe 1d6 de dano frio. Ataques à distância de armas na área são impossíveis. O vento e a chuva contam como uma grave distração para manter a concentração nos feitiços. Finalmente, rajadas de vento forte (variando de 20 a 50 milhas por hora) dispersam automaticamente o nevoeiro, névoas e fenómenos semelhantes na área, sejam mundanos ou mágicos."
         ],
         "range": "Mira",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -14991,10 +14014,7 @@
             "Se você ou qualquer outro companheiro danificar o alvo, o feitiço acabará."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "A língua da cobra e um pouco de favo de mel ou uma gota de óleo doce.",
         "ritual": false,
         "duration": "Até 8 horas",
@@ -15054,11 +14074,7 @@
             "Pela duração, um manto de radiância brilhante brilha na sua mão. Ele lança luz brilhante em um raio de 30 pés e escurece luz para mais 30 pés. Esta luz é luz solar."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma lente de lupa.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -15122,11 +14138,7 @@
             "Esta magia dissipa qualquer escuridão em sua área que foi criada por um feitiço."
         ],
         "range": "150 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Fogo e um pedaço de pausa.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -15200,11 +14212,7 @@
             "***atordoamento.*** Cada alvo deve fazer uma jogada de salvamento de sabedoria e se torna atordoado por 1 minuto em um salvamento falhado."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Mercúrio, fósforo e diamante em pó, com um valor total de pelo menos 1.000 gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Até dissipar",
@@ -15252,10 +14260,7 @@
             "Você pode exercer controle sobre objetos com seu aperto telecinético, como manipular uma ferramenta simples, abrir uma porta ou um contêiner, reter ou recuperar um item de um contêiner aberto, ou derramar o conteúdo de um frasco."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 10 minutos",
         "concentration": true,
@@ -15293,11 +14298,7 @@
             "Até que o feitiço acabe, os alvos podem comunicar telepaticamente através da ligação se têm ou não uma língua comum. A comunicação é possível a qualquer distância, embora não possa ser alargada a outros aviões de existência."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Pedaços de casca de ovo de dois tipos diferentes de criaturas",
         "ritual": true,
         "duration": "number@@0 horas",
@@ -15347,9 +14348,7 @@
             "***Magia.*** A magia imprevisível do feitiço resulta em uma jornada difícil. Cada criatura teletransportadora (ou o objeto alvo) recebe 3d10 de dano forçado, e as rolagens GM na mesa para ver onde você acaba (várias outras coisas podem ocorrer, causando danos de cada vez)."
         ],
         "range": "10 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -15393,10 +14392,7 @@
             "Você pode criar um círculo de teleporte permanente lançando essa magia no mesmo local todos os dias por um ano. Você não precisa usar o círculo para teleportar quando você lançar o feitiço desta forma."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "Fraldas e tintas raras infundidas com gemas preciosas com 50 gp, que a magia consome.",
         "ritual": false,
         "duration": "1 rodada",
@@ -15446,9 +14442,7 @@
             "Se você lançar este feitiço várias vezes, pode ter até três dos seus efeitos de 1 minuto ativos de cada vez, e você pode descartar um efeito como uma ação."
         ],
         "range": "30 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "format@@0number@@1format@@2 minutos",
         "concentration": false,
@@ -15486,10 +14480,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 2 ou superior, o dano aumenta em 1d8 para cada nível de slot acima de 1."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -15569,9 +14560,7 @@
             "Esse feitiço termina se uma das ações utilizadas durante este período, ou se você criar quaisquer efeitos durante este período, afeta uma criatura diferente de você ou um objeto usado ou transportado por alguém que não seja você. Além disso, o feitiço termina se você se mudar para um lugar a mais de 1.000 pés da localização onde o joga."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -15606,11 +14595,7 @@
             "Até que a magia termine, você pode comandar o interior para ficar aceso ou escuro. A cúpula é opaca do lado de fora, de qualquer cor que você escolher, mas é transparente do lado de dentro."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pequena miçanga de cristal.",
         "ritual": true,
         "duration": "8 horas",
@@ -15654,10 +14639,7 @@
             "Esse feitiço concede à criatura que você toca a habilidade de entender qualquer linguagem falada que ouve. Além disso, quando o alvo fala, qualquer criatura que saiba pelo menos uma língua e possa ouvir o alvo compreende o que diz."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "MM"
-        ],
+        "components": ["V", "MM"],
         "material": "Um pequeno modelo de argila de um zigurate.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -15712,10 +14694,7 @@
             "Este feitiço cria uma ligação mágica entre uma planta grande ou maior inanimada dentro do alcance e outra planta, a qualquer distância, no mesmo plano de existência. Você deve ter visto ou tocado na planta de destino pelo menos uma vez antes. Durante a duração, qualquer criatura pode entrar na planta alvo e sair da planta de destino usando 5 pés de movimento."
         ],
         "range": "10 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "1 rodada",
         "concentration": false,
@@ -15744,10 +14723,7 @@
             "Você pode usar esta habilidade de transporte uma vez por rodada para a duração. Você deve terminar cada turno fora de uma árvore."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -15794,11 +14770,7 @@
             "***Criatura em Objeto.*** Se você transformar uma criatura em um objeto, ela se transforma junto com o que quer que esteja usando e carregando no formulário. As estatísticas da criatura se tornam as do objeto, e a criatura não tem memória do tempo gasto com este formulário. após o término da magia e ela retorna à sua forma normal."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma gota de mercúrio, uma dose de gengibre arábico e um sabor de fumaça.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -15839,11 +14811,7 @@
             "A magia pode até mesmo fornecer um novo corpo se o original não existir mais. Nesse caso você precisa falar o nome da criatura. A criatura aparece em um espaço desocupado, você escolhe dentro de 10 pés de você."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma granada de água sagrada e diamantes vale pelo menos 25.000gp, que o feitiço consome.",
         "ritual": false,
         "duration": "Instantâneo",
@@ -15877,11 +14845,7 @@
             "Essa magia dá à criatura desejada que você toca na habilidade de ver as coisas como elas realmente são. Durante a duração, a criatura tem verdadeiras, avista portas secretas escondidas por magia, e pode ver no Plano Ethereal, tudo a um intervalo de 120 pés."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pomada para os olhos que custa 25 gp; é feita de pó de cogumelo, safra e gordura; e consumida pelo feitiço.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -15930,9 +14894,7 @@
             "Você estende sua mão e aponta um dedo para um alvo à distância. Sua magia lhe concede uma breve visão das defesas do alvo. Na sua próxima vez, você terá vantagem na sua primeira jogada contra o alvo, contanto que essa magia não tenha terminado."
         ],
         "range": "30 pés",
-        "components": [
-            "S.O."
-        ],
+        "components": ["S.O."],
         "ritual": false,
         "duration": "Até 1 rodada",
         "concentration": true,
@@ -15983,11 +14945,7 @@
             "Se você comandar o servo para executar uma tarefa que a afastaria a mais de 60 metros de distância, o feitiço acaba."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pedaço de corda e um pouco de madeira.",
         "ritual": true,
         "duration": "number@@0 horas",
@@ -16035,10 +14993,7 @@
             "Quando você lança esse feitiço usando um slot de feitiço de 4o nível ou superior, o dano aumenta em 1d6 para cada slot acima do 33."
         ],
         "range": "Auto",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -16095,9 +15050,7 @@
             "O dano desta magia aumenta em 1d4 quando você alcança o quinto nível (2d4), 11 nível (3d4) e 17 nível (4d4)."
         ],
         "range": "60 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -16152,11 +15105,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de 5o nível ou superior, o dano aumenta em 1d8 para cada slot acima de 4th."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de fósforo.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -16224,11 +15173,7 @@
             "Nada pode atravessar fisicamente a parede. É imune a todos os danos e não pode ser dissipado pela mágica. No entanto, um feitiço de desintegração destrói a parede instantaneamente. O mural também se estende ao plano Ethereal, bloqueando viagens etéreas pelo mural."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Uma pitada de pó feita ao esmagar uma gema clara.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -16262,11 +15207,7 @@
             "Quando você lança este feitiço usando um slot de feitiço do nível 7 ou superior, o dano que a parede causa quando ele aparece sendo aumentado em 2d6, e o dano causado pela passagem da folha de ar gelado aumenta em 1d6, para cada nível de faixa horária acima de 6."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de quartzo.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -16325,11 +15266,7 @@
             "Se você manter a sua concentração nesse feitiço durante toda sua duração, a parede se torna permanente e não pode ser dissolvida. Caso contrário, a parede desaparece quando o feitiço termina."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno bloco de granito.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -16379,11 +15316,7 @@
             "Quando você lança este feitiço usando um slot de feitiço de nível 7 ou superior, Ambos os tipos de dano aumentam em 1d8 para cada nível de slot acima de 6th."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Alguns espinhos.",
         "ritual": false,
         "duration": "Até 10 minutos",
@@ -16439,11 +15372,7 @@
             "Também termina se a magia for lançada novamente em qualquer uma das criaturas conectadas. Você também pode descartar a magia como uma ação."
         ],
         "range": "Toque",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um par de anéis de platina num valor de pelo menos 50gp cada, que você e o alvo devem usar para a duração.",
         "ritual": false,
         "duration": "number@@0 horas",
@@ -16478,11 +15407,7 @@
             "Este feitiço dá um máximo de dez criaturas disponíveis no alcance e você pode ver, a capacidade de respirar debaixo d'água até o final do seu termo. Criaturas afetadas também mantêm seu padrão de respiração normal."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno pedaço de junco ou palha.",
         "ritual": true,
         "duration": "24 horas",
@@ -16538,11 +15463,7 @@
             "Se você visar uma criatura submersa em líquido, a magia carrega o alvo na superfície do líquido a uma taxa de 60 metros por rodada."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pedaço de rolha.",
         "ritual": true,
         "duration": "number@@0 horas",
@@ -16592,7 +15513,7 @@
     },
     {
         "index": "web",
-        "name": "Web",
+        "name": "Teia",
         "desc": [
             "Você configura uma massa grossa e pegajosa webbing em um ponto de sua escolha dentro do intervalo. A teia enche um cubo de 20 pés desse ponto durante a duração. As teias são difíceis de encontrar e obscurecem ligeiramente sua área.",
             "Se as teias não estão ancoradas entre duas massas sólidas (como paredes ou árvores) ou encostadas através de um chão, Muro, ou teto, a web conjurada cai em si mesma e o feitiço termina no início do próximo turno. As teias sobrepostas a uma superfície plana têm uma profundidade de 5 pés.",
@@ -16601,11 +15522,7 @@
             "As teias são inflamáveis. Qualquer cubo de 5 pés de teias expostas ao fogo queima em 1 rodada, Causa dano de fogo, 2d4 a qualquer criatura que inicia seu turno no fogo."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pouco de aranha.",
         "ritual": false,
         "duration": "Até 1 hora",
@@ -16654,10 +15571,7 @@
             "Desenho com os mais profundos medos de um grupo de criaturas, você cria criaturas ilusórias em sua mente, visíveis apenas para eles. Cada criatura em uma esfera de 30 pés de raio centrada em um ponto de sua escolha dentro do intervalo deve fazer um lançamento de poupança. Em salvamento falhado, uma criatura fica assustada pela duração. A ilusão apela aos receios mais profundos da criatura, manifestando seus piores pesadelos como uma ameaça implacável. No início de cada uma das jogadas assustadas da criatura, ela deve ser bem sucedida numa sabedoria ao salvar o lançamento ou ao sofrer danos psíquicos 4d10. Em um salvamento bem sucedido, o feitiço termina para aquela criatura."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "Até 1 minuto",
         "concentration": true,
@@ -16698,11 +15612,7 @@
             "Se uma criatura estiver em forma de nuvem e voando quando o efeito terminar, a criatura desce 60 metros por rodada por 1 minuto até pousar o que faz em segurança. Se não puder pousar depois de 1 minuto, a criatura cai a distância restante."
         ],
         "range": "30 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Fogo e água sagrada.",
         "ritual": false,
         "duration": "8 horas",
@@ -16733,11 +15643,7 @@
             "O vento forte mantém nevoeiro, fumaça e outros gases afastados. Criaturas ou objetos voadores pequenas ou menores não podem atravessar a parede. Escute, materiais leves trazem para a parede voando para cima. Flechas, parafusos e outros projéteis comuns lançados em alvos atrás da parede são desviados para cima e automaticamente falham. (As rochas atiradas por gigantes ou motores de cerco e projéteis similares não são afetados.) Criaturas na forma gasosa não podem passar."
         ],
         "range": "120 pés",
-        "components": [
-            "V",
-            "S.O.",
-            "MM"
-        ],
+        "components": ["V", "S.O.", "MM"],
         "material": "Um pequeno ventilador e uma pena de origem exótica.",
         "ritual": false,
         "duration": "Até 1 minuto",
@@ -16808,9 +15714,7 @@
             "O estresse de lançar este feitiço para produzir qualquer efeito que não a duplicação de outro feitiço enfraquece você. Depois de suportar esse estresse, cada vez que você lança um feitiço até terminar o descanso você recebe 1d10 de dano necrótico por nível desse feitiço. Este dano não pode ser reduzido nem prevenido de forma alguma. Além disso, sua Força cai para 3, se já não for 3 ou menor, para 2d4 dias. Para cada dia que você fica descansando e fazendo nada mais do que a atividade de luz, seu restante tempo de recuperação diminui em 2 dias. Finalmente, há uma hipótese de 33 por cento que você não pode voltar a desejar se sofrer esse estresse."
         ],
         "range": "Auto",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -16844,9 +15748,7 @@
             "Você deve designar um santuário lançando este feitiço em um local, como um templo, dedicado ou fortemente ligado à sua divindade. Se você tentar lançar o feitiço dessa forma em uma área que não é dedicada à sua divindade, o feitiço não terá efeito."
         ],
         "range": "5 pés",
-        "components": [
-            "V"
-        ],
+        "components": ["V"],
         "ritual": false,
         "duration": "Instantâneo",
         "concentration": false,
@@ -16879,10 +15781,7 @@
             "Uma criatura afectada está ciente da magia e pode, assim, evitar responder a perguntas às quais normalmente responderia com uma mentira. Tal criatura pode permanecer evasiva nas suas respostas, desde que se mantenha dentro das fronteiras da verdade."
         ],
         "range": "60 pés",
-        "components": [
-            "V",
-            "S.O."
-        ],
+        "components": ["V", "S.O."],
         "ritual": false,
         "duration": "10 minutos",
         "concentration": false,

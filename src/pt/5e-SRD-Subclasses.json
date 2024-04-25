@@ -1596,6 +1596,174 @@
                     "name": "Vidência",
                     "url": "/api/spells/scrying"
                 }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-3",
+                        "type": "level",
+                        "name": "Druida 3",
+                        "url": "/api/classes/druid/levels/3"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "spider-climb",
+                    "name": "Patas de aranha",
+                    "url": "/api/spells/spider-climb"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-3",
+                        "type": "level",
+                        "name": "Druida 3",
+                        "url": "/api/classes/druid/levels/3"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "web",
+                    "name": "Teia",
+                    "url": "/api/spells/web"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-5",
+                        "type": "level",
+                        "name": "Druida 5",
+                        "url": "/api/classes/druid/levels/5"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "wind-walk",
+                    "name": "Forma gasosa",
+                    "url": "/api/spells/wind-walk"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-5",
+                        "type": "level",
+                        "name": "Druida 5",
+                        "url": "/api/classes/druid/levels/5"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "stinking-cloud",
+                    "name": "Névoa fétida",
+                    "url": "/api/spells/stinking-cloud"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-7",
+                        "type": "level",
+                        "name": "Druida 7",
+                        "url": "/api/classes/druid/levels/7"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "greater-invisibility",
+                    "name": "Invisibilidade Maior",
+                    "url": "/api/spells/greater-invisibility"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-7",
+                        "type": "level",
+                        "name": "Druida 7",
+                        "url": "/api/classes/druid/levels/7"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "stone-shape",
+                    "name": "Moldar rochas",
+                    "url": "/api/spells/stone-shape"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-9",
+                        "type": "level",
+                        "name": "Druida 9",
+                        "url": "/api/classes/druid/levels/9"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "insect-plague",
+                    "name": "Praga de insetos",
+                    "url": "/api/spells/insect-plague"
+                }
+            },
+            {
+                "prerequisites": [
+                    {
+                        "index": "druid-9",
+                        "type": "level",
+                        "name": "Druida 9",
+                        "url": "/api/classes/druid/levels/9"
+                    },
+                    {
+                        "index": "circle-of-the-land-underground",
+                        "type": "feature",
+                        "name": "Círculo da Terra: Subterrâneo",
+                        "url": "/api/features/circle-of-the-land-underground"
+                    }
+                ],
+                "spell": {
+                    "index": "cloudkill",
+                    "name": "Névoa mortal",
+                    "url": "/api/spells/cloudkill"
+                }
             }
         ],
         "subclass_levels": "/api/subclasses/terra/níveis",
