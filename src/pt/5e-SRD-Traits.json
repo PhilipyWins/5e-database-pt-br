@@ -253,7 +253,7 @@
                     "type": "Linha"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -317,7 +317,7 @@
                     "type": "Linha"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -381,7 +381,7 @@
                     "type": "Linha"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -445,7 +445,7 @@
                     "type": "Linha"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -509,7 +509,7 @@
                     "type": "Linha"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -573,7 +573,7 @@
                     "type": "Cone"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -637,7 +637,7 @@
                     "type": "Cone"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -701,7 +701,7 @@
                     "type": "Cone"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -765,7 +765,7 @@
                     "type": "Cone"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
@@ -829,7 +829,7 @@
                     "type": "Cone"
                 },
                 "usage": {
-                    "type": "por resto",
+                    "type": "por descanso",
                     "times": 1
                 },
                 "dc": {
