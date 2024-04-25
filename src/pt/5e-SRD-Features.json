@@ -1229,6 +1229,14 @@
                                 "name": "Círculo da Terra: Pântano",
                                 "url": "/api/features/circle-of-the-land-swamp"
                             }
+                        },
+                        {
+                            "option_type": "reference",
+                            "item": {
+                                "index": "circle-of-the-land-underground",
+                                "name": "Círculo da Terra: Subterrâneo",
+                                "url": "/api/features/circle-of-the-land-underground"
+                            }
                         }
                     ]
                 }
@@ -1410,6 +1418,31 @@
             "url": "/api/features/circle-of-the-land"
         },
         "url": "/api/features/circle-of-the-land-swamp"
+    },
+    {
+        "index": "circle-of-the-land-underground",
+        "class": {
+            "index": "druid",
+            "name": "Druida",
+            "url": "/api/classes/druid"
+        },
+        "subclass": {
+            "index": "land",
+            "name": "Círculo da Terra",
+            "url": "/api/subclasses/land"
+        },
+        "name": "Círculo da Terra: Subterrâneo",
+        "level": 2,
+        "prerequisites": [],
+        "desc": [
+            "O Círculo da Terra é constituído por místicos e sábios que salvaguardam conhecimento e ritos antigos através de uma vasta tradição oral. Esses druidas se encontram em círculos sagrados de árvores ou monólitos para sussurrar segredos primordiais em Druídico. Os membros mais sábios do círculo presidem como os sacerdotes-dirigentes de comunidades que creem na Crença Antiga, e servem como conselheiros para os governantes desses povos. Como membro desse círculo, sua magia é influenciada pela terra onde você é iniciado nos ritos misteriosos do círculo."
+        ],
+        "parent": {
+            "index": "circle-of-the-land",
+            "name": "Círculo da Terra",
+            "url": "/api/features/circle-of-the-land"
+        },
+        "url": "/api/features/circle-of-the-land-underground"
     },
     {
         "index": "circle-spells-1",
@@ -2509,7 +2542,7 @@
         ],
         "parent": {
             "index": "dragon-ancestor",
-            "name": "Ancestrato do Dragão",
+            "name": "Ancestral do Dragão",
             "url": "/api/features/dragon-ancestor"
         },
         "url": "/api/features/dragon-ancestor-red---fire-damage"
