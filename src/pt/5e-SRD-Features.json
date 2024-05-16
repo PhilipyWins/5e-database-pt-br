@@ -2627,11 +2627,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/druid-ability-score-improvement-1"
     },
@@ -2642,11 +2642,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/druid-ability-score-improvement-2"
     },
@@ -2657,11 +2657,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/druid-ability-score-improvement-3"
     },
@@ -2672,11 +2672,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/druid-ability-score-improvement-4"
     },
@@ -2687,11 +2687,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/druid-ability-score-improvement-5"
     },
@@ -4005,7 +4005,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
@@ -4020,7 +4020,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 6,
         "prerequisites": [],
         "desc": [
@@ -4035,7 +4035,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
@@ -4050,7 +4050,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
@@ -4065,7 +4065,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 14,
         "prerequisites": [],
         "desc": [
@@ -4080,7 +4080,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
@@ -4095,7 +4095,7 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
@@ -5425,11 +5425,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/monk-ability-score-improvement-1"
     },
@@ -5440,11 +5440,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/monk-ability-score-improvement-2"
     },
@@ -5455,11 +5455,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/monk-ability-score-improvement-3"
     },
@@ -5470,11 +5470,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/monk-ability-score-improvement-4"
     },
@@ -5485,11 +5485,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/monk-ability-score-improvement-5"
     },
@@ -6066,11 +6066,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/paladin-ability-score-improvement-1"
     },
@@ -6081,11 +6081,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/paladin-ability-score-improvement-2"
     },
@@ -6096,11 +6096,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/paladin-ability-score-improvement-3"
     },
@@ -6111,11 +6111,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/paladin-ability-score-improvement-4"
     },
@@ -6126,11 +6126,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/paladin-ability-score-improvement-5"
     },
@@ -6421,11 +6421,11 @@
             "name": "Ranger",
             "url": "/api/classes/ranger"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/ranger-ability-score-improvement-1"
     },
@@ -6436,11 +6436,11 @@
             "name": "Ranger",
             "url": "/api/classes/ranger"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/ranger-ability-score-improvement-2"
     },
@@ -6451,11 +6451,11 @@
             "name": "Ranger",
             "url": "/api/classes/ranger"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/ranger-ability-score-improvement-3"
     },
@@ -6466,11 +6466,11 @@
             "name": "Ranger",
             "url": "/api/classes/ranger"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/ranger-ability-score-improvement-4"
     },
@@ -6481,11 +6481,11 @@
             "name": "Ranger",
             "url": "/api/classes/ranger"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/ranger-ability-score-improvement-5"
     },
@@ -6766,7 +6766,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
@@ -6781,7 +6781,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
@@ -6796,7 +6796,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 10,
         "prerequisites": [],
         "desc": [
@@ -6811,7 +6811,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
@@ -6826,7 +6826,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
@@ -6841,7 +6841,7 @@
             "name": "Rogue",
             "url": "/api/classes/rogue"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
@@ -7616,11 +7616,11 @@
             "name": "Sorcerer",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/sorcerer-ability-score-improvement-1"
     },
@@ -7631,11 +7631,11 @@
             "name": "Sorcerer",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/sorcerer-ability-score-improvement-2"
     },
@@ -7646,11 +7646,11 @@
             "name": "Sorcerer",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/sorcerer-ability-score-improvement-3"
     },
@@ -7661,11 +7661,11 @@
             "name": "Sorcerer",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/sorcerer-ability-score-improvement-4"
     },
@@ -7676,11 +7676,11 @@
             "name": "Sorcerer",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/sorcerer-ability-score-improvement-5"
     },
@@ -8287,11 +8287,11 @@
             "name": "Warlock",
             "url": "/api/classes/warlock"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/warlock-ability-score-improvement-1"
     },
@@ -8302,11 +8302,11 @@
             "name": "Warlock",
             "url": "/api/classes/warlock"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/warlock-ability-score-improvement-2"
     },
@@ -8317,11 +8317,11 @@
             "name": "Warlock",
             "url": "/api/classes/warlock"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/warlock-ability-score-improvement-3"
     },
@@ -8332,11 +8332,11 @@
             "name": "Warlock",
             "url": "/api/classes/warlock"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/warlock-ability-score-improvement-4"
     },
@@ -8347,11 +8347,11 @@
             "name": "Warlock",
             "url": "/api/classes/warlock"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/warlock-ability-score-improvement-5"
     },
@@ -8451,11 +8451,11 @@
             "name": "Assistente",
             "url": "/api/classes/wizard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/wizard-ability-score-improvement-1"
     },
@@ -8466,11 +8466,11 @@
             "name": "Assistente",
             "url": "/api/classes/wizard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/wizard-ability-score-improvement-2"
     },
@@ -8481,11 +8481,11 @@
             "name": "Assistente",
             "url": "/api/classes/wizard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/wizard-ability-score-improvement-3"
     },
@@ -8496,11 +8496,11 @@
             "name": "Assistente",
             "url": "/api/classes/wizard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/wizard-ability-score-improvement-4"
     },
@@ -8511,11 +8511,11 @@
             "name": "Assistente",
             "url": "/api/classes/wizard"
         },
-        "name": "Melhoria da Habilidade Pontuação",
+        "name": "Incremento no Valor de Habilidade",
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, e novamente aos níveis 8, 12, 16 e 19, você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 8°, 12°, 16°  e 19° nível, você pode aumentar um valor de habilidade, à  sua escolha, em 2 ou você pode aumentar dois valores de  habilidade, à sua escolha, em 1. Como padrão, você não  pode elevar um valor de habilidade acima de 20 com essa  característica."
         ],
         "url": "/api/features/wizard-ability-score-improvement-5"
     }
