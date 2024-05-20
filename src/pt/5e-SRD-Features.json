@@ -2702,11 +2702,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Círculo Druida",
+        "name": "Círculo Druídico",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "No segundo nível, você escolhe identificar com um círculo de medicamentos, como o Círculo da Land. Sua escolha concede recursos a 2 níveis e novamente a 6 de nível 10 e 14 de nível."
+            "No 2° nível, você escolhe se identificar com umcírculo de druidas: o Círculo da Terra ou o Círculo da Lua, ambos detalhados no final da descrição da classe. Sua escolha lhe concede características no 2° nível e novamente no 6°, 10° e 14° nível."
         ],
         "url": "/api/features/druid-circle"
     },
@@ -2719,15 +2719,15 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Marcha da Terra",
+        "name": "Caminho da Floresta",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começar no 6° nível, mover-se através de terreno difícil e não mágico não custa nenhum movimento a mais. Você também pode passar por plantas não mágicas sem ser desacelerado por elas e sem levar dano delas se elas tiverem espinhos, espinhos ou um risco semelhante.",
-            "Além disso, temos vantagem em poupar lançamentos contra plantas que são magicamente criadas ou manipuladas para impedir a circulação. aqueles que foram criados pela magia do entângulo."
+            "A partir do 6° nível, mover-se através de terreno difícil não-mágico não te custará nenhum movimento extra. Você também pode passar através de plantas não-mágicas sem ser atrasado por elas e sem sofrer dano delas se elas tiverem espinhos, espinhas ou perigos similares.",
+            "Além disso, você tem vantagem em testes de resistência contra plantas criadas magicamente ou manipuladas para impedir movimentação, como as criadas pela magia constrição."
         ],
         "url": "/api/features/druid-lands-stride"
     },
@@ -2738,11 +2738,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Corpo sem Tempo",
+        "name": "Corpo Atemporal",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 18, a magia primal que você empunha faz com que você envelhece mais devagar. A cada 10 anos que passam, o seu corpo tem apenas 1 ano."
+            "Começando no 18° nível, a magia primordial que você controla faz com que você envelheça mais lentamente. Para cada 10 anos que passarem, seu corpo envelhece apenas 1."
         ],
         "url": "/api/features/druid-timeless-body"
     },
@@ -2753,11 +2753,11 @@
             "name": "Druida",
             "url": "/api/classes/druid"
         },
-        "name": "Druidic",
+        "name": "Druídico",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Você conhece Druidice, a língua secreta dos druids. Você pode falar a língua e usá-la para deixar mensagens ocultas. Você e os outros que conhecem esta língua automaticamente encontram uma mensagem desse tipo. Outros identificam a presença da mensagem com uma verificação bem sucedida da sabedoria DC 15 (Percepção), mas não podem decifrá-la sem mágica."
+            "Você conhece o Druídico, o idioma secreto dos druidas. Você pode falar esse idioma e usá-lo para deixar mensagens escondidas. Você e outros que conheçam esse idioma automaticamente veem tais mensagens. Outros perceberão a presença da mensagem se passarem num teste de Sabedoria (Percepção) CD 15, mas não conseguirão decifrá-lo sem magia."
         ],
         "url": "/api/features/druidic"
     },
@@ -2765,10 +2765,10 @@
         "index": "eldritch-invocation-agonizing-blast",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Explosão Agonizante",
+        "name": "Invocação Mística: Explosão Agonizante",
         "level": 2,
         "prerequisites": [
             {
@@ -2777,11 +2777,11 @@
             }
         ],
         "desc": [
-            "Quando você atirar a explosão do eldritch, adicione o seu modificador de Charisma ao dano que ele causa ao golpe."
+            "Quando você conjura rajada mística, adicione seu modificador de Carisma ao dano causado quando atingir."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-agonizing-blast"
@@ -2790,18 +2790,18 @@
         "index": "eldritch-invocation-armor-of-shadows",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Armadura de Sombras",
+        "name": "Invocação Mística: Armadura de Sombras",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode lançar uma armadura de mage para si mesmo, sem gastar um slot de feitiço ou componentes materiais."
+            "Você pode conjurar armadura arcana em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-armor-of-shadows"
@@ -2810,10 +2810,10 @@
         "index": "eldritch-invocation-ascendant-step",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Etapa Ascendente",
+        "name": "Invocação Mística: Passo Ascendente",
         "level": 9,
         "prerequisites": [
             {
@@ -2822,11 +2822,11 @@
             }
         ],
         "desc": [
-            "Você pode levitar por si mesmo sem gastar um slot de feitiço ou componentes materiais."
+            "Você pode conjurar levitação em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-ascendant-step"
@@ -2835,18 +2835,18 @@
         "index": "eldritch-invocation-beast-speech",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Fala da Besta",
+        "name": "Invocação Mística: Idioma Bestial",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Pode-se falar com os animais à vontade, sem gastar um slot de feitiço."
+            "Você pode conjurar falar com animais, à vontade, sem precisar gastar um espaço de magia."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-beast-speech"
@@ -2855,18 +2855,18 @@
         "index": "eldritch-invocation-beguiling-influence",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Influência do Beguiling",
+        "name": "Invocação Mística: Influência Enganadora",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você ganha proficiência nas habilidades de Deceção e Persuição."
+            "Você ganha proficiência nas perícias Enganação e Persuasão."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-beguiling-influence"
@@ -2875,10 +2875,10 @@
         "index": "eldritch-invocation-bewitching-whispers",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Sussurros Encantadores",
+        "name": "Invocação Mística: Sussurros Sedutores",
         "level": 7,
         "prerequisites": [
             {
@@ -2887,11 +2887,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar a compulsão uma vez usando um slot de feitiço de bloqueio de guerra. Você não pode fazer isso novamente até terminar um descanso longo."
+            "Você pode conjurar compulsão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-bewitching-whispers"
@@ -2900,10 +2900,10 @@
         "index": "eldritch-invocation-book-of-ancient-secrets",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Livro dos Segredos Antigos",
+        "name": "Invocação Mística: Livro de Segredos Antigos",
         "level": 2,
         "prerequisites": [
             {
@@ -2912,12 +2912,12 @@
             }
         ],
         "desc": [
-            "Agora você pode inscrever rituais mágicos em seu Livro de Sombras. Escolha dois feitiços de nível 1 que possuem a tag ritual da lista de feitiços de qualquer classe (os dois não precisam estar na mesma lista). As magias aparecem no livro e não contem contra o número de magias que você conhece. Com seu livro de Sombras na mão, você pode lançar os feitiços escolhidos como rituais. Você não pode lançar os feitiços exceto como rituais, a menos que tenha aprendido eles por outros meios. Você também pode lançar um feitiço de bloqueio de guerra que você conhece como ritual se ele tiver uma tag ritual.",
-            "Em suas aventuras, você pode adicionar outras magias rituais ao seu Livro de Sombras. Quando encontrar tal feitiço, você pode adicioná-lo ao livro se o nível de feitiço for igual ou menor que metade do seu nível de bloqueio de guerra (arredondado para cima) e se você puder economizar tempo para transcrever o feitiço. Para cada nível do feitiço, o processo de transcrição leva 2 horas e custa 50 gp para as tintas raras necessárias para se inscrever."
+            "Você pode agora, registrar rituais mágicos no seu Livro das Sombras. Escolha duas magias de 1° nível que possuam o descritor ritual da lista de magias de qualquer classe. A magia aparece no livro e não conta no número de magias que você conhece. Com o seu Livro das Sombras em mãos, você pode conjurar as magias escolhidas como rituais. Você não pode conjurar essas magias, exceto na forma de rituais, a não ser que você tenha aprendido elas através de outros meios. Você também pode conjurar uma magia de bruxo que você conheça como ritual se ela possuir o descritor ritual. Os rituais não precisam ser da mesma lista de magias.",
+            "Durante suas aventuras, você pode adicionar outras magias de ritual ao seu Livro das Sombras. Quando você encontrar tais magias, você pode adicioná-la ao livro se o nível da magia for igual ou inferior à metade do seu nível de bruxo (arredondado para baixo) e se você tiver tempo para gastar transcrevendo a magia. Para cada nível da magia, o processo de transcrição levará 2 horas e custará 50 po, devido às tintas raras necessárias para inscrevê-la."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-book-of-ancient-secrets"
@@ -2926,10 +2926,10 @@
         "index": "eldritch-invocation-chains-of-carceri",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Correntes de Carceri",
+        "name": "Invocação Mística: Correntes de Carceri",
         "level": 15,
         "prerequisites": [
             {
@@ -2942,11 +2942,11 @@
             }
         ],
         "desc": [
-            "Você pode utilizar o monstro à vontade--direcionando para um acelerador, fiend ou elemental--sem gastar um slot de feitiço ou componentes de material. Você precisa terminar um descanso antes de poder usar esta chamada na mesma criatura novamente."
+            "Você pode conjurar imobilizar monstro, à vontade – tendo como alvo um celestial, corruptor ou elemental – sem precisar gastar um espaço de magia ou componentes materiais. Você deve terminar um descanso longo antes de poder usar essa invocação na mesma criatura novamente."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-chains-of-carceri"
@@ -2955,18 +2955,18 @@
         "index": "eldritch-invocation-devils-sight",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Visão do Demônio",
+        "name": "Invocação Mística: Visão Diabólica",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você consegue ver normalmente na escuridão, tanto mágica quanto não mágica, a uma distância de 120 pés."
+            "Você pode ver normalmente na escuridão, tanto mágica quanto normal, com um alcance de 36 metros."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-devils-sight"
@@ -2975,10 +2975,10 @@
         "index": "eldritch-invocation-dreadful-word",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Palavra terrível",
+        "name": "Invocação Mística: Palavra Terrível",
         "level": 7,
         "prerequisites": [
             {
@@ -2987,11 +2987,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar confusão uma vez usando um slot ortográfico de bloqueio. Você não pode fazer novamente até terminar um descanso longo."
+            "Você pode conjurar confusão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-dreadful-word"
@@ -3000,18 +3000,18 @@
         "index": "eldritch-invocation-eldritch-sight",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Visão do Eldritch",
+        "name": "Invocação Mística: Visão do Eldritch",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode transmitir mágica a vontade sem gastar um slot de magia."
+            "Você pode conjurar detectar magia, à vontade, sem precisar gastar um espaço de magia."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-eldritch-sight"
@@ -3020,10 +3020,10 @@
         "index": "eldritch-invocation-eldritch-spear",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Lança do Eldritch",
+        "name": "Invocação Mística: Lança Mística",
         "level": 2,
         "prerequisites": [
             {
@@ -3032,11 +3032,11 @@
             }
         ],
         "desc": [
-            "Quando você atira uma explosão de eldritch, sua alcance é de 300 pés."
+            "Quando você conjura rajada mística, seu alcance será de 90 metros."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-eldritch-spear"
@@ -3045,18 +3045,18 @@
         "index": "eldritch-invocation-eyes-of-the-rune-keeper",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Olhos do Guardião da Runa",
+        "name": "Invocação Mística: Olhos do Guardião das Runas",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode ler tudo escrevendo."
+            "Você pode ler todas as escritas."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-eyes-of-the-rune-keeper"
@@ -3065,18 +3065,18 @@
         "index": "eldritch-invocation-fiendish-vigor",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Vigor Fiendish",
+        "name": "Invocação Mística: Vigor Abissal",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode lançar falsas vidas em si mesmo como um feitiço de nível 1, sem gastar um slot de feitiço ou componentes de material."
+            "Você pode conjurar vitalidade falsa em si mesmo, à vontade, como uma magia de 1° nível, sem precisar gastar um espaço de magia ou componentes materiais."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-fiendish-vigor"
@@ -3085,18 +3085,18 @@
         "index": "eldritch-invocation-gaze-of-two-minds",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Olhar de Duas Mentes",
+        "name": "Invocação Mística: Olhar de Duas Mentes",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode usar sua ação para tocar um humanoide disposto e perceber através de seus sentidos até o final do seu próximo turno. Enquanto a criatura estiver no mesmo plano de existência que você, você pode usar sua ação em turnos subsequentes para manter essa conexão, prolongando a duração até o final do seu próximo turno. Enquanto percebe através dos sentidos da outra criatura, você se beneficia de qualquer sentido especial possuído por aquela criatura, e você está cego e ensurdecedor ao seu próprio redor."
+            "Você pode usar sua ação para tocar um humanoide voluntário e perceber através do seus sentidos até o final do seu próximo turno. Conquanto que a criatura esteja no mesmo plano de existência que você, você pode usar sua ação nas rodadas subsequentes para manter a conexão, estendendo a duração até o início do seu próximo turno. Enquanto estiver percebendo através dos sentidos de outra criatura, você aproveita os benefícios de todos os sentidos especiais possuídos pela criatura e você fica cego e surdo ao que está a sua volta."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-gaze-of-two-minds"
@@ -3105,10 +3105,10 @@
         "index": "eldritch-invocation-lifedrinker",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Eliedrinker",
+        "name": "Invocação Mística: Sorvedor de Vida",
         "level": 12,
         "prerequisites": [
             {
@@ -3121,11 +3121,11 @@
             }
         ],
         "desc": [
-            "Quando você acerta uma criatura com sua arma de pacto, a criatura recebe dano extra necrótico igual ao seu modificador de Charisma (mínimo 1)."
+            "Quando você atingir uma criatura com sua arma do pacto, a criatura sofre uma quantidade de dano necrótico adicional igual ao seu modificador de Carisma (mínimo 1)."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-lifedrinker"
@@ -3134,18 +3134,18 @@
         "index": "eldritch-invocation-mask-of-many-faces",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Máscara de muitos rostos",
+        "name": "Invocação Mística: Máscara das Muitas Faces",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode se disfarçar a vontade sem gastar um slot de feitiço."
+            "Você pode conjurar disfarçar-se, à vontade, sem precisar gastar um espaço de magia."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-mask-of-many-faces"
@@ -3154,10 +3154,10 @@
         "index": "eldritch-invocation-master-of-myriad-forms",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Mestre das Formas Myriad",
+        "name": "Invocação Mística: Mestre das Infindáveis Formas",
         "level": 15,
         "prerequisites": [
             {
@@ -3166,11 +3166,11 @@
             }
         ],
         "desc": [
-            "Você pode se alterar à vontade, sem gastar um slot de magia."
+            "Você pode conjurar alterar-se, à vontade, sem precisar gastar um espaço de magia."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-master-of-myriad-forms"
@@ -3179,10 +3179,10 @@
         "index": "eldritch-invocation-minions-of-chaos",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Minions do Caos",
+        "name": "Invocação Mística: Lacaios do Caos",
         "level": 9,
         "prerequisites": [
             {
@@ -3191,11 +3191,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar o elemento de conjura uma vez usando um slot de feitiço de guerreiro. Você não pode fazer isso novamente até terminar um descanso longo."
+            "Você pode lançar conjurar elemental, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-minions-of-chaos"
@@ -3204,10 +3204,10 @@
         "index": "eldritch-invocation-mire-the-mind",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Mire the Mind",
+        "name": "Invocação Mística: Encharcar a Mente",
         "level": 5,
         "prerequisites": [
             {
@@ -3216,11 +3216,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar lento uma vez usando um slot de feitiço de bloqueio de guerra. Você não pode fazer novamente até terminar um descanso longo."
+            "Você pode conjurar lentidão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo. "
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-mire-the-mind"
@@ -3229,18 +3229,18 @@
         "index": "eldritch-invocation-misty-visions",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Visão Negra",
+        "name": "Invocação Mística: Visões nas Brumas",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode transmitir imagem silenciosa a vontade, sem gastar um slot de feitiço ou componentes materiais."
+            "Você pode conjurar imagem silenciosa, à vontade, sem precisar gastar um espaço de magia ou componentes materiais."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-misty-visions"
@@ -3249,10 +3249,10 @@
         "index": "eldritch-invocation-one-with-shadows",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Um com Sombras",
+        "name": "Invocação Mística: Uno com as Sombras",
         "level": 5,
         "prerequisites": [
             {
@@ -3261,11 +3261,11 @@
             }
         ],
         "desc": [
-            "Quando você está numa área de luz ou escuridão sombria você pode usar sua ação para se tornar invisível até que você se mova ou tome uma ação ou reação."
+            "Quando você estiver em uma área de penumbra ou escuridão, você pode usar sua ação para ficar invisível até se mover ou realizar uma ação ou reação."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-one-with-shadows"
@@ -3274,10 +3274,10 @@
         "index": "eldritch-invocation-otherworldly-leap",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Salto de Outromundo",
+        "name": "Invocação Mística: Salto Transcendental",
         "level": 9,
         "prerequisites": [
             {
@@ -3286,11 +3286,11 @@
             }
         ],
         "desc": [
-            "Você pode pular de vontade para si mesmo, sem gastar um slot de feitiço ou componentes materiais."
+            "Você pode conjurar salto em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-otherworldly-leap"
@@ -3299,10 +3299,10 @@
         "index": "eldritch-invocation-repelling-blast",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Explosão Repelente",
+        "name": "Invocação Mística: Explosão Repulsiva",
         "level": 2,
         "prerequisites": [
             {
@@ -3311,11 +3311,11 @@
             }
         ],
         "desc": [
-            "Quando você bate numa criatura com a explosão do eldrich, você pode empurrar a criatura para até 10 metros de distância em linha reta."
+            "Quando você atingir uma criatura com uma rajada mística, você pode empurrar a criatura até 3 metros para longe de você em linha reta."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-repelling-blast"
@@ -3324,10 +3324,10 @@
         "index": "eldritch-invocation-sculptor-of-flesh",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Escultor da carne",
+        "name": "Invocação Mística: Escultor de Carne",
         "level": 7,
         "prerequisites": [
             {
@@ -3336,11 +3336,11 @@
             }
         ],
         "desc": [
-            "Você pode usar polimorph uma vez usando um espaço ortográfico de bloqueio. Você não pode fazer isso novamente até terminar um descanso longo."
+            "Você pode conjurar metamorfose, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-sculptor-of-flesh"
@@ -3349,10 +3349,10 @@
         "index": "eldritch-invocation-sign-of-ill-omen",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Sinal de Ill Omen",
+        "name": "Invocação Mística: Sinal de Mau Agouro",
         "level": 5,
         "prerequisites": [
             {
@@ -3361,11 +3361,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar a maldição uma vez usando um slot de feitiço de bloqueio de guerra. Você não pode fazer isso novamente até terminar um descanso longo."
+            "Você pode conjurar rogar maldição, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-sign-of-ill-omen"
@@ -3374,18 +3374,18 @@
         "index": "eldritch-invocation-thief-of-five-fates",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Ladrão de Cinco Fates",
+        "name": "Invocação Mística: Larápio dos Cinco Destinos",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode banir uma vez usando um slot de feitiço de bloqueio de guerra. Você não pode fazer isso novamente até terminar um descanso longo."
+            "Você pode conjurar perdição, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-thief-of-five-fates"
@@ -3394,10 +3394,10 @@
         "index": "eldritch-invocation-thirsting-blade",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Sede de Lâmina",
+        "name": "Invocação Mística: Lâmina Sedenta",
         "level": 5,
         "prerequisites": [
             {
@@ -3410,11 +3410,11 @@
             }
         ],
         "desc": [
-            "Você pode atacar com sua arma de pacto duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno."
+            "Você pode atacar com sua arma do pacto duas vezes, ao invés de apenas uma, quando você usa a ação de Ataque no seu turno."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-thirsting-blade"
@@ -3423,10 +3423,10 @@
         "index": "eldritch-invocation-visions-of-distant-realms",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Visão de Reinos Distantes",
+        "name": "Invocação Mística: Visão de Reinos Distantes",
         "level": 15,
         "prerequisites": [
             {
@@ -3435,11 +3435,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar olhos arcanos à vontade, sem gastar um slot de feitiço."
+            "Você pode conjurar olho arcano, à vontade, sem precisar gastar um espaço de magia."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-visions-of-distant-realms"
@@ -3448,10 +3448,10 @@
         "index": "eldritch-invocation-voice-of-the-chain-master",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação do Eldritch: Voz do Mestre em Cadeia",
+        "name": "Invocação Mística: Voz do Mestre das Correntes",
         "level": 2,
         "prerequisites": [
             {
@@ -3460,12 +3460,12 @@
             }
         ],
         "desc": [
-            "Você pode comunicar telepaticamente com sua familiaridade e perceber através dos sentidos de seu familiar, contanto que você esteja no mesmo plano de existência.",
-            "Além disso, enquanto percebe através dos sentidos de seu familiar, pode-se também falar através da vossa familiaridade a voz, mesmo que a vossa conhecida seja normalmente incapaz de falar."
+            "Você pode se comunicar telepaticamente com seu familiar e perceber através dos sentidos do seu familiar enquanto ambos estiverem no mesmo plano de existência.",
+            "Além disso, enquanto estiver percebendo através dos sentidos do seu familiar, você também poderá falar através dele com a sua voz, mesmo que seu familiar, normalmente, seja incapaz de falar."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-voice-of-the-chain-master"
@@ -3474,10 +3474,10 @@
         "index": "eldritch-invocation-whispers-of-the-grave",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocação de Eldritch: Sussurros do túmulo",
+        "name": "Invocação Mística: Sussurros da Sepultura",
         "level": 9,
         "prerequisites": [
             {
@@ -3486,11 +3486,11 @@
             }
         ],
         "desc": [
-            "Você pode lançar falar com mortos a vontade, sem gastar um slot de feitiço."
+            "Você pode conjurar falar com os mortos, à vontade, sem precisar gastar um espaço de magia"
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-whispers-of-the-grave"
@@ -3499,10 +3499,10 @@
         "index": "eldritch-invocation-witch-sight",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Interrupção do Eldritch: Visão da Bruxa",
+        "name": "Invocação Mística: Visão da Bruxa",
         "level": 15,
         "prerequisites": [
             {
@@ -3511,11 +3511,11 @@
             }
         ],
         "desc": [
-            "Você pode ver a verdadeira forma de qualquer forma de trocador ou criatura escondida pela ilusão ou magia de transmutação enquanto a criatura está com 30 pés de você e dentro da linha de visão."
+            "Você pode ver a verdadeira forma de qualquer metamorfo ou criatura oculta através de magias de ilusão ou transmutação contanto que a criatura esteja a até 9 metros de você e você tenha linha de visão."
         ],
         "parent": {
             "index": "eldritch-invocations",
-            "name": "Invocações de Eldritch",
+            "name": "Invocações Místicas",
             "url": "/api/features/eldritch-invocations"
         },
         "url": "/api/features/eldritch-invocation-witch-sight"
@@ -3524,172 +3524,172 @@
         "index": "eldritch-invocations",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Invocações de Eldritch",
+        "name": "Invocações Místicas",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "No seu estudo sobre o pão oculto, invocações desenterradas do eldritch, fragmentos de conhecimento proibido que o imbuem de uma habilidade mágica respeitável.",
-            "No segundo nível, você ganha duas invocações eldritch de sua escolha. Suas opções de invocação são detalhadas no final da descrição da classe. Quando você ganha certos níveis de bloqueio de guerra, você recebe chamadas adicionais de sua escolha, conforme mostrado na coluna Conhecida da tabela do Bruxo.",
-            "Além disso, quando você ganha um nível nesta aula, você pode escolher uma das invocações que conhece e substituí-la por outra invocação que possa aprender a esse nível."
+            "Durante seus estudos sobre conhecimento oculto, você descobriu as invocações místicas, fragmentos de conhecimento proibido que infundiram você com habilidade mágica permanente.",
+            "No 2° nível, você ganha duas invocações místicas, à sua escolha. Suas opções de invocação estão detalhadas no final da descrição dessa classe. Quando você atinge certos nível de bruxo, você adquire novas invocações à sua escolha, como mostrado na coluna Invocações Conhecidas na tabela O Bruxo.",
+            "Além disso, quando você adquire um novo nível nessa classe, você pode escolher uma invocação que você conheça e substituí-la por outra invocação que você possa aprender nesse nível."
         ],
         "feature_specific": {
             "invocations": [
                 {
                     "index": "eldritch-invocation-agonizing-blast",
-                    "name": "Invocação de Eldritch: Explosão Agonizante",
+                    "name": "Invocação Mística: Explosão Agonizante",
                     "url": "/api/features/eldritch-invocation-agonizing-blast"
                 },
                 {
                     "index": "eldritch-invocation-armor-of-shadows",
-                    "name": "Invocação de Eldritch: Armadura de Sombras",
+                    "name": "Invocação Mística: Armadura de Sombras",
                     "url": "/api/features/eldritch-invocation-armor-of-shadows"
                 },
                 {
                     "index": "eldritch-invocation-beast-speech",
-                    "name": "Invocação do Eldritch: Fala da Besta",
+                    "name": "Invocação Mística: Idioma Bestial",
                     "url": "/api/features/eldritch-invocation-beast-speech"
                 },
                 {
                     "index": "eldritch-invocation-beguiling-influence",
-                    "name": "Invocação do Eldritch: Influência do Beguiling",
+                    "name": "Invocação Mística: Influência Enganadora",
                     "url": "/api/features/eldritch-invocation-beguiling-influence"
                 },
                 {
                     "index": "eldritch-invocation-book-of-ancient-secrets",
-                    "name": "Invocação do Eldritch: Livro dos Segredos Antigos",
+                    "name": "Invocação Mística: Livro de Segredos Antigos",
                     "url": "/api/features/eldritch-invocation-book-of-ancient-secrets"
                 },
                 {
                     "index": "eldritch-invocation-devils-sight",
-                    "name": "Invocação do Eldritch: Visão do Demônio",
+                    "name": "Invocação Mística: Visão Diabólica",
                     "url": "/api/features/eldritch-invocation-devils-sight"
                 },
                 {
                     "index": "eldritch-invocation-eldritch-sight",
-                    "name": "Invocação do Eldritch: Visão do Eldritch",
+                    "name": "Invocação Mística: Visão Mística",
                     "url": "/api/features/eldritch-invocation-eldritch-sight"
                 },
                 {
                     "index": "eldritch-invocation-eldritch-spear",
-                    "name": "Invocação do Eldritch: Lança do Eldritch",
+                    "name": "Invocação Mística: Lança Mística",
                     "url": "/api/features/eldritch-invocation-eldritch-spear"
                 },
                 {
                     "index": "eldritch-invocation-eyes-of-the-rune-keeper",
-                    "name": "Invocação de Eldritch: Olhos do Guardião da Runa",
+                    "name": "Invocação Mística: Olhos do Guardião das Runas",
                     "url": "/api/features/eldritch-invocation-eyes-of-the-rune-keeper"
                 },
                 {
                     "index": "eldritch-invocation-fiendish-vigor",
-                    "name": "Invocação de Eldritch: Vigor Fiendish",
+                    "name": "Invocação Mística: Vigor Abissal",
                     "url": "/api/features/eldritch-invocation-fiendish-vigor"
                 },
                 {
                     "index": "eldritch-invocation-gaze-of-two-minds",
-                    "name": "Invocação de Eldritch: Olhar de Duas Mentes",
+                    "name": "Invocação Mística: Olhar de Duas Mentes",
                     "url": "/api/features/eldritch-invocation-gaze-of-two-minds"
                 },
                 {
                     "index": "eldritch-invocation-mask-of-many-faces",
-                    "name": "Invocação de Eldritch: Máscara de muitos rostos",
+                    "name": "Invocação Mística: Máscara das Muitas Faces",
                     "url": "/api/features/eldritch-invocation-mask-of-many-faces"
                 },
                 {
                     "index": "eldritch-invocation-misty-visions",
-                    "name": "Invocação do Eldritch: Visão Negra",
+                    "name": "Invocação Mística: Visão nas Brumas",
                     "url": "/api/features/eldritch-invocation-misty-visions"
                 },
                 {
                     "index": "eldritch-invocation-repelling-blast",
-                    "name": "Invocação do Eldritch: Explosão Repelente",
+                    "name": "Invocação Mística: Explosão Repulsiva",
                     "url": "/api/features/eldritch-invocation-repelling-blast"
                 },
                 {
                     "index": "eldritch-invocation-thief-of-five-fates",
-                    "name": "Invocação de Eldritch: Ladrão de Cinco Fates",
+                    "name": "Invocação Mística: Larápio dos Cinco Destinos",
                     "url": "/api/features/eldritch-invocation-thief-of-five-fates"
                 },
                 {
                     "index": "eldritch-invocation-voice-of-the-chain-master",
-                    "name": "Invocação do Eldritch: Voz do Mestre em Cadeia",
+                    "name": "Invocação Mística: Voz do Mestre das Corrnetes",
                     "url": "/api/features/eldritch-invocation-voice-of-the-chain-master"
                 },
                 {
                     "index": "eldritch-invocation-mire-the-mind",
-                    "name": "Invocação do Eldritch: Mire the Mind",
+                    "name": "Invocação Mística: Encharcar Mente",
                     "url": "/api/features/eldritch-invocation-mire-the-mind"
                 },
                 {
                     "index": "eldritch-invocation-one-with-shadows",
-                    "name": "Invocação do Eldritch: Um com Sombras",
+                    "name": "Invocação Mística: Uno com as Sombras",
                     "url": "/api/features/eldritch-invocation-one-with-shadows"
                 },
                 {
                     "index": "eldritch-invocation-sign-of-ill-omen",
-                    "name": "Invocação do Eldritch: Sinal de Ill Omen",
+                    "name": "Invocação Mística: Sinal de Mau Agouro",
                     "url": "/api/features/eldritch-invocation-sign-of-ill-omen"
                 },
                 {
                     "index": "eldritch-invocation-thirsting-blade",
-                    "name": "Invocação de Eldritch: Sede de Lâmina",
+                    "name": "Invocação Mística: Lâmina Sedenta",
                     "url": "/api/features/eldritch-invocation-thirsting-blade"
                 },
                 {
                     "index": "eldritch-invocation-bewitching-whispers",
-                    "name": "Invocação de Eldritch: Sussurros Encantadores",
+                    "name": "Invocação Mística: Sussurros Sedutores",
                     "url": "/api/features/eldritch-invocation-bewitching-whispers"
                 },
                 {
                     "index": "eldritch-invocation-dreadful-word",
-                    "name": "Invocação de Eldritch: Palavra terrível",
+                    "name": "Invocação Mística: Palavra Terrível",
                     "url": "/api/features/eldritch-invocation-dreadful-word"
                 },
                 {
                     "index": "eldritch-invocation-sculptor-of-flesh",
-                    "name": "Invocação de Eldritch: Escultor da carne",
+                    "name": "Invocação Mística: Escultor de Carne",
                     "url": "/api/features/eldritch-invocation-sculptor-of-flesh"
                 },
                 {
                     "index": "eldritch-invocation-ascendant-step",
-                    "name": "Invocação do Eldritch: Etapa Ascendente",
+                    "name": "Invocação Mística: Passo Ascendente",
                     "url": "/api/features/eldritch-invocation-ascendant-step"
                 },
                 {
                     "index": "eldritch-invocation-minions-of-chaos",
-                    "name": "Invocação de Eldritch: Minions do Caos",
+                    "name": "Invocação Mística: Lacaios do Caos",
                     "url": "/api/features/eldritch-invocation-minions-of-chaos"
                 },
                 {
                     "index": "eldritch-invocation-otherworldly-leap",
-                    "name": "Invocação de Eldritch: Salto de Outromundo",
+                    "name": "Invocação Mística: Salto Transcendental",
                     "url": "/api/features/eldritch-invocation-otherworldly-leap"
                 },
                 {
                     "index": "eldritch-invocation-whispers-of-the-grave",
-                    "name": "Invocação de Eldritch: Sussurros do túmulo",
+                    "name": "Invocação Mística: Sussurros da Sepultura",
                     "url": "/api/features/eldritch-invocation-whispers-of-the-grave"
                 },
                 {
                     "index": "eldritch-invocation-lifedrinker",
-                    "name": "Invocação do Eldritch: Eliedrinker",
+                    "name": "Invocação Mística: Sorvedor de Vida",
                     "url": "/api/features/eldritch-invocation-lifedrinker"
                 },
                 {
                     "index": "eldritch-invocation-chains-of-carceri",
-                    "name": "Invocação do Eldritch: Correntes de Carceri",
+                    "name": "Invocação Mística: Correntes de Carceri",
                     "url": "/api/features/eldritch-invocation-chains-of-carceri"
                 },
                 {
                     "index": "eldritch-invocation-master-of-myriad-forms",
-                    "name": "Invocação de Eldritch: Mestre das Formas Myriad",
+                    "name": "Invocação Mística: Mestre das Infindáveis Formas",
                     "url": "/api/features/eldritch-invocation-master-of-myriad-forms"
                 },
                 {
                     "index": "eldritch-invocation-visions-of-distant-realms",
-                    "name": "Invocação do Eldritch: Visão de Reinos Distantes",
+                    "name": "Invocação Mística: Visão de Reinos Distantes",
                     "url": "/api/features/eldritch-invocation-visions-of-distant-realms"
                 },
                 {
@@ -3705,15 +3705,15 @@
         "index": "eldritch-master",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Mestre Eldritch",
+        "name": "Mestre Místico",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "Ao nível 20, você pode utilizar sua reserva interna de poder místico enquanto pede ao seu patrono para recuperar um slot de feitiço gasto. Você pode gastar 1 minuto pedindo seu patrono para obter ajuda para recuperar todos os seus slots de feitiços gastos de seu recurso Magia do Pacto.",
-            "Depois de recuperar o slot ortográfico com este recurso, você deve terminar um descanso longo antes de poder fazer isso novamente."
+            "No 20° nível, você pode recarregar sua reserva interior de poder místico quando suplicar ao seu patrono para recuperar espaços de magia gastos. Você pode gastar 1 minuto suplicando pela ajuda do seu patrono para recuperar todos os espaços de magia gastos da sua característica Magia de Pacto.",
+            "Uma vez que você recuperou espaços de magia com essa característica, você deve terminar um descanso longo antes de fazê-lo novamente."
         ],
         "url": "/api/features/eldritch-master"
     },
@@ -3721,19 +3721,19 @@
         "index": "elemental-affinity",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "subclass": {
             "index": "draconic",
-            "name": "Draconic",
+            "name": "Linhagem Draconica",
             "url": "/api/subclasses/draconic"
         },
         "name": "Afinidade Elemental",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando no 6° nível, quando você lança um feitiço que causa dano do tipo associado à sua ascendência dracônica, você pode adicionar seu modificador Charisma a uma rolagem desse feitiço. Ao mesmo tempo, você pode gastar 1 ponto de feitiçaria para ganhar resistência a esse tipo de dano por 1 hora."
+            "A partir do 6° nível, quando você conjurar uma magia que cause dano do tipo associado ao seu ancestral dracônico, adicione seu modificador de Carisma ao dano. Ao mesmo tempo, você pode gastar 1 ponto de feitiçaria para ganhar resistência a esse tipo de dano por 1 hora. O bônus de dano se aplica a uma única rolagem de dano da magia, não à diversas rolagens."
         ],
         "reference": "/api/subclasses/draconic",
         "url": "/api/features/elemental-affinity"
@@ -3742,14 +3742,14 @@
         "index": "elusive",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Elusivo",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Começando ao nível 18, você é tão evasivo que atacantes raramente ganham vantagem contra você. Nenhuma rolagem de ataque tem vantagem contra você enquanto você não está incapacitado."
+            "A partir do 18º nível, você se torna tão sagaz que raramente alguém encosta a mão em você. Nenhuma jogada de ataque tem vantagem contra você, desde que você não esteja incapacitado."
         ],
         "url": "/api/features/elusive"
     },
@@ -3757,19 +3757,19 @@
         "index": "empowered-evocation",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
             "index": "evocation",
-            "name": "Evocação",
+            "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
-        "name": "Evocação Fortalecida",
+        "name": "Evocação Potencializada",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Começando no nível 10, você pode adicionar seu modificador de Inteligência a uma rolagem de dano de qualquer feitiço de evocação de assistente que você lançar."
+            "A partir do 10º nível, você pode adicionar seu modificador de Inteligência no resultado das jogadas de dano de qualquer magia de evocação de mago que você conjurar. O bonus de dano se aplica a uma rolagem de dano da magia, não à múltiplas rolagens."
         ],
         "url": "/api/features/empowered-evocation"
     },
@@ -3784,8 +3784,8 @@
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 18, você pode usar sua ação para gastar 4 pontos em ki para se tornar invisível por 1 minuto. Durante esse tempo, você também tem resistência a todos os danos, mas força o dano.",
-            "Além disso, você pode gastar 8 pontos de ki para lançar o feitiço de projeção astronômica, sem precisar de componentes materiais. Quando você fizer isso, você não pode levar outras criaturas com você."
+            "A partir do 18° nível, você pode usar sua ação para gastar 4 pontos de chi e ficar invisível por 1 minuto. Durante esse tempo, você também adquire resistência a todos os danos, exceto dano de energia.",
+            "Além disso, você pode gastar 8 pontos de chi para conjurar a magia projeção astral, sem precisar de componentes materiais. Quando o fizer, você não pode levar qualquer outra criatura com você."
         ],
         "url": "/api/features/empty-body"
     },
@@ -3793,19 +3793,19 @@
         "index": "evocation-savant",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
             "index": "evocation",
-            "name": "Evocação",
+            "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
-        "name": "Sábio de Evocação",
+        "name": "Evocação Instruída",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Começa quando você seleciona esta escola ao segundo nível o ouro e o tempo que você deve gastar para copiar um feitiço de evocação no seu livro de feitiços são reduzidos pela metade."
+            "Quando você escolhe essa escola no 2º nível, o ouro e o tempo que você precisa gastar para copiar uma magia da escola de evocação em seu grimório é reduzido à metade."
         ],
         "url": "/api/features/evocation-savant"
     },
@@ -3820,7 +3820,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno. O número de ataques aumenta para três quando você alcança o décimo primeiro nível nesta aula e para quatro quando você atinge o quinto nível nesta classe."
+            "A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, quando usar a ação de Ataque durante seu turno. O número de ataques aumenta para três quando você alcançar o 11º nível de guerreiro e para quatro quando alcançar o 20º nível de guerreiro."
         ],
         "url": "/api/features/extra-attack-1"
     },
@@ -3835,7 +3835,7 @@
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno. O número de ataques aumenta para três quando você alcança o décimo primeiro nível nesta aula e para quatro quando você atinge o quinto nível nesta classe."
+            "A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, quando usar a ação de Ataque durante seu turno. O número de ataques aumenta para três quando você alcançar o 11º nível de guerreiro e para quatro quando alcançar o 20º nível de guerreiro."
         ],
         "url": "/api/features/extra-attack-2"
     },
@@ -3850,7 +3850,7 @@
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno. O número de ataques aumenta para três quando você alcança o décimo primeiro nível nesta aula e para quatro quando você atinge o quinto nível nesta classe."
+            "A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, quando usar a ação de Ataque durante seu turno. O número de ataques aumenta para três quando você alcançar o 11º nível de guerreiro e para quatro quando alcançar o 20º nível de guerreiro."
         ],
         "url": "/api/features/extra-attack-3"
     },
@@ -3858,7 +3858,7 @@
         "index": "fast-hands",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -3870,7 +3870,7 @@
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "A partir do terceiro nível, você pode usar a ação bônus concedida pela sua ação Astúcia para verificar a Agilidade (Visão de Mão), usar as ferramentas de seus ladrões para desarmar uma armadilha ou abrir um trama, ou usar uma ação de objeto."
+            "A partir do 3º nível, você pode usar a sua ação bônus concedida pela Ação Ardilosa para fazer um teste de Destreza (Prestidigitação), usar suas ferramentas de ladrão para desarmar uma armadilha ou abrir uma fechadura, ou realizar a ação de Usar um Objeto."
         ],
         "url": "/api/features/fast-hands"
     },
@@ -3885,7 +3885,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando no quinto nível, sua velocidade aumenta em 10 pés enquanto você não está usando uma armadura pesada."
+            "Começando no 5° nível, seu deslocamento aumenta em 3 metros enquanto você não estiver vestindo uma armadura pesada."
         ],
         "url": "/api/features/fast-movement"
     },
@@ -3893,18 +3893,17 @@
         "index": "favored-enemy-1-type",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Inimigo favorito (1 tipo)",
+        "name": "Inimigo Favorito (1 tipo)",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Começando ao primeiro nível, você tem uma experiência significativa de estudar, rastrear, caçar, e até mesmo falar com um certo tipo de inimigo.",
-            "Escolha um tipo de inimigo preferido: aberrações, feras, celestiais, construções, dragões, elementos, fé, fogões, gigantes, monstruozes, plantas ou mortos-vivos. Como alternativa, você pode selecionar duas raças de humanoide (como gnolls e orcs) como inimigos preferidos.",
-            "Você tem vantagem na sabedoria (Survival) para rastrear seus inimigos favoritos, bem como verificações de inteligência para relembrar informações sobre eles.",
-            "Quando você ganha esse recurso, você também aprende uma língua de sua escolha que é falada por seus inimigos favoritos, se eles falarem um pouco.",
-            "Você escolhe mais um inimigo favorito, assim como um idioma associado, ao nível 6 e 14 de nível. Conforme você ganha níveis, suas escolhas devem refletir os tipos de monstros que você encontrou em suas aventuras."
+            "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
+            "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
+            "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
         ],
         "url": "/api/features/favored-enemy-1-type"
     },
@@ -3912,18 +3911,17 @@
         "index": "favored-enemy-2-types",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Inimigo favorito (2 tipos)",
+        "name": "Inimigo Favorito (2 tipos)",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando ao primeiro nível, você tem uma experiência significativa de estudar, rastrear, caçar, e até mesmo falar com um certo tipo de inimigo.",
-            "Escolha um tipo de inimigo preferido: aberrações, feras, celestiais, construções, dragões, elementos, fé, fogões, gigantes, monstruozes, plantas ou mortos-vivos. Como alternativa, você pode selecionar duas raças de humanoide (como gnolls e orcs) como inimigos preferidos.",
-            "Você tem vantagem na sabedoria (Survival) para rastrear seus inimigos favoritos, bem como verificações de inteligência para relembrar informações sobre eles.",
-            "Quando você ganha esse recurso, você também aprende uma língua de sua escolha que é falada por seus inimigos favoritos, se eles falarem um pouco.",
-            "Você escolhe mais um inimigo favorito, assim como um idioma associado, ao nível 6 e 14 de nível. Conforme você ganha níveis, suas escolhas devem refletir os tipos de monstros que você encontrou em suas aventuras."
+            "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
+            "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
+            "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
         ],
         "url": "/api/features/favored-enemy-2-types"
     },
@@ -3931,18 +3929,17 @@
         "index": "favored-enemy-3-enemies",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Inimigo Favorecido (3 inimigos)",
+        "name": "Inimigo Favorito (3 inimigos)",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Começando ao primeiro nível, você tem uma experiência significativa de estudar, rastrear, caçar, e até mesmo falar com um certo tipo de inimigo.",
-            "Escolha um tipo de inimigo preferido: aberrações, feras, celestiais, construções, dragões, elementos, fé, fogões, gigantes, monstruozes, plantas ou mortos-vivos. Como alternativa, você pode selecionar duas raças de humanoide (como gnolls e orcs) como inimigos preferidos.",
-            "Você tem vantagem na sabedoria (Survival) para rastrear seus inimigos favoritos, bem como verificações de inteligência para relembrar informações sobre eles.",
-            "Quando você ganha esse recurso, você também aprende uma língua de sua escolha que é falada por seus inimigos favoritos, se eles falarem um pouco.",
-            "Você escolhe mais um inimigo favorito, assim como um idioma associado, ao nível 6 e 14 de nível. Conforme você ganha níveis, suas escolhas devem refletir os tipos de monstros que você encontrou em suas aventuras."
+            "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
+            "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
+            "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
         ],
         "url": "/api/features/favored-enemy-3-enemies"
     },
@@ -3957,8 +3954,8 @@
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "No nível 7, os seus instintos são tão nivelados que têm vantagens em rolos de iniciativa.",
-            "Além disso, se você estiver surpreso com o começo do combate e não estiver incapacitado, você pode agir normalmente no seu primeiro turno, mas somente se você entrar na sua fúria antes de fazer qualquer coisa naquela vez."
+            "No 7° nível, seu instinto está tão apurado que você recebe vantagem nas jogadas de iniciativa.",
+            "Além disso, se você estiver surpreso no começo de um combate e não estiver incapacitado, você pode agir normalmente no seu primeiro turno, mas apenas se você entrar em fúria antes de realizar qualquer outra coisa neste turno."
         ],
         "url": "/api/features/feral-instinct"
     },
@@ -3966,15 +3963,15 @@
         "index": "feral-senses",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Sentidos Selvagens",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Ao nível 18 você ganha sensos pré-naturais que o ajudam a combater criaturas que você não consegue ver. Quando você ataca uma criatura que você não pode ver, sua incapacidade de vê-lo não impõe desvantagem em suas rodadas de ataque contra ela.",
-            "Você também está ciente da localização de qualquer criatura invisível a 30 pés de você, desde que a criatura não seja escondida de você e você não seja cego ou surdo."
+            "No 18° nível, você ganha sentidos preternaturais que o ajudam a lutar contra criaturas que você não pode ver. Quando você atacar uma criatura que você não possa ver, sua incapacidade em vê-la não impõem desvantagem nas suas jogadas de ataque contra ela.",
+            "Você também está ciente da localização de qualquer criatura invisível a até 9 metros de você, considerando que a criatura não esteja se escondendo de você e você não esteja cego ou surdo."
         ],
         "url": "/api/features/feral-senses"
     },
@@ -3982,19 +3979,19 @@
         "index": "fiendish-resilience",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
-        "name": "Resiliência Diabólica",
+        "name": "Resistência Demoníaca",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 10, você pode escolher um tipo de dano quando terminar um descanso curto ou longo. Você recebe resistência a esse tipo de dano até escolher um diferente com esse recurso. O dano causado por armas mágicas ou armas de prata ignora essa resistência."
+            "A partir do 10° nível, você pode escolher um tipo de dano quando você terminar um descanso curto ou longo. Você adquire resistência contra esse tipo de dano até você escolher um tipo de dano diferente com essa característica. Dano causado por armas mágicas ou armas de prata ignoram essa resistência."
         ],
         "url": "/api/features/fiendish-resilience"
     },
@@ -4009,7 +4006,7 @@
         "level": 4,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-1"
     },
@@ -4024,7 +4021,7 @@
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-2"
     },
@@ -4039,7 +4036,7 @@
         "level": 8,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-3"
     },
@@ -4054,7 +4051,7 @@
         "level": 12,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-4"
     },
@@ -4069,7 +4066,7 @@
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-5"
     },
@@ -4084,7 +4081,7 @@
         "level": 16,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-6"
     },
@@ -4099,7 +4096,7 @@
         "level": 19,
         "prerequisites": [],
         "desc": [
-            "Quando você alcança o quarto nível, e novamente aos níveis 6th, 8, 12, 14 e 16 e 19 você pode aumentar uma pontuação de habilidade de sua escolha por 2, ou você pode aumentar duas pontuações de sua escolha por 1. Como normal, você não pode aumentar uma pontuação de habilidade acima de 20 usando esse recurso."
+            "Quando você atinge o 4° nível e novamente no 6°, 8°, 12°,  14°, 16° e 19° nível, você pode aumentar um valor de  habilidade, à sua escolha, em 2 ou você pode aumentar  dois valores de habilidade, à sua escolha, em 1. Como  padrão, você não pode elevar um valor de habilidade  acima de 20 com essa característica."
         ],
         "url": "/api/features/fighter-ability-score-improvement-7"
     },
@@ -4110,11 +4107,11 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo do Combate",
+        "name": "Estilo de Luta",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Você não pode escolher uma opção de Estilo de Combate mais de uma vez, mesmo que mais tarde você escolha novamente."
+            "Você adota um estilo de combate particular que será sua especialidade. Escolha uma das opções a seguir. Você não pode escolher o mesmo Estilo de Combate mais de uma vez, mesmo se puder escolher de novo."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -4127,7 +4124,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-archery",
-                                "name": "Estilo de Combate: Arqueiro",
+                                "name": "Estilo de Luta: Arquearia",
                                 "url": "/api/features/fighter-fighting-style-archery"
                             }
                         },
@@ -4135,7 +4132,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-defense",
-                                "name": "Estilo de Combate: Defesa",
+                                "name": "Estilo de Luta: Defesa",
                                 "url": "/api/features/fighter-fighting-style-defense"
                             }
                         },
@@ -4143,7 +4140,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-dueling",
-                                "name": "Estilo de Combate: Duelagem",
+                                "name": "Estilo de Luta: Duelismo",
                                 "url": "/api/features/fighter-fighting-style-dueling"
                             }
                         },
@@ -4151,7 +4148,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-great-weapon-fighting",
-                                "name": "Estilo de Combate: Luta com Grande Arma",
+                                "name": "Estilo de Luta: Combate com Armas Grandes",
                                 "url": "/api/features/fighter-fighting-style-great-weapon-fighting"
                             }
                         },
@@ -4159,7 +4156,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-protection",
-                                "name": "Estilo de Combate: Proteção",
+                                "name": "Estilo de Luta: Proteção",
                                 "url": "/api/features/fighter-fighting-style-protection"
                             }
                         },
@@ -4167,7 +4164,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighter-fighting-style-two-weapon-fighting",
-                                "name": "Estilo de Combate: Luta em Duas Armas",
+                                "name": "Estilo de Luta: Combate com Duas Armas",
                                 "url": "/api/features/fighter-fighting-style-two-weapon-fighting"
                             }
                         }
@@ -4184,15 +4181,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Arqueiro",
+        "name": "Estilo de Luta: Arquearia",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Você recebe um bônus de +2 para atacar espólios que fizer com armas de longo alcance."
+            "Você ganha +2 de bônus nas jogadas de ataque realizadas com uma arma de ataque à distância."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-archery"
@@ -4204,15 +4201,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Defesa",
+        "name": "Estilo de Luta: Defesa",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Enquanto você estiver usando armadura, você ganha um bônus de +1 para AC."
+            "Enquanto estiver usando armadura, você ganha +1 de bônus em sua CA."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-defense"
@@ -4224,15 +4221,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Duelagem",
+        "name": "Estilo de Luta: Duelismo",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Quando você estiver empunhando uma arma branca em uma mão e sem outras armas, você ganha um bônus de +2 para causar dano com a arma."
+            "Quando você empunhar uma arma de ataque corpo-a-corpo em uma mão e nenhuma outra arma, você ganha +2 de bônus nas jogadas de dano com essa arma."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-dueling"
@@ -4244,15 +4241,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Luta com Grande Arma",
+        "name": "Estilo de Luta: Combate com Armas Grandes",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Quando você joga 1 ou 2 de dano por um ataque, você faz com uma arma branca empunhando com duas mãos, você pode rolar o dado e deve usar a nova rolagem, mesmo que a nova rolagem seja 1 ou 2. A arma deve ter a propriedade de duas mãos ou versáteis para você ganhar esse benefício."
+            "Quando você rolar um 1 ou um 2 num dado de dano de um ataque com arma corpo-a-corpo que você esteja empunhando com duas mãos, você pode rolar o dado novamente e usar a nova rolagem, mesmo que resulte em 1 ou 2. A arma deve ter a propriedade duas mãos ou versátil para ganhar esse benefício."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-great-weapon-fighting"
@@ -4264,15 +4261,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Proteção",
+        "name": "Estilo de Luta: Proteção",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Quando uma criatura você pode ver ataques um alvo diferente de você, que está a 5 pés de você, você pode usar sua reação para impor desvantagem no rolo de ataque. Você deve estar empunhando um escudo."
+            "Quando uma criatura que você possa ver atacar um alvo que esteja a até 1,5 metro de você, você pode usar sua reação para impor desvantagem na jogada de ataque da criatura. Você deve estar empunhando um escudo."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-protection"
@@ -4284,15 +4281,15 @@
             "name": "Guerreiro",
             "url": "/api/classes/fighter"
         },
-        "name": "Estilo de Combate: Luta em Duas Armas",
+        "name": "Estilo de Luta: Combate com Duas Armas",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Quando você luta com duas armas, pode adicionar seu modificador de habilidade ao dano do segundo ataque."
+            "Quando você estiver engajado em uma luta com duas armas, você pode adicionar o seu modificador de habilidade de dano na jogada de dano de seu segundo ataque."
         ],
         "parent": {
             "index": "fighter-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/fighter-fighting-style"
         },
         "url": "/api/features/fighter-fighting-style-two-weapon-fighting"
@@ -4304,15 +4301,15 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Estilo de Combate: Defesa",
+        "name": "Estilo de Luta: Defesa",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Enquanto você estiver usando armadura, você ganha um bônus de +1 para AC."
+            "Enquanto estiver usando armadura, você ganha +1 de bônus em sua CA."
         ],
         "parent": {
             "index": "paladin-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/paladin-fighting-style"
         },
         "url": "/api/features/fighting-style-defense"
@@ -4324,15 +4321,15 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Estilo de Combate: Duelagem",
+        "name": "Estilo de Luta: Duelismo",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Quando você estiver empunhando uma arma branca em uma mão e sem outras armas, você ganha um bônus de +2 para causar dano com a arma."
+            "Quando você empunhar uma arma de ataque corpo-a-corpo em uma mão e nenhuma outra arma, você ganha +2 de bônus nas jogadas de dano com essa arma."
         ],
         "parent": {
             "index": "paladin-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/paladin-fighting-style"
         },
         "url": "/api/features/fighting-style-dueling"
@@ -4344,15 +4341,15 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Estilo de Combate: Luta com Grande Arma",
+        "name": "Estilo de Luta: Combate com Armas Grandes",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Quando você joga 1 ou 2 de dano por um ataque, você faz com uma arma branca empunhando com duas mãos, você pode rolar o dado novamente e precisa usar a nova rolagem. A arma deve ter a propriedade de duas mãos ou versáteis para você ganhar esse benefício."
+            "Quando você rolar um 1 ou um 2 num dado de dano de um ataque com arma corpo-a-corpo que você esteja empunhando com duas mãos, você pode rolar o dado novamente e usar a nova rolagem, mesmo que resulte em 1 ou 2. A arma deve ter a propriedade duas mãos ou versátil para ganhar esse benefício."
         ],
         "parent": {
             "index": "paladin-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/paladin-fighting-style"
         },
         "url": "/api/features/fighting-style-great-weapon-fighting"
@@ -4364,15 +4361,15 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Estilo de Combate: Proteção",
+        "name": "Estilo de Luta: Proteção",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Quando uma criatura você pode ver ataques um alvo diferente de você, que está a 5 pés de você, você pode usar sua reação para impor desvantagem no rolo de ataque. Você deve estar empunhando um escudo."
+            "Quando uma criatura que você possa ver atacar um alvo que esteja a até 1,5 metro de você, você pode usar sua reação para impor desvantagem nas jogadas de ataque da criatura. Você deve estar empunhando um escudo."
         ],
         "parent": {
             "index": "paladin-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/paladin-fighting-style"
         },
         "url": "/api/features/fighting-style-protection"
@@ -4381,14 +4378,14 @@
         "index": "flexible-casting-converting-spell-slot",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Transmissão Flexível: Conversão de Slot de Feitiços",
+        "name": "Conjuração Flexível: Convertendo um Espaço de Magia em Pontos de Feitiçaria",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Como um bônus de ação em sua vez, você pode gastar um slot de feitiço e ganhar um número de pontos de feitiça iguais ao nível do slot."
+            "Com uma ação bônus, no seu turno, você pode gastar um espaço de magia disponível e ganhar uma quantidade de pontos de feitiçaria igual ao nível do espaço."
         ],
         "url": "/api/features/flexible-casting-converting-spell-slot"
     },
@@ -4396,15 +4393,15 @@
         "index": "flexible-casting-creating-spell-slots",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Transmissão Flexível: Criando Slots de Feitiços",
+        "name": "Conjuração Flexível: Criando Espaços de Magia",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode transformar pontos de feitiçaria não gastos em um espaço de feitiço como bônus de ação no seu turno. A tabela de Espaços de Feitiços em Criação mostra o custo de criar um slot de feitiço de um determinado nível. Você não pode criar espaços de feitiço superiores ao nível 5th. ",
-            "Qualquer espaço de feitiço que você criar com este recurso desaparece quando você terminar um longo descanso."
+            "Você pode transformar pontos de fetiçaria disponíveis em um espaço de magia, com uma ação bônus, no seu turno. A tabela Criando Espaços de Magia mostra o custo para criar um espaço de magia de determinado nível. Você não pode criar espaços de magia acima do 5° nível.",
+            "Os espaços de magia criados desaparecem ao final de um descanso longo."
         ],
         "url": "/api/features/flexible-casting-creating-spell-slots"
     },
@@ -4419,7 +4416,7 @@
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Imediatamente após você tomar a ação de Ataque na sua vez, você pode gastar 1 ki ponto para fazer dois golpes desarmados como uma ação de bônus."
+            "Imediatamente após você realizar a ação de Ataque no seu turno, você pode gastar 1 ponto de chi para realizar dois golpes desarmados com uma ação bônus."
         ],
         "url": "/api/features/flurry-of-blows"
     },
@@ -4427,14 +4424,14 @@
         "index": "foe-slayer",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Assassino de Inimigos",
+        "name": "Matador de Inimigos",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "No nível 20, você se torna um caçador incomparável de seus inimigos. Uma vez em cada uma das suas turmas, Você pode adicionar seu modificador de sabedoria à lista de ataque ou o dano causado por um ataque feito contra um de seus inimigos favoritos. Você pode escolher usar este recurso antes ou após a rolagem, mas antes de quaisquer efeitos da rolagem serem aplicados."
+            "No 20° nível, você se torna um caçador incomparável. Uma vez em cada um dos seus turnos, você pode adicionar seu modificador de Sabedoria na jogada de ataque ou jogada de dano de um ataque que você fizer. Você pode escolher usar essa característica antes ou depois da rolagem, mas antes de qualquer efeito da jogada ser aplicado."
         ],
         "url": "/api/features/foe-slayer"
     },
@@ -4445,11 +4442,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Fonte de inspiração",
+        "name": "Fonte de Inspiração",
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando quando você atingir o quinto nível, você recupera todos os seus usos gastos de inspiração bárbara quando você terminar um descanso curto ou longo."
+            "Começando no momento em que você atinge o 5° nível, você recupera todas as utilizações gastas da sua Inspiração de Bardo quando você termina um descanso curto ou longo."
         ],
         "url": "/api/features/font-of-inspiration"
     },
@@ -4457,16 +4454,16 @@
         "index": "font-of-magic",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Fonte Mágica",
+        "name": "Fonte de Magia",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Ao segundo nível, você sobe em uma profunda fonte de magia dentro de si mesmo. Esta progenitor é representada por pontos de feitiçaria, que permitem criar uma variedade de efeitos mágicos.",
-            "Pontos de Feitiço",
-            "Você tem 2 pontos de feitiçaria e ganha mais conforme alcança níveis superiores, conforme mostrado na coluna de Pontos Feiticeiros da mesa do Feiticeiro. Você nunca pode ter mais pontos de feitiçaria do que mostramos na mesa para o seu nível. Você recupera todos os pontos de feitiçaria gastos quando termina um longo descanso."
+            "No 2° nível, você alcança uma profunda fonte de magia dentro de você. Essa fonte é representada pelos pontos de feitiçaria, que permitem que você crie uma variedade de efeitos mágicos.",
+            "Pontos de Feitiçaria",
+            "Você tem 2 pontos de feitiçaria e ganha mais a medida que alcança níveis elevados, como mostrado na coluna Pontos de Feitiçaria da tabela O Feiticeiro. Você nunca poderá ter mais pontos de feitiçaria que os mostrados na tabela para o seu nível. Você recupera todos os pontos de feitiçaria gastos quando termina um descanso longo."
         ],
         "url": "/api/features/font-of-magic"
     },
@@ -4479,14 +4476,14 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "name": "Frenesi",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Iniciando quando você escolhe este caminho no terceiro nível, você pode entrar em um frenesi quando você enfurecer. Se o fizer, durante a sua fúria você pode fazer um único ataque de arma branca como uma ação bônus em cada um dos seus turnos depois deste. Quando sua raiva termina, você sofre um nível de exaustão conforme descrito no apêndice A)."
+            "Começando no momento que você escolhe esse caminho no 3° nível, você pode entrar num frenesi quando estiver em fúria. Se você desejar, pela duração da sua fúria, você pode realizar um único ataque corpo-a-corpo com arma, com uma ação bônus, em cada um de seus turnos após esse. Quando sua fúria acabar, você sofrerá um nível de exaustão (como descrito no apêndice A)."
         ],
         "url": "/api/features/frenzy"
     },
@@ -4494,15 +4491,15 @@
         "index": "hide-in-plain-sight",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Esconder na Visão Simples",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "A partir do décimo nível, você pode gastar 1 minuto criando camuflagem para si mesmo. Você deve ter acesso a lama fresca, terra, plantas, sabão e outros materiais que ocorram naturalmente para criar a sua camuflagem.",
-            "Uma vez que você estiver camuflado desta forma, você pode tentar se esconder, pressionando-se contra uma superfície sólida. como uma árvore ou parede, ela é pelo menos tão alta e grande como você. Você ganha um bônus de +10 para a verificação de Agilidade (Furção) enquanto você permanecer lá sem se mover ou tomar ações. Quando você se mover ou tomar uma ação ou reação, você deve se camuflar novamente para ganhar esse benefício."
+            "A partir do 10° nível, você pode permanecer perfeitamente imóvel por longos períodos de tempo para preparar uma emboscada.",
+            "Quando você tentar se esconder no seu turno, você pode optar por não se mover nesse turno. Se você evitar se mover, criaturas que tentarem detectar você sofrem –10 de penalidade em testes de Sabedoria (Percepção) até o começo do seu próximo turno. Você perde esse benefício caso se mova ou caia no chão, voluntariamente ou por um efeito externo. Você ainda será automaticamente detectado caso algum efeito ou ação faça com que você não esteja mais escondido. Se você ainda estiver escondido no seu turno, você pode continuar imóvel e ganhar esse benefício até ser detectado."
         ],
         "url": "/api/features/hide-in-plain-sight"
     },
@@ -4532,7 +4529,7 @@
         "index": "hunters-prey",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -4590,7 +4587,7 @@
         "index": "hunters-prey-colossus-slayer",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -4615,7 +4612,7 @@
         "index": "hunters-prey-giant-killer",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -4640,7 +4637,7 @@
         "index": "hunters-prey-horde-breaker",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -4665,12 +4662,12 @@
         "index": "hurl-through-hell",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "subclass": {
             "index": "fiend",
-            "name": "Fiend",
+            "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
         "name": "Hurl Através do Inferno",
@@ -4787,7 +4784,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "name": "Presença de Intimização",
@@ -4956,7 +4953,7 @@
         "index": "metamagic-1",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico",
@@ -5047,7 +5044,7 @@
         "index": "metamagic-2",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico",
@@ -5138,7 +5135,7 @@
         "index": "metamagic-3",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico",
@@ -5229,7 +5226,7 @@
         "index": "metamagic-careful-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço cuidadoso",
@@ -5249,7 +5246,7 @@
         "index": "metamagic-distant-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Distante",
@@ -5270,7 +5267,7 @@
         "index": "metamagic-empowered-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Poderoso",
@@ -5291,7 +5288,7 @@
         "index": "metamagic-extended-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágica: Feitiço Estendido",
@@ -5311,7 +5308,7 @@
         "index": "metamagic-heightened-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Afiado",
@@ -5331,7 +5328,7 @@
         "index": "metamagic-quickened-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Veloz",
@@ -5351,7 +5348,7 @@
         "index": "metamagic-subtle-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Sutil",
@@ -5371,7 +5368,7 @@
         "index": "metamagic-twinned-spell",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Metamágico: Feitiço Ganho",
@@ -5392,7 +5389,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "name": "Fúria Infinita",
@@ -5557,7 +5554,7 @@
         "index": "multiattack",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -5606,7 +5603,7 @@
         "index": "multiattack-volley",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -5631,7 +5628,7 @@
         "index": "multiattack-whirlwind-attack",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -5656,7 +5653,7 @@
         "index": "mystic-arcanum-6th-level",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Arcano Místico (6 nível)",
@@ -5673,7 +5670,7 @@
         "index": "mystic-arcanum-7th-level",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Arcano Místico (nível 7)",
@@ -5690,7 +5687,7 @@
         "index": "mystic-arcanum-8th-level",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Arcano Místico (nível 8)",
@@ -5707,7 +5704,7 @@
         "index": "mystic-arcanum-9th-level",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Arcano Místico (9° nível)",
@@ -5724,7 +5721,7 @@
         "index": "natural-explorer-1-terrain-type",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Explorador Natural (1 tipo de terreno)",
@@ -5747,7 +5744,7 @@
         "index": "natural-explorer-2-terrain-types",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Explorador Natural (2 tipos de terreno)",
@@ -5770,7 +5767,7 @@
         "index": "natural-explorer-3-terrain-types",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Explorador Natural (3 tipos de terreno)",
@@ -5893,7 +5890,7 @@
         "index": "otherworldly-patron",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Patrono de Outromundo",
@@ -5908,12 +5905,12 @@
         "index": "overchannel",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
             "index": "evocation",
-            "name": "Evocação",
+            "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
         "name": "Canal",
@@ -5929,7 +5926,7 @@
         "index": "pact-boon",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Boon do Pacto",
@@ -5979,7 +5976,7 @@
         "index": "pact-magic",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Magia do Pacto",
@@ -5995,7 +5992,7 @@
         "index": "pact-of-the-blade",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Pacto da Lâmina",
@@ -6018,7 +6015,7 @@
         "index": "pact-of-the-chain",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Pacto da Cadeia",
@@ -6041,7 +6038,7 @@
         "index": "pact-of-the-tome",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Pacto do Tomo",
@@ -6276,12 +6273,12 @@
         "index": "potent-cantrip",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
             "index": "evocation",
-            "name": "Evocação",
+            "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
         "name": "Lápis Potente",
@@ -6326,7 +6323,7 @@
         "index": "primeval-awareness",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Primeval Prevenção",
@@ -6418,7 +6415,7 @@
         "index": "ranger-ability-score-improvement-1",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6433,7 +6430,7 @@
         "index": "ranger-ability-score-improvement-2",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6448,7 +6445,7 @@
         "index": "ranger-ability-score-improvement-3",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6463,7 +6460,7 @@
         "index": "ranger-ability-score-improvement-4",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6478,7 +6475,7 @@
         "index": "ranger-ability-score-improvement-5",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6493,7 +6490,7 @@
         "index": "ranger-archetype",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Ranger Archetype",
@@ -6508,7 +6505,7 @@
         "index": "ranger-extra-attack",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Ataque Extra",
@@ -6523,7 +6520,7 @@
         "index": "ranger-fighting-style",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Estilo do Combate",
@@ -6581,7 +6578,7 @@
         "index": "ranger-fighting-style-archery",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Estilo de Combate: Arqueiro",
@@ -6592,7 +6589,7 @@
         ],
         "parent": {
             "index": "ranger-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/ranger-fighting-style"
         },
         "url": "/api/features/ranger-fighting-style-archery"
@@ -6601,7 +6598,7 @@
         "index": "ranger-fighting-style-defense",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Estilo de Combate: Defesa",
@@ -6612,7 +6609,7 @@
         ],
         "parent": {
             "index": "ranger-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/ranger-fighting-style"
         },
         "url": "/api/features/ranger-fighting-style-defense"
@@ -6621,7 +6618,7 @@
         "index": "ranger-fighting-style-dueling",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Estilo de Combate: Duelagem",
@@ -6632,7 +6629,7 @@
         ],
         "parent": {
             "index": "ranger-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/ranger-fighting-style"
         },
         "url": "/api/features/ranger-fighting-style-dueling"
@@ -6641,7 +6638,7 @@
         "index": "ranger-fighting-style-two-weapon-fighting",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Estilo de Combate: Luta em Duas Armas",
@@ -6652,7 +6649,7 @@
         ],
         "parent": {
             "index": "ranger-fighting-style",
-            "name": "Estilo do Combate",
+            "name": "Estilo de Luta",
             "url": "/api/features/ranger-fighting-style"
         },
         "url": "/api/features/ranger-fighting-style-two-weapon-fighting"
@@ -6661,7 +6658,7 @@
         "index": "ranger-lands-stride",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Marcha da Terra",
@@ -6708,7 +6705,7 @@
         "index": "reliable-talent",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Talento Confiável",
@@ -6748,7 +6745,7 @@
         },
         "subclass": {
             "index": "berserker",
-            "name": "Berserker",
+            "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
         "name": "Retaliação",
@@ -6763,7 +6760,7 @@
         "index": "rogue-ability-score-improvement-1",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6778,7 +6775,7 @@
         "index": "rogue-ability-score-improvement-2",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6793,7 +6790,7 @@
         "index": "rogue-ability-score-improvement-3",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6808,7 +6805,7 @@
         "index": "rogue-ability-score-improvement-4",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6823,7 +6820,7 @@
         "index": "rogue-ability-score-improvement-5",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6838,7 +6835,7 @@
         "index": "rogue-ability-score-improvement-6",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -6853,7 +6850,7 @@
         "index": "rogue-evasion",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Evasão",
@@ -6868,7 +6865,7 @@
         "index": "rogue-expertise-1",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Experiência",
@@ -7220,7 +7217,7 @@
         "index": "rogue-expertise-2",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Experiência",
@@ -7399,7 +7396,7 @@
         "index": "roguish-archetype",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Arquétipo Jovem",
@@ -7430,12 +7427,12 @@
         "index": "sculpt-spells",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "subclass": {
             "index": "evocation",
-            "name": "Evocação",
+            "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
         "name": "Sculpt Spells",
@@ -7450,7 +7447,7 @@
         "index": "second-story-work",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -7486,7 +7483,7 @@
         "index": "signature-spell",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Feitiço de Assinatura",
@@ -7502,7 +7499,7 @@
         "index": "slippery-mind",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Mente escorregadia",
@@ -7532,7 +7529,7 @@
         "index": "sneak-attack",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Ataque Furtivo",
@@ -7613,7 +7610,7 @@
         "index": "sorcerer-ability-score-improvement-1",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -7628,7 +7625,7 @@
         "index": "sorcerer-ability-score-improvement-2",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -7643,7 +7640,7 @@
         "index": "sorcerer-ability-score-improvement-3",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -7658,7 +7655,7 @@
         "index": "sorcerer-ability-score-improvement-4",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -7673,7 +7670,7 @@
         "index": "sorcerer-ability-score-improvement-5",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -7688,7 +7685,7 @@
         "index": "sorcerous-origin",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Origem Feiticeira",
@@ -7704,7 +7701,7 @@
         "index": "sorcerous-restoration",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Restauração Feiticeira",
@@ -7719,7 +7716,7 @@
         "index": "spell-mastery",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Maestria com Feitiços",
@@ -7799,7 +7796,7 @@
         "index": "spellcasting-ranger",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Ortografia: Ranger",
@@ -7815,7 +7812,7 @@
         "index": "spellcasting-sorcerer",
         "class": {
             "index": "sorcerer",
-            "name": "Sorcerer",
+            "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
         "name": "Spellcasting: Sorcerer",
@@ -7831,7 +7828,7 @@
         "index": "spellcasting-wizard",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Lançamento: Assistente",
@@ -7877,7 +7874,7 @@
         "index": "stroke-of-luck",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Golpe de Sorte",
@@ -7928,7 +7925,7 @@
         "index": "superior-hunters-defense",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -7986,7 +7983,7 @@
         "index": "superior-hunters-defense-evasion",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -8011,7 +8008,7 @@
         "index": "superior-hunters-defense-stand-against-the-tide",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -8036,7 +8033,7 @@
         "index": "superior-hunters-defense-uncanny-dodge",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "subclass": {
@@ -8091,7 +8088,7 @@
         "index": "supreme-sneak",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -8131,7 +8128,7 @@
         "index": "thiefs-reflexes",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -8151,7 +8148,7 @@
         "index": "thieves-cant",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Cante dos Ladrões",
@@ -8234,7 +8231,7 @@
         "index": "uncanny-dodge",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "name": "Esquiva Incêntrica",
@@ -8249,7 +8246,7 @@
         "index": "use-magic-device",
         "class": {
             "index": "rogue",
-            "name": "Rogue",
+            "name": "Ladino",
             "url": "/api/classes/rogue"
         },
         "subclass": {
@@ -8269,7 +8266,7 @@
         "index": "vanish",
         "class": {
             "index": "ranger",
-            "name": "Ranger",
+            "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
         "name": "Desaparece",
@@ -8284,7 +8281,7 @@
         "index": "warlock-ability-score-improvement-1",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8299,7 +8296,7 @@
         "index": "warlock-ability-score-improvement-2",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8314,7 +8311,7 @@
         "index": "warlock-ability-score-improvement-3",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8329,7 +8326,7 @@
         "index": "warlock-ability-score-improvement-4",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8344,7 +8341,7 @@
         "index": "warlock-ability-score-improvement-5",
         "class": {
             "index": "warlock",
-            "name": "Warlock",
+            "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8448,7 +8445,7 @@
         "index": "wizard-ability-score-improvement-1",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8463,7 +8460,7 @@
         "index": "wizard-ability-score-improvement-2",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8478,7 +8475,7 @@
         "index": "wizard-ability-score-improvement-3",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8493,7 +8490,7 @@
         "index": "wizard-ability-score-improvement-4",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Incremento no Valor de Habilidade",
@@ -8508,7 +8505,7 @@
         "index": "wizard-ability-score-improvement-5",
         "class": {
             "index": "wizard",
-            "name": "Assistente",
+            "name": "Mago",
             "url": "/api/classes/wizard"
         },
         "name": "Incremento no Valor de Habilidade",
