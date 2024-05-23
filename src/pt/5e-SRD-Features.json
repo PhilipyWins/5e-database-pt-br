@@ -4512,16 +4512,16 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
-        "name": "Santo Nimbus",
+        "name": "Halo Sagrado",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "Ao nível 20, como ação, pode-se emanar uma aura de luz solar. Por 1 minuto a luz brilhante brilha de você em um raio de 30 pés, e a luz escura brilha 30 pés para além disso.",
-            "Sempre que uma criatura inimiga inicia seu turno na luz brilhante, a criatura recebe 10 danos radiantes.",
-            "Além disso, durante a duração, você tem a vantagem de salvar os lançamentos contra os feitiços lançados por demônios ou mortos."
+            "No 20° nível, com uma ação, você pode emanar uma aura de luz solar. Por 1 minuto, luz plena emana de você num raio de 9 metros, penumbra brilha mais 9 metros além.",
+            "Sempre que uma criatura inimiga começar seu turno na luz plena, a criatura sofrerá 10 de dano radiante.",
+            "Além disso, por essa duração, você tem vantagem em testes de resistência contra magias conjuradas por corruptores ou mortos-vivos."
         ],
         "url": "/api/features/holy-nimbus"
     },
@@ -4534,17 +4534,17 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Presa do Caçador",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, você ganha uma das seguintes características de sua escolha.",
-            "Colosso contra Slayer",
+            "No 3° nível, você ganha uma das seguintes características, à sua escolha.",
+            "Assassino de Colossos",
             "Matador de Gigantes",
-            "Horde Breaker"
+            "Destruidor de Hordas"
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -4557,7 +4557,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "hunters-prey-colossus-slayer",
-                                "name": "Presa do Caçador: Colossus Slayer",
+                                "name": "Presa do Caçador: Assassino de Colossos",
                                 "url": "/api/features/hunters-prey-colossus-slayer"
                             }
                         },
@@ -4573,7 +4573,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "hunters-prey-horde-breaker",
-                                "name": "Presa do Caçador: Quebrador de Chifres",
+                                "name": "Presa do Caçador: Destruidor de Hordas",
                                 "url": "/api/features/hunters-prey-horde-breaker"
                             }
                         }
@@ -4592,14 +4592,14 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Presa do Caçador: Colossus Slayer",
+        "name": "Presa do Caçador: Assassino de Colossos",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Sua tenacidade pode derrubar os inimigos mais potentes. Quando você acerta uma criatura com um ataque de arma, a criatura recebe um dano extra de 1d8 se estiver abaixo do limite máximo. Você pode dar esse dano extra apenas uma vez por turno."
+            "Sua tenacidade pode derrubar os mais poderosos oponentes. Quando você atinge uma criatura com um ataque com arma, a criatura sofre 1d8 de dano extra, se ela estiver abaixo do máximo de pontos de vida dela. Você só pode causar esse dano extra uma vez por turno."
         ],
         "parent": {
             "index": "hunters-prey",
@@ -4617,14 +4617,14 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Presa do Caçador: Matador Gigante",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando uma criatura grande ou maior a 5 pés de você te atinge ou perde com um ataque, você pode usar sua reação para atacar esta criatura imediatamente após seu ataque, desde que você veja a criatura."
+            "Quando uma criatura Grande ou maior a até 1,5 metro de você atingir ou errar um ataque contra você, você pode usar sua reação para atacar a criatura, imediatamente após o ataque dela, considerando que você possa ver a criatura."
         ],
         "parent": {
             "index": "hunters-prey",
@@ -4642,14 +4642,14 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Presa do Caçador: Quebrador de Chifres",
+        "name": "Presa do Caçador: Destruidor de Hordas",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Uma vez em cada um dos seus turnos quando você faz um ataque de arma, você pode fazer outro ataque com a mesma arma contra uma criatura diferente que está dentro de 5 pés do alvo original e dentro do alcance da sua arma."
+            "Uma vez em cada um dos seus turnos, quando você fizer um ataque com arma, você pode realizar outro ataque com a mesma arma contra uma criatura diferente que esteja a até 1,5 metro do alvo original e esteja no alcance da sua arma."
         ],
         "parent": {
             "index": "hunters-prey",
@@ -4670,13 +4670,13 @@
             "name": "O Corruptor",
             "url": "/api/subclasses/fiend"
         },
-        "name": "Hurl Através do Inferno",
+        "name": "Lançar no Inferno",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "A partir de 14. nível, quando você acerta uma criatura com um ataque, você pode usar esse recurso para transportar o alvo instantaneamente através dos aviões inferiores. A criatura desaparece e lança através de uma paisagem de pesadelo.",
-            "No final da sua próxima curva, o alvo retorna ao espaço previamente ocupado, ou ao espaço desocupado mais próximo. Se o alvo não for um incêndio, sofrerá 10d10 danos psíquicos como rasga da sua horrível experiência.",
-            "Depois de usar esse recurso, você não poderá usá-lo novamente até terminar um descanso."
+            "A partir do 14° nível, quando você atingir uma criatura com um ataque, você pode usar essa característica para, instantaneamente, transportar o alvo para os planos inferiores. A criatura desaparece e é jogada para um lugar similar a um pesadelo.",
+            "No final do seu turno, o alvo retorna ao lugar que ela ocupava anteriormente, ou para o espaço desocupado mais próximo. Se o alvo não for um corruptor, ele sofre 10d10 de dano psíquico à medida que toma conta da experiência traumática.",
+            "Após usar essa características, você não poderá utilizá-la novamente até terminar um descanso curto ou longo."
         ],
         "url": "/api/features/hurl-through-hell"
     },
@@ -4692,11 +4692,11 @@
             "name": "Campeão",
             "url": "/api/subclasses/champion"
         },
-        "name": "Crítico Melhorado",
+        "name": "Crítico Aprimorado",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Começando quando você escolhe este arquétipo no terceiro nível, seus ataques de armas têm um acerto crítico em uma rolagem de 19 ou 20."
+            "A partir do 3º nível, seus ataques com armas adquirem uma margem de acerto crítico de 19 a 20 nas jogadas de ataque."
         ],
         "url": "/api/features/improved-critical"
     },
@@ -4707,11 +4707,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Julgamento Divino Melhorado",
+        "name": "Destruição Divina Aprimorada",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Em 11 níveis, você é tão sufocado com um poder justo que todos os seus ataques de arma branca levem poder divino com eles. Sempre que você acerta uma criatura com uma arma corpo a corpo, a criatura recebe mais 1d8 dano radiante. Se você também usar seu passeio Divino com um ataque, você adiciona esse dano ao seu passeio Divine Smite."
+            "No 11° nível, você fica tão infundido com o poder da justiça que todos os seus ataques corpo-a-corpo com arma carregam poder divino neles. Sempre que você atingir uma criatura com um ataque corpo-a-corpo, a criatura sofre 1d8 de dano radiante extra. Se você também usar sua Destruição Divina em um ataque, você adiciona esse dano ao dano extra da sua Destruição Divina."
         ],
         "url": "/api/features/improved-divine-smite"
     },
@@ -4726,7 +4726,7 @@
         "level": 9,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 9, você pode rerolar um lançamento de salvamento que você falhar. Se você fizer isso, você deve usar a nova rolagem, e você não pode usar este recurso novamente até terminar um descanso longo. Você pode usar este recurso duas vezes entre longas repouso começando no nível 13 e três vezes entre repouso longo começando no nível 17."
+            "A partir do 9º nível, você pode jogar de novo um teste de resistência que falhou. Se o fizer, você deve usar o novo valor e não pode usar essa característica de novo antes de terminar um descanso longo. Você pode usar esta característica duas vezes entre descansos longos quando chegar no 13º nível e três vezes entre descansos longos quando chegar no 17º nível."
         ],
         "url": "/api/features/indomitable-1-use"
     },
@@ -4741,7 +4741,7 @@
         "level": 13,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 9, você pode rerolar um lançamento de salvamento que você falhar. Se você fizer isso, você deve usar a nova rolagem, e você não pode usar este recurso novamente até terminar um descanso longo. Você pode usar este recurso duas vezes entre longas repouso começando no nível 13 e três vezes entre repouso longo começando no nível 17."
+            "A partir do 9º nível, você pode jogar de novo um teste de resistência que falhou. Se o fizer, você deve usar o novo valor e não pode usar essa característica de novo antes de terminar um descanso longo. Você pode usar esta característica duas vezes entre descansos longos quando chegar no 13º nível e três vezes entre descansos longos quando chegar no 17º nível."
         ],
         "url": "/api/features/indomitable-2-uses"
     },
@@ -4756,7 +4756,7 @@
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 9, você pode rerolar um lançamento de salvamento que você falhar. Se você fizer isso, você deve usar a nova rolagem, e você não pode usar este recurso novamente até terminar um descanso longo. Você pode usar este recurso duas vezes entre longas repouso começando no nível 13 e três vezes entre repouso longo começando no nível 17."
+            "A partir do 9º nível, você pode jogar de novo um teste de resistência que falhou. Se o fizer, você deve usar o novo valor e não pode usar essa característica de novo antes de terminar um descanso longo. Você pode usar esta característica duas vezes entre descansos longos quando chegar no 13º nível e três vezes entre descansos longos quando chegar no 17º nível."
         ],
         "url": "/api/features/indomitable-3-uses"
     },
@@ -4767,11 +4767,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Poder indomável",
+        "name": "Força Indomável",
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Comece no nível 18, se o seu total para a verificação de Força for menor que a sua pontuação de Força você pode usar essa pontuação em vez do total."
+            "A partir do 18° nível, se o total de um teste de Força seu for menor que o seu valor de Força, você pode usar esse valor no lugar do resultado."
         ],
         "url": "/api/features/indomitable-might"
     },
@@ -4787,12 +4787,12 @@
             "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
-        "name": "Presença de Intimização",
+        "name": "Presença Intimidante",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Começando pelo décimo nível, você pode usar sua ação para assustar alguém com sua presença ameaçadora. Quando você fizer isso, escolha uma criatura que você poderá ver dentro de 30 pés de você. Se a criatura puder ver ou te ouvir, ele tem que ser bem-sucedido em um lançamento de sabedoria (DC igual a 8 + seu bônus de proficiência + seu modificador de Charisma) ou tenha medo de você até o final do seu próximo turno. Nas rodadas subsequentes, você pode usar sua ação para estender a duração deste efeito na criatura assustada até o final do seu próximo turno. Este efeito termina se a criatura terminar seu efeito de visão ou a mais de 60 metros de distância de você.",
-            " Se a criatura for bem sucedida no lançamento de sua poupança, você não poderá usar esse recurso na criatura por 24 horas."
+            "A partir do 10° nível, você pode usar sua ação para amedrontar alguém com sua presença intimidante. Quando o fizer, escolha uma criatura que você possa ver a 9 metros. Se a criatura puder ver ou ouvir você, ela deve ser bem sucedida num teste de resistência de Sabedoria (CD igual a 8 + seu bônus de proficiência + seu modificador de Carisma) ou ficara com medo de você até o fim do seu próximo turno. Nos turnos seguintes, você pode usar sua ação para estender a duração desse efeito na criatura amedrontada até o início do seu próximo turno.",
+            "Esse efeito termina se a criatura terminar seu turno fora da sua linha de visão ao a mais de 18 metros de você."
         ],
         "url": "/api/features/intimidating-presence"
     },
@@ -4803,11 +4803,11 @@
             "name": "Bardo",
             "url": "/api/classes/bard"
         },
-        "name": "Jack de Todas as Trocas",
+        "name": "Versatilidade",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, você pode adicionar metade do seu bônus de proficiência, arredondado para baixo, para qualquer verificação de habilidade que você faça que ainda não inclua seu bônus de proficiência."
+            "A partir do 2° nível, você pode adicionar metade do seu bônus de proficiência, arredondado para baixo, em qualquer teste de habilidade que você fizer que ainda não possua seu bônus de proficiência."
         ],
         "url": "/api/features/jack-of-all-trades"
     },
@@ -4818,15 +4818,15 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Qui",
+        "name": "Chi",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, seu treinamento permite que você utilize a energia mística do ki. O seu acesso a esta energia é representado por uma série de pontos. Seu nível de monge determina o número de pontos que você tem, como mostrado na coluna Ki Pontos da Tabela: O Monge.",
-            "Você pode usar esses pontos para alimentar várias características de ki. Você começa a conhecer três dessas funções: Flurry of Blows, Paciente Defense, e Passo do Vento. Você aprende mais personagens em computadores portáteis enquanto ganha níveis nesta aula.",
-            "Quando você gasta um ki point, ele fica indisponível até você terminar um descanso curto ou longo no final do qual você atrai todos os seus talões gastos de volta a si mesmo. Você deve gastar pelo menos 30 minutos da meditação restante para recuperar os pontos de sua ki.",
-            "Algumas das características do seu ki requerem seu alvo para fazer um lançamento de salvamento e resistir aos efeitos da característica. Calcula-se que o jogo de salvamento de DC é o seguinte:",
-            "Ki economiza DC = 8 + seu bônus de proficiência + seu modificador de sabedoria"
+            "A partir do 2° nível, seu treinamento permitiu que você controlasse a energia mística do chi. Seu acesso a essa energia é representado por um número de pontos de chi. Seu nível de monge determina o número de pontos que você tem, como mostrado na coluna Pontos de Chi da tabela O Monge.",
+            "Você pode gastar esses pontos para abastecer várias características de chi. Você começa conhecendo três dessas características: Rajada de Golpes, Defesa Paciente e Passo do Vento. Você aprende mais características de chi à medida que adquire níveis nessa classe.",
+            "Quando você gasta um ponto de chi, ele se torna indisponível até você terminar um descanso curto ou longo, no fim deste, todos os pontos de chi gastos volta para você. Você deve gastar, pelo menos, 30 minutos do descanso meditando para recuperar seus pontos de chi.",
+            "Algumas das características de chi requerem que seu alvo realize um teste de resistência para resistir ao efeito da característica. A CD do teste de resistência é calculada a seguir:",
+            "CD de resistência de Chi =  8 + bônus de proficiência + seu modificador de Sabedoria"
         ],
         "url": "/api/features/ki"
     },
@@ -4837,11 +4837,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Ki Ataques Fortalecidos",
+        "name": "Golpes de Chi",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando ao sexto, seus ataques desarmados contam como mágicos para o propósito de superar a resistência e a imunidade a ataques e danos não mágicos."
+            "A partir do 6° nível, seus golpes desarmados contam como armas mágicas com o propósito de ultrapassar a resistência ou imunidade a ataques e danos não-mágicos."
         ],
         "url": "/api/features/ki-empowered-strikes"
     },
@@ -4852,14 +4852,14 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Colocar nas Mãos",
+        "name": "Cura Pelas Mãos",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Seu toque abençoado pode curar feridas. Você tem uma poça de poder de cura que reabastece quando você descansa por um tempo. Com essa piscina, você pode restaurar um número total de pontos de vida iguais ao seu paladino nível x 5.",
-            "Como ação, você pode tocar em uma criatura e retirar poder do poço para restaurar vários pontos de acerto para aquela criatura, até o valor máximo restante em seu pool.",
-            "Como alternativa, você pode gastar 5 pontos de vida da sua poça de cura para curar o alvo de uma doença ou neutralizar um veneno que a afeta. Você pode curar várias doenças e neutralizar vários venenos com um único uso do Lay nas mãos, gastando pontos de acerto separadamente por cada um.",
-            "Esse recurso não tem efeito em mortos-vivos e construtores."
+            "Seu toque abençoado pode curar ferimentos. Você tem uma reserva de poder curativo que se enche quando você realiza um descanso longo. Com essa reserva, você pode restaurar um número total de pontos de vida igual ao seu nível de paladino x 5.",
+            "Com uma ação, você pode tocar uma criatura e sugar poder da sua reserva para restaurar um número de pontos de vida da criatura, até o máximo de pontos restantes na reserva.",
+            "Alternativamente, você pode gastar 5 pontos de cura da sua reserva de cura para curar o alvo de uma doença ou neutralizar um veneno que o esteja afetando. Você pode curar múltiplas doenças e neutralizar múltiplos venenos com um único uso de Cura pelas Mãos, gastando pontos de vida separadamente para cada um.",
+            "Essa característica não gera nenhum efeito em mortos-vivos e constructos."
         ],
         "url": "/api/features/lay-on-hands"
     },
@@ -4874,9 +4874,9 @@
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Em 10 níveis, você saqueou o conhecimento mágico de um amplo espectro de disciplinas. Escolha dois feitiços de qualquer classe, incluindo este. Um feitiço que você escolher deve ser de um nível que você possa transmitir, conforme mostrado na mesa do Bardo, ou na travessura. ",
-            "Os feitiços escolhidos contam como feitiços para você e estão incluídos no número da coluna Feitiços conhecida na tabela de Bardes. ",
-            "Você aprende dois feitiços adicionais de qualquer classe no nível 14 e novamente no nível 18 de cada um."
+            "No 10° nível, você usurpou conhecimento mágico de um vasto espectro de disciplinas. Escolha duas magias de qualquer classe, incluindo essa. A magia que você escolher deve ser de um nível que você possa conjurar, como mostrado na tabela O Bardo, ou um truque.",
+            "As magias escolhidas contam como magias de bardo para você e já estão incluídas no número da coluna Magias Conhecidas da tabela O Bardo.",
+            "Você aprende duas magias adicionais de qualquer classe no 14° nível e novamente no 18° nível."
         ],
         "url": "/api/features/magical-secrets-1"
     },
@@ -4891,9 +4891,9 @@
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Em 10 níveis, você saqueou o conhecimento mágico de um amplo espectro de disciplinas. Escolha dois feitiços de qualquer classe, incluindo este. Um feitiço que você escolher deve ser de um nível que você possa transmitir, conforme mostrado na mesa do Bardo, ou na travessura. ",
-            "Os feitiços escolhidos contam como feitiços para você e estão incluídos no número da coluna Feitiços conhecida na tabela de Bardes. ",
-            "Você aprende dois feitiços adicionais de qualquer classe no nível 14 e novamente no nível 18 de cada um."
+            "No 10° nível, você usurpou conhecimento mágico de um vasto espectro de disciplinas. Escolha duas magias de qualquer classe, incluindo essa. A magia que você escolher deve ser de um nível que você possa conjurar, como mostrado na tabela O Bardo, ou um truque.",
+            "As magias escolhidas contam como magias de bardo para você e já estão incluídas no número da coluna Magias Conhecidas da tabela O Bardo.",
+            "Você aprende duas magias adicionais de qualquer classe no 14° nível e novamente no 18° nível."
         ],
         "url": "/api/features/magical-secrets-2"
     },
@@ -4908,9 +4908,9 @@
         "level": 18,
         "prerequisites": [],
         "desc": [
-            "Em 10 níveis, você saqueou o conhecimento mágico de um amplo espectro de disciplinas. Escolha dois feitiços de qualquer classe, incluindo este. Um feitiço que você escolher deve ser de um nível que você possa transmitir, conforme mostrado na mesa do Bardo, ou na travessura. ",
-            "Os feitiços escolhidos contam como feitiços para você e estão incluídos no número da coluna Feitiços conhecida na tabela de Bardes. ",
-            "Você aprende dois feitiços adicionais de qualquer classe no nível 14 e novamente no nível 18 de cada um."
+            "No 10° nível, você usurpou conhecimento mágico de um vasto espectro de disciplinas. Escolha duas magias de qualquer classe, incluindo essa. A magia que você escolher deve ser de um nível que você possa conjurar, como mostrado na tabela O Bardo, ou um truque.",
+            "As magias escolhidas contam como magias de bardo para você e já estão incluídas no número da coluna Magias Conhecidas da tabela O Bardo.",
+            "Você aprende duas magias adicionais de qualquer classe no 14° nível e novamente no 18° nível."
         ],
         "url": "/api/features/magical-secrets-3"
     },
@@ -4925,7 +4925,7 @@
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, você escolhe um arquétipo que você se esforça para emular em seus estilos e técnicas de combate, como Campeão. O arquétipo que você escolhe concede características em 3 níveis e novamente no nível 7, 10, 15 e 18."
+            "No 3º nível, você escolhe um arquétipo o qual se esforçará para seguir as técnicas e estilos de combate dele. Escolha Campeão, Cavaleiro Arcano ou Mestre de Batalha, todos detalhados no final da descrição da classe. O arquétipo confere a você características especiais no 3º nível e de novo no 7º, 10º, 15º e 18º nível."
         ],
         "url": "/api/features/martial-archetype"
     },
@@ -4940,12 +4940,12 @@
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "No primeiro nível, sua prática de artes marciais dá domínio em estilos de combate que usam ataques desarmados e armas de monges. que são palavras curtas e qualquer simples arma branca que não tem propriedade de duas mãos ou pesados.",
-            "Você ganha os seguintes benefícios enquanto está desarmado ou empunhando apenas armas de monge e você não está usando uma armadura ou usando um escudo:",
-            "- Você pode usar Agilidade ao invés de Força para atacar e danificar os seus ataques desarmados e armas de monge.",
-            "- Você pode rolar um d4 no lugar do dano normal do seu ataque desarmado ou arma de monges. Este dado muda à medida que você ganha níveis de monges, conforme mostrado na coluna Artes Marciais da Tabela: O Monge.",
-            "- Quando você usa a ação de Ataque com um ataque desarmado ou uma arma monge na sua vez, você pode fazer um ataque desarmado como uma ação bônus. Por exemplo, se você tomar uma ação de Ataque e atacar com um quartel-staff, você também pode fazer um ataque desarmado como uma ação de bônus, assumindo que você ainda não tomou uma ação de bônus desse turno.",
-            "Certos mosteiros usam formas especializadas dos monges. Por exemplo, você pode usar um clube que tenha dois comprimentos de madeira conectados por uma pequena cadeia (chamada freqüchaku) ou uma foice com um menor, lâmina mais reta (chamada um kama). Seja qual for o nome que você usar para uma arma de monges, você pode usar as estatísticas de jogos fornecidas para a arma."
+            "No 1° nível, sua prática nas artes marciais concede a você maestria nos estilos de combate que utilizam golpes desarmados e armas de monge, que são as espadas curtas e quaisquer armas simples corpo-a-corpo que não tenham a propriedade duas mãos ou pesada.",
+            "propriedade duas mãos ou pesada. Você ganha os seguintes benefícios enquanto estiver desarmado ou empunhando uma arma de monge e não estiver vestindo nenhuma armadura ou empunhando um escudo:",
+            "- Você pode usar Destreza ao invés de Força para as jogadas de ataque e dano dos seus golpes desarmados e de suas armas de monge.",
+            "- Você pode rolar um d4 no lugar do dano normal dos seus golpes desarmados e armas de monge. Esse dado muda à medida que você adquire níveis de monge, como mostrado na coluna Artes Marciais na tabela O Monge.",
+            "- Quando você usa a ação de Ataque com um golpe desarmado ou uma arma de monge no seu turno, você pode realizar um golpe desarmado com uma ação bônus. Por exemplo, se você realizar a ação de Ataque com um bordão, você também poderá realizar um golpe desarmado com uma ação bônus, assumindo que você ainda não realizou uma ação bônus nesse turno.",
+            "Determinados monastérios usam formas especializadas de armas de monge. Por exemplo, você pode usar uma clava feita por dois pedaços de madeira conectados por uma pequena corrente (chamado de nunchaku) ou uma foice com uma estranha lâmina fina (chamada de kama). Qualquer que seja o nome que você use para uma arma de monge, você pode usar as estatísticas de jogo mostradas para as armas no capítulo 5."
         ],
         "url": "/api/features/martial-arts"
     },
@@ -4956,12 +4956,12 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico",
+        "name": "Metamágica",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Ao terceiro nível, você ganha a habilidade de torcer os feitiços para atender às suas necessidades. Você ganha duas das seguintes opções de Metamágica de sua escolha. Você ganha uma outra no nível 10 e 17 do nível.",
-            "Você só pode usar uma opção Metamágica quando você o transmitir, a menos que seja anotado de outra forma."
+            "No 3° nível, você adquire a habilidade de distorcer suas magias para se adequarem às suas necessidades. Você ganha duas das seguintes opções de Metamágica, à sua escolha. Você adquire outra no 10° e 17° nível.",
+            "Você pode usar apenas uma opção de Metamágica em uma magia quando a conjura, a não ser que esteja descrito o contrário."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -4974,7 +4974,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-careful-spell",
-                                "name": "Metamágico: Feitiço cuidadoso",
+                                "name": "Metamágica: Magia Cuidadosa",
                                 "url": "/api/features/metamagic-careful-spell"
                             }
                         },
@@ -4982,7 +4982,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-distant-spell",
-                                "name": "Metamágico: Feitiço Distante",
+                                "name": "Metamágica: Magia Distante",
                                 "url": "/api/features/metamagic-distant-spell"
                             }
                         },
@@ -4990,7 +4990,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-empowered-spell",
-                                "name": "Metamágico: Feitiço Poderoso",
+                                "name": "Metamágica: Magia Potencializada",
                                 "url": "/api/features/metamagic-empowered-spell"
                             }
                         },
@@ -4998,7 +4998,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-extended-spell",
-                                "name": "Metamágica: Feitiço Estendido",
+                                "name": "Metamágica: Magia Estendida",
                                 "url": "/api/features/metamagic-extended-spell"
                             }
                         },
@@ -5006,7 +5006,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-heightened-spell",
-                                "name": "Metamágico: Feitiço Afiado",
+                                "name": "Metamágica: Magia Aumentada",
                                 "url": "/api/features/metamagic-heightened-spell"
                             }
                         },
@@ -5014,7 +5014,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-quickened-spell",
-                                "name": "Metamágico: Feitiço Veloz",
+                                "name": "Metamágica: Magia Acelerada",
                                 "url": "/api/features/metamagic-quickened-spell"
                             }
                         },
@@ -5022,7 +5022,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-subtle-spell",
-                                "name": "Metamágico: Feitiço Sutil",
+                                "name": "Metamágica: Magia Sutil",
                                 "url": "/api/features/metamagic-subtle-spell"
                             }
                         },
@@ -5030,7 +5030,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-twinned-spell",
-                                "name": "Metamágico: Feitiço Ganho",
+                                "name": "Metamágica: Magia Duplicada",
                                 "url": "/api/features/metamagic-twinned-spell"
                             }
                         }
@@ -5047,12 +5047,12 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico",
+        "name": "Metamágica",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Ao terceiro nível, você ganha a habilidade de torcer os feitiços para atender às suas necessidades. Você ganha duas das seguintes opções de Metamágica de sua escolha. Você ganha uma outra no nível 10 e 17 do nível.",
-            "Você só pode usar uma opção Metamágica quando você o transmitir, a menos que seja anotado de outra forma."
+            "No 3° nível, você adquire a habilidade de distorcer suas magias para se adequarem às suas necessidades. Você ganha duas das seguintes opções de Metamágica, à sua escolha. Você adquire outra no 10° e 17° nível.",
+            "Você pode usar apenas uma opção de Metamágica em uma magia quando a conjura, a não ser que esteja descrito o contrário."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -5065,7 +5065,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-careful-spell",
-                                "name": "Metamágico: Feitiço cuidadoso",
+                                "name": "Metamágica: Magia Cuidadosa",
                                 "url": "/api/features/metamagic-careful-spell"
                             }
                         },
@@ -5073,7 +5073,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-distant-spell",
-                                "name": "Metamágico: Feitiço Distante",
+                                "name": "Metamágica: Magia Distante",
                                 "url": "/api/features/metamagic-distant-spell"
                             }
                         },
@@ -5081,7 +5081,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-empowered-spell",
-                                "name": "Metamágico: Feitiço Poderoso",
+                                "name": "Metamágica: Magia Potencializada",
                                 "url": "/api/features/metamagic-empowered-spell"
                             }
                         },
@@ -5089,7 +5089,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-extended-spell",
-                                "name": "Metamágica: Feitiço Estendido",
+                                "name": "Metamágica: Magia Estendida",
                                 "url": "/api/features/metamagic-extended-spell"
                             }
                         },
@@ -5097,7 +5097,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-heightened-spell",
-                                "name": "Metamágico: Feitiço Afiado",
+                                "name": "Metamágica: Magia Aumentada",
                                 "url": "/api/features/metamagic-heightened-spell"
                             }
                         },
@@ -5105,7 +5105,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-quickened-spell",
-                                "name": "Metamágico: Feitiço Veloz",
+                                "name": "Metamágica: Magia Acelerada",
                                 "url": "/api/features/metamagic-quickened-spell"
                             }
                         },
@@ -5113,7 +5113,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-subtle-spell",
-                                "name": "Metamágico: Feitiço Sutil",
+                                "name": "Metamágica: Magia Sutil",
                                 "url": "/api/features/metamagic-subtle-spell"
                             }
                         },
@@ -5121,7 +5121,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-twinned-spell",
-                                "name": "Metamágico: Feitiço Ganho",
+                                "name": "Metamágica: Magia Duplicada",
                                 "url": "/api/features/metamagic-twinned-spell"
                             }
                         }
@@ -5138,12 +5138,12 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico",
+        "name": "Metamágica",
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "Ao terceiro nível, você ganha a habilidade de torcer os feitiços para atender às suas necessidades. Você ganha duas das seguintes opções de Metamágica de sua escolha. Você ganha uma outra no nível 10 e 17 do nível.",
-            "Você só pode usar uma opção Metamágica quando você o transmitir, a menos que seja anotado de outra forma."
+            "No 3° nível, você adquire a habilidade de distorcer suas magias para se adequarem às suas necessidades. Você ganha duas das seguintes opções de Metamágica, à sua escolha. Você adquire outra no 10° e 17° nível.",
+            "Você pode usar apenas uma opção de Metamágica em uma magia quando a conjura, a não ser que esteja descrito o contrário."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -5156,7 +5156,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-careful-spell",
-                                "name": "Metamágico: Feitiço cuidadoso",
+                                "name": "Metamágica: Magia Cuidadosa",
                                 "url": "/api/features/metamagic-careful-spell"
                             }
                         },
@@ -5164,7 +5164,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-distant-spell",
-                                "name": "Metamágico: Feitiço Distante",
+                                "name": "Metamágica: Magia Distante",
                                 "url": "/api/features/metamagic-distant-spell"
                             }
                         },
@@ -5172,7 +5172,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-empowered-spell",
-                                "name": "Metamágico: Feitiço Poderoso",
+                                "name": "Metamágica: Magia Potencializada",
                                 "url": "/api/features/metamagic-empowered-spell"
                             }
                         },
@@ -5180,7 +5180,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-extended-spell",
-                                "name": "Metamágica: Feitiço Estendido",
+                                "name": "Metamágica: Magia Estendida",
                                 "url": "/api/features/metamagic-extended-spell"
                             }
                         },
@@ -5188,7 +5188,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-heightened-spell",
-                                "name": "Metamágico: Feitiço Afiado",
+                                "name": "Metamágica: Magia Aumentada",
                                 "url": "/api/features/metamagic-heightened-spell"
                             }
                         },
@@ -5196,7 +5196,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-quickened-spell",
-                                "name": "Metamágico: Feitiço Veloz",
+                                "name": "Metamágica: Magia Acelerada",
                                 "url": "/api/features/metamagic-quickened-spell"
                             }
                         },
@@ -5204,7 +5204,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-subtle-spell",
-                                "name": "Metamágico: Feitiço Sutil",
+                                "name": "Metamágica: Magia Sutil",
                                 "url": "/api/features/metamagic-subtle-spell"
                             }
                         },
@@ -5212,7 +5212,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "metamagic-twinned-spell",
-                                "name": "Metamágico: Feitiço Ganho",
+                                "name": "Metamágica: Magia Duplicada",
                                 "url": "/api/features/metamagic-twinned-spell"
                             }
                         }
@@ -5229,15 +5229,15 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço cuidadoso",
+        "name": "Metamágica: Magia Cuidadosa",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lançar um feitiço que força outras criaturas a fazer um arremesso, Você pode proteger algumas dessas criaturas da força total do feitiço. Para fazer isso, você gasta 1 ponto de feitiçaria e escolhe um número dessas criaturas até o seu modificador de Charisma (mínimo de uma criatura). Uma criatura escolhida tem o sucesso de salvar automaticamente seu lançamento contra o feitiço."
+            "Quando você conjurar uma magia que obriga outras criaturas a realizarem um teste de resistência, você pode proteger algumas dessas criaturas da força total da magia. Para tanto, você gasta 1 ponto de feitiçaria e escolhe um número dessas criaturas até o seu modificador de Carisma (mínimo de uma criatura). Uma criatura escolhida passa automaticamente no teste de resistência contra a magia."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-careful-spell"
@@ -5249,16 +5249,16 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Distante",
+        "name": "Metamágica: Magia Distante",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lança um feitiço que tem um alcance de 5 pés ou maior, você pode gastar 1 ponto de feitiçaria para dobrar o intervalo do feitiço.",
-            "Quando você lança um feitiço que tem uma variedade de toques, Você pode gastar 1 ponto de feitiçaria para fazer a gama do feitiço de 30 pés."
+            "Quando você conjurar uma magia que tenha distância de 1,5 metro ou maior, você pode gastar 1 ponto de feitiçaria para dobrar o alcance da magia.",
+            "Quando você conjura uma magia com alcance de toque, você pode gastar 1 ponto de feitiçaria para mudar o alcance da magia para 9 metros."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-distant-spell"
@@ -5270,16 +5270,16 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Poderoso",
+        "name": "Metamágica: Magia Potencializada",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você rola dano para um feitiço, você pode gastar 1 ponto de feitiçaria para rolar um número de dados de dano até o seu modificador de Charisma (mínimo de um). Você deve usar as novas rolagens.",
-            "Você pode usar Feitiço Poderoso mesmo que você já tenha usado uma opção diferente durante a transmissão do feitiço."
+            "Quando você rola o dano de uma magia, você pode gastar 1 ponto de feitiçaria para jogar novamente um número de dados de dano, até seu modificador de Carisma (mínimo de um). Você deve usar a nova rolagem.",
+            "Você pode usar Magia Potencializada mesmo que você já tenha usado uma opção diferente de Metamágica durante a conjuração da magia."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-empowered-spell"
@@ -5291,15 +5291,15 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágica: Feitiço Estendido",
+        "name": "Metamágica: Magia Estendida",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lançar um feitiço que tenha duração de 1 minuto ou maior, você pode gastar 1 ponto de feitiçaria para dobrar sua duração, para uma duração máxima de 24 horas."
+            "Quando você conjurar uma magia que tenha duração de 1 minuto ou maior, você pode gastar 1 ponto de feitiçaria para dobrar sua duração, até uma duração máxima de 24 horas."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-extended-spell"
@@ -5311,15 +5311,15 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Afiado",
+        "name": "Metamágica: Magia Aumentada",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lança um feitiço que força uma criatura a fazer um lançamento salvador para resistir aos seus efeitos, Você pode gastar 3 pontos de feitiça para dar um alvo com a desvantagem do feitiço em sua primeira jogada de poupança feita contra o feitiço."
+            "Quando você conjura uma magia que obriga uma criatura a realizar um teste de resistência contra o seu efeito, você pode gastar 3 pontos de feitiçaria para dar desvantagem a um alvo da magia no primeiro teste de resistência feito contra ela."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-heightened-spell"
@@ -5331,15 +5331,15 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Veloz",
+        "name": "Metamágica: Magia Acelerada",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lança um feitiço que tem um tempo de lançamento de 1 ação, você pode gastar 2 pontos de feitiçaria para alterar o tempo de lingotamento para 1 ação bônus para esse lançamento."
+            "Quando você conjurar uma magia que tenha um tempo de conjuração de 1 ação, você pode gastar 2 pontos de feitiçaria para mudar o tempo de conjuração para 1 ação bônus para essa magia."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-quickened-spell"
@@ -5351,15 +5351,15 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Sutil",
+        "name": "Metamágica: Magia Sutil",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lança um feitiço, você pode gastar 1 ponto de feitiçaria para lançá-lo sem nenhum componente somático ou verbal."
+            "Quando você conjurar uma magia, você pode gastar 1 ponto de feitiçaria para fazê-lo sem qualquer componente somático ou verbal."
         ],
         "parent": {
             "index": "metamagic-1",
-            "name": "Metamágico",
+            "name": "Metamágica",
             "url": "/api/features/metamagic-1"
         },
         "url": "/api/features/metamagic-subtle-spell"
@@ -5371,12 +5371,11 @@
             "name": "Feiticeiro",
             "url": "/api/classes/sorcerer"
         },
-        "name": "Metamágico: Feitiço Ganho",
+        "name": "Metamágica: Magia Duplicada",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Quando você lança um feitiço que visa apenas uma criatura e não tem uma faixa de si mesmo, você pode gastar um número de pontos de feitiçaria iguais ao nível do feitiço para buscar uma segunda criatura no intervalo com o mesmo feitiço (1 ponto de feitiçaria se o feitiço for um cantra).",
-            "Para ser elegível, um feitiço deve ser incapaz de visar mais de uma criatura ao nível actual do feitiço. Por exemplo, mísseis mágicos e raios escaldantes não são elegíveis, mas o raio de geada é."
+            "Quando você conjurar uma magia que seja incapaz de ter mais de uma criatura como alvo no nível atual dela e não possua alcance pessoal, você pode gastar um número de pontos de feitiçaria igual ao nível da magia para ter uma segunda criatura, no alcance da magia, como alvo (1 ponto de feitiçaria se a magia for um truque)."
         ],
         "url": "/api/features/metamagic-twinned-spell"
     },
@@ -5392,11 +5391,11 @@
             "name": "Caminho do Furioso",
             "url": "/api/subclasses/berserker"
         },
-        "name": "Fúria Infinita",
+        "name": "Fúria Inconsciente",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "Começando no nível 6, você não pode ser encharcado ou assustado enquanto estiver enfurecendo. Se você estiver encharcado ou assustado ao entrar na sua raiva, o efeito será suspenso durante a raiva."
+            "A partir do 6° nível, você não pode ser enfeitiçado ou amedrontado enquanto estiver em fúria. Se você estava enfeitiçado ou amedrontado quando entrou em fúria, o efeito é suspenso pela duração da fúria."
         ],
         "url": "/api/features/mindless-rage"
     },
@@ -5411,7 +5410,7 @@
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Ao atingir o terceiro nível, você se compromete com uma tradição monástica, como o Caminho da Open Hand. Sua tradição lhe concede recursos em terceiro nível e novamente ao nível 6, 11 e 17."
+            "Quando você alcança o 3° nível, você ingressa numa tradição monástica: o Caminho da Mão Aberta, o Caminho Sombrio e o Caminho dos Quatro Elementos, todas detalhadas no final da descrição dessa classe. Sua tradição concede a você características no 3° nível e novamente no 6°, 11° e 17° nível."
         ],
         "url": "/api/features/monastic-tradition"
     },
@@ -5501,7 +5500,7 @@
         "level": 7,
         "prerequisites": [],
         "desc": [
-            "No nível 7, sua agilidade instintiva permite que você se esquive do caminho de certos efeitos de área, tais como o respiração relâmpago de um dragão azul ou um feitiço de bola de fogo. Quando você estiver sujeito a um efeito que permite que você cause um lançamento de Agilidade economizando para receber apenas metade de dano, você não recebe nenhum dano se você tiver sucesso no arremesso de salvamento, e somente metade de dano se falhar."
+            "A partir do 7º nível, você pode esquivar-se agilmente de certos efeitos em área, como o sopro elétrico de um dragão azul ou uma magia bola de fogo. Quando você for alvo de um efeito que exige um teste de resistência de Destreza para sofrer metade do dano, você não sofre dano algum se passar, e somente metade do dano se falhar."
         ],
         "url": "/api/features/monk-evasion"
     },
@@ -5516,7 +5515,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno."
+            "A partir do 5° nível, você pode atacar duas vezes, ao invés  de uma, sempre que você realizar a ação de Ataque no seu  turno."
         ],
         "url": "/api/features/monk-extra-attack"
     },
@@ -5527,11 +5526,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Corpo sem Tempo",
+        "name": "Corpo Atemporal",
         "level": 15,
         "prerequisites": [],
         "desc": [
-            "Ao 15 nível, o vosso ki sustenta-o para que você não sofra nenhuma da fraqueza da velhice e você não pode ficar com magia. Mas você ainda pode morrer de idade avançada. Além disso, você já não precisa de comida ou água."
+            "No 15° nível, seu chi sustenta você tanto que você não sofre os efeitos da velhice e não pode envelhecer magicamente. Você ainda morrerá de velhice, no entanto. Além disso, você não precisa mais de comida ou água."
         ],
         "url": "/api/features/monk-timeless-body"
     },
@@ -5542,11 +5541,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Defesa Perversa",
+        "name": "Defesa Sem Armadura",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Começando ao primeiro nível, enquanto você não usa armadura e não usa escudo, seu AC é igual a 10 + seu modificador de Destreza + seu modificador de sabedoria."
+            "A partir do 1° nível, quando você não estiver vestindo nenhuma armadura nem empunhando um escudo, sua Classe de Armadura será 10 + seu modificador de Destreza + seu modificador de Sabedoria."
         ],
         "url": "/api/features/monk-unarmored-defense"
     },
@@ -5559,16 +5558,16 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Multiataque",
+        "name": "Ataque Múltiplo",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Ao 11 nível, você ganha uma das seguintes características de sua escolha.",
+            "No 11° nível, você ganha uma das seguintes características, à sua escolha.",
             "Saraivada",
-            "Ataque Whirlwind"
+            "Ataque Giratório"
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -5581,7 +5580,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "multiattack-volley",
-                                "name": "Multiataque: Saraivada",
+                                "name": "Ataque Múltiplo: Saraivada",
                                 "url": "/api/features/multiattack-volley"
                             }
                         },
@@ -5589,7 +5588,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "multiattack-whirlwind-attack",
-                                "name": "Multiataque: Ataque Whirlwind",
+                                "name": "Ataque Múltiplo: Ataque Giratório",
                                 "url": "/api/features/multiattack-whirlwind-attack"
                             }
                         }
@@ -5608,18 +5607,18 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Multiataque: Saraivada",
+        "name": "Ataque Múltiplo: Saraivada",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Você pode usar sua ação para fazer um ataque à distância contra qualquer número de criaturas dentro de 10 pés de um ponto que você pode ver dentro da distância da sua arma. Você deve ter munição para cada alvo, como normal, e fazer uma rolagem de ataque separada para cada alvo."
+            "Você pode usar sua ação para realizar um ataque à distância contra qualquer número de criatura a até 3 metros de um ponto que você possa ver, no alcance da sua arma. Você deve ter munição para cada alvo, como normal, e você realiza uma jogada de ataque separada para cada alvo."
         ],
         "parent": {
             "index": "multiattack",
-            "name": "Multiataque",
+            "name": "Ataque Múltiplo",
             "url": "/api/features/multiattack"
         },
         "url": "/api/features/multiattack-volley"
@@ -5633,18 +5632,18 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
-        "name": "Multiataque: Ataque Whirlwind",
+        "name": "Ataque Múltiplo: Ataque Giratório",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Você pode usar sua ação para fazer um ataque corpo-a-corpo contra qualquer número de criaturas com 5 pés de você com uma rolagem de ataque separada para cada alvo."
+            "Você pode usar sua ação para realizar um ataque corpo-a-corpo contra qualquer número de criaturas a até 1,5 metro de você, realizando uma jogada de ataque separada para cada alvo."
         ],
         "parent": {
             "index": "multiattack",
-            "name": "Multiataque",
+            "name": "Ataque Múltiplo",
             "url": "/api/features/multiattack"
         },
         "url": "/api/features/multiattack-whirlwind-attack"
@@ -5656,13 +5655,13 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Arcano Místico (6 nível)",
+        "name": "Arcana Mística (6 nível)",
         "level": 11,
         "prerequisites": [],
         "desc": [
-            "Ao 11 nível, seu patrono lhe concede um segredo mágico chamado arcano. Escolha um feitiço de nível 6 na lista de feitiços de bloqueio de guerra como este arcano.",
-            "Você pode lançar o feitiço do arcano uma vez sem gastar um slot de feitiço. Você precisa terminar um descanso longo antes de poder fazê-lo novamente.",
-            "Ao nível mais alto, você ganha mais feitiços de bloqueio de guerra de sua escolha que podem ser expressos dessa forma: um feitiço de nível 7 no nível 13 um feitiço de nível 8 ao nível 15 e um feitiço de nível 9 ao nível 17. Você recupera todos os usos do seu Arcano Místico quando termina um longo descanso."
+            "No 11° nível, seu patrono confere a você um segredo  mágico conhecido como arcana. Escolha uma magia de 6°  nível da lista de magias de bruxo como sua arcana.",
+            "Você pode conjurar essa magia arcana uma vez sem  gastar um espaço de magia. Você deve terminar um  descanso longo antes de poder fazer isso novamente.",
+            "Em nível altos, você adquire mais magias de bruxo de  sua escolha que podem ser conjuradas dessa forma: uma  magia de 7° nível no 13° nível, uma magia de 8° nível no  15° nível e uma magia de 9° nível no 17° nível. Você  recupera todos os usos de sua Arcana Mística quando você  termina um descanso longo."
         ],
         "url": "/api/features/mystic-arcanum-6th-level"
     },
@@ -5673,13 +5672,13 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Arcano Místico (nível 7)",
+        "name": "Arcana Mística (nível 7)",
         "level": 13,
         "prerequisites": [],
         "desc": [
-            "Ao 11 nível, seu patrono lhe concede um segredo mágico chamado arcano. Escolha um feitiço de nível 6 na lista de feitiços de bloqueio de guerra como este arcano.",
-            "Você pode lançar o feitiço do arcano uma vez sem gastar um slot de feitiço. Você precisa terminar um descanso longo antes de poder fazê-lo novamente.",
-            "Ao nível mais alto, você ganha mais feitiços de bloqueio de guerra de sua escolha que podem ser expressos dessa forma: um feitiço de nível 7 no nível 13 um feitiço de nível 8 ao nível 15 e um feitiço de nível 9 ao nível 17. Você recupera todos os usos do seu Arcano Místico quando termina um longo descanso."
+            "No 11° nível, seu patrono confere a você um segredo  mágico conhecido como arcana. Escolha uma magia de 6°  nível da lista de magias de bruxo como sua arcana.",
+            "Você pode conjurar essa magia arcana uma vez sem  gastar um espaço de magia. Você deve terminar um  descanso longo antes de poder fazer isso novamente.",
+            "Em nível altos, você adquire mais magias de bruxo de  sua escolha que podem ser conjuradas dessa forma: uma  magia de 7° nível no 13° nível, uma magia de 8° nível no  15° nível e uma magia de 9° nível no 17° nível. Você  recupera todos os usos de sua Arcana Mística quando você  termina um descanso longo."
         ],
         "url": "/api/features/mystic-arcanum-7th-level"
     },
@@ -5690,13 +5689,13 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Arcano Místico (nível 8)",
+        "name": "Arcana Mística (nível 8)",
         "level": 15,
         "prerequisites": [],
         "desc": [
-            "Ao 11 nível, seu patrono lhe concede um segredo mágico chamado arcano. Escolha um feitiço de nível 6 na lista de feitiços de bloqueio de guerra como este arcano.",
-            "Você pode lançar o feitiço do arcano uma vez sem gastar um slot de feitiço. Você precisa terminar um descanso longo antes de poder fazê-lo novamente.",
-            "Ao nível mais alto, você ganha mais feitiços de bloqueio de guerra de sua escolha que podem ser expressos dessa forma: um feitiço de nível 7 no nível 13 um feitiço de nível 8 ao nível 15 e um feitiço de nível 9 ao nível 17. Você recupera todos os usos do seu Arcano Místico quando termina um longo descanso."
+            "No 11° nível, seu patrono confere a você um segredo  mágico conhecido como arcana. Escolha uma magia de 6°  nível da lista de magias de bruxo como sua arcana.",
+            "Você pode conjurar essa magia arcana uma vez sem  gastar um espaço de magia. Você deve terminar um  descanso longo antes de poder fazer isso novamente.",
+            "Em nível altos, você adquire mais magias de bruxo de  sua escolha que podem ser conjuradas dessa forma: uma  magia de 7° nível no 13° nível, uma magia de 8° nível no  15° nível e uma magia de 9° nível no 17° nível. Você  recupera todos os usos de sua Arcana Mística quando você  termina um descanso longo."
         ],
         "url": "/api/features/mystic-arcanum-8th-level"
     },
@@ -5707,13 +5706,13 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Arcano Místico (9° nível)",
+        "name": "Arcana Mística (9° nível)",
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "Ao 11 nível, seu patrono lhe concede um segredo mágico chamado arcano. Escolha um feitiço de nível 6 na lista de feitiços de bloqueio de guerra como este arcano.",
-            "Você pode lançar o feitiço do arcano uma vez sem gastar um slot de feitiço. Você precisa terminar um descanso longo antes de poder fazê-lo novamente.",
-            "Ao nível mais alto, você ganha mais feitiços de bloqueio de guerra de sua escolha que podem ser expressos dessa forma: um feitiço de nível 7 no nível 13 um feitiço de nível 8 ao nível 15 e um feitiço de nível 9 ao nível 17. Você recupera todos os usos do seu Arcano Místico quando termina um longo descanso."
+            "No 11° nível, seu patrono confere a você um segredo  mágico conhecido como arcana. Escolha uma magia de 6°  nível da lista de magias de bruxo como sua arcana.",
+            "Você pode conjurar essa magia arcana uma vez sem  gastar um espaço de magia. Você deve terminar um  descanso longo antes de poder fazer isso novamente.",
+            "Em nível altos, você adquire mais magias de bruxo de  sua escolha que podem ser conjuradas dessa forma: uma  magia de 7° nível no 13° nível, uma magia de 8° nível no  15° nível e uma magia de 9° nível no 17° nível. Você  recupera todos os usos de sua Arcana Mística quando você  termina um descanso longo."
         ],
         "url": "/api/features/mystic-arcanum-9th-level"
     },
@@ -5728,15 +5727,17 @@
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "O senhor deputado conhece particularmente um tipo de ambiente natural e é hábil a viajar e a sobreviver nessas regiões. Escolha um tipo de terreno preferido: arco, costa, deserto, floresta, pasta, montanha ou pântano. Quando você faz uma verificação de inteligência ou sabedoria relacionada ao seu terreno favorito, seu bônus de proficiência é dobrado se você estiver usando uma habilidade na qual você é proficiente.",
-            "Ao viajar durante uma hora ou mais em seu terreno favorito, você ganha os seguintes benefícios:",
-            "- O terreno difícil não diminui a velocidade de viagem do seu grupo.",
+            "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
+            "- Você ignora terreno difícil.",
+            "- Você tem vantagem em rolagens de iniciativa.",
+            "- No seu primeiro turno de combate, você tem vantagem nas jogadas de ataque contra criaturas que ainda não tenham agido.",
+            "Além disso, você é perito em navegar pelo ambiente selvagem. Você ganha os seguintes benefícios quando estiver viajando por uma hora ou mais:",
+            "- Terreno difícil não atrasa a viagem do seu grupo.",
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
-            "- Mesmo quando você está envolvido em outra atividade durante viagens (como forjamento, navegação ou rastreamento), você fica atento ao perigo.",
-            "- Se você está viajando sozinho, pode se mover furtivamente em um ritmo normal.",
-            "Quando se colhe, encontramos o dobro de comida que normalmente receberia.",
-            "- Ao rastrear outras criaturas, você também aprende seu número exato, seus tamanhos e quanto tempo eles passaram pela área.",
-            "Você escolhe os tipos de terreno favoritos adicionais no nível 6 e 10."
+            "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
+            "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.", 
         ],
         "url": "/api/features/natural-explorer-1-terrain-type"
     },
@@ -5751,15 +5752,17 @@
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "O senhor deputado conhece particularmente um tipo de ambiente natural e é hábil a viajar e a sobreviver nessas regiões. Escolha um tipo de terreno preferido: arco, costa, deserto, floresta, pasta, montanha ou pântano. Quando você faz uma verificação de inteligência ou sabedoria relacionada ao seu terreno favorito, seu bônus de proficiência é dobrado se você estiver usando uma habilidade na qual você é proficiente.",
-            "Ao viajar durante uma hora ou mais em seu terreno favorito, você ganha os seguintes benefícios:",
-            "- O terreno difícil não diminui a velocidade de viagem do seu grupo.",
+             "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
+            "- Você ignora terreno difícil.",
+            "- Você tem vantagem em rolagens de iniciativa.",
+            "- No seu primeiro turno de combate, você tem vantagem nas jogadas de ataque contra criaturas que ainda não tenham agido.",
+            "Além disso, você é perito em navegar pelo ambiente selvagem. Você ganha os seguintes benefícios quando estiver viajando por uma hora ou mais:",
+            "- Terreno difícil não atrasa a viagem do seu grupo.",
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
-            "- Mesmo quando você está envolvido em outra atividade durante viagens (como forjamento, navegação ou rastreamento), você fica atento ao perigo.",
-            "- Se você está viajando sozinho, pode se mover furtivamente em um ritmo normal.",
-            "Quando se colhe, encontramos o dobro de comida que normalmente receberia.",
-            "- Ao rastrear outras criaturas, você também aprende seu número exato, seus tamanhos e quanto tempo eles passaram pela área.",
-            "Você escolhe os tipos de terreno favoritos adicionais no nível 6 e 10."
+            "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
+            "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.",
         ],
         "url": "/api/features/natural-explorer-2-terrain-types"
     },
@@ -5774,15 +5777,17 @@
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "O senhor deputado conhece particularmente um tipo de ambiente natural e é hábil a viajar e a sobreviver nessas regiões. Escolha um tipo de terreno preferido: arco, costa, deserto, floresta, pasta, montanha ou pântano. Quando você faz uma verificação de inteligência ou sabedoria relacionada ao seu terreno favorito, seu bônus de proficiência é dobrado se você estiver usando uma habilidade na qual você é proficiente.",
-            "Ao viajar durante uma hora ou mais em seu terreno favorito, você ganha os seguintes benefícios:",
-            "- O terreno difícil não diminui a velocidade de viagem do seu grupo.",
+             "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
+            "- Você ignora terreno difícil.",
+            "- Você tem vantagem em rolagens de iniciativa.",
+            "- No seu primeiro turno de combate, você tem vantagem nas jogadas de ataque contra criaturas que ainda não tenham agido.",
+            "Além disso, você é perito em navegar pelo ambiente selvagem. Você ganha os seguintes benefícios quando estiver viajando por uma hora ou mais:",
+            "- Terreno difícil não atrasa a viagem do seu grupo.",
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
-            "- Mesmo quando você está envolvido em outra atividade durante viagens (como forjamento, navegação ou rastreamento), você fica atento ao perigo.",
-            "- Se você está viajando sozinho, pode se mover furtivamente em um ritmo normal.",
-            "Quando se colhe, encontramos o dobro de comida que normalmente receberia.",
-            "- Ao rastrear outras criaturas, você também aprende seu número exato, seus tamanhos e quanto tempo eles passaram pela área.",
-            "Você escolhe os tipos de terreno favoritos adicionais no nível 6 e 10."
+            "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
+            "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.",
         ],
         "url": "/api/features/natural-explorer-3-terrain-types"
     },
@@ -5795,15 +5800,15 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
         "name": "Recuperação Natural",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "A partir do segundo nível, você pode recuperar uma parte da sua energia mágica sentando em meditação e comungando com a natureza. Durante um curto período de repouso, você escolhe slots de feitiços gastos para recuperar. Os slots de feitiços podem ter um nível combinado igual ou inferior a metade do seu nível de druida (arredondado para cima), e nenhum dos slots pode ser de nível 6 ou maior. Você não pode usar esse recurso novamente até terminar um descanso.",
-            "Por exemplo, quando você é um druida de 4 níveis, você pode recuperar até dois níveis de slots de magia. Você pode recuperar um espaço de 2 níveis ou dois espaços de 1 nível."
+            "A partir do 2° nível, você pode recuperar parte da sua energia mágica parando para fazer uma meditação e comunhão com a natureza. Durante um descanso curto, você escolhe espaços de magia gastos para recuperar. O espaço de magia pode ter um nível combinado igual ou menor que metade do seu nível de druida (arredondado para baixo) e, nenhum dos espaços pode ser de uma magia de 6° nível ou superior. Você não pode usar essa característica novamente até terminar um descanso longo.",
+            "Por exemplo, quando você for um druida de 4° nível, você pode recuperar até dois níveis em espaços de magia. Você pode recuperar, tanto uma magia de 2° nível, quanto duas magias de 1° nível."
         ],
         "url": "/api/features/natural-recovery"
     },
@@ -5816,14 +5821,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Santuário da Natureza",
+        "name": "Santuário da Natural",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o quarto nível, criaturas do mundo natural sentem sua conexão com a natureza e ficam hesitantes em atacá-lo. Quando uma fera ou uma criatura vegetal te ataca, essa criatura deve fazer uma salvação da sabedoria contra seu feitiço druido salvar DC. Em uma salvação falhada, a criatura deve escolher um alvo diferente, ou o ataque falhará automaticamente. Numa poupança bem sucedida, a criatura é imune a este efeito durante 24 horas. A criatura está ciente desse efeito antes de fazer seu ataque contra você."
+            "A partir do 14° nível, as criaturas do mundo natural sentem sua ligação com a natureza e hesitarão em atacar você. Quando uma besta ou plantar atacar você, essa criatura deverá fazer um teste de resistência de Sabedoria contra uma CD igual a das suas magias de druida. Em uma falha, a criatura deve escolher um alvo diferente ou o ataque erra automaticamente. Em um sucesso, a criatura se torna imune a esse efeito por 24 horas. A criatura está ciente deste efeito antes de resolver atacar você."
         ],
         "url": "/api/features/natures-sanctuary"
     },
@@ -5836,14 +5841,14 @@
         },
         "subclass": {
             "index": "land",
-            "name": "Terreno",
+            "name": "Círculo da Terra",
             "url": "/api/subclasses/land"
         },
-        "name": "Sentinela da Natureza",
+        "name": "Proteção Natural",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "Quando você atinge o décimo nível, você não pode se encantar ou temer por elementais ou taxas, e está imune a venenos e doenças."
+            "Quando você atingir o 10° nível, você não pode ser enfeitiçado ou amedrontado por elementais ou fadas e você se torna imune a venenos e doenças."
         ],
         "url": "/api/features/natures-ward"
     },
@@ -5854,12 +5859,12 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Oath Spells",
+        "name": "Magias de Juramento",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Cada juramento possui uma lista de feitiços associados. Você ganha acesso a esses feitiços nos níveis especificados na descrição do juramento. Uma vez obtido acesso a um feitiço de juramento, você sempre o terá preparado. Feitiços de Juramento não contam contra o número de feitiços que você pode preparar todos os dias.",
-            "Se você receber um feitiço de juramento que não aparece na lista de magia paladina, a magia é mesmo assim uma magia paladina para você."
+            "Cada juramento possui uma lista de magias associada a ele. Você ganha acesso a essas magias nos níveis especificados na descrição do juramento. Uma vez que você tenha ganhado acesso a uma magia de juramento, você sempre a terá preparada. Magias de juramento não contam no número de magias que você pode preparar a cada dia.",
+            "Se você ganhar uma magia de juramento que não apareça na lista de magias de paladino, a magia será, no entanto, uma magia de paladino para você."
         ],
         "url": "/api/features/oath-spells"
     },
@@ -5872,17 +5877,17 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
-        "name": "Técnica Mão Aberta",
+        "name": "Técnica da Mão Aberta",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Começando quando você escolhe esta tradição no terceiro nível, você pode manipular o ki inimigo quando você utiliza o seu próprio. Sempre que você atingir uma criatura com um dos ataques concedidos pela sua Flurry of Blows, você pode impor um dos seguintes efeitos nesse alvo:",
-            "- Tem de ter sucesso num lançamento de Agilidade salvando ou sendo nocauteado.",
-            "- Ele deve fazer um arremesso de Força de Poupança. Se ele falhar, você poderá empurrá-lo até 15 pés de distância de você.",
-            "- Não pode levar reações até ao fim do seu próximo turno."
+            "Começando quando você escolhe essa tradição, no 3° nível, você pode manipular o chi do seu inimigo quando você controla o seu. Toda vez que você atingir uma criatura com um dos seus ataques garantidos por sua Rajada de Golpes, você pode impor um dos seguintes efeitos no alvo:",
+            "- Ele deve ser bem sucedido num teste de resistência de Destreza ou cairá no chão.",
+            "- Ele deve realizar um teste de resistência de Força. Se falhar, você pode empurrá-lo 4,5 metros para longe devocê.",
+            "- Ele não pode realizar reações até o final do seu próximo turno."
         ],
         "url": "/api/features/open-hand-technique"
     },
@@ -5893,11 +5898,11 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Patrono de Outromundo",
+        "name": "Patrono Transcendental",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "No primeiro nível, você concluiu uma negociação com um ser de outro mundo de sua escolha, como o Fogo. Sua escolha concede recursos a 1 nível e novamente a 6 níveis e 10 e 14 níveis."
+            "No 1° nível, você conclui uma barganha com um ser transcendental, à sua escolha: a Arquifada, o Corruptor ou o Grande Antigo, cada um deles é detalhado no final da descrição da classe. Sua escolha lhe confere traços no 1° nível e novamente no6°, 10° e 14° nível."
         ],
         "url": "/api/features/otherworldly-patron"
     },
@@ -5913,12 +5918,12 @@
             "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
-        "name": "Canal",
+        "name": "Sobrecarga",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "A partir do quarto nível, você pode aumentar o poder dos seus feitiços mais simples. Quando você lança um feitiço de 1° a 5° níveis que causam dano, você poderá causar o máximo dano com esse feitiço.",
-            "Na primeira vez que você o faz, você não tem nenhum efeito adverso. Se você usar este recurso novamente antes de terminar o descanso longo. você pega um dano necrótico de 12 unidades para cada nível do feitiço, imediatamente após lançá-lo. Toda vez que você usar esse recurso novamente antes de terminar um longo descanso, o dano necrótico por feitiço aumenta em 1d12. Este dano ignora a resistência e a imunidade."
+            "A partir do 14º nível, você pode aumentar o poder de suas magias mais simples. Quando você conjurar uma magia de mago de 5º nível ou inferior (exceto truques) que cause dano, a magia causa o dano máximo.",
+            "A primeira vez que fizer isso, você não sofre qualquer efeito adverso. Porém, se usar de novo essa característica antes de terminar um descanso longo, você sofre 2d12 de dano necrótico para cada nível de magia, imediatamente após conjurá-la. Cada vez que você usar essa característica antes de terminar um descanso longo, o dano necrótico por nível da magia aumenta em 1d12. Esse dano ignora qualquer resistência ou imunidade."
         ],
         "url": "/api/features/overchannel"
     },
@@ -5929,11 +5934,11 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Boon do Pacto",
+        "name": "Dádiva do Pacto",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, seu patrono de outro mundo concede um presente para seu serviço leal. Você ganha um dos seguintes recursos de sua escolha."
+            "No 3° nível, seu patrono transcendental lhe confere um dom por seus leais serviços. Você adquire uma das características a seguir, à sua escolha."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -5946,7 +5951,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "pact-of-the-chain",
-                                "name": "Pacto da Cadeia",
+                                "name": "Pacto da Corrente",
                                 "url": "/api/features/pact-of-the-chain"
                             }
                         },
@@ -5983,7 +5988,7 @@
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Sua pesquisa arcana e a magia conferida por seu patrono lhe deram instalações com feitiços."
+            "Sua pesquisa arcana e a magia outorgada a você por seu patrono, lhe concedem uma gama de magias."
         ],
         "reference": "/api/classes/warlock/spellcasting",
         "url": "/api/features/pact-magic"
@@ -5999,14 +6004,14 @@
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Você pode usar a sua ação para criar uma arma de pacto em sua mão vazia. Você pode escolher a forma que essa arma branca leva cada vez que a criar. Você é proficiente com ele enquanto usa. Esta arma conta como mágica para o propósito de superar resistência e imunidade a ataques e danos não mágicos.",
-            "Sua arma de pacto desaparece se estiver a mais de 5 metros de distância de você por 1 minuto ou mais. Também desaparece se você usar este recurso novamente, se você rejeitar a arma (sem ação necessária), ou se você morrer.",
-            "Você pode transformar uma arma mágica em sua arma de pacto executando um ritual especial enquanto segura a arma. Você realiza o ritual ao longo de 1 hora, o que pode ser feito durante um curto período de repouso. Então, você pode demitir a arma, lançando-a em um espaço de extradimensional, e ela aparece sempre que você cria a arma do seu pacto depois. Você não pode afetar um artefato ou uma arma sentidente desta forma. A arma deixa de ser sua arma de pacto se você morrer, se você fizer o ritual de 1 hora em uma arma diferente, ou se você usar um ritual de 1 hora para quebrar sua ligação a ele. A arma aparece aos seus pés se estiver no espaço extradimensional quando a ligação se quebra.",
-            "Se você servir o Fogo, sua arma poderia ser um machado feito de metal preto e adornado com chamas decorativas."
+            "Você pode usar sua ação para criar uma arma de pacto em sua mão vazia. Você escolhe a forma que essa arma corpo-a-corpo tem a cada vez que você a cria (veja as opções de arma no capítulo 5). Você é proficiente com ela enquanto a empunhar. Essa arma conta como sendo mágica com os propósitos de ultrapassar resistência e imunidade a ataques e danos não-mágicos.",
+            "Sua arma de pacto desaparece se ela estiver a mais de 1,5 metro de você por 1 minuto ou mais. Ela também desaparece se você usar essa característica novamente, se você dissipar a arma (não requer ação) ou se você morrer.",
+            "Você pode transformar uma arma mágica em sua arma de pacto ao realizar um ritual especial enquanto empunha a arma. Você precisa de 1 hora para concluir o ritual, que pode ser realizado durante um descanso curto. Você pode dissipar a arma, guardando-a em um espaço extradimensional, e ela reaparece toda vez que você criar sua arma de pacto. A arma deixa de ser sua arma de pacto se você morrer, se você realizar um ritual de 1 hora com outra arma diferente ou se você realizar um ritual de 1 hora para romper seu elo com ela.",
+            "A arma aparece aos seus pés se ela estiver no espaço extradimensional quando o elo for quebrado."
         ],
         "parent": {
             "index": "pact-boon",
-            "name": "Boon do Pacto",
+            "name": "Dádiva do Pacto",
             "url": "/api/features/pact-boon"
         },
         "url": "/api/features/pact-of-the-blade"
@@ -6018,18 +6023,17 @@
             "name": "Bruxo",
             "url": "/api/classes/warlock"
         },
-        "name": "Pacto da Cadeia",
+        "name": "Pacto da Corrente",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Aprende a encontrar o feitiço familiar e pode lançá-lo como um ritual. O feitiço não conta contra o seu número de feitiços conhecidos.",
-            "Quando você lançar o feitiço, você pode escolher uma das formas normais para o seu familiar ou uma das seguintes formas especiais: imp, pseudodragão, pára ou sprite.",
-            "Além disso, quando você adota a ação Ataque, você pode esquecer um de seus próprios ataques para permitir que seu familiar faça seu próprio ataque com sua reação.",
-            "Seu conhecimento é mais astuto do que um típico familiar. Sua forma padrão pode ser um reflexo do seu patrono, com imps e quasits vinculados ao Fiend."
+            "Você aprende a magia convocar familiar e pode conjurá-la como um ritual. Essa magia não conta no número de magias que você conhece.",
+            "Quando você conjura essa magia, você pode escolher uma das formas convencionais para o seu familiar ou uma das seguintes formas especiais: diabrete, pseudodragão, quasit ou sprite.",
+            "Além disso, quando você realiza a ação de Ataque, você pode renunciar s um dos seus ataques para permitir que seu familiar realize um ataque, com a reação dele.",
         ],
         "parent": {
             "index": "pact-boon",
-            "name": "Boon do Pacto",
+            "name": "Dádiva do Pacto",
             "url": "/api/features/pact-boon"
         },
         "url": "/api/features/pact-of-the-chain"
@@ -6045,13 +6049,12 @@
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Seu patrono lhe dá um grimório chamado Um Livro de Sombras. Quando você ganhar este recurso, escolha três opções da lista de feitiços de qualquer classe (as três não precisam ser da mesma lista). Enquanto o livro estiver sobre a sua pessoa, você pode lançar essas viagens à vontade. Eles não contam contra o seu número de canalhas conhecidas. Se eles não aparecerem na lista de feitiços do bloqueio de guerra, eles são mesmo assim feitiços de bloqueio de guerra para você.",
-            "Se você perder seu Livro das Sombras, poderá realizar uma cerimônia de 1 hora para receber uma substituição de seu patrocinador. Esta cerimônia pode ser realizada durante um repouso curto ou longo e destrói o livro anterior. O livro vira para cinzas quando você morrer.",
-            "Seu livro de Sombras pode ser um tomo pesado preso no demônio escondido com ferro, a posse de feitiços de conjuração e de uma riqueza de minério proibido sobre as regiões sinistras do cosmo, uma dádiva dos Fiend."
+            "Seu patrono lhe deu um grimório chamado Livro das Sombras. Quando você adquire essa característica, escolha três truques da lista de magias de qualquer classe. Enquanto o livro estiver com você, você poderá conjurar esses truques à vontade. Eles não contam no número de truques que você conhece. Esses truques são considerados magias de bruxo para você e não precisam ser da mesma lista de magia.",
+            "Se você perder seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber um substituto do seu patrono. Essa cerimônia pode ser realizada durante um descanso curto ou longo e destrói o livro anterior. O livro se torna cinzas quando você morre.",
         ],
         "parent": {
             "index": "pact-boon",
-            "name": "Boon do Pacto",
+            "name": "Dádiva do Pacto",
             "url": "/api/features/pact-boon"
         },
         "url": "/api/features/pact-of-the-tome"
@@ -6142,7 +6145,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno."
+            "A partir do 5° nível, você pode atacar duas vezes, ao invés  de uma, sempre que você realizar a ação de Ataque no seu  turno."
         ],
         "url": "/api/features/paladin-extra-attack"
     },
@@ -6153,11 +6156,11 @@
             "name": "Paladino",
             "url": "/api/classes/paladin"
         },
-        "name": "Estilo do Combate",
+        "name": "Estilo de Luta",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Ao segundo nível, você adota um estilo de combate como sua especialidade. Escolha uma das seguintes opções. Você não pode escolher uma opção de Estilo de Combate mais de uma vez, mesmo que mais tarde você escolha novamente."
+            "No 2° nível, você adota um estilo de combate particular que será sua especialidade. Escolha uma das opções a seguir. Você não pode escolher o mesmo Estilo de Combate mais de uma vez, mesmo se puder escolher de novo."
         ],
         "feature_specific": {
             "subfeature_options": {
@@ -6170,7 +6173,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighting-style-defense",
-                                "name": "Estilo de Combate: Defesa",
+                                "name": "Estilo de Luta: Defesa",
                                 "url": "/api/features/fighting-style-defense"
                             }
                         },
@@ -6178,7 +6181,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighting-style-dueling",
-                                "name": "Estilo de Combate: Duelagem",
+                                "name": "Estilo de Luta: Duelismo",
                                 "url": "/api/features/fighting-style-dueling"
                             }
                         },
@@ -6186,7 +6189,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighting-style-great-weapon-fighting",
-                                "name": "Estilo de Combate: Luta com Grande Arma",
+                                "name": "Estilo de Luta: Combate com Armas Grandes",
                                 "url": "/api/features/fighting-style-great-weapon-fighting"
                             }
                         },
@@ -6194,7 +6197,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "fighting-style-protection",
-                                "name": "Estilo de Combate: Proteção",
+                                "name": "Estilo de Luta: Proteção",
                                 "url": "/api/features/fighting-style-protection"
                             }
                         }
@@ -6211,11 +6214,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Defesa do paciente",
+        "name": "Defesa Paciente",
         "level": 2,
         "prerequisites": [],
         "desc": [
-            "Você pode gastar 1 ki ponto para tomar a ação Esquiva como uma ação bônus no seu turno."
+            "Você pode gastar 1 ponto de chi para realizar a ação de Esquivar, com uma ação bônus, no seu turno."
         ],
         "url": "/api/features/patient-defense"
     },
@@ -6228,14 +6231,14 @@
         },
         "subclass": {
             "index": "lore",
-            "name": "História",
+            "name": "Colégio do Conhecimento",
             "url": "/api/subclasses/lore"
         },
-        "name": "Habilidade Incomparável",
+        "name": "Perícia Inigualável",
         "level": 14,
         "prerequisites": [],
         "desc": [
-            "A partir do quarto nível, quando você faz uma verificação de habilidade, você pode gastar um uso de inspiração bárbara. Role uma inspiração bárbara morre e adicione o número rolado para sua verificação de habilidade. Você pode optar por fazê-lo depois de rolar o dado para a verificação de habilidades, mas antes que os OGM nos digam se são bem sucedidos ou falham."
+            "A partir do 14° nível, quando você fizer um teste de habilidade, você pode gastar um uso de Inspiração de Bardo. Role o dado de Inspiração de Bardo e adicione o número rolado ao seu teste de habilidade. Você pode escolher fazer isso depois de rolar o dado do teste de habilidade, mas antes do Mestre dizer se foi bem ou mal sucedido."
         ],
         "url": "/api/features/peerless-skill"
     },
@@ -6246,11 +6249,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Auto Perfeito",
+        "name": "Auto Aperfeiçoamento",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "A 20 níveis, quando se vota para a iniciativa e não há ainda pontos de pedra, recupera 4 ki."
+            "No 20° nível, quando você rolar iniciativa e não tiver nenhum ponto de chi restante, você recupera 4 pontos de chi."
         ],
         "url": "/api/features/perfect-self"
     },
@@ -6261,11 +6264,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Persistent Rage",
+        "name": "Fúria Persistente",
         "level": 15,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, sua fúria é tão feroz que termina cedo apenas se você ficar inconsciente ou se optar por terminá-la."
+            "A partir do 15° nível, sua fúria é tão brutal que ela só termina prematuramente se você cair inconsciente ou se você decidir terminá-la."
         ],
         "url": "/api/features/persistent-rage"
     },
@@ -6281,11 +6284,11 @@
             "name": "Escola de Evocação",
             "url": "/api/subclasses/evocation"
         },
-        "name": "Lápis Potente",
+        "name": "Truque Potente",
         "level": 6,
         "prerequisites": [],
         "desc": [
-            "A partir do nível 6, suas músicas de dano afetam até criaturas que evitam o impacto do efeito. Quando uma criatura for bem sucedida em um lançamento de salvamento contra o seu canhão, a criatura leva metade do dano da viagem (se houver), mas não sofre efeito adicional da viagem."
+            "A partir do 6º nível, seus truques de dano afetam até mesmo as criaturas que evitariam a força daquele efeito. Quando uma criatura passa em um teste de resistência de seus truques, ela sofre metade do dano (se existir), mas não sofre nenhum efeito adicional."
         ],
         "url": "/api/features/potent-cantrip"
     },
@@ -6296,11 +6299,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Campeão Primário",
+        "name": "Campeão Primitivo",
         "level": 20,
         "prerequisites": [],
         "desc": [
-            "Ao nível 20, você encarna o poder da natureza. Sua Força e sua Constituição pontuam de aumento em 4. O seu máximo para os resultados é agora 24."
+            "No 20° nível, você incorpora os poderes da natureza. Seus valores de Força e Constituição aumentam em 4. Seu máximo para esses valores agora é 24."
         ],
         "url": "/api/features/primal-champion"
     },
@@ -6311,11 +6314,11 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Caminho Primário",
+        "name": "Caminho Primitivo",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "No terceiro nível, você escolhe um caminho que forma a natureza da sua raiva. Escolha a trajetória do Berserker ou o Caminho do Totem Guerreiro, detalhado no final da descrição da classe. Sua escolha concede recursos a 3 níveis e novamente a 6 níveis de 10 e 14 níveis."
+            "No 3° nível, você escolhe um caminho que molda a natureza da sua fúria. Escolha o Caminho do Furioso ou o Caminho do Guerreiro Totêmico, ambos detalhados no final da descrição de classe. Sua escolha lhe concederá características no 3° nível e novamente no 6°, 10° e 14° níveis."
         ],
         "url": "/api/features/primal-path"
     },
@@ -6326,11 +6329,11 @@
             "name": "Patrulheiro",
             "url": "/api/classes/ranger"
         },
-        "name": "Primeval Prevenção",
+        "name": "Consciência Primitiva",
         "level": 3,
         "prerequisites": [],
         "desc": [
-            "Começando pelo terceiro nível, você pode usar sua ação e gastar um slot de feitiço para focar o seu conhecimento na região em seu redor. Por 1 minuto por nível no compartimento ortográfico que você consome, você pode perceber se os seguintes tipos de criaturas estão presentes a uma milha de você (ou a até 6 milhas se você estiver em seu terreno favorito): aberrações, celestiais, dragões, elementos, festas, fogos e mortos. Este recurso não revela a localização ou número das criaturas."
+            "A partir do 3° nível, sua maestria do conhecimento de patrulheiro permite que você estabeleça um poderoso elo com bestas e com a terra ao seu redor. Você possui uma habilidade inata de se comunicar com bestas e elas consideram você como um espírito semelhante. Através de sons e gestos, você pode comunicar ideias simples a bestas como uma ação e pode compreender seu ânimo e intenção básicos. Você aprende o estado emocional dela, suas necessidades imediatas (como comida e abrigo) e ações que você pode tomar (se aplicável) para persuadi-la a não atacar. Você não pode usar essa habilidade contra uma criatura que você tenha atacado nos últimos 10 minutos. Além disso, você pode sintonizar seus sentidos para determinar se algum dos seus inimigos favoritos está espreitando nas redondezas. Ao passar 1 minuto ininterrupto em concentração (como se estivesse se concentrando em uma magia), você pode sentir se algum dos seus inimigos favoritos está presente a até 8 quilometros de você. Essa característica revela qual dos seus inimigos favoritos está presente, a quantidade deles e a direção e distância aproximadas dessas criaturas (em quilometros) de você."
         ],
         "url": "/api/features/primeval-awareness"
     },
@@ -6341,11 +6344,11 @@
             "name": "Monge",
             "url": "/api/classes/monk"
         },
-        "name": "Pureza do Corpo",
+        "name": "Pureza Corporal",
         "level": 10,
         "prerequisites": [],
         "desc": [
-            "No décimo nível, seu domínio do ki que corre através de você te torna imune a doenças e veneno."
+            "No 10° nível, sua maestria do chi flui através de você, tornando-o imune a doenças e venenos."
         ],
         "url": "/api/features/purity-of-body"
     },
@@ -6358,14 +6361,14 @@
         },
         "subclass": {
             "index": "devotion",
-            "name": "Devoção",
+            "name": "Juramento de Devoção",
             "url": "/api/subclasses/devotion"
         },
         "name": "Pureza do Espírito",
         "level": 15,
         "prerequisites": [],
         "desc": [
-            "Começando pelo 15 nível, você está sempre sob os efeitos de uma proteção contra o mal e o bom feitiço."
+            "A partir do 15° nível, você estará sempre sob efeito da magia proteção contra o bem e mal."
         ],
         "url": "/api/features/purity-of-spirit"
     },
@@ -6378,15 +6381,15 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
-        "name": "Palma Silenciosa",
+        "name": "Palma Vibrante",
         "level": 17,
         "prerequisites": [],
         "desc": [
-            "No sétimo nível, você ganha a capacidade de criar vibrações letais no corpo de alguém. Quando você acerta uma criatura com um ataque desarmado, você pode gastar 3 pontos de ki para iniciar essas vibrações imperceptíveis, que dura por um número de dias igual ao seu nível de monge. As vibrações são inofensivas a menos que você use sua ação para terminá-las. Para fazer isso, você e o alvo devem estar no mesmo plano de existência. Quando se usa esta acção, a criatura tem de fazer com que se salve uma Constituição. Se ele falhar, é reduzido para 0 pontos de acerto. Se ele for bem-sucedido, sofre 10d10 de dano necrótico.",
-            "Você só pode ter uma criatura sob o efeito desta característica por vez. Você pode optar por acabar com as vibrações inofensivas sem usar uma ação."
+            "No 17° nível, você ganha a habilidade de criar vibrações letais no corpo de alguém. Quando você atingir uma criatura com um golpe desarmado, você pode gastar 3 pontos de chi para começar essas vibrações imperceptíveis, que duram por um número de dias igual ao seu nível de monge. As vibrações são inofensivas, a não ser que você use sua ação para terminá-las. Para tanto, você e o alvo devem estar no mesmo plano de existência. Quando você usa essa ação, a criatura deve realizar um teste de resistência de Constituição. Se ela falhar, ela será reduzida a 0 pontos de vida. Se ela passar, ela sofrerá 10d10 de dano necrótico.",
+            "Você pode ter apenas uma criatura sob o efeito dessa característica por vez. Você pode escolher terminar as vibrações inofensivamente, sem usar uma ação."
         ],
         "url": "/api/features/quivering-palm"
     },
@@ -6397,17 +6400,17 @@
             "name": "Bárbaro",
             "url": "/api/classes/barbarian"
         },
-        "name": "Rage",
+        "name": "Fúria",
         "level": 1,
         "prerequisites": [],
         "desc": [
-            "Na batalha, você luta com ferocidade primal. Na sua vez, você pode entrar em uma fúria como uma ação de bônus. Ao mesmo tempo, você ganha os seguintes benefícios se não estiver usando uma armadura pesada:",
-            "- Você tem vantagem em Verificações de Força e arremessos de Força de Poupança.",
-            "- Quando você faz um ataque de arma corpo a corpo usando força, você ganha um bônus de +2 para o espólio de dano. Esse bônus aumenta conforme você aumenta de nível.",
-            "- Você tem Resistência ao dano de mandíbula, perfuração e cortação.",
-            "Se você é capaz de lançar Feitiços, você não pode transmiti-las ou concentrar-se nelas enquanto estiver ragindo.",
-            "Sua raiva dura 1 minuto. Ele termina cedo se você for nocauteado inconsciente ou se Seu Giro acabar e você não atacou uma criatura hostil desde o seu último turno ou tomou dano desde então. Você também pode acabar com sua fúria quando você ligar como uma ação bônus.",
-            "Depois de ter fugido o número máximo de vezes para o seu nível bárbaro, você deve terminar um longo descanso antes de poder voltar a ferir. Você pode se enfurecer 2 vezes ao primeiro nível, 3 ao terceiro, 4 às 6 e 5 às 12 e 6 às 17 horas."
+            "Em batalha, você luta com uma ferocidade primitiva. No seu turno, você pode entrar em fúria com uma ação bônus. Enquanto estiver em fúria, você recebe os seguintes benefícios se você não estiver vestindo uma armadura pesada:",
+            "- Você tem vantagem em testes de Força e testes de resistência de Força.",
+            "- Quando você desferir um ataque com arma corpo-a-corpo usando Força, você recebe um bônus nas jogadas de dano que aumenta à medida que você adquire níveis de bárbaro, como mostrado na coluna Dano de Fúria na tabela O Bárbaro.",
+            "- Você possui resistência contra dano de concussão, cortante e perfurante.",
+            "Se você for capaz de conjurar magias, você não poderá conjurá-las ou se concentrar nelas enquanto estiver em fúria.",
+            "Sua fúria dura por 1 minuto. Ela termina prematuramente se você cair inconsciente ou se seu turno acabar e você não tiver atacado nenhuma criatura hostil desde seu último turno ou não tiver sofrido dano nesse período. Você também pode terminar sua fúria no seu turno com uma ação bônus.",
+            "Quando você tiver usado a quantidade de fúrias mostrada para o seu nível de bárbaro na coluna Fúrias da tabela O Bárbaro, você precisará terminar um descanso longo antes de poder entrar em fúria novamente."
         ],
         "url": "/api/features/rage"
     },
@@ -6512,7 +6515,7 @@
         "level": 5,
         "prerequisites": [],
         "desc": [
-            "Começando ao quinto nível, você pode atacar duas vezes, ao invés de uma vez, sempre que você tomar a ação Ataque no seu turno."
+            "A partir do 5° nível, você pode atacar duas vezes, ao invés  de uma, sempre que você realizar a ação de Ataque no seu  turno."
         ],
         "url": "/api/features/ranger-extra-attack"
     },
@@ -7930,7 +7933,7 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Defesa do Caçador Superior",
@@ -7988,7 +7991,7 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Defesa do Caçador Superior: Evasão",
@@ -8013,7 +8016,7 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Defesa do Caçador Superior : Suporte contra a maré",
@@ -8038,7 +8041,7 @@
         },
         "subclass": {
             "index": "hunter",
-            "name": "Caçador",
+            "name": "Conclave do Caçador",
             "url": "/api/subclasses/hunter"
         },
         "name": "Defesa do Caçador Superior : Esquiva Incantual",
@@ -8184,7 +8187,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "name": "Tranquilidade",
@@ -8361,7 +8364,7 @@
         },
         "subclass": {
             "index": "open-hand",
-            "name": "Mão Aberta",
+            "name": "Caminho da Mão Aberta",
             "url": "/api/subclasses/open-hand"
         },
         "name": "Enganação do Corpo",
