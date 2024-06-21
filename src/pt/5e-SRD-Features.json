@@ -188,9 +188,7 @@
         "name": "Aprimoramentos de Aura",
         "level": 18,
         "prerequisites": [],
-        "desc": [
-            "No 18° nível, o alcance dessa aura aumenta para 9 metros."
-        ],
+        "desc": ["No 18° nível, o alcance dessa aura aumenta para 9 metros."],
         "url": "/api/features/aura-improvements"
     },
     {
@@ -2861,9 +2859,7 @@
         "name": "Invocação Mística: Influência Enganadora",
         "level": 2,
         "prerequisites": [],
-        "desc": [
-            "Você ganha proficiência nas perícias Enganação e Persuasão."
-        ],
+        "desc": ["Você ganha proficiência nas perícias Enganação e Persuasão."],
         "parent": {
             "index": "eldritch-invocations",
             "name": "Invocações Místicas",
@@ -3051,9 +3047,7 @@
         "name": "Invocação Mística: Olhos do Guardião das Runas",
         "level": 2,
         "prerequisites": [],
-        "desc": [
-            "Você pode ler todas as escritas."
-        ],
+        "desc": ["Você pode ler todas as escritas."],
         "parent": {
             "index": "eldritch-invocations",
             "name": "Invocações Místicas",
@@ -3903,7 +3897,7 @@
             "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
             "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
             "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
-            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum."
         ],
         "url": "/api/features/favored-enemy-1-type"
     },
@@ -3921,7 +3915,7 @@
             "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
             "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
             "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
-            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum."
         ],
         "url": "/api/features/favored-enemy-2-types"
     },
@@ -3939,7 +3933,7 @@
             "A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.",
             "Escolha um tipo de inimigo favorito: bestas, fadas, humanoide, monstruosidades ou mortos-vivos. Você recebe um bônus de +2 nas jogadas de dano com ataques com arma contra criaturas do tipo escolhido.",
             "Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.",
-            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.",
+            "Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum."
         ],
         "url": "/api/features/favored-enemy-3-enemies"
     },
@@ -5736,8 +5730,8 @@
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
             "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
             "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
-            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
-            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.", 
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área."
         ],
         "url": "/api/features/natural-explorer-1-terrain-type"
     },
@@ -5752,7 +5746,7 @@
         "level": 6,
         "prerequisites": [],
         "desc": [
-             "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
+            "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
             "- Você ignora terreno difícil.",
             "- Você tem vantagem em rolagens de iniciativa.",
             "- No seu primeiro turno de combate, você tem vantagem nas jogadas de ataque contra criaturas que ainda não tenham agido.",
@@ -5761,8 +5755,8 @@
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
             "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
             "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
-            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
-            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.",
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área."
         ],
         "url": "/api/features/natural-explorer-2-terrain-types"
     },
@@ -5777,7 +5771,7 @@
         "level": 10,
         "prerequisites": [],
         "desc": [
-             "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
+            "Você é um mestre na navegação pelo mundo natural e você reage de forma rápida e decisiva quando é atacado. Isso fornece a você os seguintes benefícios:",
             "- Você ignora terreno difícil.",
             "- Você tem vantagem em rolagens de iniciativa.",
             "- No seu primeiro turno de combate, você tem vantagem nas jogadas de ataque contra criaturas que ainda não tenham agido.",
@@ -5786,8 +5780,8 @@
             "- Seu grupo não pode se perder, exceto por meios mágicos.",
             "- Mesmo quando você está engajado em outra atividade além de viajar (como forragear, navegar ou rastrear), você permanece alerta ao perigo.",
             "- Se você estiver viajando sozinho, você pode se moverfurtividamente com um ritmo de viagem normal.",
-            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",     
-            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área.",
+            "- Quando você forrageia, você encontra o dobro de comida que normalmente encontraria.",
+            "- Enquanto estiver rastreando outras criaturas, você também descobre o número exato delas, seus tamanhos e há quanto tempo elas passaram pela área."
         ],
         "url": "/api/features/natural-explorer-3-terrain-types"
     },
@@ -6029,7 +6023,7 @@
         "desc": [
             "Você aprende a magia convocar familiar e pode conjurá-la como um ritual. Essa magia não conta no número de magias que você conhece.",
             "Quando você conjura essa magia, você pode escolher uma das formas convencionais para o seu familiar ou uma das seguintes formas especiais: diabrete, pseudodragão, quasit ou sprite.",
-            "Além disso, quando você realiza a ação de Ataque, você pode renunciar s um dos seus ataques para permitir que seu familiar realize um ataque, com a reação dele.",
+            "Além disso, quando você realiza a ação de Ataque, você pode renunciar s um dos seus ataques para permitir que seu familiar realize um ataque, com a reação dele."
         ],
         "parent": {
             "index": "pact-boon",
@@ -6050,7 +6044,7 @@
         "prerequisites": [],
         "desc": [
             "Seu patrono lhe deu um grimório chamado Livro das Sombras. Quando você adquire essa característica, escolha três truques da lista de magias de qualquer classe. Enquanto o livro estiver com você, você poderá conjurar esses truques à vontade. Eles não contam no número de truques que você conhece. Esses truques são considerados magias de bruxo para você e não precisam ser da mesma lista de magia.",
-            "Se você perder seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber um substituto do seu patrono. Essa cerimônia pode ser realizada durante um descanso curto ou longo e destrói o livro anterior. O livro se torna cinzas quando você morre.",
+            "Se você perder seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber um substituto do seu patrono. Essa cerimônia pode ser realizada durante um descanso curto ou longo e destrói o livro anterior. O livro se torna cinzas quando você morre."
         ],
         "parent": {
             "index": "pact-boon",
